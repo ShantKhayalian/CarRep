@@ -10,7 +10,7 @@ $(function () {
         width: '150px',
         height: '150px',
         sliceColors: ['#E91E63', '#00BCD4', '#FFC107']
-    })
+    });
 
     drawDocSparklines();
     drawMouseSpeedDemo();

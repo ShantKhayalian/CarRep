@@ -1,0 +1,165 @@
+
+body{ font-family:"Roboto";font-size:16px;font-weight:regular; }
+
+h1,h2{
+font-family:"Dosis";font-size:36px;font-weight:700;
+}
+h3,h4{ font-family:"Dosis";font-size:16px;font-weight:700; }
+
+
+body{
+background-color: #fff;
+}
+
+.single-intro-text .count-number,
+.header-angle:after,
+.ts-header:after,
+.navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-nav .nav-item .dropdown-menu li a.active,
+.copyright .back-btn,
+
+.owl-carousel.owl-loaded .owl-nav button,
+.title-section-area .section-title:before,
+.owl-carousel.owl-loaded .owl-nav .owl-next.disabled, .owl-carousel.owl-loaded .owl-nav .owl-prev.disabled,
+.service-content .service-icon,
+.owl-carousel .owl-dots button.active,
+.ts-latest-post .post-body .post-date,
+.ts-header-classic .header-angle .ts-navbar,
+.ts-header-classic .header-angle .navbar-light,
+.quote-btn-area .btn,
+.ts-team-standard .ts-team-info .team-content .team-name,
+.ts-tab.nav-tabs .nav-link.active,
+.column-title:before, .column-title-sm:before,
+.ts-top-bar-2.standard,
+.ts-header-transparent .navbar .nav-item .nav-link:after,
+.tag-lists a:hover, .tagcloud a:hover,
+.widget_search .input-group-btn, .search-forms .input-group-btn,
+.blog-post-comment .btn-comments,
+.footer-main .footer-social ul li a:hover,
+.post-content.post-single .post-body .post-footer .post-tags a:hover,
+.ts-pricing-table-standard .plan.plan-highlight .plan-price,
+.plan .plan-tag,
+.button-normal .btn,
+.ts-header-standard .ts-logo-area .navbar .nav-item .nav-link.active:after,
+.woocommerce ul.products li.product .button,.woocommerce ul.products li.product .added_to_cart,
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.sponsor-web-link a:hover i, .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce span.onsale
+{
+background-color: #ee3131;
+}
+
+.ts-slider-area.owl-carousel .owl-nav button:hover{
+background-color: #ee3131 !important;
+}
+.slider-content h1 span,
+.testimonial-body .quote-icon,
+.ts-latest-post:hover .post-body .post-title a,
+.ts-latest-post:hover .post-body .readmore,
+.ts-service-wrapper:hover .service-content h3, .ts-service-wrapper:hover .service-content h3 > a,
+.ts-service-wrapper:hover .readmore,
+.testimonial-item-single.with-bg .quote-item:before,
+.ts-header-standard .ts-logo-area .navbar-light .navbar-nav .nav-link:focus,
+.ts-header-standard .ts-logo-area .navbar-light .navbar-nav .nav-link:hover,
+.ts-feature-standard .feature-single.feature-single:hover h3 a,
+.ts-team-info:hover .team-content .team-name,
+.ts-team-info .team-content .team-details .team-rating,
+.ts-header-transparent .navbar-light .navbar-nav .nav-link:focus,
+.ts-header-transparent .navbar-light .navbar-nav .nav-link:hover,
+.post .post-body .entry-title a:hover,
+.readmore,
+.sidebar .widget_archive ul li a:hover,
+.sidebar .widget_categories ul li a:hover,
+.recent-post-widget .media-body .entry-title a:hover,
+.post .post-quote-content .entry-header i,
+.breadcrumb li a,
+.post-content.post-single .post-body .entry-content blockquote p cite,
+blockquote:before,
+.testimonial-item-wrapper .quote-item i,
+.top-contact-info li span,
+.ts-header-transparent .navbar-light .navbar-nav .active>.nav-link,
+.ts-header-transparent .navbar-light .navbar-nav .nav-link.active,
+.ts-header-transparent .navbar-light .navbar-nav .nav-link:hover:before,
+.ts-header-transparent .navbar-light .navbar-nav .nav-link.show,
+.ts-header-standard .ts-logo-area .navbar-light .navbar-nav .active>.nav-link,
+.ts-header-standard .ts-logo-area .navbar-light .navbar-nav .nav-link.active
+.ts-header-transparent .navbar-light .navbar-nav .show>.nav-link,
+.post-content .post-footer .readmore:hover,
+.post-navigation span:hover, .post-navigation h3:hover,
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .woocommerce-loop-product__title:hover
+{
+color: #ee3131;
+}
+.ts-latest-post .post-body .post-date:before,
+.ts-latest-post:hover .post-body .post-date:before{
+border-top-color: #ee3131;
+}
+.ts-latest-post:hover .post-body .readmore i,
+.ts-header-classic .header-angle .ts-navbar,
+.ts-service-wrapper:hover .readmore i,
+.readmore i,
+.footer-main .footer-social ul li a:hover{
+border-color: #ee3131;
+}
+.header-angle:before,
+.ts-header-classic .header-angle .navbar-light:before{
+border-right-color: #ee3131;
+}
+
+.ts-team-standard .ts-team-info .team-content .team-name:before,
+.ts-pricing-table-standard .plan.plan-highlight .plan-price:after{
+border-top-color: #ee3131;
+}
+.ts-tab.nav-tabs .nav-link.active:after{
+border-left-color: #ee3131;
+}
+
+
+.copyright{
+background: #2f3967;
+}
+.ts-team-standard .ts-team-info:hover .team-content .team-name{
+color: #fff;
+}
+
+/* -- secondary color-- */
+.ts-top-bar:before,
+.top-bar-angle:after,
+.ts-top-bar-2.classic,
+.button-normal .btn:hover,
+.woocommerce ul.products li.product .added_to_cart:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{
+background-color:  #2f3967;
+}
+
+.feature-single .feature-icon,
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+color: #2f3967;
+}
+
+.top-bar-angle:before{
+border-right-color: #2f3967;
+border-left-color: #2f3967;
+}
+.btn:after{
+background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180 50" preserveAspectRatio="none"><g><polygon fill-rule="evenodd" clip-rule="evenodd" fill="rgb(238, 49, 49)" points="0,0 0,50 166,50 180,37 180,0"/></g></svg>') no-repeat;
+}
+.btn:hover:after{
+background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180 50" preserveAspectRatio="none"><g><polygon fill-rule="evenodd" clip-rule="evenodd" fill="rgb(47, 57, 103)" points="0,0 0,50 166,50 180,37 180,0"/></g></svg>') no-repeat;
+}
+.btn-after:after{
+background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180 50" preserveAspectRatio="none"><g><polygon fill-rule="evenodd" clip-rule="evenodd" fill="rgb(238, 49, 49)" points="0,0 0,50 166,50 180,37 180,0"/></g></svg>') no-repeat;
+}
+.btn-after:hover:after{
+background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180 50" preserveAspectRatio="none"><g><polygon fill-rule="evenodd" clip-rule="evenodd" fill="rgb(47, 57, 103)" points="0,0 0,50 166,50 180,37 180,0"/></g></svg>') no-repeat;
+}
+
+
+
+
+.footer{
+background: #06163a;
+padding-top: 0px;
+}
+.copyright{
+background:#2f3967;
+}

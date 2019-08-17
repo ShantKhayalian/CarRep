@@ -33,7 +33,7 @@ $.AdminBSB.options = {
     navbar: {
         slideToggleSpeed: 320 //Milisecond
     }
-}
+};
 
 $.AdminBSB.leftSideBar = {
     activate: function () {
@@ -163,7 +163,7 @@ $.AdminBSB.navbar = {
             }
         });
     }
-}
+};
 
 var app = angular.module('adminbsb', ['ngRoute']);
 

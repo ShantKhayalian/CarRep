@@ -1,0 +1,33 @@
+@media (max-width: 1199px){
+    .home-featured-slider .slider-items{
+        background-position: 75% 0 !important;
+    }
+    .about-autrics-img .elementor-background-overlay{
+        background-image: none !important;
+    }
+    .ts-latest-post .post-body .post-date:before{
+        display: none;
+    }
+    .ts-latest-post .post-body .post-date{
+        height: 65px;
+    }
+}
+
+.sidebar-woo .unstyled.service-time li{
+    color: #232323;
+}
+
+.navbar-fixed.sticky .sticky-logo .d-none img{
+    max-width: 150px;
+}
+
+.btn:after,
+.btn-after:after,
+.wpcf7-submit.btn:after{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.ts-intro-wrapper{
+    z-index:0;
+}

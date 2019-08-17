@@ -31,7 +31,7 @@
             // check for fullscreen browser support
             if (!document.fullscreenEnabled && !document.webkitFullscreenEnabled &&
                 !document.mozFullScreenEnabled && !document.msFullscreenEnabled) {
-                return;
+
             } else {
                 fullScreen = '<span class="lg-fullscreen lg-icon"></span>';
                 this.core.$outer.find('.lg-toolbar').append(fullScreen);

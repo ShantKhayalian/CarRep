@@ -1,6 +1,7 @@
 package com.ithome.web.start.DaoController;
 
 import com.ithome.web.start.Beans.AboutUs;
+import com.ithome.web.start.Beans.Employee;
 import com.ithome.web.start.Connection.DBConnection;
 
 import java.sql.*;
@@ -183,4 +184,6 @@ public class AboutUsDao {
         }
         return rowsUpdated;
     }
+
+
 }

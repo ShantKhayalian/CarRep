@@ -49,7 +49,7 @@
             <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
             <li>
                 <a href="javascript:void(0);" class="menu-toggle">
-                    <i class="material-icons">control_point_duplicate</i>
+                    <i class="material-icons">accessibility</i>
                     <span>Employee</span>
                 </a>
                 <ul class="ml-menu">

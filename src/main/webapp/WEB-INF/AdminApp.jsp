@@ -5,8 +5,7 @@
 <%@page isELIgnored="false" %>
 <html>
 <head>
-    <title>Master admin </title>
-    <head>
+
         <meta charset="UTF-8">
         <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -33,7 +32,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
-    </head>
+
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->

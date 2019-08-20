@@ -5,10 +5,9 @@
 <html>
 <head>
     <title>Master admin </title>
-    <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Master admin</title>
+
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -30,7 +29,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet" />
-    </head>
+
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->

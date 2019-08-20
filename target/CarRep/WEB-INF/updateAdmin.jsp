@@ -2,11 +2,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Օֆերդա - Հիմնական վարիչ </title>
-    <head>
+    <title>Master admin </title>
+
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Blank Page | Bootstrap Based Admin Template - Material Design</title>
+
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -29,7 +29,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
-    </head>
+   
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->

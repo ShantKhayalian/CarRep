@@ -5,10 +5,9 @@
 <html>
 <head>
     <title>Master admin </title>
-    <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Master admin</title>
+
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -30,7 +29,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet" />
-    </head>
+
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->
@@ -76,48 +75,7 @@
         <jsp:include page="inc/leftSideAdmin.jsp"/>
         <!-- #User Info -->
         <!-- Menu -->
-        <div class="menu">
-            <ul class="list">
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Հիմնական նավիգացիան--%>
-                <li class="header">Navigation</li>
-                <li>
-                    <a href="AdminSignInCheck">
-                        <i class="material-icons">home</i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Հիմնական նավիգացիան--%>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Ադմին վերահսկիչ--%>
-                <li>
-                    <a href="ToAdminUpdatPage">
-                        <i class="material-icons">face</i>
-                        <span>Update admin details</span>
-                    </a>
-                </li>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Ադմին վերահսկիչ--%>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////About us Section--%>
-                <li>
-                    <a href="javascript:void(0);" class="menu-toggle">
-                        <i class="material-icons">control_point_duplicate</i>
-                        <span>About Us</span>
-                    </a>
-                    <ul class="ml-menu">
-                        <li>
-                            <a href="AboutUsEng">
-                                <span>About us English</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="AboutUsRus">
-                                <span>About us Russian</span>
-                            </a>
-                        </li>
-                        </li>
-                    </ul>
-                    <%--//////////////////////////////////////////////////////////////////////////////////////////About us Section--%>
-                </li>
-            </ul>
-        </div>
+        <jsp:include page="inc/Menu.jsp"/>
         <!-- Menu -->
         <!-- Footer -->
         <jsp:include page="inc/Version.jsp"/>

@@ -13,15 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
 import java.sql.SQLException;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 @WebServlet("/AddEmployeToData")
@@ -72,14 +66,13 @@ public class AddEmployeToData extends HttpServlet {
         getAdminInfo(request, response);
         getParameters(request);
         addEmployeDetailToData(CreateNewObject(),request,response);
-        goBackToPage(request,response);
     }
 
-    private int CreateNewObject() throws SQLException, ParseException {
+    private int CreateNewObject() throws SQLException {
         return employeeDao.AddNewEmployee(getObjectsOfEmployee());
     }
 
-    private Employee getObjectsOfEmployee() throws ParseException {
+    private Employee getObjectsOfEmployee() {
         return new Employee(FirstNameEng,FirstNameRus,LastNameEng,LastNameRus,SpecialtyEng,SpecialtyRus, date ,Experience,PhoneNumber,email,AddressEng,AddressRus);
     }
 

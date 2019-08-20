@@ -97,7 +97,7 @@
                         <h2 class="card-inside-title">New Employee form</h2>
                         <div class="row clearfix">
                             <div class="col-sm-12">
-                                <form action="AddEmployeToData" method="get">
+                                <form action="AddEmployeToData" method="post">
                                     <div class="form-group">
                                         <div class="form-line">
                                             <input type="text" name="FirstNameEng" class="form-control" placeholder="First Name English"/>

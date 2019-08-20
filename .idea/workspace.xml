@@ -32,10 +32,11 @@
     <session id="136904604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,15 +57,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="663" />
-          <entry key="jsp" value="168" />
+          <entry key="java" value="664" />
+          <entry key="jsp" value="172" />
           <entry key="properties" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="663" />
-          <entry key="JSP" value="168" />
+          <entry key="JAVA" value="664" />
+          <entry key="JSP" value="172" />
           <entry key="Properties" value="14" />
         </counts>
       </usages-collector>
@@ -75,22 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="317">
               <caret line="99" column="62" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="62" />
-              <folding>
-                <element signature="e#8724#8748#2#JAVA" expanded="true" />
-                <element signature="e#8835#8859#2#JAVA" expanded="true" />
-                <element signature="e#8950#8974#2#JAVA" expanded="true" />
-                <element signature="e#9083#9107#2#JAVA" expanded="true" />
-                <element signature="e#9217#9241#2#JAVA" expanded="true" />
-                <element signature="e#9328#9352#2#JAVA" expanded="true" />
-                <element signature="e#9438#9462#2#JAVA" expanded="true" />
-                <element signature="e#9575#9599#2#JAVA" expanded="true" />
-                <element signature="e#9750#9774#2#JAVA" expanded="true" />
-                <element signature="e#9880#9904#2#JAVA" expanded="true" />
-                <element signature="e#9947#9971#2#JAVA" expanded="true" />
-                <element signature="e#10057#10081#2#JAVA" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,29 +85,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="338">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1360#1377#0" expanded="true" />
-                <element signature="e#1844#1928#0" expanded="true" />
-                <element signature="e#1844#1928#0" expanded="true" />
-                <element signature="e#2131#2215#0" expanded="true" />
-                <element signature="e#2131#2215#0" expanded="true" />
-                <element signature="e#2392#2429#0" expanded="true" />
-                <element signature="e#2392#2429#0" expanded="true" />
-                <element signature="e#2338#2360#0" expanded="true" />
-                <element signature="e#3294#3319#0" expanded="true" />
-                <element signature="e#3294#3319#0" expanded="true" />
-                <element signature="e#3205#3219#0" expanded="true" />
-                <element signature="e#3432#3457#0" expanded="true" />
-                <element signature="e#3432#3457#0" expanded="true" />
-                <element signature="e#3929#3967#1" expanded="true" />
-                <element signature="e#3956#3984#0" expanded="true" />
-                <element signature="e#3994#4018#1" expanded="true" />
-                <element signature="e#4009#4042#0" expanded="true" />
-                <element signature="e#4009#4042#0" expanded="true" />
-                <element signature="e#4009#4050#0" expanded="true" />
+                <element signature="e#2780#2802#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,64 +98,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="1462">
               <caret line="116" column="36" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
               <folding>
-                <element signature="e#2056#2057#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2178#2179#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2428#2429#0" expanded="true" />
-                <element signature="e#2474#2475#0" expanded="true" />
-                <element signature="e#2509#2510#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2557#2558#0" expanded="true" />
                 <element signature="e#2588#2589#0" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
-                <element signature="e#2665#2666#0" expanded="true" />
-                <element signature="e#2698#2699#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="e#2794#2795#0" expanded="true" />
-                <element signature="e#2831#2832#0" expanded="true" />
-                <element signature="e#2864#2865#0" expanded="true" />
-                <element signature="e#2916#2917#0" expanded="true" />
-                <element signature="e#2960#2961#0" expanded="true" />
-                <element signature="e#2999#3000#0" expanded="true" />
-                <element signature="e#3034#3035#0" expanded="true" />
-                <element signature="e#3090#3091#0" expanded="true" />
                 <element signature="e#3138#3139#0" expanded="true" />
+                <element signature="e#3186#3187#0" expanded="true" />
                 <element signature="e#3258#3259#0" expanded="true" />
                 <element signature="e#3312#3313#0" expanded="true" />
                 <element signature="e#3358#3359#0" expanded="true" />
-                <element signature="e#3348#3349#0" expanded="true" />
-                <element signature="e#3386#3387#0" expanded="true" />
-                <element signature="e#3448#3449#0" expanded="true" />
-                <element signature="e#3497#3498#0" expanded="true" />
-                <element signature="e#3535#3536#0" expanded="true" />
-                <element signature="e#3569#3570#0" expanded="true" />
-                <element signature="e#3623#3624#0" expanded="true" />
-                <element signature="e#3669#3670#0" expanded="true" />
-                <element signature="e#3701#3702#0" expanded="true" />
-                <element signature="e#3729#3730#0" expanded="true" />
-                <element signature="e#3771#3772#0" expanded="true" />
-                <element signature="e#3805#3806#0" expanded="true" />
-                <element signature="e#3839#3840#0" expanded="true" />
-                <element signature="e#3869#3870#0" expanded="true" />
-                <element signature="e#3915#3916#0" expanded="true" />
-                <element signature="e#3953#3954#0" expanded="true" />
-                <element signature="e#3989#3990#0" expanded="true" />
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4071#4072#0" expanded="true" />
-                <element signature="e#4113#4114#0" expanded="true" />
-                <element signature="e#4145#4146#0" expanded="true" />
-                <element signature="e#4173#4174#0" expanded="true" />
-                <element signature="e#4215#4216#0" expanded="true" />
-                <element signature="e#4249#4250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,14 +116,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            <state relative-caret-position="-1088">
+              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1606#1632#0" expanded="true" />
-                <element signature="e#1605#1630#0" expanded="true" />
-                <element signature="e#3688#3741#0" expanded="true" />
-                <element signature="e#3688#3741#0" expanded="true" />
+                <element signature="e#436#457#1" expanded="true" />
+                <element signature="e#467#507#1" expanded="true" />
+                <element signature="e#516#866#1" expanded="true" />
+                <element signature="e#537#865#0" expanded="true" />
+                <element signature="e#537#865#0" expanded="true" />
+                <element signature="e#537#865#0" expanded="true" />
+                <element signature="e#875#945#1" expanded="true" />
+                <element signature="e#1320#1343#0" expanded="true" />
+                <element signature="e#1376#1401#0" expanded="true" />
+                <element signature="e#1435#1457#0" expanded="true" />
+                <element signature="e#1490#1514#0" expanded="true" />
+                <element signature="e#1547#1571#0" expanded="true" />
+                <element signature="e#1604#1630#0" expanded="true" />
+                <element signature="e#1663#1688#0" expanded="true" />
+                <element signature="e#1721#1750#0" expanded="true" />
+                <element signature="e#1783#1808#0" expanded="true" />
+                <element signature="e#1842#1861#0" expanded="true" />
+                <element signature="e#1895#1916#0" expanded="true" />
+                <element signature="e#1950#1973#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="476">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -220,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AboutUsController/AboutUsEng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="70" column="57" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
+            <state relative-caret-position="952">
+              <caret line="70" column="57" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
               <folding>
                 <element signature="e#1827#1862#0" expanded="true" />
                 <element signature="e#1827#1862#0" expanded="true" />
@@ -267,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/AboutUsController/AboutUsEng.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Conctances/Contance.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java" />
       </list>
@@ -328,8 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,6 +472,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,6 +513,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.132" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="CarRep:war">
@@ -587,6 +524,8 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_CarRep_2" />
+        <option name="HTTP_PORT" value="8085" />
+        <option name="JNDI_PORT" value="1010" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -660,14 +599,16 @@
       <updated>1566076190083</updated>
       <workItem from="1566076204829" duration="396000" />
       <workItem from="1566324448996" duration="5494000" />
+      <workItem from="1566330347970" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5890000" />
+    <option name="totallyTimeSpent" value="6624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -679,7 +620,7 @@
       <window_info id="Web" order="7" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -737,21 +678,183 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
-          <line>107</line>
+          <line>79</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
-          <line>108</line>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
-          <line>109</line>
+          <line>81</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -931,24 +1034,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
           <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="116" column="36" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
           <folding>
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="e#3186#3187#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="476">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AboutUsController/AboutUsEng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="70" column="57" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
+        <state relative-caret-position="952">
+          <caret line="70" column="57" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
           <folding>
             <element signature="e#1827#1862#0" expanded="true" />
             <element signature="e#1827#1862#0" expanded="true" />
@@ -958,128 +1073,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="317">
           <caret line="99" column="62" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="62" />
-          <folding>
-            <element signature="e#8724#8748#2#JAVA" expanded="true" />
-            <element signature="e#8835#8859#2#JAVA" expanded="true" />
-            <element signature="e#8950#8974#2#JAVA" expanded="true" />
-            <element signature="e#9083#9107#2#JAVA" expanded="true" />
-            <element signature="e#9217#9241#2#JAVA" expanded="true" />
-            <element signature="e#9328#9352#2#JAVA" expanded="true" />
-            <element signature="e#9438#9462#2#JAVA" expanded="true" />
-            <element signature="e#9575#9599#2#JAVA" expanded="true" />
-            <element signature="e#9750#9774#2#JAVA" expanded="true" />
-            <element signature="e#9880#9904#2#JAVA" expanded="true" />
-            <element signature="e#9947#9971#2#JAVA" expanded="true" />
-            <element signature="e#10057#10081#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="116" column="36" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
-          <folding>
-            <element signature="e#2056#2057#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2665#2666#0" expanded="true" />
-            <element signature="e#2698#2699#0" expanded="true" />
-            <element signature="e#2750#2751#0" expanded="true" />
-            <element signature="e#2794#2795#0" expanded="true" />
-            <element signature="e#2831#2832#0" expanded="true" />
-            <element signature="e#2864#2865#0" expanded="true" />
-            <element signature="e#2916#2917#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#2999#3000#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3138#3139#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3348#3349#0" expanded="true" />
-            <element signature="e#3386#3387#0" expanded="true" />
-            <element signature="e#3448#3449#0" expanded="true" />
-            <element signature="e#3497#3498#0" expanded="true" />
-            <element signature="e#3535#3536#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-            <element signature="e#3623#3624#0" expanded="true" />
-            <element signature="e#3669#3670#0" expanded="true" />
-            <element signature="e#3701#3702#0" expanded="true" />
-            <element signature="e#3729#3730#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#3805#3806#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
-            <element signature="e#3869#3870#0" expanded="true" />
-            <element signature="e#3915#3916#0" expanded="true" />
-            <element signature="e#3953#3954#0" expanded="true" />
-            <element signature="e#3989#3990#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4071#4072#0" expanded="true" />
-            <element signature="e#4113#4114#0" expanded="true" />
-            <element signature="e#4145#4146#0" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
-            <element signature="e#4215#4216#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="338">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1360#1377#0" expanded="true" />
-            <element signature="e#1844#1928#0" expanded="true" />
-            <element signature="e#1844#1928#0" expanded="true" />
-            <element signature="e#2131#2215#0" expanded="true" />
-            <element signature="e#2131#2215#0" expanded="true" />
-            <element signature="e#2392#2429#0" expanded="true" />
-            <element signature="e#2392#2429#0" expanded="true" />
-            <element signature="e#2338#2360#0" expanded="true" />
-            <element signature="e#3294#3319#0" expanded="true" />
-            <element signature="e#3294#3319#0" expanded="true" />
-            <element signature="e#3205#3219#0" expanded="true" />
-            <element signature="e#3432#3457#0" expanded="true" />
-            <element signature="e#3432#3457#0" expanded="true" />
-            <element signature="e#3929#3967#1" expanded="true" />
-            <element signature="e#3956#3984#0" expanded="true" />
-            <element signature="e#3994#4018#1" expanded="true" />
-            <element signature="e#4009#4042#0" expanded="true" />
-            <element signature="e#4009#4042#0" expanded="true" />
-            <element signature="e#4009#4050#0" expanded="true" />
+            <element signature="e#2780#2802#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        <state relative-caret-position="-1088">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1606#1632#0" expanded="true" />
-            <element signature="e#1605#1630#0" expanded="true" />
-            <element signature="e#3688#3741#0" expanded="true" />
-            <element signature="e#3688#3741#0" expanded="true" />
+            <element signature="e#436#457#1" expanded="true" />
+            <element signature="e#467#507#1" expanded="true" />
+            <element signature="e#516#866#1" expanded="true" />
+            <element signature="e#537#865#0" expanded="true" />
+            <element signature="e#537#865#0" expanded="true" />
+            <element signature="e#537#865#0" expanded="true" />
+            <element signature="e#875#945#1" expanded="true" />
+            <element signature="e#1320#1343#0" expanded="true" />
+            <element signature="e#1376#1401#0" expanded="true" />
+            <element signature="e#1435#1457#0" expanded="true" />
+            <element signature="e#1490#1514#0" expanded="true" />
+            <element signature="e#1547#1571#0" expanded="true" />
+            <element signature="e#1604#1630#0" expanded="true" />
+            <element signature="e#1663#1688#0" expanded="true" />
+            <element signature="e#1721#1750#0" expanded="true" />
+            <element signature="e#1783#1808#0" expanded="true" />
+            <element signature="e#1842#1861#0" expanded="true" />
+            <element signature="e#1895#1916#0" expanded="true" />
+            <element signature="e#1950#1973#0" expanded="true" />
           </folding>
         </state>
       </provider>

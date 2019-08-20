@@ -88,16 +88,6 @@
 
 <section class="content">
     <div class="container-fluid">
-        <div class="block-header">
-            <h2>Add new Employee</h2>
-        </div>
-    </div>
-</section>
-<section class="content">
-    <div class="container-fluid">
-        <div class="block-header">
-            <h2>BASIC FORM ELEMENTS</h2>
-        </div>
         <!-- Input -->
         <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -108,91 +98,92 @@
                         <div class="row clearfix">
                             <div class="col-sm-12">
                                 <form action="AddEmployeToData" method="get">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="First Name English"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="FirstNameEng" class="form-control" placeholder="First Name English"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="First Name Russian"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text"  name="FirstNameRus" class="form-control" placeholder="First Name Russian"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Last Name English"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="LastNameEng" class="form-control" placeholder="Last Name English"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Last Name Russian"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="LastNameRus" class="form-control" placeholder="Last Name Russian"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Specialty English"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="SpecialtyEng" class="form-control" placeholder="Specialty English"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Specialty Russian"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="SpecialtyRus"  class="form-control" placeholder="Specialty Russian"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="input-group date" id="bs_datepicker_component_container">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Please choose a date...">
-                                    </div>
-                                    <span class="input-group-addon">
+                                    <div class="input-group date" id="bs_datepicker_component_container">
+                                        <div class="form-line">
+                                            <input type="text" name="Date" class="form-control"
+                                                   placeholder="Please choose a date...">
+                                        </div>
+                                        <span class="input-group-addon">
                                             <i class="material-icons">date_range</i>
                                         </span>
-                                </div>
+                                    </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Experience by years "/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="Experience" class="form-control" placeholder="Experience by years "/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Phone number"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="PhoneNumber" class="form-control" placeholder="Phone number"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="email"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="email" class="form-control" placeholder="email"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Address English"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="AddressEng" class="form-control" placeholder="Address English"/>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Address Russian"/>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="AddressRus" class="form-control" placeholder="Address Russian"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-line">
-                                <button type="submit" class="btn btn-info waves-effect">INFO</button>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn bg-blue waves-effect">
+                                            <i class="material-icons">verified_user</i>
+                                            <span>ADD</span>
+                                        </button>
                                     </div>
-                                </div>
-                            </form>
-
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
 
 </section>
 
@@ -211,14 +202,26 @@
 <!-- Waves Effect Plugin Js -->
 <script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
 
+<!-- Autosize Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/autosize/autosize.js"></script>
+
+<!-- Moment Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/momentjs/moment.js"></script>
+
+<!-- Bootstrap Material Datetime Picker Plugin Js -->
+
+<script src="<%=request.getContextPath()%>/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
+<!-- Bootstrap Datepicker Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
 <!-- Custom Js -->
 <script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/basic-form-elements.js"></script>
 
 <!-- Demo Js -->
 <script src="<%=request.getContextPath()%>/js/demo.js"></script>
-<!-- Jquery Knob Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/jquery-knob/jquery.knob.min.js"></script>
-<script src="<%=request.getContextPath()%>/js/pages/charts/jquery-knob.js"></script>
+
 </body>
 
 </html>

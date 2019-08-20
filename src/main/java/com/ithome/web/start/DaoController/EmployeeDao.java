@@ -18,9 +18,9 @@ public class EmployeeDao {
         int rowsAffected = 0;
 
         Connection connection = connectToData();
-        String insertQuery = "INSERT INTO `oferta_datat_controller`.`employee`" +
-                "(`employee_id`, `firstName`,`firstNameRu`, `lastName`,`lastNameRu`, `perfession`, `perfessionRu`,`dateOfBirth`,`ExperianceYears`,`phoneNumber`,`email`,`address`," +
-                ",`addressRu`) "
+        String insertQuery = "INSERT INTO `car_db`.`employee`" +
+                "(`employee_id`, `firstName`,`firstNameRu`,`lastName`,`lastNameRu`,`perfession`,`perfessionRu`,`dateOfBirth`,`ExperianceYears`,`phoneNumber`,`email`,`address`," +
+                "`addressRu`) "
                 + "VALUES (Default,?,?,?,?,?,?,?,?,?,?,?,?)";
         PreparedStatement statment = connection.prepareStatement(insertQuery);
         setStatment(employee, statment);
@@ -93,7 +93,7 @@ public class EmployeeDao {
         Employee employee;
         while (set.next()) {
             employee = new Employee();
-            employee.setId(set.getInt("id"));
+            employee.setId(set.getInt("employee_id"));
             employee.setFirstName(set.getString("firstName"));
             employee.setLastName(set.getString("lastName"));
             employee.setPerfession(set.getString("perfession"));

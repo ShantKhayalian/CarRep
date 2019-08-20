@@ -35,8 +35,9 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,14 +58,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="664" />
+          <entry key="java" value="668" />
           <entry key="jsp" value="172" />
           <entry key="properties" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="664" />
+          <entry key="JAVA" value="668" />
           <entry key="JSP" value="172" />
           <entry key="Properties" value="14" />
         </counts>
@@ -76,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="1683">
               <caret line="99" column="62" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="62" />
             </state>
           </provider>
@@ -85,11 +86,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="1003">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2780#2802#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,29 +116,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1088">
-              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#436#457#1" expanded="true" />
-                <element signature="e#467#507#1" expanded="true" />
-                <element signature="e#516#866#1" expanded="true" />
                 <element signature="e#537#865#0" expanded="true" />
                 <element signature="e#537#865#0" expanded="true" />
                 <element signature="e#537#865#0" expanded="true" />
-                <element signature="e#875#945#1" expanded="true" />
-                <element signature="e#1320#1343#0" expanded="true" />
-                <element signature="e#1376#1401#0" expanded="true" />
-                <element signature="e#1435#1457#0" expanded="true" />
-                <element signature="e#1490#1514#0" expanded="true" />
-                <element signature="e#1547#1571#0" expanded="true" />
-                <element signature="e#1604#1630#0" expanded="true" />
-                <element signature="e#1663#1688#0" expanded="true" />
-                <element signature="e#1721#1750#0" expanded="true" />
-                <element signature="e#1783#1808#0" expanded="true" />
-                <element signature="e#1842#1861#0" expanded="true" />
-                <element signature="e#1895#1916#0" expanded="true" />
-                <element signature="e#1950#1973#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,10 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="952">
               <caret line="70" column="57" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
-              <folding>
-                <element signature="e#1827#1862#0" expanded="true" />
-                <element signature="e#1827#1862#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -251,7 +231,7 @@
       <path value="$PROJECT_DIR$/src/main/webapp/plugins/tinymce/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="574" />
     <option name="y" value="406" />
     <option name="width" value="1130" />
@@ -472,8 +452,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,17 +580,18 @@
       <workItem from="1566076204829" duration="396000" />
       <workItem from="1566324448996" duration="5494000" />
       <workItem from="1566330347970" duration="734000" />
+      <workItem from="1566332543197" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6624000" />
+    <option name="totallyTimeSpent" value="7454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -620,7 +601,7 @@
       <window_info id="Web" order="7" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1016,12 +997,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Content.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/forms/basic-form-elements.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1034,6 +1015,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
           <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="62" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,56 +1062,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="70" column="57" selection-start-line="68" selection-start-column="6" selection-end-line="70" selection-end-column="57" />
-          <folding>
-            <element signature="e#1827#1862#0" expanded="true" />
-            <element signature="e#1827#1862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="99" column="62" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2780#2802#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
-          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#457#1" expanded="true" />
-            <element signature="e#467#507#1" expanded="true" />
-            <element signature="e#516#866#1" expanded="true" />
             <element signature="e#537#865#0" expanded="true" />
             <element signature="e#537#865#0" expanded="true" />
             <element signature="e#537#865#0" expanded="true" />
-            <element signature="e#875#945#1" expanded="true" />
-            <element signature="e#1320#1343#0" expanded="true" />
-            <element signature="e#1376#1401#0" expanded="true" />
-            <element signature="e#1435#1457#0" expanded="true" />
-            <element signature="e#1490#1514#0" expanded="true" />
-            <element signature="e#1547#1571#0" expanded="true" />
-            <element signature="e#1604#1630#0" expanded="true" />
-            <element signature="e#1663#1688#0" expanded="true" />
-            <element signature="e#1721#1750#0" expanded="true" />
-            <element signature="e#1783#1808#0" expanded="true" />
-            <element signature="e#1842#1861#0" expanded="true" />
-            <element signature="e#1895#1916#0" expanded="true" />
-            <element signature="e#1950#1973#0" expanded="true" />
           </folding>
         </state>
       </provider>

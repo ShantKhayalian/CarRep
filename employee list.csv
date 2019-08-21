@@ -1,0 +1,5 @@
+"employee_id";"firstName";"lastName";"perfession";"dateOfBirth";"ExperianceYears";"phoneNumber";"email";"address";"lastNameRu";"firstNameRu";"perfessionRu";"addressRu";"image"
+3;"Johnny";"Wick";"Lead Painter";"05/05/1987";"5";"+37498229898";"Johnny@carpart.ru";"Nairi Zaryan";"Фитиль";"Джонни";"Ведущий художник";"Наири Зарян";"images\team1.jpg"
+4;"Michael";"Anderson";"Engine master";"05/05/1979";"14";"99977788-2255";"robert@autrics.com";"6 Admiral Isakov Ave, Yerevan";"Андерсон";"Майкл";"Мастер двигателя";"Пр. Адмирала Исакова, 6, Ереван";"images\team2.jpg"
+5;"Jr. Adam";"Smith";"Suspension specialist";"07/11/1998";"8";"99977788-9898";"obert@autrics.com";"Tsitsernakaberd Hwy, Yerevan";"Смит";"Младший Адам";"Специалист по подвеске";"Цицернакаберд шоссе, Ереван";"images\team3.jpg"
+11;"Shant";"Khayalian";"Lead Painter";"07/30/2019";"5";"91325350";"skhayalian@gmail.com";"Davtashen 3, 13/16";"Khayalian";"Shant";"qwe";"Azatutyan 9a";"images\8e29f405-eff0-47f8-92a0-efed591690f2.jpg"

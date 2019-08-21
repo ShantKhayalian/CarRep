@@ -137,5 +137,28 @@ public class EmployeeDao {
         return rowsUpdated;
     }
 
+    /**
+     * Update or add уьздщнуу image
+     *
+     * @param employee
+     * @param empolyeeId
+     * @return
+     */
+    public int UpdateEmployeeImage(Employee employee, int empolyeeId) {
+        int rowsUpdated = 0;
+        try {
+            Connection connection = connectToData();
+            String sql = "UPDATE `car_db`.`employee`  SET image=? WHERE employee_id=" + empolyeeId;
+            PreparedStatement statment = connection.prepareStatement(sql);
+            statment.setString(1, employee.getImage());
 
+            rowsUpdated = statment.executeUpdate();
+            if (rowsUpdated > 0) {
+
+            }
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return rowsUpdated;
+    }
 }

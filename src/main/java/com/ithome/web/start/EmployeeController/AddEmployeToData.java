@@ -32,6 +32,7 @@ public class AddEmployeToData extends HttpServlet {
     private String email = null;
     private String AddressEng = null;
     private String AddressRus = null;
+    private int employId = 0;
 
     private String date =null;
 
@@ -99,7 +100,7 @@ public class AddEmployeToData extends HttpServlet {
 
     private void getEmployeId() {
         List<Employee> employees = employeeDao.getAllEmployee();
-        int employId = employees.get(employees.size()-1).getId();
+        employId = employees.get(employees.size()-1).getId();
         System.out.println(employId);
     }
 
@@ -107,11 +108,9 @@ public class AddEmployeToData extends HttpServlet {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
+        request.setAttribute("EmpolyeeId", employId);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AddEmployeImage.jsp").forward(request, response);
-    }
 
     private void getParameters(HttpServletRequest request) throws ParseException {
         FirstNameEng = request.getParameter("FirstNameEng");

@@ -1,6 +1,5 @@
 package com.ithome.web.start.DaoController;
 
-import com.ithome.web.start.Beans.AboutUs;
 import com.ithome.web.start.Beans.Employee;
 import com.ithome.web.start.Connection.DBConnection;
 
@@ -19,10 +18,10 @@ public class EmployeeDao {
         int rowsAffected = 0;
 
         Connection connection = connectToData();
-        String insertQuery = "INSERT INTO `oferta_datat_controller`.`employee`" +
-                "(`employee_id`, `firstName`, `lastName`, `perfession`,`dateOfBirth`,`ExperianceYears`,`phoneNumber`,`email`,`address`," +
-                "`lastNameRu`,`firstNameRu`, `perfessionRu`, `addressRu`) "
-                + "VALUES (Default,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        String insertQuery = "INSERT INTO `car_db`.`employee`" +
+                "(`employee_id`, `firstName`,`firstNameRu`,`lastName`,`lastNameRu`,`perfession`,`perfessionRu`,`dateOfBirth`,`ExperianceYears`,`phoneNumber`,`email`,`address`," +
+                "`addressRu`) "
+                + "VALUES (Default,?,?,?,?,?,?,?,?,?,?,?,?)";
         PreparedStatement statment = connection.prepareStatement(insertQuery);
         setStatment(employee, statment);
         rowsAffected = statment.executeUpdate();
@@ -43,12 +42,13 @@ public class EmployeeDao {
         statement.setString(3, employee.getLastName());
         statement.setString(4,employee.getLastNameRu());
         statement.setString(5,employee.getPerfession());
-        statement.setDate(6,employee.getDateOfBirth());
-        statement.setString(7,employee.getExperianceYears());
-        statement.setString(8,employee.getPhoneNumber());
-        statement.setString(9,employee.getEmail());
-        statement.setString(10,employee.getAddress());
-        statement.setString(11,employee.getAddressRu());
+        statement.setString(6,employee.getPerfessionRu());
+        statement.setString(7,employee.getDateOfBirth());
+        statement.setString(8,employee.getExperianceYears());
+        statement.setString(9,employee.getPhoneNumber());
+        statement.setString(10,employee.getEmail());
+        statement.setString(11,employee.getAddress());
+        statement.setString(12,employee.getAddressRu());
     }
 
     /**
@@ -93,7 +93,7 @@ public class EmployeeDao {
         Employee employee;
         while (set.next()) {
             employee = new Employee();
-            employee.setId(set.getInt("id"));
+            employee.setId(set.getInt("employee_id"));
             employee.setFirstName(set.getString("firstName"));
             employee.setLastName(set.getString("lastName"));
             employee.setPerfession(set.getString("perfession"));
@@ -101,10 +101,11 @@ public class EmployeeDao {
             employee.setAddress(set.getString("address"));
             employee.setEmail(set.getString("email"));
             employee.setExperianceYears(set.getString("ExperianceYears"));
-            employee.setDateOfBirth(set.getDate("dateOfBirth"));
+            employee.setDateOfBirth(set.getString("dateOfBirth"));
             employee.setFirstNamRue(set.getString("firstNameRu"));
             employee.setLastNameRu(set.getString("lastNameRu"));
             employee.setAddressRu(set.getString("addressRu"));
+            employee.setImage(set.getString("image"));
 
             aboutList.add(employee);
         }
@@ -137,5 +138,28 @@ public class EmployeeDao {
         return rowsUpdated;
     }
 
+    /**
+     * Update or add уьздщнуу image
+     *
+     * @param employee
+     * @param empolyeeId
+     * @return
+     */
+    public int UpdateEmployeeImage(Employee employee, int empolyeeId) {
+        int rowsUpdated = 0;
+        try {
+            Connection connection = connectToData();
+            String sql = "UPDATE `car_db`.`employee`  SET image=? WHERE employee_id=" + empolyeeId;
+            PreparedStatement statment = connection.prepareStatement(sql);
+            statment.setString(1, employee.getImage());
 
+            rowsUpdated = statment.executeUpdate();
+            if (rowsUpdated > 0) {
+
+            }
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return rowsUpdated;
+    }
 }

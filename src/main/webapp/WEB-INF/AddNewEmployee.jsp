@@ -6,31 +6,31 @@
 <html>
 <head>
     <title>Master admin </title>
-        <meta charset="UTF-8">
-        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <!-- Favicon-->
-        <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Favicon-->
+    <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
-              type="text/css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
+          type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
-        <!-- Bootstrap Core Css -->
-        <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core Css -->
+    <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Waves Effect Css -->
-        <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet"/>
+    <!-- Waves Effect Css -->
+    <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet"/>
 
-        <!-- Animation Css -->
-        <link href="<%=request.getContextPath()%>/plugins/animate-css/animate.css" rel="stylesheet"/>
+    <!-- Animation Css -->
+    <link href="<%=request.getContextPath()%>/plugins/animate-css/animate.css" rel="stylesheet"/>
 
-        <!-- Custom Css -->
-        <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet">
 
-        <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-        <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->
@@ -72,7 +72,7 @@
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
-       <jsp:include page="inc/leftSideAdmin.jsp"/>
+        <jsp:include page="inc/leftSideAdmin.jsp"/>
         <!-- Menu -->
         <jsp:include page="inc/Menu.jsp"/>
         <!-- Menu -->
@@ -88,13 +88,102 @@
 
 <section class="content">
     <div class="container-fluid">
-        <div class="block-header">
-            <h2>BLANK PAGE</h2>
+        <!-- Input -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+
+                    <div class="body">
+                        <h2 class="card-inside-title">New Employee form</h2>
+                        <div class="row clearfix">
+                            <div class="col-sm-12">
+                                <form action="AddEmployeToData" method="post">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="FirstNameEng" class="form-control" placeholder="First Name English"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text"  name="FirstNameRus" class="form-control" placeholder="First Name Russian"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="LastNameEng" class="form-control" placeholder="Last Name English"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="LastNameRus" class="form-control" placeholder="Last Name Russian"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="SpecialtyEng" class="form-control" placeholder="Specialty English"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="SpecialtyRus"  class="form-control" placeholder="Specialty Russian"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group date" id="bs_datepicker_component_container">
+                                        <div class="form-line">
+                                            <input type="text" name="Date" class="form-control"
+                                                   placeholder="Please choose a date...">
+                                        </div>
+                                        <span class="input-group-addon">
+                                            <i class="material-icons">date_range</i>
+                                        </span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="Experience" class="form-control" placeholder="Experience by years "/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="PhoneNumber" class="form-control" placeholder="Phone number"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="email" class="form-control" placeholder="email"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="AddressEng" class="form-control" placeholder="Address English"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" name="AddressRus" class="form-control" placeholder="Address Russian"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn bg-blue waves-effect">
+                                            <i class="material-icons">verified_user</i>
+                                            <span>ADD</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-
-<section class="content">
 
 </section>
 
@@ -113,14 +202,26 @@
 <!-- Waves Effect Plugin Js -->
 <script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
 
+<!-- Autosize Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/autosize/autosize.js"></script>
+
+<!-- Moment Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/momentjs/moment.js"></script>
+
+<!-- Bootstrap Material Datetime Picker Plugin Js -->
+
+<script src="<%=request.getContextPath()%>/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
+<!-- Bootstrap Datepicker Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
 <!-- Custom Js -->
 <script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/basic-form-elements.js"></script>
 
 <!-- Demo Js -->
 <script src="<%=request.getContextPath()%>/js/demo.js"></script>
-<!-- Jquery Knob Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/jquery-knob/jquery.knob.min.js"></script>
-<script src="<%=request.getContextPath()%>/js/pages/charts/jquery-knob.js"></script>
+
 </body>
 
 </html>

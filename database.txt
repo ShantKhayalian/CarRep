@@ -1,0 +1,17 @@
+CREATE TABLE `employee` (
+  `employee_id` int(11) NOT NULL AUTO_INCREMENT,
+  `firstName` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `lastName` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `perfession` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `dateOfBirth` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `ExperianceYears` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `phoneNumber` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `email` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `address` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `lastNameRu` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `firstNameRu` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `perfessionRu` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `addressRu` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `image` varchar(500) COLLATE utf8mb4_bin DEFAULT NULL,
+  PRIMARY KEY (`employee_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;

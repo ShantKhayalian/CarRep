@@ -237,10 +237,10 @@
                                     <div class="card">
                                         <div class="card-body text-center">
                                             <p><img class=" img-fluid"
-                                                    src="<%=request.getContextPath()%>${Employee.image}"
+                                                    src="<%=request.getContextPath()%>/${Employee.image}"
                                                     alt="card image"></p>
                                             <h4 class="card-title">${Employee.firstName} ${Employee.lastName}</h4>
-                                            <p class="card-text">${Employee.perfession}</p>
+                                            <p class="card-text">${Employee.perfession} </p>
                                             <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
@@ -249,12 +249,25 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">${Employee.firstName} ${Employee.lastName}</h4>
-                                            <p class="card-text">${Employee.dateOfBirth}</p>
-                                            <p class="card-text">${Employee.phoneNumber}</p>
-                                            <p class="card-text">${Employee.email}</p>
-                                            <p class="card-text">${Employee.address}</p>
+                                            <p class="card-text">Address : ${Employee.address}  </p>
+                                            <p class="card-text">Specialist : ${Employee.perfession}  </p>
+                                            <p class="card-text">Years of Experience : ${Employee.experianceYears}  </p>
+                                            <p class="card-text">Email : ${Employee.email}  </p>
+                                            <p class="card-text">Phone number : ${Employee.phoneNumber}  </p>
+                                            <form action="UpdateEmployee" method="get">
+                                            <button type="submit" class="btn bg-deep-purple waves-effect">
+                                                <i class="material-icons">settings</i>
+                                                <input type="hidden" name="EmployeeId" value="${Employee.id}">
+                                            </button>
+                                            </form>
+                                            <form action="DeleteEmployee" method="get">
+                                            <button type="submit" class="btn bg-yellow waves-effect">
+                                                <i class="material-icons">content_cut</i>
+                                                <input type="hidden" name="EmployeeId" value="${Employee.id}">
+                                            </button>
+                                            </form>
                                             <ul class="list-inline">
-                                                <li class="list-inline-item">
+                                                <%--<li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="#">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
@@ -273,7 +286,7 @@
                                                     <a class="social-icon text-xs-center" target="_blank" href="#">
                                                         <i class="fa fa-google"></i>
                                                     </a>
-                                                </li>
+                                                </li>--%>
                                             </ul>
                                         </div>
                                     </div>

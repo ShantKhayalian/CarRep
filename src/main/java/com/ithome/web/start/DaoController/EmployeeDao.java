@@ -105,6 +105,7 @@ public class EmployeeDao {
             employee.setFirstNamRue(set.getString("firstNameRu"));
             employee.setLastNameRu(set.getString("lastNameRu"));
             employee.setAddressRu(set.getString("addressRu"));
+            employee.setImage(set.getString("image"));
 
             aboutList.add(employee);
         }

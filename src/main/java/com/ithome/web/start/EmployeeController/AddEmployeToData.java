@@ -112,7 +112,7 @@ public class AddEmployeToData extends HttpServlet {
     }
 
 
-    private void getParameters(HttpServletRequest request) throws ParseException {
+    private void getParameters(HttpServletRequest request)  {
         FirstNameEng = request.getParameter("FirstNameEng");
         FirstNameRus = request.getParameter("FirstNameRus");
         LastNameEng = request.getParameter("LastNameEng");

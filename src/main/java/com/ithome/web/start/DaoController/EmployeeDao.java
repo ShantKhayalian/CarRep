@@ -162,4 +162,23 @@ public class EmployeeDao {
         }
         return rowsUpdated;
     }
+
+    /**
+     * Get employee by id
+     * @param employeeId
+     * @return
+     */
+    public List<Employee> getDetailById(int employeeId) {
+        List<Employee> employeeList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`employee`  WHERE employee_id=" + employeeId;
+            PreparedStatement statment = connection.prepareStatement(sql);
+            ResultSet set = statment.executeQuery(sql);
+            EmployeeList(employeeList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return employeeList;
+    }
 }

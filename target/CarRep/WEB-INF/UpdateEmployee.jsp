@@ -93,56 +93,72 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
                     <c:if test="${requestScope.employeeList != null}">
-                        <c:forEach items="${requestScope.employeeList}" var="Employee">
+                        <c:forEach items="${requestScope.employeeList}" var="Employee" varStatus="page">
                             <div class="body">
                                 <h2 class="card-inside-title">Update Employee form</h2>
+                                <%
+                                    if (request.getAttribute("message") != null) {
+                                %>
+                                <%=request.getAttribute("message")%>
+                                <%
+                                    }
+                                %>
                                 <div class="row clearfix">
                                     <div class="col-sm-12">
-                                        <form action="AddEmployeToData" method="post">
+                                        <form action="UpdateEmployeToData" method="post">
                                             <div class="form-group">
                                                 <div class="form-line">
-                                                    <input type="text" name="FirstNameEng" class="form-control"
-                                                           placeholder="${Employee.firstName}"/>
+                                                    <input type="text" name="FirstNameEng" id="FirstNameEng" class="form-control"
+                                                           value=" ${Employee.firstName}"/>
+                                                    <label class="form-label">First Name English</label>
+
+
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-line">
-                                                    <input type="text" name="FirstNameRus" class="form-control"
-                                                           placeholder="${Employee.firstNamRue}"/>
+                                                    <input type="text" name="FirstNameRus" id="FirstNameRus" class="form-control"
+                                                           value="${Employee.firstNamRue}"/>
+                                                    <label class="form-label">First Name Russian</label>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-line">
-                                                    <input type="text" name="LastNameEng" class="form-control"
-                                                           placeholder="${Employee.lastName}"/>
+                                                    <input type="text" name="LastNameEng" id="LastNameEng" class="form-control"
+                                                           value="${Employee.lastName}"/>
+                                                    <label class="form-label">Last Name English</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="form-line">
-                                                    <input type="text" name="LastNameRus" class="form-control"
-                                                           placeholder="${Employee.lastNameRu}"/>
+                                                    <input type="text" name="LastNameRus" id="LastNameRus" class="form-control"
+                                                           value="${Employee.lastNameRu}"/>
+                                                    <label class="form-label">Last Name Russian</label>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="SpecialtyEng" class="form-control"
-                                                           placeholder="${Employee.perfession}"/>
+                                                           value="${Employee.perfession}"/>
+                                                    <label class="form-label">Specialty English</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="SpecialtyRus" class="form-control"
-                                                           placeholder="${Employee.perfessionRu}"/>
+                                                           value="${Employee.perfessionRu}"/>
+                                                    <label class="form-label">Specialty Russian</label>
                                                 </div>
                                             </div>
 
                                             <div class="input-group date" id="bs_datepicker_component_container">
                                                 <div class="form-line">
                                                     <input type="text" name="Date" class="form-control"
-                                                           placeholder="${Employee.dateOfBirth}">
+                                                           value="${Employee.dateOfBirth}">
+                                                    <label class="form-label">Please choose a date...</label>
                                                 </div>
                                                 <span class="input-group-addon">
                                             <i class="material-icons">date_range</i>
@@ -152,33 +168,39 @@
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="Experience" class="form-control"
-                                                           placeholder="${Employee.experianceYears}"/>
+                                                           value="${Employee.experianceYears}"/>
+                                                    <label class="form-label">Experience by years </label>
+
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="PhoneNumber" class="form-control"
-                                                           placeholder="${Employee.phoneNumber}"/>
+                                                           value="${Employee.phoneNumber}"/>
+                                                    <label class="form-label">Phone number</label>
                                                 </div>
                                             </div>
 
                                             <div class=" form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="email" class="form-control"
-                                                           placeholder="${Employee.email}"/>
+                                                           value="${Employee.email}"/>
+                                                    <label class="form-label">email</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="AddressEng" class="form-control"
-                                                           placeholder="${Employee.address}"/>
+                                                           value="${Employee.address}"/>
+                                                    <label class="form-label">Address English</label>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="AddressRus" class="form-control"
-                                                           placeholder="${Employee.addressRu}"/>
+                                                           value="${Employee.addressRu}"/>
+                                                    <label class="form-label">Address Russian</label>
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -186,6 +208,7 @@
                                                     <i class="material-icons">verified_user</i>
                                                     <span>UPDATE</span>
                                                 </button>
+                                                <input type="hidden" name="EmployeeId" value="${Employee.id}">
                                             </div>
                                     </div>
                                     </form>

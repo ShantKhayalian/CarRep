@@ -122,12 +122,16 @@
                                 <i class="material-icons">touch_app</i>
                             </div>
                             <h3>Drop files here or click to upload.</h3>
-
                         </div>
                         <div class="fallback">
                             <input name="file" type="file" multiple />
                         </div>
                     </form>
+                    <div class="body">
+                        <c:forEach items="${requestScope.employeeList}" var="employeeImage">
+                            <img src="/${employeeImage.image}" alt="${employeeImage.firstName} ${employeeImage.lastName}"/>
+                        </c:forEach>
+                    </div>
                 </div>
             </div>
         </div>

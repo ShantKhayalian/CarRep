@@ -1,8 +1,6 @@
 package com.ithome.web.start.Beans;
 
 
-import java.util.Date;
-
 public class Employee {
     private int id;
     private String firstName;

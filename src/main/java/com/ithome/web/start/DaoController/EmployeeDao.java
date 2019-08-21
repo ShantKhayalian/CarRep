@@ -97,6 +97,7 @@ public class EmployeeDao {
             employee.setFirstName(set.getString("firstName"));
             employee.setLastName(set.getString("lastName"));
             employee.setPerfession(set.getString("perfession"));
+            employee.setPerfessionRu(set.getString("perfessionRu"));
             employee.setPhoneNumber(set.getString("phoneNumber"));
             employee.setAddress(set.getString("address"));
             employee.setEmail(set.getString("email"));

@@ -18,7 +18,8 @@ import java.util.List;
 
 @WebServlet("/UpdateEmployee")
 public class UpdateEmployee extends HttpServlet {
-    private int EmployeeId = 0;
+    private String employeeId = null;
+    private int employeeID = 0;
 
     private SessionChecker checker = new SessionChecker();
     private String username = null;
@@ -42,9 +43,14 @@ public class UpdateEmployee extends HttpServlet {
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getEmployeeDetailById(EmployeeId);
+        convertToId(employeeId);
+        getEmployeeDetailById(employeeID);
         setRequestToPage(request);
         gotoPage(request,response);
+    }
+
+    private void convertToId(String employeeId) {
+        employeeID = Integer.valueOf(employeeId);
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -63,7 +69,7 @@ public class UpdateEmployee extends HttpServlet {
     }
 
     private void getParameters(HttpServletRequest request) {
-        EmployeeId = Integer.getInteger(request.getParameter("EmployeeId"));
+        employeeId = request.getParameter("EmployeeId");
     }
 
     /**

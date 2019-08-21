@@ -98,7 +98,7 @@
                                 <h2 class="card-inside-title">Update Employee form</h2>
                                 <div class="row clearfix">
                                     <div class="col-sm-12">
-                                        <form action="AddEmployeToData" method="post">
+                                        <form action="UpdateEmployeToData" method="post">
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="FirstNameEng" class="form-control"
@@ -152,18 +152,17 @@
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="Experience" class="form-control"
-                                                           placeholder="${Employee.ExperianceYears}"/>
+                                                           placeholder="${Employee.experianceYears}"/>
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="PhoneNumber" class="form-control"
-                                                           placeholder="${Employee.phoneNumber}/>
+                                                           placeholder="${Employee.phoneNumber}"/>
                                                 </div>
                                             </div>
 
-                                            <div class="form-group">
+                                            <div class=" form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="email" class="form-control"
                                                            placeholder="${Employee.email}"/>
@@ -188,8 +187,8 @@
                                                     <span>UPDATE</span>
                                                 </button>
                                             </div>
-                                        </form>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </c:forEach>

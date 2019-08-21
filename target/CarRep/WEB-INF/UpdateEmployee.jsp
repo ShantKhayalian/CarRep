@@ -152,18 +152,17 @@
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="Experience" class="form-control"
-                                                           placeholder="${Employee.ExperianceYears}"/>
+                                                           placeholder="${Employee.experianceYears}"/>
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="PhoneNumber" class="form-control"
-                                                           placeholder="${Employee.phoneNumber}/>
+                                                           placeholder="${Employee.phoneNumber}"/>
                                                 </div>
                                             </div>
 
-                                            <div class="form-group">
+                                            <div class=" form-group">
                                                 <div class="form-line">
                                                     <input type="text" name="email" class="form-control"
                                                            placeholder="${Employee.email}"/>
@@ -188,8 +187,8 @@
                                                     <span>UPDATE</span>
                                                 </button>
                                             </div>
-                                        </form>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </c:forEach>

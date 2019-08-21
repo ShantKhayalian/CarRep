@@ -28,7 +28,7 @@ public class Employee {
         this.perfession = perfession;
         this.perfessionRu = perfessionRu;
         this.dateOfBirth = dateOfBirth;
-        ExperianceYears = experianceYears;
+        this.ExperianceYears = experianceYears;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
@@ -44,7 +44,7 @@ public class Employee {
         this.perfession = perfession;
         this.perfessionRu = perfessionRu;
         this.dateOfBirth = dateOfBirth;
-        ExperianceYears = experianceYears;
+        this.ExperianceYears = experianceYears;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;

@@ -4,10 +4,9 @@
 <html>
 
 <head>
-    <title>Օֆերտա Ադմին</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Sign In | Օֆերտա Ադմին</title>
+    <title>Sign In | Master Admin</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 

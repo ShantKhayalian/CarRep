@@ -22,7 +22,7 @@ public class DBConnection {
             e.printStackTrace();
         }
         if (connection != null) {
-
+            System.out.println("Connected to MySql");
         }
         return connection;
     }

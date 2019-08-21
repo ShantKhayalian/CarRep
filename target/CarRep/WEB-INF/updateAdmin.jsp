@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <p>Խնդրում ենք սպասել...</p>
+        <p>Please wait...</p>
     </div>
 </div>
 <!-- #END# Page Loader -->

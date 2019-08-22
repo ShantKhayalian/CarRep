@@ -128,7 +128,7 @@
                                 <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                     <a href="About?Pagelanguage=${requestScope.Pagelanguage}" class=" dropdown-item"><fmt:message key="About us" bundle="${Bundles}"/></a>
                                 <li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
-                                <a href="our_team.html" class=" dropdown-item"><fmt:message key="Our Team" bundle="${Bundles}"/></a>
+                                <a href="OurTeam?PageLanguage=${requestScope.Pagelanguage}" class=" dropdown-item"><fmt:message key="Our Team" bundle="${Bundles}"/></a>
                                 <li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                 <a href="gallery.html" class=" dropdown-item"><fmt:message key="Gallery" bundle="${Bundles}"/></a>
                                 <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">

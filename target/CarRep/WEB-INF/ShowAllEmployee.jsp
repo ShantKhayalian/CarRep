@@ -89,12 +89,11 @@
 </section>
 
 <section>
-    <div class="container">
-        <c:if test="${requestScope.employeeList != null}">
-            <c:forEach items="${requestScope.employeeList}" var="Employee">
-                <div class="container-fluid">
-
-                    <div class="row clearfix">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <c:if test="${requestScope.employeeList != null}">
+                    <c:forEach items="${requestScope.employeeList}" var="Employee">
                         <div class="col-xs-12 col-sm-3">
                             <div class="card profile-card">
                                 <div class="profile-header">&nbsp;</div>
@@ -110,42 +109,66 @@
                                         <p>Email : ${Employee.email}</p>
                                         <p>Address : ${Employee.address}</p>
                                     </div>
+                                    <div class="profile-body">&nbsp;
+                                        <form action="UpdateEmployee" method="get">
+                                            <button type="submit" class="btn btn-block btn-lg bg-cyan waves-effect">
+                                                <i class="material-icons">save</i>
+                                                <span>UPDATE</span>
+                                                <input type="hidden" name="EmployeeId" value="${Employee.id}">
+                                            </button>
+                                        </form>
+                                        <form action="DeleteEmployee" method="get">
+                                        <button type="submit" class="btn btn-block btn-lg bg-deep-purple waves-effect">
+                                            <i class="material-icons">settings</i>
+                                            <span>DELETE</span>
+                                            <input type="hidden" name="EmployeeId" value="${Employee.id}">
+                                        </button>
+                                        </form>
+                                        <form action="UpdateEmployeeImage" method="get">
+                                            <button type="submit" class="btn btn-block btn-lg bg-deep-orange waves-effect">
+                                                <i class="material-icons">settings</i>
+                                                <span>Update Image</span>
+                                                <input type="hidden" name="EmployeeId" value="${Employee.id}">
+                                            </button>
+                                        </form>
+                                        <div class="profile-body">
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </c:forEach>
-        </c:if>
-    </div>
-
-</section>
+                    </c:forEach>
+                </c:if>
+            </div>
+        </div>
+    </section>
 
 
-<!-- Jquery Core Js -->
-<script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
+    <!-- Jquery Core Js -->
+    <script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core Js -->
-<script src="<%=request.getContextPath()%>/plugins/bootstrap/js/bootstrap.js"></script>
+    <!-- Bootstrap Core Js -->
+    <script src="<%=request.getContextPath()%>/plugins/bootstrap/js/bootstrap.js"></script>
 
-<!-- Select Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+    <!-- Select Plugin Js -->
+    <script src="<%=request.getContextPath()%>/plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
-<!-- Slimscroll Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- Slimscroll Plugin Js -->
+    <script src="<%=request.getContextPath()%>/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
-<!-- Waves Effect Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
+    <!-- Waves Effect Plugin Js -->
+    <script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
 
-<!-- Custom Js -->
-<script src="<%=request.getContextPath()%>/js/admin.js"></script>
+    <!-- Custom Js -->
+    <script src="<%=request.getContextPath()%>/js/admin.js"></script>
 
-<!-- Demo Js -->
-<script src="<%=request.getContextPath()%>/js/demo.js"></script>
-<!-- Jquery Knob Plugin Js -->
-<script src="<%=request.getContextPath()%>/plugins/jquery-knob/jquery.knob.min.js"></script>
-<script src="<%=request.getContextPath()%>/js/pages/charts/jquery-knob.js"></script>
-<script src="<%=request.getContextPath()%>/js/pages/examples/profile.js"></script>
+    <!-- Demo Js -->
+    <script src="<%=request.getContextPath()%>/js/demo.js"></script>
+    <!-- Jquery Knob Plugin Js -->
+    <script src="<%=request.getContextPath()%>/plugins/jquery-knob/jquery.knob.min.js"></script>
+    <script src="<%=request.getContextPath()%>/js/pages/charts/jquery-knob.js"></script>
+    <script src="<%=request.getContextPath()%>/js/pages/examples/profile.js"></script>
 </body>
 
 </html>

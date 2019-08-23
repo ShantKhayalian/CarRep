@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    public static Connection getConnectionToDatabase() throws SQLException {
+    public static Connection getConnectionToDatabase() {
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");

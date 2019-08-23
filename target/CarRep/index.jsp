@@ -29,7 +29,7 @@
 <body class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
 <fmt:setLocale value="${requestScope.Pagelanguage}"/>
 
-<fmt:setBundle basename="/CarRep/src/main/java/com/ithome/web/start/Resources" var="Bundles"/>
+<fmt:setBundle basename="com.ithome.web.start.Resources.Resources.Content" var="Bundles"/>
 <div class="ts-top-bar">
     <div class="top-bar-angle">
         <div class="container">
@@ -41,7 +41,7 @@
                                                                            bundle="${Bundles}"/>&#039;<fmt:message
 
                             key="are Open:" bundle="${Bundles}"/><fmt:message
-                            key="Mon - Sat" bundle="${Bundles}"/> 8:00 - 18:00</span>
+                            key="Mon to Sat" bundle="${Bundles}"/> 8:00 - 18:00</span>
 
 
 
@@ -276,11 +276,7 @@
                                                         key="Russian" bundle="${Bundles}"/></a>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-78"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78 nav-item">
-                                        <a href="ContactUs?PageLanguage=${requestScope.Pagelanguage}"
-                                           class="nav-link"><fmt:message key="Contact"
-                                                                         bundle="${Bundles}"/></a></li>
+                            
                                 </ul>
                             </li>
                         </ul>

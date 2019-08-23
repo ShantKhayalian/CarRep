@@ -41,7 +41,7 @@
                                                                            bundle="${Bundles}"/>&#039;<fmt:message
 
                             key="are Open:" bundle="${Bundles}"/><fmt:message
-                            key="Mon - Sat" bundle="${Bundles}"/> 8:00 - 18:00</span>
+                            key="Mon to Sat" bundle="${Bundles}"/> 8:00 - 18:00</span>
 
 
 
@@ -276,11 +276,7 @@
                                                         key="Russian" bundle="${Bundles}"/></a>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-78"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78 nav-item">
-                                        <a href="ContactUs?PageLanguage=${requestScope.Pagelanguage}"
-                                           class="nav-link"><fmt:message key="Contact"
-                                                                         bundle="${Bundles}"/></a></li>
+                            
                                 </ul>
                             </li>
                         </ul>

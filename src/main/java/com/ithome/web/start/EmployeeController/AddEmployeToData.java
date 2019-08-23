@@ -50,8 +50,6 @@ public class AddEmployeToData extends HttpServlet {
             addEmployeToData(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
         }
     }
 
@@ -60,12 +58,10 @@ public class AddEmployeToData extends HttpServlet {
             addEmployeToData(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
         }
     }
 
-    private void addEmployeToData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException, SQLException, ParseException {
+    private void addEmployeToData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException, SQLException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);

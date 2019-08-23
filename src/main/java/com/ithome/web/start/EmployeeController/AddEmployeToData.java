@@ -34,7 +34,7 @@ public class AddEmployeToData extends HttpServlet {
     private String AddressRus = null;
     private int employId = 0;
 
-    private String date =null;
+    private String date = null;
 
     private SessionChecker checker = new SessionChecker();
     private String username = null;
@@ -48,7 +48,9 @@ public class AddEmployeToData extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             addEmployeToData(request, response);
-        } catch (SQLException | ParseException e) {
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
             e.printStackTrace();
         }
     }
@@ -56,7 +58,9 @@ public class AddEmployeToData extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             addEmployeToData(request, response);
-        } catch (SQLException | ParseException e) {
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
             e.printStackTrace();
         }
     }
@@ -66,7 +70,7 @@ public class AddEmployeToData extends HttpServlet {
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        addEmployeDetailToData(CreateNewObject(),request,response);
+        addEmployeDetailToData(CreateNewObject(), request, response);
     }
 
     private int CreateNewObject() throws SQLException {
@@ -74,11 +78,11 @@ public class AddEmployeToData extends HttpServlet {
     }
 
     private Employee getObjectsOfEmployee() {
-        return new Employee(FirstNameEng,FirstNameRus,LastNameEng,LastNameRus,SpecialtyEng,SpecialtyRus, date ,Experience,PhoneNumber,email,AddressEng,AddressRus);
+        return new Employee(FirstNameEng, FirstNameRus, LastNameEng, LastNameRus, SpecialtyEng, SpecialtyRus, date, Experience, PhoneNumber, email, AddressEng, AddressRus);
     }
 
     private void addEmployeDetailToData(int i, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(i == 0){
+        if (i == 0) {
             String message = "Something went wrong try again";
             setRequestToPage(request);
             goBackToPage(request, response, message);
@@ -100,7 +104,7 @@ public class AddEmployeToData extends HttpServlet {
 
     private void getEmployeId() {
         List<Employee> employees = employeeDao.getAllEmployee();
-        employId = employees.get(employees.size()-1).getId();
+        employId = employees.get(employees.size() - 1).getId();
         System.out.println(employId);
     }
 
@@ -112,7 +116,7 @@ public class AddEmployeToData extends HttpServlet {
     }
 
 
-    private void getParameters(HttpServletRequest request)  {
+    private void getParameters(HttpServletRequest request) {
         FirstNameEng = request.getParameter("FirstNameEng");
         FirstNameRus = request.getParameter("FirstNameRus");
         LastNameEng = request.getParameter("LastNameEng");
@@ -128,6 +132,7 @@ public class AddEmployeToData extends HttpServlet {
         AddressEng = request.getParameter("AddressEng");
         AddressRus = request.getParameter("AddressRus");
     }
+
     /**
      * Controlling the session for admin using helper classes
      *

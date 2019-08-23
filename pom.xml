@@ -37,7 +37,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <dependencies>
+    <dependencies>      
         <dependency>
             <groupId>com.maxmind.geoip</groupId>
             <artifactId>geoip-api</artifactId>

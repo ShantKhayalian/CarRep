@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html" %>
 <%@ page pageEncoding="UTF-8" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri='http://java.sun.com/jsp/jstl/core' prefix='c'%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt_rt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 <%@ page import="java.util.*" %>
@@ -29,7 +29,7 @@
 <body class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
 <fmt:setLocale value="${requestScope.Pagelanguage}"/>
 
-<fmt:setBundle basename="com.ithome.web.start.Resources.Content" var="Bundles"  scope="session"/>
+<fmt:setBundle basename="com.ithome.web.start.Resources.Resources.Content" var="Bundles"/>
 <div class="ts-top-bar">
     <div class="top-bar-angle">
         <div class="container">
@@ -153,6 +153,7 @@
                                                  <li id="menu-item-1692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                                  <a href="pricing-table.html" class=" dropdown-item"><fmt:message key="Pricing" bundle="${Bundles}"/></a></ul>--%>
                                     </li>
+                                </ul>
                                     <li id="menu-item-75"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
                                         <a href="services-all.html" class="nav-link dropdown-toggle"
@@ -211,7 +212,8 @@
                                                    class=" dropdown-item"><fmt:message key="Electrician"
                                                                                        bundle="${Bundles}"/></a>
 
-                                    </li>
+                                        </li>
+                                        </ul>
                                     <li id="menu-item-57"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
@@ -258,6 +260,7 @@
                                                    class=" dropdown-item"><fmt:message key="Windows replacement"
                                                                                        bundle="${Bundles}"/></a>
                                     </li>
+                                        </ul>
                                     <li id="menu-item-2080"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2080 nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message

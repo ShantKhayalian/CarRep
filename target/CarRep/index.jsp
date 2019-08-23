@@ -27,7 +27,7 @@
 </div>
 
 <body class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
-<fmt:setLocale value="${requestScope.Pagelanguage}"/>
+<fmt:setLocale value="${requestScope.pageLanguageName}"/>
 
 <fmt:setBundle basename="com.ithome.web.start.Resources.Content" var="Bundles"  scope="session"/>
 <div class="ts-top-bar">
@@ -39,8 +39,12 @@
                     <div class="top-bar-event ts-top">
                         <i class="icon icon-clock"></i><span> <fmt:message key="We"
                                                                            bundle="${Bundles}"/>&#039;<fmt:message
+
                             key="are Open:" bundle="${Bundles}"/><fmt:message
                             key="Mon - Sat" bundle="${Bundles}"/> 8:00 - 18:00</span>
+
+
+
                     </div> <!-- Top Bar Text End -->
 
                 </div> <!-- Col End -->
@@ -142,166 +146,122 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a href="gallery.html" class=" dropdown-item"><fmt:message key="Gallery"
                                                                                                    bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
+                                        <%--         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
+                                                 <a href="faq.html" class=" dropdown-item"><fmt:message key="FAQ" bundle="${Bundles}"/></a>
+                                                 <li id="menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
+                                                 <a href="testimonial.html" class=" dropdown-item"><fmt:message key="Testimonial" bundle="${Bundles}"/></a>
+                                                 <li id="menu-item-1692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
+                                                 <a href="pricing-table.html" class=" dropdown-item"><fmt:message key="Pricing" bundle="${Bundles}"/></a></ul>--%>
+                                    </li>
+                                    <li id="menu-item-75"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
+                                        <a href="services-all.html" class="nav-link dropdown-toggle"
+                                           data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
+                                        <ul class="dropdown-menu">
+                                            <li id="menu-item-77"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
+                                                <a href="•OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Oil and filter change"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="ReplacementPadsBrakeDiscs?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message
+                                                        key="Replacement of pads and brake discs"
+                                                        bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="SuspensionRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Suspension repair"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="EngineDiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message
+                                                        key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="DiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message
+                                                        key="Diagnostics and repairАКППCVTDSG" bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="ComputerDiagnostics?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Computer diagnostics"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Change ГРМ"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="RepairMaintenanceConditioners?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message
+                                                        key="Repair and maintenance of air conditioners"
+                                                        bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="GatheringCollapse?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="3D gathering-collapse"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1708"
+                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
+                                                <a href="Electrician?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Electrician"
+                                                                                       bundle="${Bundles}"/></a>
 
                                     </li>
-                                </ul>
-                            <li id="menu-item-75"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
-                                <a href="services-all.html" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
-                                <ul class="dropdown-menu">
-                                    <li id="menu-item-77"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
-                                        <a href="OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="oil and filter change"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-82"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ReplacmentPadsBrakeDisc?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Replacement of pads and brake discs"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="SuspentionRepair?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Suspension repair"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="EngineDiagnosticRepair?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Engine diagnostics and repair"
-                                                                               bundle="${Bundles}"/></a>
-
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="DiagnosticRepair?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Diagnostics and repair "
-                                                                               bundle="${Bundles}"/></a>
-
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ComputerDiagnostic?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Computer diagnostics"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ChangeGPM?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Change GPM"
-                                                                               bundle="${Bundles}"/></a>
-
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="RepairMaintenceCondition?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Repair and maintenance of air conditioners"
-                                                                               bundle="${Bundles}"/></a>
-
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="GatheringCollapse?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="3D gathering-collapse"
-                                                                               bundle="${Bundles}"/></a>
-
-                                    <li id="menu-item-79"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ElectricianPageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Electrician"
-                                                                               bundle="${Bundles}"/></a>
-
-                                </ul>
-                            <li id="menu-item-67"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"><fmt:message key="Body repair"
-                                                                       bundle="${Bundles}"/></a>
-                                <ul class="dropdown-menu">
-                                    <li id="menu-item-100"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
-                                        <a href="TinPaintingWork?Pagelanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Tin painting work"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-59"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
-                                        <a href="CarBodyPainting?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Car body painting"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-58"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
-                                        <a href="BodyPolishing?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Body polishing"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-                                        <a href="DentRemovalWithoutPainting?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message
-                                                key="Dent removal without painting"
-                                                bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-                                        <a href="BodyGeometryRestoration?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item">
-                                            <fmt:message key="Body geometry restoration"
-                                                         bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-                                        <a href="WeldingWork?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item">
-                                            <fmt:message key="welding work" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-                                        <a href="LocalDentRemoval?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item">
-                                            <fmt:message key="Local dent removal"
-                                                         bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-
-                                        <a href="WindowsReplacement?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item">
-                                            <fmt:message key="Windows replacement"
-                                                         bundle="${Bundles}"/></a>
-                                </li>
-                                </ul>
-                            <li id="menu-item-75"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
-                                <a href="services-all.html" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
-                                <ul class="dropdown-menu">
-                                    <li id="menu-item-770"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
-                                        <a href="diagnostics?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="diagnostics"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-86"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="SupplySystem?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Supply system"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-790"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ElectricalEquipment?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Electrical equipment"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-80"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="EngineRepair?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Engine repair"
-                                                                               bundle="${Bundles}"/></a>
-                                    <li id="menu-item-81"
-                                        class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="EngineRepair?PageLanguage=${requestScope.Pagelanguage}"
-                                           class=" dropdown-item"><fmt:message key="Engine repair"
-                                                                               bundle="${Bundles}"/></a>
+                                    <li id="menu-item-57"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
+                                                key="Body repair" bundle="${Bundles}"/></a>
+                                        <ul class="dropdown-menu">
+                                            <li id="menu-item-60"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
+                                                <a href="TinPaintingWork?Pagelanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Tin painting work"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-59"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
+                                                <a href="CarBodyPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Car body painting"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-58"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
+                                                <a href="BodyPolishing?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Body polishing"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-62"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
+                                                <a href="DentRemovalWithoutPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message
+                                                        key="Dent removal without painting" bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1691"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
+                                                <a href="BodyGeometryRestoration?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Body geometry restoration"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1692"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
+                                                <a href="WeldingWork?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Welding work"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1692"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
+                                                <a href="LocalDentRemoval?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Local dent removal"
+                                                                                       bundle="${Bundles}"/></a>
+                                            <li id="menu-item-1692"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
+                                                <a href="WindowsReplacement?PageLanguage=${requestScope.Pagelanguage}"
+                                                   class=" dropdown-item"><fmt:message key="Windows replacement"
+                                                                                       bundle="${Bundles}"/></a>
                                     </li>
-                                </ul>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
-                                </li>
                                     <li id="menu-item-2080"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2080 nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle"
-                                           data-toggle="dropdown"><fmt:message key="Languages"
-                                                                               bundle="${Bundles}"/></a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
+                                                key="Languages" bundle="${Bundles}"/></a>
                                         <ul class="dropdown-menu">
                                             <li id="menu-item-2081"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
@@ -313,15 +273,22 @@
                                                         key="Russian" bundle="${Bundles}"/></a>
                                         </ul>
                                     </li>
+                                    <%-- <li id="menu-item-1494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1494 nav-item dropdown">
+                                         <a href="blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                         <ul class="dropdown-menu">
+                                             <li id="menu-item-1986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1986 nav-item">
+                                                 <a href="blog.html" class=" dropdown-item">Blog List</a>
+                                             <li id="menu-item-1750" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1750 nav-item">
+                                             <a href="blog-single.html" class=" dropdown-item">Blog Single</a></ul>
+                                     </li>--%>
                                     <li id="menu-item-78"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78 nav-item">
                                         <a href="ContactUs?PageLanguage=${requestScope.Pagelanguage}"
-                                           class="nav-link"><fmt:message key="Contact"
-                                                                         bundle="${Bundles}"/></a></li>
+                                           class="nav-link"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
                                 </ul>
-                            </li>
-                        </ul>
                     </div>
+
+
                 </div> <!-- End of navbar collapse -->
                 <%-- <div class="cart-link">
                      <form action="http://demo.themewinter.com/wp/autrics">

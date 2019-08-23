@@ -117,7 +117,7 @@
                 </button><!-- End of Navbar toggler -->
                 <div class="sticky-logo">
                     <a class="ts-logo d-none" href="http://demo.themewinter.com/wp/autrics/" class="ts-logo">
-                        <img src="images/logo-white-.png" alt="Car Repair Services and Auto Mechanic WordPress Theme">
+                        <img src="images/logo-white-.png" alt="Car Repair Services and Auto Mechanic">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse justify-content-end ts-navbar" id="navbarSupportedContent">
@@ -129,7 +129,7 @@
                                 <a href="App" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                     <fmt:message key="Home" bundle="${Bundles}"/></a>
                             </li>
-                            <li id="menu-item-57"
+                            <li
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
                                         key="About" bundle="${Bundles}"/></a>
@@ -154,7 +154,7 @@
                                                  <a href="pricing-table.html" class=" dropdown-item"><fmt:message key="Pricing" bundle="${Bundles}"/></a></ul>--%>
                                     </li>
                                 </ul>
-                                    <li id="menu-item-75"
+                                    <li
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
                                         <a href="services-all.html" class="nav-link dropdown-toggle"
                                            data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
@@ -184,7 +184,7 @@
                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                                 <a href="DiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
                                                    class=" dropdown-item"><fmt:message
-                                                        key="Diagnostics and repairАКППCVTDSG" bundle="${Bundles}"/></a>
+                                                        key="Diagnostics and repair" bundle="${Bundles}"/></a>
                                             <li id="menu-item-1708"
                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                                 <a href="ComputerDiagnostics?PageLanguage=${requestScope.Pagelanguage}"
@@ -193,7 +193,7 @@
                                             <li id="menu-item-1708"
                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                                 <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
-                                                   class=" dropdown-item"><fmt:message key="Change ГРМ"
+                                                   class=" dropdown-item"><fmt:message key="Change Timing"
                                                                                        bundle="${Bundles}"/></a>
                                             <li id="menu-item-1708"
                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
@@ -214,7 +214,7 @@
 
                                         </li>
                                         </ul>
-                                    <li id="menu-item-57"
+                                    <li
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
                                                 key="Body repair" bundle="${Bundles}"/></a>
@@ -261,7 +261,7 @@
                                                                                        bundle="${Bundles}"/></a>
                                     </li>
                                         </ul>
-                                    <li id="menu-item-2080"
+                                    <li 
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2080 nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><fmt:message
                                                 key="Languages" bundle="${Bundles}"/></a>
@@ -276,7 +276,7 @@
                                                         key="Russian" bundle="${Bundles}"/></a>
                                         </ul>
                                     </li>
-                            
+
                                 </ul>
                             </li>
                         </ul>

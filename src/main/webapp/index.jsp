@@ -27,7 +27,7 @@
 </div>
 
 <body class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
-<fmt:setLocale value="${requestScope.pageLanguageName}"/>
+<fmt:setLocale value="${requestScope.Pagelanguage}"/>
 
 <fmt:setBundle basename="com.ithome.web.start.Resources.Content" var="Bundles"  scope="session"/>
 <div class="ts-top-bar">

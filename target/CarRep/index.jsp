@@ -27,7 +27,7 @@
 </div>
 
 <body class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
-<fmt:setLocale value="${requestScope.pageLanguageName}"/>
+<fmt:setLocale value="${requestScope.Pagelanguage}"/>
 
 <fmt:setBundle basename="com.ithome.web.start.Resources.Content" var="Bundles"  scope="session"/>
 <div class="ts-top-bar">
@@ -273,22 +273,15 @@
                                                         key="Russian" bundle="${Bundles}"/></a>
                                         </ul>
                                     </li>
-                                    <%-- <li id="menu-item-1494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1494 nav-item dropdown">
-                                         <a href="blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                         <ul class="dropdown-menu">
-                                             <li id="menu-item-1986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1986 nav-item">
-                                                 <a href="blog.html" class=" dropdown-item">Blog List</a>
-                                             <li id="menu-item-1750" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1750 nav-item">
-                                             <a href="blog-single.html" class=" dropdown-item">Blog Single</a></ul>
-                                     </li>--%>
                                     <li id="menu-item-78"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78 nav-item">
                                         <a href="ContactUs?PageLanguage=${requestScope.Pagelanguage}"
-                                           class="nav-link"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
+                                           class="nav-link"><fmt:message key="Contact"
+                                                                         bundle="${Bundles}"/></a></li>
                                 </ul>
+                            </li>
+                        </ul>
                     </div>
-
-
                 </div> <!-- End of navbar collapse -->
                 <%-- <div class="cart-link">
                      <form action="http://demo.themewinter.com/wp/autrics">
@@ -400,8 +393,7 @@
                                                                 <div class="slider-content ">
                                                                     <h1>
                                                                         <small class="top-title">
-                                                                            We Ensure
-                                                                        </small>
+                                                                            We Ensure </small>
                                                                         Commitment <span>to Quality</span></h1>
                                                                     <p class="slider-desc">
                                                                         How you transform your business as technology,

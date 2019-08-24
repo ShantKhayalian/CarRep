@@ -379,18 +379,22 @@
                                                                 <div class="slider-content ">
                                                                     <h1>
                                                                         <small class="top-title">
-                                                                            We give you
-                                                                        </small>
-                                                                        Quality <span>Auto Repair</span></h1>
+                                                                        <fmt:message
+                                                        key="We give you" bundle="${Bundles}"/>
+                                                                            
+                                                                        </small> <fmt:message
+                                                        key="Quality" bundle="${Bundles}"/>
+                                                                         <span><fmt:message
+                                                        key="Auto Repair" bundle="${Bundles}"/></span></h1>
                                                                     <p class="slider-desc">
-                                                                        How you transform your business as technology,
-                                                                        consumer, habits industry dynamis change? Find
-                                                                        out from those leading the charge.
+                                                                    <fmt:message
+                                                        key="How you transform your business as technology, consumer, habits industry dynamics change? Find out from those leading the charge." bundle="${Bundles}"/>
+                                                                        
                                                                     </p>
 
 
-                                                                    <a href="" class="btn btn-primary">Get
-                                                                        Appointment</a>
+                                                                   <!--  <a href="" class="btn btn-primary">Get
+                                                                        Appointment</a> -->
                                                                 </div> <!-- Slider Content End -->
                                                             </div> <!-- Col End -->
                                                         </div> <!-- Row ENd -->
@@ -407,18 +411,18 @@
                                                                 <div class="slider-content ">
                                                                     <h1>
                                                                         <small class="top-title">
-                                                                            The Best
+                                                                            <fmt:message
+                                                        key="The Best" bundle="${Bundles}"/>
                                                                         </small>
-                                                                        Repair <span>&amp; Maintenance</span></h1>
+                                                                        <fmt:message
+                                                        key="Repair" bundle="${Bundles}"/>
+                                                                         <span>&amp;<fmt:message
+                                                        key="Maintenance" bundle="${Bundles}"/> </span></h1>
                                                                     <p class="slider-desc">
-                                                                        How you transform your business as technology,
-                                                                        consumer, habits industry dynamis change? Find
-                                                                        out from those leading the charge.
+                                                                        <fmt:message
+                                                        key="How you transform your business as technology, consumer, habits industry dynamics change? Find out from those leading the charge." bundle="${Bundles}"/>
                                                                     </p>
 
-
-                                                                    <a href="" class="btn btn-primary">Get
-                                                                        Appointment</a>
                                                                 </div> <!-- Slider Content End -->
                                                             </div> <!-- Col End -->
                                                         </div> <!-- Row ENd -->
@@ -435,17 +439,16 @@
                                                                 <div class="slider-content ">
                                                                     <h1>
                                                                         <small class="top-title">
-                                                                            We Ensure </small>
-                                                                        Commitment <span>to Quality</span></h1>
+                                                                            <fmt:message
+                                                        key="We Ensure" bundle="${Bundles}"/> </small>
+                                                                        <fmt:message
+                                                        key="Commitment" bundle="${Bundles}"/> <span><fmt:message
+                                                        key="to Quality" bundle="${Bundles}"/></span></h1>
                                                                     <p class="slider-desc">
-                                                                        How you transform your business as technology,
-                                                                        consumer, habits industry dynamis change? Find
-                                                                        out from those leading the charge.
+                                                                       <fmt:message
+                                                        key="How you transform your business as technology, consumer, habits industry dynamics change? Find out from those leading the charge." bundle="${Bundles}"/>
                                                                     </p>
 
-
-                                                                    <a href="" class="btn btn-primary">Get
-                                                                        Appointment</a>
                                                                 </div> <!-- Slider Content End -->
                                                             </div> <!-- Col End -->
                                                         </div> <!-- Row ENd -->
@@ -478,7 +481,9 @@
                                          data-id="469130f" data-element_type="widget"
                                          data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-text-editor elementor-clearfix"><p>Contact <strong>Details</strong>
+                                            <div class="elementor-text-editor elementor-clearfix"><p><fmt:message
+                                                    key="Contact" bundle="${Bundles}"/> <strong><fmt:message
+                                                    key="to Quality" bundle="${Bundles}"/>Details</strong>
                                             </p></div>
                                         </div>
                                     </div>
@@ -490,18 +495,24 @@
                                                 <div class="intro-content">
                                                     <ul>
                                                         <li>
-                                                            <span> Call us : </span>
-                                                            <p class="intro-info"> +(91) 458 654 528</p>
+                                                            <span><fmt:message
+                                                    key="Call us" bundle="${Bundles}"/> </span>
+                                                            <p class="intro-info"> +7 (926) 609-50-50</p>
                                                         </li>
                                                         <li>
-                                                            <span> Find us : </span>
-                                                            <p class="intro-info"> 1014 Retreat Avenue Birmingham, AL
-                                                                35203</p>
+                                                            <span> <fmt:message
+                                                    key="Find us " bundle="${Bundles}"/> </span>
+                                                            <p class="intro-info">:<fmt:message
+                                                    key="st. Admiral Kornilov, 1" bundle="${Bundles}"/> </p>
                                                         </li>
                                                         <li>
-                                                            <span> Work time : </span>
-                                                            <p class="intro-info"> Mon - Sat 7.00 - 18.30 Sunday Closed
-                                                                Call us for emergency</p>
+                                                            <span> <fmt:message
+                                                    key="Work time " bundle="${Bundles}"/> </span>
+                                                            <p class="intro-info"> <fmt:message
+                                                                    key="Mon - Sat" bundle="${Bundles}"/>  7.00 - 18.30 <fmt:message
+                                                    key="Sunday Closed" bundle="${Bundles}"/>
+                                                                <fmt:message
+                                                    key="Call us for emergency" bundle="${Bundles}"/></p>
                                                         </li>
                                                     </ul><!-- Ul List -->
                                                 </div>
@@ -521,8 +532,8 @@
                                          data-id="09ab2f9" data-element_type="widget"
                                          data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-text-editor elementor-clearfix"><p>Get <strong>30%
-                                                Discount</strong></p></div>
+                                            <div class="elementor-text-editor elementor-clearfix"><p> <fmt:message key="Get" bundle="${Bundles}"/> <strong>
+                                                <fmt:message key="Discount" bundle="${Bundles}"/></strong></p></div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-2f82c6a text-center elementor-widget elementor-widget-shortcode"
@@ -554,7 +565,7 @@
                                                                             size="40"
                                                                             class="wpcf7-form-control wpcf7-text field"
                                                                             aria-invalid="false"
-                                                                            placeholder="Name"/></span></div>
+                                                                            placeholder=<fmt:message key="Name" bundle="${Bundles}"/> /></span></div>
                                                                 </div>
                                                                 <div class="form-row form-row-second">
                                                                     <div class="col-lg-6 col-md-12"><span
@@ -563,19 +574,19 @@
                                                                             size="40"
                                                                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email field"
                                                                             aria-required="true" aria-invalid="false"
-                                                                            placeholder="Email"/></span></div>
+                                                                            placeholder=<fmt:message key="Email" bundle="${Bundles}"/> /></span></div>
                                                                     <div class="col-lg-6 col-md-12"><span
                                                                             class="wpcf7-form-control-wrap menu-843"><select
                                                                             name="menu-843"
                                                                             class="wpcf7-form-control wpcf7-select field"
                                                                             aria-invalid="false"><option
-                                                                            value="Information">Information</option><option
-                                                                            value="Supports">Supports</option><option
-                                                                            value="Others...">Others...</option></select></span>
+                                                                            value="Information"><fmt:message key="Information" bundle="${Bundles}"/></option><option
+                                                                            value="Supports"><fmt:message key="Supports" bundle="${Bundles}"/></option><option
+                                                                            value="Others..."><fmt:message key="Others" bundle="${Bundles}"/>...</option></select></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="btn-border-after">
-                                                                    <input type="submit" value="Get Discount"
+                                                                    <input type="submit" value=<fmt:message key="Get Discount" bundle="${Bundles}"/>""
                                                                            class="wpcf7-form-control wpcf7-submit btn btn-bordered"/>
                                                                 </div>
                                                             </div>
@@ -611,7 +622,7 @@
                                             <div class="ts-intro-wrapper intro-carousel">
                                                 <div class="intro-content-carousel owl-carousel">
                                                     <div class="intro-content">
-                                                        <h2><span> Vehicle</span> Tips </h2>
+                                                        <h2><span><fmt:message key="Vehicle" bundle="${Bundles}"/> </span><fmt:message key="Tips" bundle="${Bundles}"/>  </h2>
                                                         <div class="intro-carousel">
                                                             <p>Most of the vehicles get damaged just because of
                                                                 maintenance neglect. If you take care of your vehicles
@@ -1530,203 +1541,7 @@
                     </div>
                 </div>
             </section>
-            <section
-                    class="elementor-element elementor-element-b26831b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
-                    data-id="b26831b" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-row">
-                        <div class="elementor-element elementor-element-549a240 elementor-column elementor-col-100 elementor-top-column"
-                             data-id="549a240" data-element_type="column">
-                            <div class="elementor-column-wrap  elementor-element-populated">
-                                <div class="elementor-widget-wrap">
-                                    <div class="elementor-element elementor-element-46eae22 elementor-widget elementor-widget-autrics-title"
-                                         data-id="46eae22" data-element_type="widget"
-                                         data-widget_type="autrics-title.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="title-section-area">
-                                                <h2 class="section-title">
-                                                    <span>Our</span> Latest News </h2>
-                                            </div><!-- Section title -->
 
-
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-fdd797a elementor-widget elementor-widget-autrics-latestnews"
-                                         data-id="fdd797a" data-element_type="widget"
-                                         data-widget_type="autrics-latestnews.default">
-                                        <div class="elementor-widget-container">
-                                            <div data-controls="{&quot;show_nav&quot;:true,&quot;auto_nav_slide&quot;:&quot;&quot;}"
-                                                 class="news-carousel owl-carousel">
-                                                <div class="ts-latest-post">
-                                                    <div class="post-media post-image">
-                                                        <a href="http://demo.themewinter.com/wp/autrics/2019/01/11/bmw-vs-austin-martin-going-higher-2/"><img
-                                                                src="images/post-img11-1.jpg" class="img-fluid"
-                                                                alt="http://demo.themewinter.com/wp/autrics/author/autric/"></a>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-date">
-                                                            <span class="day"> 11</span>
-                                                            <span class="month">Jan</span>
-                                                        </div> <!-- Post Date End -->
-
-
-                                                        <div class="post-info">
-                                                            <div class="post-meta">
-
-                                                                <i class="icon icon-user"></i>
-                                                                <span class="post-author">By <a
-                                                                        href="http://demo.themewinter.com/wp/autrics/author/autric/">autric</a></span>
-
-                                                            </div>
-                                                        </div> <!-- Post Info End -->
-
-                                                        <h3 class="post-title">
-                                                            <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=109">20th
-                                                                car looking </a>
-                                                        </h3>
-                                                        <div class="post-text">
-
-                                                            <p> What a crazy time. I have five children in
-                                                                colleghigh </p>
-
-
-                                                        </div>
-                                                        <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=109"
-                                                           class="readmore">Read More <i
-                                                                class="fa fa-angle-double-right"></i></a>
-
-                                                    </div> <!-- Post Body End -->
-                                                </div> <!-- Latest Post End -->
-                                                <div class="ts-latest-post">
-                                                    <div class="post-media post-image">
-                                                        <a href="http://demo.themewinter.com/wp/autrics/2018/10/11/bmw-vs-austin-martin-going-higher/"><img
-                                                                src="images/post-img21-1.jpg" class="img-fluid"
-                                                                alt="http://demo.themewinter.com/wp/autrics/author/autric/"></a>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-date">
-                                                            <span class="day"> 11</span>
-                                                            <span class="month">Oct</span>
-                                                        </div> <!-- Post Date End -->
-
-
-                                                        <div class="post-info">
-                                                            <div class="post-meta">
-
-                                                                <i class="icon icon-user"></i>
-                                                                <span class="post-author">By <a
-                                                                        href="http://demo.themewinter.com/wp/autrics/author/autric/">autric</a></span>
-
-                                                            </div>
-                                                        </div> <!-- Post Info End -->
-
-                                                        <h3 class="post-title">
-                                                            <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=102">Repaired
-                                                                Unlocking Being </a>
-                                                        </h3>
-                                                        <div class="post-text">
-
-                                                            <p> What a crazy time. I have five children in
-                                                                colleghigh </p>
-
-
-                                                        </div>
-                                                        <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=102"
-                                                           class="readmore">Read More <i
-                                                                class="fa fa-angle-double-right"></i></a>
-
-                                                    </div> <!-- Post Body End -->
-                                                </div> <!-- Latest Post End -->
-                                                <div class="ts-latest-post">
-                                                    <div class="post-media post-image">
-                                                        <a href="http://demo.themewinter.com/wp/autrics/2017/07/11/bmw-vs-austin-going-higher/"><img
-                                                                src="images/post-img21-1.jpg" class="img-fluid"
-                                                                alt="http://demo.themewinter.com/wp/autrics/author/autric/"></a>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-date">
-                                                            <span class="day"> 11</span>
-                                                            <span class="month">Jul</span>
-                                                        </div> <!-- Post Date End -->
-
-
-                                                        <div class="post-info">
-                                                            <div class="post-meta">
-
-                                                                <i class="icon icon-user"></i>
-                                                                <span class="post-author">By <a
-                                                                        href="http://demo.themewinter.com/wp/autrics/author/autric/">autric</a></span>
-
-                                                            </div>
-                                                        </div> <!-- Post Info End -->
-
-                                                        <h3 class="post-title">
-                                                            <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=107">Crazy
-                                                                Your Auto </a>
-                                                        </h3>
-                                                        <div class="post-text">
-
-                                                            <p> What a crazy time. I have five children in
-                                                                colleghigh </p>
-
-
-                                                        </div>
-                                                        <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=107"
-                                                           class="readmore">Read More <i
-                                                                class="fa fa-angle-double-right"></i></a>
-
-                                                    </div> <!-- Post Body End -->
-                                                </div> <!-- Latest Post End -->
-                                                <div class="ts-latest-post">
-                                                    <div class="post-media post-image">
-                                                        <a href="http://demo.themewinter.com/wp/autrics/2017/01/11/riding-with-friend-is-the-best-feeling-in-the-world/"><img
-                                                                src="images/post-img11.jpg" class="img-fluid"
-                                                                alt="http://demo.themewinter.com/wp/autrics/author/autric/"></a>
-                                                    </div>
-                                                    <div class="post-body">
-                                                        <div class="post-date">
-                                                            <span class="day"> 11</span>
-                                                            <span class="month">Jan</span>
-                                                        </div> <!-- Post Date End -->
-
-
-                                                        <div class="post-info">
-                                                            <div class="post-meta">
-
-                                                                <i class="icon icon-user"></i>
-                                                                <span class="post-author">By <a
-                                                                        href="http://demo.themewinter.com/wp/autrics/author/autric/">autric</a></span>
-
-                                                            </div>
-                                                        </div> <!-- Post Info End -->
-
-                                                        <h3 class="post-title">
-                                                            <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=89">Riding
-                                                                with friend </a>
-                                                        </h3>
-                                                        <div class="post-text">
-
-                                                            <p> Far far away, behind the word mountains, far from
-                                                                the </p>
-
-
-                                                        </div>
-                                                        <a href="http://demo.themewinter.com/wp/autrics/?post_type=post&p=89"
-                                                           class="readmore">Read More <i
-                                                                class="fa fa-angle-double-right"></i></a>
-
-                                                    </div> <!-- Post Body End -->
-                                                </div> <!-- Latest Post End -->
-
-                                            </div><!-- Row end -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- Footer -->
             <section
                     class="elementor-element elementor-element-5763c2e solid-bg elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"

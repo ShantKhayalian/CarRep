@@ -15,3 +15,24 @@ CREATE TABLE `employee` (
   `image` varchar(500) COLLATE utf8mb4_bin DEFAULT NULL,
   PRIMARY KEY (`employee_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+CREATE TABLE `admincontroller` (
+  `admin_id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  `password` varchar(45) COLLATE utf8mb4_bin DEFAULT NULL,
+  PRIMARY KEY (`admin_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+CREATE TABLE `aboutus` (
+  `about_id` int(11) NOT NULL,
+  `about_rus` longtext COLLATE utf8mb4_bin,
+  `about_eng` longtext COLLATE utf8mb4_bin,
+  PRIMARY KEY (`about_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+CREATE TABLE `tips` (
+  `tips_id` int(11) NOT NULL AUTO_INCREMENT,
+  `tips_rus` longtext COLLATE utf8mb4_bin,
+  `tips_eng` longtext COLLATE utf8mb4_bin,
+  PRIMARY KEY (`tips_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;

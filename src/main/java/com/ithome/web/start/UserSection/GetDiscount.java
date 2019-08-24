@@ -1,5 +1,8 @@
-package com.ithome.web.start.EmailController;
+package com.ithome.web.start.UserSection;
 
+import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.EmailController.SendMail;
+import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -13,9 +16,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
 
-@WebServlet("/SendEmail")
-public class SendEmail extends HttpServlet {
+@WebServlet("/GetDiscount")
+public class GetDiscount extends HttpServlet {
     private CheckLanguageAndCurrency checkLanguageAndCurrency = new CheckLanguageAndCurrency();
     private String language = null;
     private String Pagelanguage = null;
@@ -25,34 +30,34 @@ public class SendEmail extends HttpServlet {
     private String sessionId = null;
     private LanguageHelper languageHelper = new LanguageHelper();
     private String pageCurrancy = null;
-    private String pageCurrancyFromPage = null;
     private String city = null;
     private PageNameHelper pageNameHelper = new PageNameHelper();
-    private String message = null;
-    private String sendName = null;
-    private String senderPhoneNumber = null;
-    private String senderEmailAddress = null;
-    private String menu =null;
 
-
+    private String menu = null;
+    private String Name = null;
+    private String Email = null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        sendEmail(request,response);
+        getDiscount(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        sendEmail(request,response);
+        getDiscount(request, response);
     }
 
-    private void sendEmail(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void getDiscount(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
-        sessionControlling(request,response);
+        sessionControlling(request, response);
         getLanguagesFromPage(request);
         getPageName(request);
         getPageLanguage(language);
-        choosePageLanguageToPage();
         getParameters(request);
+        choosePageLanguageToPage();
         checkEmail(sendEmailWithMessage(),response,request);
+    }
+
+    private boolean sendEmailWithMessage() {
+        return SendMail.sendDiscount(Name, "No Phone number", Email, "from Get Discount",menu);
     }
 
     private void checkEmail(boolean sendEmailWithMessage, HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException {
@@ -68,53 +73,14 @@ public class SendEmail extends HttpServlet {
         }
     }
 
-    private void getPageName(HttpServletRequest request) {
-        pageName = pageNameHelper.pageName(request);
-    }
-
-    /**
-     * response of the servlet sendName the page
-     *
-     * @param request
-     * @param response
-     * @throws ServletException
-     * @throws IOException
-     */
-    private void gotoToContactUsPage(HttpServletRequest request, HttpServletResponse response,String message) throws ServletException, IOException {
-        request.setAttribute("messageSuccess",  message);
-        request.getRequestDispatcher("/ContactUs.jsp").forward(request, response);
-    }
-
     private void gotoToContactUsPageError(HttpServletRequest request, HttpServletResponse response,String message) throws ServletException, IOException {
         request.setAttribute("messageError",  message);
-        request.getRequestDispatcher("/ContactUs.jsp").forward(request, response);
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
-    private void sessionControlling(HttpServletRequest request, HttpServletResponse response) {
-        HttpSession session = request.getSession(false);
-        getUserSession(session, request, response );
-    }
-
-    private void getUserSession(HttpSession session, HttpServletRequest request, HttpServletResponse response) {
-        if(checker.checkSessionUser(request, response)) {
-            sessionId = checker.requestSessionofUser(session);
-        }else{
-            sessionId = session.getId();
-        }
-    }
-
-    private void getParameters(HttpServletRequest request) {
-        sendName = request.getParameter("to").trim();
-        senderPhoneNumber = request.getParameter("senderPhoneNumber").trim();
-        senderEmailAddress = request.getParameter("senderEmailAddress").trim();
-        menu = request.getParameter("menu");
-        message = request.getParameter("senderMessage");
-
-
-    }
-
-    private boolean sendEmailWithMessage() {
-        return SendMail.send(sendName, senderPhoneNumber, senderEmailAddress, message,menu);
+    private void gotoToContactUsPage(HttpServletRequest request, HttpServletResponse response,String message) throws ServletException, IOException {
+        request.setAttribute("messageSuccess",  message);
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
     private void createRequestes(HttpServletRequest request) {
@@ -130,10 +96,30 @@ public class SendEmail extends HttpServlet {
         pageLanguageName = checkLanguageAndCurrency.checkLanguageName(language);
     }
 
+    private void getParameters(HttpServletRequest request) {
+        Name = request.getParameter("Name");
+        Email = request.getParameter("Email");
+        menu = request.getParameter("menu");
+    }
 
+    private void sessionControlling(HttpServletRequest request, HttpServletResponse response) {
+        HttpSession session = request.getSession(false);
+        getUserSession(session, request, response );
+    }
 
     private void getPageLanguage(String language) {
         Pagelanguage = checkLanguageAndCurrency.checkLanguage(language);
+    }
+
+    private void getPageName(HttpServletRequest request) {
+        pageName = pageNameHelper.pageName(request);
+    }
+    private void getUserSession(HttpSession session, HttpServletRequest request, HttpServletResponse response) {
+        if(checker.checkSessionUser(request, response)) {
+            sessionId = checker.requestSessionofUser(session);
+        }else{
+            sessionId = session.getId();
+        }
     }
 
     private String getLanguagesFromPage(HttpServletRequest request) {

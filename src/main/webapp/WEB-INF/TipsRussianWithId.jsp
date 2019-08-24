@@ -96,11 +96,13 @@
         <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
+                    <c:if test="${requestScope.vehicleTipsList != null}">
+                        <c:forEach items="${requestScope.vehicleTipsList}" var="tips">
 
                     <form action="UpdateTipsRussianInData" method="post">
                         <div class="header">
                             <h2>
-                               Tips in Russian
+                               Tips in Russian for Id ${tips.id}
                             </h2>
                             <div >
                                 <%
@@ -113,20 +115,19 @@
                             </div>
                         </div>
                         <div class="body">
-                            <c:if test="${requestScope.vehicleTipsList != null}">
-                                <c:forEach items="${requestScope.vehicleTipsList}" var="tips">
 
 
                             <textarea id="ckeditor" name="AboutUsText">
                                 <c:out value="${tips.vehicleTipsRus}"/>
                                  </textarea>
 
-                                </c:forEach>
-                            </c:if>
+
                         </div>
                         <button type="submit" class="btn btn-info waves-effect right">Update</button>
                         <input type="hidden" value="${tips.id}" name="TipsId" >
                     </form>
+                    </c:forEach>
+                    </c:if>
                 </div>
             </div>
             <!-- #END# CKEditor -->

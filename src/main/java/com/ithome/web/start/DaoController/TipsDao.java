@@ -23,7 +23,7 @@ public class TipsDao {
      *
      * @return
      */
-    public List<VehicleTips> getAllAboutUs() {
+    public List<VehicleTips> getAllTips() {
         VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
         try {
@@ -76,7 +76,7 @@ public class TipsDao {
         return rowsUpdated;
     }
 
-    public List<VehicleTips> getAboutUsInRussian() {
+    public List<VehicleTips> getTipsInRussian() {
         VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
         try {
@@ -85,6 +85,21 @@ public class TipsDao {
             Statement statment = connection.createStatement();
             ResultSet set = statment.executeQuery(sql);
             TipsRus(vehicleTipsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return vehicleTipsList;
+    }
+    public List<VehicleTips> getTipsInEnglish() {
+        VehicleTips vehicleTips = null;
+        List<VehicleTips> vehicleTipsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`tips` ";
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            TipsEng(vehicleTipsList, set);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.out.println("sqlException in Application in Admin Section  : " + exception);

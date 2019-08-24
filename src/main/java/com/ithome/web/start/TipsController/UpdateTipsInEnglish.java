@@ -13,12 +13,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/TipsEng")
-public class TipsEng extends HttpServlet {
+@WebServlet("/UpdateTipsInEnglish")
+public class UpdateTipsInEnglish extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
@@ -27,26 +26,32 @@ public class TipsEng extends HttpServlet {
     private List<VehicleTips> vehicleTipsList = new ArrayList<>();
 
     private TipsDao tipsDao = new TipsDao();
+    private int id = 0;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        tipsEng(request,response);
+        updateTipsInEnglish(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        tipsEng(request,response);
+        updateTipsInEnglish(request,response);
     }
 
-    private void tipsEng(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void updateTipsInEnglish(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTipsEnglish();
+        getParameters(request);
+        getTipsEnglishById(id);
         setRequestToTipsEnglish(request);
         goBackToPage(request,response);
     }
 
+    private void getParameters(HttpServletRequest request) {
+        id = Integer.parseInt(request.getParameter("TipsId"));
+    }
+
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/TipsEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/TipsEnglishWithId.jsp").forward(request, response);
     }
 
     private void setRequestToTipsEnglish(HttpServletRequest request) {
@@ -56,8 +61,8 @@ public class TipsEng extends HttpServlet {
         request.setAttribute("vehicleTipsList", vehicleTipsList);
     }
 
-    private void getTipsEnglish() {
-        vehicleTipsList = tipsDao.getTipsInEnglish();
+    private void getTipsEnglishById(int id) {
+        vehicleTipsList = tipsDao.getTipsInEnglishById(id);
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -101,5 +106,6 @@ public class TipsEng extends HttpServlet {
         }
     }
 }
+
 
 

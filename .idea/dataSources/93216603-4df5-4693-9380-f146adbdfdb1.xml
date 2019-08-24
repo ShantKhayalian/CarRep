@@ -1124,124 +1124,147 @@
     <table id="282" parent="2" name="aboutus"/>
     <table id="283" parent="2" name="admincontroller"/>
     <table id="284" parent="2" name="employee"/>
-    <column id="285" parent="282" name="about_id">
+    <table id="285" parent="2" name="tips"/>
+    <column id="286" parent="282" name="about_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="282" name="about_rus">
+    <column id="287" parent="282" name="about_rus">
       <Position>2</Position>
       <DataType>longtext|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="282" name="about_eng">
+    <column id="288" parent="282" name="about_eng">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="288" parent="282" name="PRIMARY">
+    <key id="289" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>about_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="289" parent="283" name="admin_id">
+    <column id="290" parent="283" name="admin_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="283" name="username">
+    <column id="291" parent="283" name="username">
       <Position>2</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="283" name="password">
+    <column id="292" parent="283" name="password">
       <Position>3</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="292" parent="283" name="PRIMARY">
+    <key id="293" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>admin_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="293" parent="284" name="employee_id">
+    <column id="294" parent="284" name="employee_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="284" name="firstName">
+    <column id="295" parent="284" name="firstName">
       <Position>2</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="284" name="lastName">
+    <column id="296" parent="284" name="lastName">
       <Position>3</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="284" name="perfession">
+    <column id="297" parent="284" name="perfession">
       <Position>4</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="284" name="dateOfBirth">
+    <column id="298" parent="284" name="dateOfBirth">
       <Position>5</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="284" name="ExperianceYears">
+    <column id="299" parent="284" name="ExperianceYears">
       <Position>6</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="284" name="phoneNumber">
+    <column id="300" parent="284" name="phoneNumber">
       <Position>7</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="284" name="email">
+    <column id="301" parent="284" name="email">
       <Position>8</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="284" name="address">
+    <column id="302" parent="284" name="address">
       <Position>9</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="284" name="lastNameRu">
+    <column id="303" parent="284" name="lastNameRu">
       <Position>10</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="284" name="firstNameRu">
+    <column id="304" parent="284" name="firstNameRu">
       <Position>11</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="284" name="perfessionRu">
+    <column id="305" parent="284" name="perfessionRu">
       <Position>12</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="284" name="addressRu">
+    <column id="306" parent="284" name="addressRu">
       <Position>13</Position>
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="284" name="image">
+    <column id="307" parent="284" name="image">
       <Position>14</Position>
       <DataType>varchar(500)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="307" parent="284" name="PRIMARY">
+    <key id="308" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>employee_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="309" parent="285" name="tips_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="285" name="tips_rus">
+      <Position>2</Position>
+      <DataType>longtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="285" name="tips_eng">
+      <Position>3</Position>
+      <DataType>longtext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="312" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tips_id</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>

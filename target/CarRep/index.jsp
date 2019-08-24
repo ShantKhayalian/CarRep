@@ -675,7 +675,7 @@
                                                                                     aria-invalid="false"
                                                                                     placeholder=
                                                                                     <fmt:message key="Name"
-                                                                                                 bundle="${Bundles}"/>/></span>
+                                                                                                 bundle="${Bundles}"/> /></span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-row form-row-second">
@@ -688,7 +688,7 @@
                                                                                     aria-invalid="false"
                                                                                     placeholder=
                                                                                     <fmt:message key="Email"
-                                                                                                 bundle="${Bundles}"/>/></span>
+                                                                                                 bundle="${Bundles}"/> /></span>
                                                                     </div>
                                                                     <div class="col-lg-6 col-md-12">
 																			<span class="wpcf7-form-control-wrap menu-843"><select

@@ -139,4 +139,36 @@ public class TipsDao {
 
         }
     }
+
+    public List<VehicleTips> getTipsInEnglishById(int id) {
+        VehicleTips vehicleTips = null;
+        List<VehicleTips> vehicleTipsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`tips` WHERE `tips_id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            TipsEng(vehicleTipsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return vehicleTipsList;
+    }
+
+    public List<VehicleTips> getTipsInRussianById(int id) {
+        VehicleTips vehicleTips = null;
+        List<VehicleTips> vehicleTipsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`tips` WHERE `tips_id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            TipsRus(vehicleTipsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return vehicleTipsList;
+    }
 }

@@ -69,18 +69,18 @@
             <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
             <li>
                 <a href="javascript:void(0);" class="menu-toggle">
-                    <i class="material-icons">control_point_duplicate</i>
+                    <i class="material-icons">directions_car</i>
                     <span>Vehicle tips</span>
                 </a>
                 <ul class="ml-menu">
                     <li>
                         <a href="TipsEng">
-                            <span>About us English</span>
+                            <span>Vehicle tips English</span>
                         </a>
                     </li>
                     <li>
                         <a href="TipsRus">
-                            <span>About us Russian</span>
+                            <span>Vehicle tips Russian</span>
                         </a>
                     </li>
 

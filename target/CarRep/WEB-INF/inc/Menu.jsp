@@ -66,6 +66,26 @@
 
                 </ul>
                 <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
+            <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
+            <li>
+                <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">directions_car</i>
+                    <span>Vehicle tips</span>
+                </a>
+                <ul class="ml-menu">
+                    <li>
+                        <a href="TipsEng">
+                            <span>Vehicle tips English</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="TipsRus">
+                            <span>Vehicle tips Russian</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
         </li>
     </ul>
 </div>

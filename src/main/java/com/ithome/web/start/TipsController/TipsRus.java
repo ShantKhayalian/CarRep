@@ -36,13 +36,17 @@ public class TipsRus extends HttpServlet {
         tipsRus(request,response);
     }
 
-    private void tipsRus(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    private void tipsRus(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getTipsInRussian();
         setRequestToTipsRussian(request);
         goBackToPage(request,response);
+    }
+
+    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/WEB-INF/TipsRussian.jsp").forward(request, response);
     }
 
     private void setRequestToTipsRussian(HttpServletRequest request) {

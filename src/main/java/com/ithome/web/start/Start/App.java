@@ -1,5 +1,7 @@
 package com.ithome.web.start.Start;
 
+import com.ithome.web.start.Beans.VehicleTips;
+import com.ithome.web.start.DaoController.TipsDao;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
 import com.ithome.web.start.Localization.CheckLanguageAndCurrency;
@@ -27,6 +29,9 @@ public class App extends HttpServlet {
     private String sessionId = null;
     private String pageLanguageName = null;
 
+    private List<VehicleTips> vehicleTipsList = new ArrayList<>();
+    private TipsDao tipsDao = new TipsDao();
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         app(request, response);
@@ -42,9 +47,14 @@ public class App extends HttpServlet {
         getLanguagesFromPage(request);
         getPageName(request);
         getPageLanguage(language);
+        getTipsFullDetail();
         createRequestes(request);
         gotoPage(request, response);
 
+    }
+
+    private void getTipsFullDetail() {
+        vehicleTipsList = tipsDao.getAllTips();
     }
 
     private void createRequestes(HttpServletRequest request) {
@@ -52,6 +62,7 @@ public class App extends HttpServlet {
         request.setAttribute("sessionId", sessionId);
         request.setAttribute("PageName", pageName);
         request.setAttribute("pageLanguageName", pageLanguageName);
+        request.setAttribute("vehicleTipsList", vehicleTipsList);
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

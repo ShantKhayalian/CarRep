@@ -14,7 +14,7 @@ public class TipsDao {
      *
      * @return
      */
-    private Connection connectToData() throws SQLException {
+    private Connection connectToData() {
         return DBConnection.getConnectionToDatabase();
     }
 
@@ -24,7 +24,6 @@ public class TipsDao {
      * @return
      */
     public List<VehicleTips> getAllTips() {
-        VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
         try {
             Connection connection = connectToData();
@@ -40,17 +39,16 @@ public class TipsDao {
     }
 
 
-    public int UpdateTipsEng(String tips, int tips_id) {
+    public int UpdateTipsEng(VehicleTips vehicleTips, int tips_id) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`tips`  SET tips_eng=? WHERE tips_id=" + tips_id;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, tips);
+            statment.setString(1, vehicleTips.getVehicleTipsEng());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
-
             }
         } catch (SQLException exception) {
             exception.printStackTrace();
@@ -58,14 +56,14 @@ public class TipsDao {
         return rowsUpdated;
     }
 
-    public int UpdateTipsRus(String tips, int tips_id) {
+    public int UpdateTipsRus(VehicleTips vehicleTips, int tips_id) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`tips`  SET tips_rus=? WHERE tips_id=" + tips_id;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, tips);
+            statment.setString(1, vehicleTips.getVehicleTipsRus());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 

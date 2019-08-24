@@ -98,7 +98,7 @@
                 <div class="card">
                     <c:if test="${requestScope.vehicleTipsList != null}">
                     <c:forEach items="${requestScope.vehicleTipsList}" var="tips">
-                    <form action="UpdateTipssEnglishInData" method="post">
+                    <form action="UpdateTipsEnglishInData" method="post">
                         <div class="header">
                             <h2>
                                 Tips in English for Id ${tips.id}
@@ -115,10 +115,8 @@
                         </div>
                         <div class="body">
 
-
-
-                            <textarea id="ckeditor" name="AboutUsText">
-                                <c:out value="${tips.vehicleTipsEng}"/>
+                            <textarea id="ckeditor" name="TipsText">
+                               ${tips.vehicleTipsEng}
                                  </textarea>
 
 

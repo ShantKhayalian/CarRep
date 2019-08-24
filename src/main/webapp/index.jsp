@@ -758,41 +758,30 @@
 
                                             <div class="ts-intro-wrapper intro-carousel">
                                                 <div class="intro-content-carousel owl-carousel">
+                                                    <c:if test="${requestScope.vehicleTipsList != null}" >
+                                                     <c:forEach items="${requestScope.vehicleTipsList}" var="tips" varStatus="loop">
                                                     <div class="intro-content">
                                                         <h2>
 																<span><fmt:message key="Vehicle"
                                                                                    bundle="${Bundles}"/> </span>
                                                             <fmt:message key="Tips" bundle="${Bundles}"/>
                                                         </h2>
+                                                        <c:set value="${requestScope.Pagelanguage}" var="lang"/>
+                                                        <c:choose>
+                                                            <c:when test="${lang == 'en_US'}">
                                                         <div class="intro-carousel">
-                                                            <p>Most of the vehicles get damaged just because of
-                                                                maintenance neglect. If you take care of your vehicles
-                                                                , it will keep you safe.</p>
+                                                            <p>${tips.vehicleTipsEng}</p>
                                                         </div>
+                                                            </c:when>
+                                                            <c:otherwise>
+                                                                <p>${tips.vehicleTipsRus}</p>
+                                                            </c:otherwise>
+                                                        </c:choose>
                                                     </div>
+                                                     </c:forEach>
+                                                    </c:if>
                                                     <!-- Intro Content End -->
-                                                    <div class="intro-content">
-                                                        <h2>
-                                                            <span> Vehicle</span> Tips
-                                                        </h2>
-                                                        <div class="intro-carousel">
-                                                            <p>Most of the vehicles get damaged just because of
-                                                                maintenance neglect. If you take care of your vehicles
-                                                                , it will keep you safe.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Intro Content End -->
-                                                    <div class="intro-content">
-                                                        <h2>
-                                                            <span> Vehicle</span> Tips
-                                                        </h2>
-                                                        <div class="intro-carousel">
-                                                            <p>Most of the vehicles get damaged just because of
-                                                                maintenance neglect. If you take care of your vehicles
-                                                                , it will keep you safe.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Intro Content End -->
+
 
                                                 </div>
                                                 <!-- Intro Carousel end -->
@@ -1496,238 +1485,7 @@
                     </div>
                 </div>
             </section>
-            <section
-                    class="elementor-element elementor-element-a57132f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
-                    data-id="a57132f" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-row">
-                        <div
-                                class="elementor-element elementor-element-6ba5c1b elementor-column elementor-col-50 elementor-top-column"
-                                data-id="6ba5c1b" data-element_type="column">
-                            <div class="elementor-column-wrap  elementor-element-populated">
-                                <div class="elementor-widget-wrap">
-                                    <div
-                                            class="elementor-element elementor-element-3c52a7c elementor-widget elementor-widget-autrics-title"
-                                            data-id="3c52a7c" data-element_type="widget"
-                                            data-widget_type="autrics-title.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="title-section-area">
-                                                <h2 class="section-title">
-                                                    <span>Book</span> An Appointment
-                                                </h2>
-                                            </div>
-                                            <!-- Section title -->
 
-
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-33d882b elementor-widget elementor-widget-shortcode"
-                                            data-id="33d882b" data-element_type="widget"
-                                            data-widget_type="shortcode.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-shortcode">
-                                                <div role="form" class="wpcf7" id="wpcf7-f1142-p35-o2"
-                                                     lang="en-US" dir="ltr">
-                                                    <div class="screen-reader-response"></div>
-                                                    <form action="/wp/autrics/#wpcf7-f1142-p35-o2"
-                                                          method="post" class="wpcf7-form" novalidate="novalidate">
-                                                        <div style="display: none;">
-                                                            <input type="hidden" name="_wpcf7" value="1142"/> <input
-                                                                type="hidden" name="_wpcf7_version" value="5.1.1"/>
-                                                            <input
-                                                                    type="hidden" name="_wpcf7_locale" value="en_US"/>
-                                                            <input
-                                                                    type="hidden" name="_wpcf7_unit_tag"
-                                                                    value="wpcf7-f1142-p35-o2"/> <input type="hidden"
-                                                                                                        name="_wpcf7_container_post"
-                                                                                                        value="35"/>
-                                                            <input
-                                                                    type="hidden" name="g-recaptcha-response" value=""/>
-                                                        </div>
-                                                        <div class="contactMe ts-main-form">
-                                                            <div class="form-row">
-                                                                <div class="col-lg-6">
-																		<span class="wpcf7-form-control-wrap text-255"><input
-                                                                                type="text" name="text-255" value=""
-                                                                                size="40"
-                                                                                class="wpcf7-form-control wpcf7-text field"
-                                                                                aria-invalid="false"
-                                                                                placeholder="Name"/></span>
-                                                                </div>
-                                                                <div class="col-lg-6">
-																		<span class="wpcf7-form-control-wrap tel-348"><input
-                                                                                type="tel" name="tel-348" value=""
-                                                                                size="40"
-                                                                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel field"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false"
-                                                                                placeholder="Phone Number"/></span>
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                <!-- Row 1 -->
-                                                            </p>
-                                                            <div class="form-row">
-                                                                <div class="col-md-6">
-																		<span class="wpcf7-form-control-wrap email-540"><input
-                                                                                type="email" name="email-540" value=""
-                                                                                size="40"
-                                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email field"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false"
-                                                                                placeholder="Email"/></span>
-                                                                </div>
-                                                                <div class="col-md-6 select-item">
-																		<span class="wpcf7-form-control-wrap menu-465"><select
-                                                                                name="menu-465"
-                                                                                class="wpcf7-form-control wpcf7-select field"
-                                                                                aria-invalid="false"><option
-                                                                                value="Brand">Brand</option>
-																				<option value="BMW">BMW</option>
-																				<option value="Toyota">Toyota</option></select></span>
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                <!-- Row 2 -->
-                                                            </p>
-                                                            <div class="form-row">
-                                                                <div class="col-md-6">
-																		<span class="wpcf7-form-control-wrap date-497"><input
-                                                                                type="date" name="date-497" value=""
-                                                                                class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date field cm-date"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false"/></span>
-                                                                </div>
-                                                                <div class="col-md-6 select-item">
-																		<span class="wpcf7-form-control-wrap menu-465"><select
-                                                                                name="menu-465"
-                                                                                class="wpcf7-form-control wpcf7-select field"
-                                                                                aria-invalid="false"><option
-                                                                                value="Select Service">Select Service</option>
-																				<option value="Engine Diagnostics">Engine
-																					Diagnostics</option>
-																				<option value="Lube, Oil and Filters">Lube,
-																					Oil and Filters</option>
-																				<option value="Air Conditioning Evac">Air
-																					Conditioning Evac</option></select></span>
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                <!-- Row 3 -->
-                                                            </p>
-                                                            <div class="btn-after pull-right">
-                                                                <input type="submit" value="Estimate Rate"
-                                                                       class="wpcf7-form-control wpcf7-submit btn btn-primary"/>
-                                                            </div>
-                                                            <div class="clearfix"></div>
-                                                        </div>
-                                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                                class="elementor-element elementor-element-730bb17 elementor-column elementor-col-50 elementor-top-column"
-                                data-id="730bb17" data-element_type="column">
-                            <div class="elementor-column-wrap  elementor-element-populated">
-                                <div class="elementor-widget-wrap">
-                                    <div
-                                            class="elementor-element elementor-element-4133b9b elementor-widget elementor-widget-autrics-title"
-                                            data-id="4133b9b" data-element_type="widget"
-                                            data-widget_type="autrics-title.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="title-section-area">
-                                                <h2 class="section-title">
-                                                    <span>Clients</span> Love
-                                                </h2>
-                                            </div>
-                                            <!-- Section title -->
-
-
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-ffa2ce2 elementor-widget elementor-widget-autrics-quote-carousel"
-                                            data-id="ffa2ce2" data-element_type="widget"
-                                            data-widget_type="autrics-quote-carousel.default">
-                                        <div class="elementor-widget-container">
-                                            <div data-nav="" class="testimonial-carousel owl-carousel">
-                                                <div class="testimonial-container">
-                                                    <div class="testimonial-body">
-                                                        <div class="testimonial-content">
-                                                            <h4 class="service-name">Engine Digonastic</h4>
-
-                                                        </div>
-                                                        <!-- Testimonial Content end -->
-                                                        <p>wonderful serenity taken possession into entire
-                                                            soul like to these sweet of tence this spot which was
-                                                            the main part created for</p>
-                                                        <span class="quote-icon"><i
-                                                                class="icon icon-quote1"></i></span>
-                                                    </div>
-                                                    <!-- Testimonial Body end -->
-                                                    <div class="testimonial-footer">
-
-                                                        <img src="images/quote_profile1.png" alt="testimonial"
-                                                             class="img-fluid">
-
-                                                        <div class="client-info">
-
-                                                            <h3 class="client-name">Donald Gonzales</h3>
-                                                            <span class="client-desig">CEO,apple</span>
-                                                        </div>
-                                                        <!-- Client info end -->
-                                                    </div>
-                                                    <!-- Testimonial Footer end -->
-                                                </div>
-                                                <!-- Testimonial Box end -->
-                                                <div class="testimonial-container">
-                                                    <div class="testimonial-body">
-                                                        <div class="testimonial-content">
-                                                            <h4 class="service-name">Engine Digonastic</h4>
-
-                                                        </div>
-                                                        <!-- Testimonial Content end -->
-                                                        <p>wonderful serenity taken possession into entire
-                                                            soul like to these sweet of tence this spot which was
-                                                            the main part created for</p>
-                                                        <span class="quote-icon"><i
-                                                                class="icon icon-quote1"></i></span>
-                                                    </div>
-                                                    <!-- Testimonial Body end -->
-                                                    <div class="testimonial-footer">
-
-                                                        <img src="images/quote_profile1.png" alt="testimonial"
-                                                             class="img-fluid">
-
-                                                        <div class="client-info">
-
-                                                            <h3 class="client-name">Donald Gonzales</h3>
-                                                            <span class="client-desig">CEO,apple</span>
-                                                        </div>
-                                                        <!-- Client info end -->
-                                                    </div>
-                                                    <!-- Testimonial Footer end -->
-                                                </div>
-                                                <!-- Testimonial Box end -->
-
-                                            </div>
-                                            <!-- Testimonial Carousel -->
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section
                     class="elementor-element elementor-element-da54144 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                     data-id="da54144" data-element_type="section"

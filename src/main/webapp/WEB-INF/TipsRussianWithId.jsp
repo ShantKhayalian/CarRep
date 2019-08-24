@@ -117,8 +117,8 @@
                         <div class="body">
 
 
-                            <textarea id="ckeditor" name="AboutUsText">
-                                <c:out value="${tips.vehicleTipsRus}"/>
+                            <textarea id="ckeditor" name="TipsText">
+                                ${tips.vehicleTipsRus}
                                  </textarea>
 
 

@@ -105,20 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="127" column="7" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+            <state relative-caret-position="504">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="97" column="62" lean-forward="true" selection-start-line="91" selection-end-line="97" selection-end-column="62" />
+            <state relative-caret-position="28">
+              <caret line="100" column="28" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -221,8 +221,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTips.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsEng.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsRus.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp" />
       </list>
     </option>
   </component>
@@ -559,12 +559,12 @@
       <workItem from="1566630601807" duration="4005000" />
       <workItem from="1566645577569" duration="4143000" />
       <workItem from="1566656354686" duration="8000" />
-      <workItem from="1566910031672" duration="3672000" />
+      <workItem from="1566910031672" duration="3779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25295000" />
+    <option name="totallyTimeSpent" value="25402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -580,7 +580,7 @@
       <window_info id="Web" order="7" sideWeight="0.5048387" side_tool="true" weight="0.21801706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1161,17 +1161,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="97" column="62" lean-forward="true" selection-start-line="91" selection-end-line="97" selection-end-column="62" />
+        <state relative-caret-position="504">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="127" column="7" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+        <state relative-caret-position="28">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="28" />
         </state>
       </provider>
     </entry>

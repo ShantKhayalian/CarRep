@@ -5,30 +5,31 @@
 <html>
 <head>
     <title>Master admin </title>
-        <meta charset="UTF-8">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-        <!-- Favicon-->
-        <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
+    <!-- Favicon-->
+    <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
+          type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
-        <!-- Bootstrap Core Css -->
-        <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core Css -->
+    <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Waves Effect Css -->
-        <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet" />
+    <!-- Waves Effect Css -->
+    <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet"/>
 
-        <!-- Animation Css -->
-        <link href="<%=request.getContextPath()%>/plugins/animate-css/animate.css" rel="stylesheet" />
+    <!-- Animation Css -->
+    <link href="<%=request.getContextPath()%>/plugins/animate-css/animate.css" rel="stylesheet"/>
 
-        <!-- Custom Css -->
-        <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet">
 
-        <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-        <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet" />
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
 
 </head>
 <body class="theme-deep-purple">
@@ -98,30 +99,35 @@
                 <c:if test="${requestScope.vehicleTipsList != null}">
                     <c:forEach items="${requestScope.vehicleTipsList}" var="tips">
                         <div class="card">
-
-                            <form action="UpdateTipsInRussian" method="get">
-                                <div class="card">
-                                    <div class="header bg-blue-grey">
-                                        <h2>
-                                            ID
-                                            <small>${tips.id}</small>
-                                        </h2>
-                                    </div>
-                                    <div class="body">
-                                        <c:out value="${tips.vehicleTipsRus}"/>
-                                    </div>
-                                    <div class="body">
-                                        <button type="submit" class="btn btn-info waves-effect right">
-                                            <input type="hidden" name="TipsId" value="${tips.id}">
-                                            Update
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="header bg-blue-grey">
+                                <h2>
+                                    ID
+                                    <small>${tips.id}</small>
+                                </h2>
+                            </div>
+                            <div class="body">
+                                <c:out value="${tips.vehicleTipsRus}"/>
+                            </div>
+                            <div class="body">
+                                <form action="UpdateTipsInRussian" method="get">
+                                    <button type="submit" class="btn btn-info waves-effect right">
+                                        <input type="hidden" name="TipsId" value="${tips.id}">
+                                        Update
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="body">
+                                <form action="DeleteTipsRus" method="get">
+                                    <button type="submit" class="btn btn-danger waves-effect right">
+                                        <input type="hidden" name="TipsId" value="${tips.id}">
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
                         </div>
+
                     </c:forEach>
                 </c:if>
-
             </div>
         </div>
     </div>

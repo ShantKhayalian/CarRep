@@ -89,6 +89,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Conctances/Contance.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,10 +108,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/VehicleTips.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/TipsEng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="326">
+              <caret line="48" column="92" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="92" />
+              <folding>
+                <element signature="e#2353#2354#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +136,7 @@
       <find>We offer you</find>
       <find>Blue Grey - Title</find>
       <find>Name</find>
+      <find>CKEDITOR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,9 +160,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/TipsEng.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Conctances/Contance.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/widgets/cards/colored.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInEnglish.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInRussian.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsRussianInData.java" />
@@ -157,8 +168,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/VehicleTips.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsEnglishInData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Start/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/AddTipsEng.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewTips.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/AddNewTipsInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTips.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsRus.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp" />
       </list>
     </option>
   </component>
@@ -300,7 +320,52 @@
               <item name="CarRep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="TipsController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="UserSection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,6 +390,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ithome.web.start.TipsController" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CarRep\src\main\webapp\WEB-INF" />
     </key>
@@ -430,27 +498,26 @@
       <workItem from="1566590386189" duration="13211000" />
       <workItem from="1566630601807" duration="4005000" />
       <workItem from="1566645577569" duration="4143000" />
-      <workItem from="1566660810835" duration="6000" />
-      <workItem from="1566664581445" duration="659000" />
-      <workItem from="1566795702992" duration="48000" />
+      <workItem from="1566656354686" duration="8000" />
+      <workItem from="1566910031672" duration="3779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22328000" />
+    <option name="totallyTimeSpent" value="25402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496208" visible="true" weight="0.22014925" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4951613" visible="true" weight="0.21801706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.503792" side_tool="true" weight="0.12260128" />
+      <window_info id="Web" order="7" sideWeight="0.5048387" side_tool="true" weight="0.21801706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
@@ -798,30 +865,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInRussian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="45" />
+          <folding>
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/TipsEng.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="113" column="77" selection-start-line="113" selection-start-column="71" selection-end-line="113" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInEnglish.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInRussian.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AboutUsController/UpdateAboutUsEnglishInData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -838,7 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsEnglishInData.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglishWithId.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">

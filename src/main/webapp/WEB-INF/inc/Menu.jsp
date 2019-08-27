@@ -47,46 +47,65 @@
             </ul>
             <%--//////////////////////////////////////////////////////////////////////////////////////////About us Section--%>
             <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
-            <li>
-                <a href="javascript:void(0);" class="menu-toggle">
-                    <i class="material-icons">accessibility</i>
-                    <span>Employee</span>
-                </a>
-                <ul class="ml-menu">
-                    <li>
-                        <a href="ShowAllEmployee">
-                            <span>Show All</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="AddNewEmployee">
-                            <span>Add new</span>
-                        </a>
-                    </li>
+        <li>
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">accessibility</i>
+                <span>Employee</span>
+            </a>
+            <ul class="ml-menu">
+                <li>
+                    <a href="ShowAllEmployee">
+                        <span>Show All</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="AddNewEmployee">
+                        <span>Add new</span>
+                    </a>
+                </li>
 
-                </ul>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
+            </ul>
+            <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
             <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
-            <li>
-                <a href="javascript:void(0);" class="menu-toggle">
-                    <i class="material-icons">directions_car</i>
-                    <span>Vehicle tips</span>
-                </a>
-                <ul class="ml-menu">
-                    <li>
-                        <a href="TipsEng">
-                            <span>Vehicle tips English</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="TipsRus">
-                            <span>Vehicle tips Russian</span>
-                        </a>
-                    </li>
+        <li>
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">directions_car</i>
+                <span>Vehicle tips</span>
+            </a>
+            <ul class="ml-menu">
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <span>Vehicle tips</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="AddTipsEng">
+                                <span>Add Vehicle tips</span>
+                            </a>
+                        </li>
 
-                </ul>
-                <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
-        </li>
-    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <span>Vehicle tips controller</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="TipsEng">
+                                <span>Vehicle tips English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="TipsRus">
+                                <span>Vehicle tips Russian</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
+                </li>
+            </ul>
 </div>
 <!-- Menu -->

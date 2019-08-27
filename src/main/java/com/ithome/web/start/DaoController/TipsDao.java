@@ -89,6 +89,7 @@ public class TipsDao {
         }
         return vehicleTipsList;
     }
+
     public List<VehicleTips> getTipsInEnglish() {
         VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
@@ -126,14 +127,14 @@ public class TipsDao {
     }
 
     private void VehicletList(List<VehicleTips> vehicleTipsList, ResultSet set) throws SQLException {
-            VehicleTips vehicleTips;
-            while (set.next()) {
-                vehicleTips = new VehicleTips();
-                vehicleTips.setId(set.getInt("tips_id"));
-                vehicleTips.setVehicleTipsRus(set.getString("tips_rus"));
-                vehicleTips.setVehicleTipsEng(set.getString("tips_eng"));
+        VehicleTips vehicleTips;
+        while (set.next()) {
+            vehicleTips = new VehicleTips();
+            vehicleTips.setId(set.getInt("tips_id"));
+            vehicleTips.setVehicleTipsRus(set.getString("tips_rus"));
+            vehicleTips.setVehicleTipsEng(set.getString("tips_eng"));
 
-                vehicleTipsList.add(vehicleTips);
+            vehicleTipsList.add(vehicleTips);
 
         }
     }
@@ -168,5 +169,53 @@ public class TipsDao {
             System.out.println("sqlException in Application in Admin Section  : " + exception);
         }
         return vehicleTipsList;
+    }
+
+    /**
+     * Add new tips
+     * @param vehicleTips
+     * @return
+     */
+    public int addNewTips(VehicleTips vehicleTips) {
+        int rowsAffected = 0;
+        try {
+            Connection connection = connectToData();
+            String insertQuery = "INSERT INTO `car_db`.`tips`(`tips_id`,`tips_rus`, `tips_eng`) values(Default,?,?)";
+            PreparedStatement statment = connection.prepareStatement(insertQuery);
+            statment.setString(1, vehicleTips.getVehicleTipsRus());
+            statment.setString(2, vehicleTips.getVehicleTipsEng());
+
+            rowsAffected = statment.executeUpdate();
+
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return rowsAffected;
+
+    }
+
+    /**
+     * Delete tips
+     * @param tipsId
+     * @return
+     */
+    public int DeleteById(int tipsId) {
+
+        int rowsDeleted = 0;
+        try {
+            Connection connection = connectToData();
+
+            String sql = "DELETE FROM `car_db`.`tips` WHERE  tips_id=" + tipsId;
+            PreparedStatement statment = connection.prepareStatement(sql);
+            rowsDeleted = statment.executeUpdate();
+            if (rowsDeleted > 0) {
+                System.out.println("A Message was deleted successfully!");
+            }
+
+        } catch (SQLException exception) {
+            System.out.println("sqlException in Application in CATEGORY DELETE  Section  : " + exception);
+            exception.printStackTrace();
+        }
+        return rowsDeleted;
     }
 }

@@ -92,44 +92,66 @@
         <div class="block-header">
 
         </div>
-        <div class="row clearfix">
-            <div class="col-lg-6 col-md-6 col-lg-6 col-xs-12">
-                <c:if test="${requestScope.vehicleTipsList != null}">
-                    <c:forEach items="${requestScope.vehicleTipsList}" var="tips">
-                        <div class="card">
 
-                            <div class="header bg-blue-grey">
-                                <h2>
-                                    ID
-                                    <small>${tips.id}</small>
-                                </h2>
-                            </div>
-                            <div class="body">
-                                <c:out value="${tips.vehicleTipsEng}"/>
-                            </div>
-                            <div class="body">
-                                <form action="UpdateTipsInEnglish" method="get">
-                                    <button type="submit" class="btn btn-info waves-effect right">
-                                        <input type="hidden" name="TipsId" value="${tips.id}">
-                                        Update
-                                    </button>
-                                </form>
-                            </div>
-                            <div class="body">
-                                <form action="DeleteTipsEng" method="get">
-                                    <button type="submit" class="btn btn-danger waves-effect right">
-                                        <input type="hidden" name="TipsId" value="${tips.id}">
-                                        Delete
-                                    </button>
-                                </form>
-                            </div>
+        <!-- CKEditor -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="alert-info ">
+                        <%
+                            if (request.getAttribute("message") != null) {
+                        %>
+                        <%=request.getAttribute("message")%>
+                        <%
+                            }
+                        %>
+                    </div>
+                    <form action="AddNewTipsInData" method="post">
+                        <div class="header">
+                            <h2>
+                                Vehicle Tips
+                                <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
+                           --%>  </h2>
+                            <%-- <ul class="header-dropdown m-r--5">
+                                 <li class="dropdown">
+                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                         <i class="material-icons">more_vert</i>
+                                     </a>
+                                     <ul class="dropdown-menu pull-right">
+                                         <li><a href="javascript:void(0);">Action</a></li>
+                                         <li><a href="javascript:void(0);">Another action</a></li>
+                                         <li><a href="javascript:void(0);">Something else here</a></li>
+                                     </ul>
+                                 </li>
+                             </ul>--%>
+                        </div>
+                        <div class="body">
+                            <textarea id="ckeditor" name="TextArea">
+                                <h2>WYSIWYG Editor</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper sapien non nisl facilisis bibendum in quis tellus. Duis in urna bibendum turpis pretium fringilla. Aenean neque velit, porta eget mattis ac, imperdiet quis nisi. Donec non dui et tortor vulputate luctus. Praesent consequat rhoncus velit, ut molestie arcu venenatis sodales.</p>
+                                <h3>Lacinia</h3>
+                                <ul>
+                                    <li>Suspendisse tincidunt urna ut velit ullamcorper fermentum.</li>
+                                    <li>Nullam mattis sodales lacus, in gravida sem auctor at.</li>
+                                    <li>Praesent non lacinia mi.</li>
+                                    <li>Mauris a ante neque.</li>
+                                    <li>Aenean ut magna lobortis nunc feugiat sagittis.</li>
+                                </ul>
+                                <h3>Pellentesque adipiscing</h3>
+                                <p>Maecenas quis ante ante. Nunc adipiscing rhoncus rutrum. Pellentesque adipiscing urna mi, ut tempus lacus ultrices ac. Pellentesque sodales, libero et mollis interdum, dui odio vestibulum dolor, eu pellentesque nisl nibh quis nunc. Sed porttitor leo adipiscing venenatis vehicula. Aenean quis viverra enim. Praesent porttitor ut ipsum id ornare.</p>
+                            </textarea>
                         </div>
 
-                    </c:forEach>
-                </c:if>
-            </div>
+                        <div class="body">
+                            <button type="submit" class="btn btn-info waves-effect right">Add</button>
+                        </div>
+                    </form>
+                </div>
 
+            </div>
         </div>
+        <!-- #END# CKEditor -->
+
     </div>
 </section>
 

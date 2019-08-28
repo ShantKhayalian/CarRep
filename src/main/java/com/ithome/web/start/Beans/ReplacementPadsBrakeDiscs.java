@@ -1,13 +1,12 @@
 package com.ithome.web.start.Beans;
 
-public class ReplacementPadsBrakeDiscs {
+public class ReplacementPadsBrakeDiscs extends BeanHelper {
 
-    private int id;
-    private String  replacementPadsBrakeDiscsEng;
-    private String  replacementPadsBrakeDiscsRus;
+    private String replacementPadsBrakeDiscsEng;
+    private String replacementPadsBrakeDiscsRus;
 
     public ReplacementPadsBrakeDiscs(int id, String replacementPadsBrakeDiscsEng, String replacementPadsBrakeDiscsRus) {
-        this.id = id;
+        super(id);
         this.replacementPadsBrakeDiscsEng = replacementPadsBrakeDiscsEng;
         this.replacementPadsBrakeDiscsRus = replacementPadsBrakeDiscsRus;
     }
@@ -18,14 +17,6 @@ public class ReplacementPadsBrakeDiscs {
     }
 
     public ReplacementPadsBrakeDiscs() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getReplacementPadsBrakeDiscsEng() {

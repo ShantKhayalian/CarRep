@@ -1,8 +1,7 @@
 package com.ithome.web.start.Beans;
 
 
-public class Employee {
-    private int id;
+public class Employee extends BeanHelper {
     private String firstName;
     private String firstNamRue;
     private String lastName;
@@ -18,7 +17,7 @@ public class Employee {
     private String image;
 
     public Employee(int id, String firstName, String firstNamRue, String lastName, String lastNameRu, String perfession, String perfessionRu, String dateOfBirth, String experianceYears, String phoneNumber, String email, String address, String addressRu, String image) {
-        this.id = id;
+        super(id);
         this.firstName = firstName;
         this.firstNamRue = firstNamRue;
         this.lastName = lastName;
@@ -26,7 +25,23 @@ public class Employee {
         this.perfession = perfession;
         this.perfessionRu = perfessionRu;
         this.dateOfBirth = dateOfBirth;
-        this.ExperianceYears = experianceYears;
+        ExperianceYears = experianceYears;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+        this.addressRu = addressRu;
+        this.image = image;
+    }
+
+    public Employee(String firstName, String firstNamRue, String lastName, String lastNameRu, String perfession, String perfessionRu, String dateOfBirth, String experianceYears, String phoneNumber, String email, String address, String addressRu, String image) {
+        this.firstName = firstName;
+        this.firstNamRue = firstNamRue;
+        this.lastName = lastName;
+        this.lastNameRu = lastNameRu;
+        this.perfession = perfession;
+        this.perfessionRu = perfessionRu;
+        this.dateOfBirth = dateOfBirth;
+        ExperianceYears = experianceYears;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
@@ -42,7 +57,7 @@ public class Employee {
         this.perfession = perfession;
         this.perfessionRu = perfessionRu;
         this.dateOfBirth = dateOfBirth;
-        this.ExperianceYears = experianceYears;
+        ExperianceYears = experianceYears;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
@@ -51,17 +66,6 @@ public class Employee {
 
     public Employee(String image) {
         this.image = image;
-    }
-
-    public Employee() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getFirstName() {

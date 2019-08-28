@@ -1,13 +1,12 @@
 package com.ithome.web.start.Beans;
 
-public class OilFilterChange {
+public class OilFilterChange extends BeanHelper {
 
-    private int id;
     private String oilFilterChangeEng;
     private String oilFilterChangeRus;
 
     public OilFilterChange(int id, String oilFilterChangeEng, String oilFilterChangeRus) {
-        this.id = id;
+        super(id);
         this.oilFilterChangeEng = oilFilterChangeEng;
         this.oilFilterChangeRus = oilFilterChangeRus;
     }
@@ -18,14 +17,6 @@ public class OilFilterChange {
     }
 
     public OilFilterChange() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getOilFilterChangeEng() {

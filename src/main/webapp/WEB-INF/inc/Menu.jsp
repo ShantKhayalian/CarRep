@@ -63,8 +63,8 @@
                         <span>Add new</span>
                     </a>
                 </li>
-
             </ul>
+
             <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
             <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
         <li>
@@ -103,9 +103,249 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
-                </li>
             </ul>
+        </li>
+
+                    <%--//////////////////////////////////////////////////////////////////////////////////////////Vehicle tips Section--%>
+                    <%--//////////////////////////////////////////////////////////////////////////////////////////Service Section--%>
+            <li>
+                <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">directions_car</i>
+                    <span>Services</span>
+                </a>
+                <ul class="ml-menu">
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddOilFilter">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Update Oil Filter change</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Update English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Update Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Oil Filter Change2</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="AddTipsEng">
+                                    <span>Add Oil Filter change</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Vehicle tips controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Vehicle tips English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Vehicle tips Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            </ul>
+        </li>
+    </ul>
+
 </div>
 <!-- Menu -->

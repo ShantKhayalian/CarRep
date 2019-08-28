@@ -36,3 +36,68 @@ CREATE TABLE `tips` (
   `tips_eng` longtext COLLATE utf8mb4_bin,
   PRIMARY KEY (`tips_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+CREATE TABLE `oilfilterchange` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `oilfilterchangeeng` longtext,
+  `oilfilterchangerus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `replacementpadsbrakediscs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `replacementpadsbrakediscseng` longtext,
+  `replacementpadsbrakediscsrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `suspensionrepair` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `suspensionrepaireng` longtext,
+  `suspensionrepairrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `enginediagnosticsrepair` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `enginediagnosticsrepaireng` longtext,
+  `enginediagnosticsrepairrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `computerdiagnostics` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `computerdiagnosticseng` longtext,
+  `computerdiagnosticsrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `changepm` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `changepmeng` longtext,
+  `changepmrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `conditioners` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `conditionerseng` longtext,
+  `conditionersrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `gatheringcollapse` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `gatheringcollapseeng` longtext,
+  `gatheringcollapserus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `electrician` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `electricianeng` longtext,
+  `electricianrus` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+

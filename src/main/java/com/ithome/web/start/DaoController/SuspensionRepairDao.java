@@ -126,7 +126,7 @@ public class SuspensionRepairDao {
     }
 
     /**
-     * ConditionersRus
+     * SuspensionRepairRus
      * @param suspensionRepairList
      * @param set
      * @throws SQLException
@@ -142,7 +142,7 @@ public class SuspensionRepairDao {
     }
 
     /**
-     * ConditionersRus
+     * SuspensionRepairEng
      * @param suspensionRepairList
      * @param set
      * @throws SQLException
@@ -206,8 +206,8 @@ public class SuspensionRepairDao {
     }
 
     /**
-     * ConditionersList
-     * @param conditionersList
+     * SuspensionRepairList
+     * @param suspensionRepairList
      * @param set
      * @throws SQLException
      */
@@ -216,10 +216,10 @@ public class SuspensionRepairDao {
         while (set.next()) {
             suspensionRepair = new SuspensionRepair();
             suspensionRepair.setId(set.getInt("id"));
-            suspensionRepair.setSuspensionRepairRus(set.getString("conditionersrus"));
-            suspensionRepair.setSuspensionRepairEng(set.getString("conditionerseng"));
+            suspensionRepair.setSuspensionRepairRus(set.getString("suspensionrepaireus"));
+            suspensionRepair.setSuspensionRepairEng(set.getString("suspensionrepaireng"));
 
-            SuspensionRepair.add(suspensionRepair);
+            suspensionRepairList.add(suspensionRepair);
 
         }
     }

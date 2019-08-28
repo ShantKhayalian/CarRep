@@ -15,6 +15,9 @@ public class Electrician extends BeanHelper {
         return ElectricianEng;
     }
 
+    public Electrician() {
+    }
+
     public void setElectricianEng(String electricianEng) {
         ElectricianEng = electricianEng;
     }

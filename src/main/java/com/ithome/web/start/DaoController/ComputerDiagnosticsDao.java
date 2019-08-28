@@ -211,6 +211,29 @@ public class ComputerDiagnosticsDao {
         return rowsDeleted;
     }
 
+    /**
+     * Add new ComputerDiagnostics
+     * @param computerDiagnostics
+     * @return
+     */
+    public int addNewComputerDiagnostics(ComputerDiagnostics computerDiagnostics) {
+        int rowsAffected = 0;
+        try {
+            Connection connection = connectToData();
+            String insertQuery = "INSERT INTO `car_db`.`computerdiagnostics`(`id`,`computerdiagnosticsrus`, `computerdiagnosticseng`) values(Default,?,?)";
+            PreparedStatement statment = connection.prepareStatement(insertQuery);
+            statment.setString(1, computerDiagnostics.getComputerDiagnosticsRus());
+            statment.setString(2, computerDiagnostics.getComputerDiagnosticsEng());
+
+            rowsAffected = statment.executeUpdate();
+
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return rowsAffected;
+
+    }
+
 
 
 }

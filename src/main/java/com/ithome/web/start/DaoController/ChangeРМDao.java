@@ -210,5 +210,28 @@ public class ChangeРМDao {
         return rowsDeleted;
     }
 
+    /**
+     * addNewChangeРМ
+     * @param changeРМ
+     * @return
+     */
+    public int addNewChangeРМ(ChangeРМ changeРМ) {
+        int rowsAffected = 0;
+        try {
+            Connection connection = connectToData();
+            String insertQuery = "INSERT INTO `car_db`.`changepm`(`id`,`changepmrus`, `changepmeng`) values(Default,?,?)";
+            PreparedStatement statment = connection.prepareStatement(insertQuery);
+            statment.setString(1, changeРМ.getChangeРМRus());
+            statment.setString(2, changeРМ.getChangeРМEng());
+
+            rowsAffected = statment.executeUpdate();
+
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+        return rowsAffected;
+
+    }
+
 
 }

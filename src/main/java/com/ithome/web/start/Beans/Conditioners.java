@@ -16,6 +16,9 @@ public class Conditioners extends BeanHelper{
         ConditionersRus = conditionersRus;
     }
 
+    public Conditioners() {
+    }
+
     public String getConditionersEng() {
         return ConditionersEng;
     }

@@ -49,15 +49,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="219" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="220" column="5" lean-forward="true" selection-start-line="199" selection-start-column="4" selection-end-line="220" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="790">
+              <caret line="180" column="5" lean-forward="true" selection-start-line="159" selection-start-column="3" selection-end-line="180" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="216" column="64" selection-start-line="216" selection-start-column="64" selection-end-line="216" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +106,7 @@
       <find>Blue Grey - Title</find>
       <find>Name</find>
       <find>CKEDITOR</find>
+      <find>de</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChange/AddOilFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ReplacementPadsBrakeDiscs/AddReplacementPadsBrakeDiscs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BeanHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/GatheringCollapse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java" />
@@ -134,9 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/EngineDiagnosticsRepair.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/SuspensionRepair.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/AboutUsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/VehicleTips.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java" />
       </list>
     </option>
@@ -466,12 +494,12 @@
       <workItem from="1566656354686" duration="8000" />
       <workItem from="1566910031672" duration="3779000" />
       <workItem from="1566992800406" duration="3342000" />
-      <workItem from="1566999185811" duration="1549000" />
+      <workItem from="1566999185811" duration="2211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31196000" />
+    <option name="totallyTimeSpent" value="31858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -723,13 +751,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/SocialMediaHead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/Navigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -967,23 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1207,34 +1211,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="189" column="24" lean-forward="true" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="220" column="5" lean-forward="true" selection-start-line="199" selection-start-column="4" selection-end-line="220" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="190" column="35" lean-forward="true" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
+        <state relative-caret-position="841">
+          <caret line="234" column="5" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="234" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="219" selection-end-column="5" />
+        <state relative-caret-position="790">
+          <caret line="180" column="5" lean-forward="true" selection-start-line="159" selection-start-column="3" selection-end-line="180" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="216" column="64" selection-start-line="216" selection-start-column="64" selection-end-line="216" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -24,6 +24,9 @@ public class VehicleTips extends BeanHelper {
         this.vehicleTipsEng = vehicleTipsEng;
     }
 
+    public VehicleTips() {
+    }
+
     public String getVehicleTipsRus() {
         return vehicleTipsRus;
     }

@@ -185,4 +185,30 @@ public class ChangeРМDao {
     }
 
 
+    /**
+     * Delete tips
+     * @param changePmId
+     * @return
+     */
+    public int DeleteById(int changePmId) {
+
+        int rowsDeleted = 0;
+        try {
+            Connection connection = connectToData();
+
+            String sql = "DELETE FROM `car_db`.`changepm` WHERE  id=" + changePmId;
+            PreparedStatement statment = connection.prepareStatement(sql);
+            rowsDeleted = statment.executeUpdate();
+            if (rowsDeleted > 0) {
+                System.out.println("A Message was deleted successfully!");
+            }
+
+        } catch (SQLException exception) {
+            System.out.println("sqlException in Application in CATEGORY DELETE  Section  : " + exception);
+            exception.printStackTrace();
+        }
+        return rowsDeleted;
+    }
+
+
 }

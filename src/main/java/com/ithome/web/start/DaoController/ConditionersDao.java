@@ -205,4 +205,23 @@ public class ConditionersDao {
         return rowsDeleted;
     }
 
+    /**
+     * ConditionersList
+     * @param conditionersList
+     * @param set
+     * @throws SQLException
+     */
+    private void ConditionersList(List<Conditioners> conditionersList, ResultSet set) throws SQLException {
+        Conditioners conditioners;
+        while (set.next()) {
+            conditioners = new Conditioners();
+            conditioners.setId(set.getInt("id"));
+            conditioners.setConditionersRus(set.getString("conditionersrus"));
+            conditioners.setConditionersEng(set.getString("conditionerseng"));
+
+            conditionersList.add(conditioners);
+
+        }
+    }
+
 }

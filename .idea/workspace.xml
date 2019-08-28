@@ -57,22 +57,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="81" />
+          <entry key="java" value="424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="424" />
         </counts>
       </usages-collector>
     </session>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="180" column="5" lean-forward="true" selection-start-line="159" selection-start-column="4" selection-end-line="180" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="142" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="142" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,47 +92,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
+            <state relative-caret-position="761">
+              <caret line="139" column="50" selection-start-line="139" selection-start-column="50" selection-end-line="139" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#676#730#1" expanded="true" />
-                <element signature="e#563#580#0" expanded="true" />
-                <element signature="e#1455#1475#1" expanded="true" />
-                <element signature="e#1556#1640#1" expanded="true" />
-                <element signature="e#1653#1715#1" expanded="true" />
-                <element signature="e#1647#1678#0" expanded="true" />
-                <element signature="e#2093#2113#1" expanded="true" />
-                <element signature="e#2194#2276#1" expanded="true" />
-                <element signature="e#2289#2351#1" expanded="true" />
-                <element signature="e#2383#2414#0" expanded="true" />
-                <element signature="e#2774#2805#1" expanded="true" />
-                <element signature="e#2814#2868#1" expanded="true" />
-                <element signature="e#3526#3557#1" expanded="true" />
-                <element signature="e#3566#3620#1" expanded="true" />
-                <element signature="e#4538#4600#0" expanded="true" />
-                <element signature="e#4538#4600#0" expanded="true" />
-                <element signature="e#4614#4646#0" expanded="true" />
-                <element signature="e#4614#4646#0" expanded="true" />
-                <element signature="e#5051#5113#0" expanded="true" />
-                <element signature="e#5051#5113#0" expanded="true" />
-                <element signature="e#5127#5159#0" expanded="true" />
-                <element signature="e#5127#5159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#646#708#1" expanded="true" />
+                <element signature="e#675#692#0" expanded="true" />
+                <element signature="e#459#499#1" expanded="true" />
+                <element signature="e#512#566#1" expanded="true" />
+                <element signature="e#579#629#1" expanded="true" />
+                <element signature="e#642#685#1" expanded="true" />
+                <element signature="e#1642#1704#1" expanded="true" />
+                <element signature="e#1657#1696#0" expanded="true" />
+                <element signature="e#2482#2521#0" expanded="true" />
+                <element signature="e#2891#2930#1" expanded="true" />
+                <element signature="e#2939#3001#1" expanded="true" />
+                <element signature="e#3014#3054#1" expanded="true" />
+                <element signature="e#3067#3121#1" expanded="true" />
+                <element signature="e#3134#3184#1" expanded="true" />
+                <element signature="e#3197#3240#1" expanded="true" />
+                <element signature="e#3689#3728#1" expanded="true" />
+                <element signature="e#3737#3799#1" expanded="true" />
+                <element signature="e#3826#3866#1" expanded="true" />
+                <element signature="e#3879#3936#1" expanded="true" />
+                <element signature="e#3949#3999#1" expanded="true" />
+                <element signature="e#4012#4055#1" expanded="true" />
+                <element signature="e#4769#4840#0" expanded="true" />
+                <element signature="e#4769#4840#0" expanded="true" />
+                <element signature="e#4854#4894#0" expanded="true" />
+                <element signature="e#4854#4894#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/inc/Navigation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/inc/SocialMediaHead.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmailController/SendEmail.java" />
@@ -216,6 +205,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EngineDiagnosticsRepairDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java" />
       </list>
     </option>
   </component>
@@ -434,7 +426,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567015644320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567018001201" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -559,12 +551,12 @@
       <workItem from="1566910031672" duration="3779000" />
       <workItem from="1566992800406" duration="3342000" />
       <workItem from="1566999185811" duration="3536000" />
-      <workItem from="1567014877592" duration="674000" />
+      <workItem from="1567014877592" duration="2959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33857000" />
+    <option name="totallyTimeSpent" value="36142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -819,34 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AboutUsRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="30" selection-start-line="107" selection-start-column="28" selection-end-line="113" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmailController/SendMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmailController/SendEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AboutUsController/AboutUsEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="60" column="95" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1297,20 +1261,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="180" column="5" lean-forward="true" selection-start-line="159" selection-start-column="4" selection-end-line="180" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="167" column="67" selection-start-line="167" selection-start-column="67" selection-end-line="167" selection-end-column="67" />
+        <state relative-caret-position="506">
+          <caret line="208" column="29" lean-forward="true" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#676#730#1" expanded="true" />
@@ -1335,6 +1289,159 @@
             <element signature="e#5051#5113#0" expanded="true" />
             <element signature="e#5127#5159#0" expanded="true" />
             <element signature="e#5127#5159#0" expanded="true" />
+            <element signature="e#5670#5701#0" expanded="true" />
+            <element signature="e#5738#5769#0" expanded="true" />
+            <element signature="e#7061#7096#0" expanded="true" />
+            <element signature="e#7061#7096#0" expanded="true" />
+            <element signature="e#7110#7172#0" expanded="true" />
+            <element signature="e#7110#7172#0" expanded="true" />
+            <element signature="e#7186#7248#0" expanded="true" />
+            <element signature="e#7186#7248#0" expanded="true" />
+            <element signature="e#7263#7295#0" expanded="true" />
+            <element signature="e#7263#7295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EngineDiagnosticsRepairDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#688#766#1" expanded="true" />
+            <element signature="e#683#700#0" expanded="true" />
+            <element signature="e#1574#1614#1" expanded="true" />
+            <element signature="e#1628#1712#1" expanded="true" />
+            <element signature="e#1725#1787#1" expanded="true" />
+            <element signature="e#1779#1834#0" expanded="true" />
+            <element signature="e#2672#2727#0" expanded="true" />
+            <element signature="e#3155#3210#1" expanded="true" />
+            <element signature="e#3219#3297#1" expanded="true" />
+            <element signature="e#4034#4089#1" expanded="true" />
+            <element signature="e#4098#4176#1" expanded="true" />
+            <element signature="e#5112#5454#0" expanded="true" />
+            <element signature="e#5112#5454#0" expanded="true" />
+            <element signature="e#5275#5373#0" expanded="true" />
+            <element signature="e#5275#5373#0" expanded="true" />
+            <element signature="e#5387#5443#0" expanded="true" />
+            <element signature="e#5387#5443#0" expanded="true" />
+            <element signature="e#5805#6147#0" expanded="true" />
+            <element signature="e#5805#6147#0" expanded="true" />
+            <element signature="e#5968#6066#0" expanded="true" />
+            <element signature="e#5968#6066#0" expanded="true" />
+            <element signature="e#6080#6136#0" expanded="true" />
+            <element signature="e#6080#6136#0" expanded="true" />
+            <element signature="e#6728#6783#0" expanded="true" />
+            <element signature="e#6820#6875#0" expanded="true" />
+            <element signature="e#8351#8449#0" expanded="true" />
+            <element signature="e#8351#8449#0" expanded="true" />
+            <element signature="e#8463#8561#0" expanded="true" />
+            <element signature="e#8463#8561#0" expanded="true" />
+            <element signature="e#8576#8632#0" expanded="true" />
+            <element signature="e#8576#8632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="220" column="93" lean-forward="true" selection-start-line="220" selection-start-column="93" selection-end-line="220" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#705#771#1" expanded="true" />
+            <element signature="e#677#694#0" expanded="true" />
+            <element signature="e#460#500#1" expanded="true" />
+            <element signature="e#513#567#1" expanded="true" />
+            <element signature="e#580#630#1" expanded="true" />
+            <element signature="e#643#686#1" expanded="true" />
+            <element signature="e#1716#1778#1" expanded="true" />
+            <element signature="e#1741#1784#0" expanded="true" />
+            <element signature="e#2451#2513#1" expanded="true" />
+            <element signature="e#2548#2591#0" expanded="true" />
+            <element signature="e#2959#3002#1" expanded="true" />
+            <element signature="e#3011#3077#1" expanded="true" />
+            <element signature="e#3518#3580#0" expanded="true" />
+            <element signature="e#3518#3580#0" expanded="true" />
+            <element signature="e#3792#3835#1" expanded="true" />
+            <element signature="e#3844#3910#1" expanded="true" />
+            <element signature="e#3937#3977#1" expanded="true" />
+            <element signature="e#3990#4049#1" expanded="true" />
+            <element signature="e#4062#4112#1" expanded="true" />
+            <element signature="e#4125#4168#1" expanded="true" />
+            <element signature="e#4338#4400#0" expanded="true" />
+            <element signature="e#4338#4400#0" expanded="true" />
+            <element signature="e#4904#4984#0" expanded="true" />
+            <element signature="e#4904#4984#0" expanded="true" />
+            <element signature="e#4998#5042#0" expanded="true" />
+            <element signature="e#4998#5042#0" expanded="true" />
+            <element signature="e#5507#5587#0" expanded="true" />
+            <element signature="e#5507#5587#0" expanded="true" />
+            <element signature="e#5601#5645#0" expanded="true" />
+            <element signature="e#5601#5645#0" expanded="true" />
+            <element signature="e#6193#6236#0" expanded="true" />
+            <element signature="e#6273#6316#0" expanded="true" />
+            <element signature="e#7734#7814#0" expanded="true" />
+            <element signature="e#7734#7814#0" expanded="true" />
+            <element signature="e#7828#7908#0" expanded="true" />
+            <element signature="e#7828#7908#0" expanded="true" />
+            <element signature="e#7923#7967#0" expanded="true" />
+            <element signature="e#7923#7967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="142" lean-forward="true" selection-start-line="127" selection-start-column="3" selection-end-line="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="139" column="50" selection-start-line="139" selection-start-column="50" selection-end-line="139" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#646#708#1" expanded="true" />
+            <element signature="e#675#692#0" expanded="true" />
+            <element signature="e#459#499#1" expanded="true" />
+            <element signature="e#512#566#1" expanded="true" />
+            <element signature="e#579#629#1" expanded="true" />
+            <element signature="e#642#685#1" expanded="true" />
+            <element signature="e#1642#1704#1" expanded="true" />
+            <element signature="e#1657#1696#0" expanded="true" />
+            <element signature="e#2482#2521#0" expanded="true" />
+            <element signature="e#2891#2930#1" expanded="true" />
+            <element signature="e#2939#3001#1" expanded="true" />
+            <element signature="e#3014#3054#1" expanded="true" />
+            <element signature="e#3067#3121#1" expanded="true" />
+            <element signature="e#3134#3184#1" expanded="true" />
+            <element signature="e#3197#3240#1" expanded="true" />
+            <element signature="e#3689#3728#1" expanded="true" />
+            <element signature="e#3737#3799#1" expanded="true" />
+            <element signature="e#3826#3866#1" expanded="true" />
+            <element signature="e#3879#3936#1" expanded="true" />
+            <element signature="e#3949#3999#1" expanded="true" />
+            <element signature="e#4012#4055#1" expanded="true" />
+            <element signature="e#4769#4840#0" expanded="true" />
+            <element signature="e#4769#4840#0" expanded="true" />
+            <element signature="e#4854#4894#0" expanded="true" />
+            <element signature="e#4854#4894#0" expanded="true" />
           </folding>
         </state>
       </provider>

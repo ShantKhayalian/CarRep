@@ -120,7 +120,7 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="AddOilFilter">
+                                <a href="AddTipsEng">
                                     <span>Add Oil Filter change</span>
                                 </a>
                             </li>
@@ -130,12 +130,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="OilFilterEng">
                                             <span>Update English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="OilFilterRus">
                                             <span>Update Russian</span>
                                         </a>
                                     </li>

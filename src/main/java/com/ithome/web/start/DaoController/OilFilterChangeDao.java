@@ -225,4 +225,48 @@ public class OilFilterChangeDao {
         }
     }
 
+    /**
+     * getOilFilterInEnglishById
+     * @param id
+     * @return
+     */
+    public List<OilFilterChange> getOilFilterInEnglishById(int id) {
+        OilFilterChange oilFilterChange = null;
+        List<OilFilterChange> oilFilterChangeList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`oilfilterchange` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            OilFilterChangeEng(oilFilterChangeList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return oilFilterChangeList;
+
+    }
+
+
+    /**
+     * getOilFilterInRussianById
+     * @param id
+     * @return
+     */
+    public List<OilFilterChange> getOilFilterInRussianById(int id) {
+        OilFilterChange oilFilterChange = null;
+        List<OilFilterChange> oilFilterChangeList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`oilfilterchange` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            OilFilterChangeRus(oilFilterChangeList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return oilFilterChangeList;
+
+    }
 }

@@ -64,6 +64,9 @@ public class Employee extends BeanHelper {
         this.addressRu = addressRu;
     }
 
+    public Employee() {
+    }
+
     public Employee(String image) {
         this.image = image;
     }

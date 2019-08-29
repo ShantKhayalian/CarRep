@@ -19,6 +19,10 @@ public class OilFilterChange extends BeanHelper {
     public OilFilterChange() {
     }
 
+    public OilFilterChange(String fullText, boolean b) {
+
+    }
+
     public String getOilFilterChangeEng() {
         return oilFilterChangeEng;
     }

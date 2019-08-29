@@ -1,12 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.util.*" %>
+<%@page isELIgnored="false" %>
 <html>
 <head>
-    <title>Օֆերդա - Հիմնական վարիչ </title>
+    <title>Master admin </title>
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Blank Page | Bootstrap Based Admin Template - Material Design</title>
+        <title>Master admin</title>
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -16,20 +18,19 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
         <!-- Bootstrap Core Css -->
-        <link href="<%=request.getContextPath()%>/admin/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
         <!-- Waves Effect Css -->
-        <link href="<%=request.getContextPath()%>/admin/plugins/node-waves/waves.css" rel="stylesheet"/>
+        <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet"/>
 
         <!-- Animation Css -->
-        <link href="<%=request.getContextPath()%>/admin/plugins/animate-css/animate.css" rel="stylesheet"/>
+        <link href="<%=request.getContextPath()%>/plugins/animate-css/animate.css" rel="stylesheet"/>
 
         <!-- Custom Css -->
-        <link href="<%=request.getContextPath()%>/admin/css/style.css" rel="stylesheet">
+        <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet">
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-        <link href="<%=request.getContextPath()%>/admin/css/themes/all-themes.css" rel="stylesheet"/>
-
+        <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
     </head>
 </head>
 <body class="theme-deep-purple">
@@ -46,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <p>Խնդրում ենք սպասել...</p>
+        <p>Please wait...</p>
     </div>
 </div>
 <!-- #END# Page Loader -->
@@ -66,56 +67,21 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse"
-               data-target="#navbar-collapse" aria-expanded="false"></a>
-            <a href="javascript:void(0);" class="bars"></a>
-            <a class="navbar-brand" href="">Օֆերդա - Հիմնական Ադմին</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-
-        </div>
-    </div>
+    <jsp:include page="inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
         <!-- User Info -->
-        <div class="user-info">
-            <div class="image">
-                <%--<img src="<%=request.getAttribute("adminPhoto")%>" width="100" height="100"
-                     alt="<%=request.getAttribute("username")%>"/>--%>
-            </div>
-            <div class="info-container">
-                <div class="name" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">Բարի օր <%=request.getAttribute("username")%>
-                </div>
-                <%--<div class="email"><%=request.getAttribute("adminPhoneNumber")%>--%>
-            </div>
-
-        </div>
-        </div>
+        <jsp:include page="inc/leftSideAdmin.jsp"/>
         <!-- #User Info -->
-        <!-- Menu -->
-        <jsp:include page="/include/admin_menu.jsp"/>
-        <!-- #Menu -->
+        <jsp:include page="inc/Menu.jsp"/>
         <!-- Footer -->
-        <div class="legal">
-            <div class="copyright">
-                &copy; 2019 - 2020 <a href="javascript:void(0);">ItHome</a>.
-            </div>
-            <div class="version">
-                <b>Տարբերակ: </b> 1.0
-            </div>
-        </div>
+        <jsp:include page="inc/Version.jsp"/>
         <!-- #Footer -->
     </aside>
     <!-- #END# Left Sidebar -->
-    <!-- Right Sidebar -->
-
-    <!-- #END# Right Sidebar -->
 </section>
 
 <section class="content">
@@ -141,37 +107,33 @@
         <!-- #END# Input -->
     </div>
 </section>
-
 <!-- Jquery Core Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/jquery/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/bootstrap/js/bootstrap.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/bootstrap/js/bootstrap.js"></script>
 
 <!-- Select Plugin Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
 <!-- Slimscroll Plugin Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
-
-<!-- Jquery Validation Plugin Css -->
-<script src="<%=request.getContextPath()%>/admin/plugins/jquery-validation/jquery.validate.js"></script>
-
-<!-- JQuery Steps Plugin Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/jquery-steps/jquery.steps.js"></script>
-
-<!-- Sweet Alert Plugin Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
 <!-- Waves Effect Plugin Js -->
-<script src="<%=request.getContextPath()%>/admin/plugins/node-waves/waves.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
+
+<!-- Ckeditor -->
+<script src="<%=request.getContextPath()%>/plugins/ckeditor/ckeditor.js"></script>
+
+<!-- TinyMCE -->
+<script src="<%=request.getContextPath()%>/plugins/tinymce/tinymce.js"></script>
 
 <!-- Custom Js -->
-<script src="<%=request.getContextPath()%>/admin/js/admin.js"></script>
-<script src="<%=request.getContextPath()%>/admin/js/pages/forms/form-wizard.js"></script>
+<script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/editors.js"></script>
 
 <!-- Demo Js -->
-<script src="<%=request.getContextPath()%>/admin/js/demo.js"></script>
+<script src="<%=request.getContextPath()%>/js/demo.js"></script>
 </body>
 
 </html>

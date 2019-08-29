@@ -69,7 +69,7 @@ public class DeleteOilFilterEng extends HttpServlet {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("oilFilterChangeList", oilFilterChangeList);
+        request.setAttribute("OilFilterChangeList", oilFilterChangeList);
     }
 
     private void getOilFilterEnglish() {

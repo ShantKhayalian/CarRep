@@ -92,44 +92,62 @@
         <div class="block-header">
 
         </div>
+
+        <!-- CKEditor -->
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-6 col-lg-6 col-xs-12">
-                <c:if test="${requestScope.OilFilterChangeList != null}">
-                    <c:forEach items="${requestScope.OilFilterChangeList}" var="tips">
-                        <div class="card">
-
-                            <div class="header bg-blue-grey">
-                                <h2>
-                                    ID
-                                    <small>${tips.id}</small>
-                                </h2>
-                            </div>
-                            <div class="body">
-                                <c:out value="${tips.oilFilterChangeRus}"/>
-                            </div>
-                            <div class="body">
-                                <form action="UpdateOilFilterInRussian" method="get">
-                                    <button type="submit" class="btn btn-info waves-effect right">
-                                        <input type="hidden" name="TipsId" value="${tips.id}">
-                                        Update
-                                    </button>
-                                </form>
-                            </div>
-                            <div class="body">
-                                <form action="DeleteOilFilterRus" method="get">
-                                    <button type="submit" class="btn btn-danger waves-effect right">
-                                        <input type="hidden" name="TipsId" value="${tips.id}">
-                                        Delete
-                                    </button>
-                                </form>
-                            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div >
+                        <%
+                            if (request.getAttribute("message") != null) {
+                        %>
+                        <%=request.getAttribute("message")%>
+                        <%
+                            }
+                        %>
+                    </div>
+                    <form action="UpdateOilFilterRussianInData" method="post">
+                        <div class="header">
+                            <h2>
+                                Oil Filter
+                                <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
+                           --%>  </h2>
+                            <%-- <ul class="header-dropdown m-r--5">
+                                 <li class="dropdown">
+                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                         <i class="material-icons">more_vert</i>
+                                     </a>
+                                     <ul class="dropdown-menu pull-right">
+                                         <li><a href="javascript:void(0);">Action</a></li>
+                                         <li><a href="javascript:void(0);">Another action</a></li>
+                                         <li><a href="javascript:void(0);">Something else here</a></li>
+                                     </ul>
+                                 </li>
+                             </ul>--%>
                         </div>
+                        <c:if test="${requestScope.OilFilterChangeList != null}">
+                            <c:forEach items="${requestScope.OilFilterChangeList}" var="Oil">
 
-                    </c:forEach>
-                </c:if>
+
+                                <div class="body">
+                            <textarea id="ckeditor" name="TextArea">
+                                    ${Oil.oilFilterChangeRus}
+                            </textarea>
+                                </div>
+
+                                <div class="body">
+                                    <button type="submit" class="btn btn-info waves-effect right">Update</button>
+                                </div>
+                                <input type="hidden" name="TipsId" value="${Oil.id}">
+                            </c:forEach>
+                        </c:if>
+                    </form>
+                </div>
+
             </div>
-
         </div>
+        <!-- #END# CKEditor -->
+
     </div>
 </section>
 

@@ -50,9 +50,10 @@ public class OilFilterChangeDao {
         try {
             Connection connection = connectToData();
 
-            String sql = "UPDATE `car_db`.`oilfilterchange`  SET oilfilterchangeeng=? WHERE id=" + id;
+            String sql = "UPDATE `car_db`.`oilfilterchange`  SET oilfilterchangeeng=?, oilfilterchangerus=? WHERE id=" + id;
             PreparedStatement statment = connection.prepareStatement(sql);
             statment.setString(1, oilFilterChange.getOilFilterChangeEng());
+            statment.setString(2, oilFilterChange.getOilFilterChangeRus());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
             }
@@ -73,9 +74,10 @@ public class OilFilterChangeDao {
         try {
             Connection connection = connectToData();
 
-            String sql = "UPDATE `car_db`.`oilfilterchange`  SET oilfilterchangerus=? WHERE id=" + id;
+            String sql = "UPDATE `car_db`.`oilfilterchange`  SET oilfilterchangerus=?,oilfilterchangeeng=? WHERE id=" + id;
             PreparedStatement statment = connection.prepareStatement(sql);
             statment.setString(1, oilFilterChange.getOilFilterChangeRus());
+            statment.setString(2, oilFilterChange.getOilFilterChangeEng());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 
@@ -153,7 +155,7 @@ public class OilFilterChangeDao {
         while (set.next()) {
             oilFilterChange = new OilFilterChange();
             oilFilterChange.setId(set.getInt("id"));
-            oilFilterChange.setOilFilterChangeRus(set.getString("oilfilterchangeeng"));
+            oilFilterChange.setOilFilterChangeEng(set.getString("oilfilterchangeeng"));
             oilFilterChangeList.add(oilFilterChange);
         }
     }

@@ -103,7 +103,7 @@
                             }
                         %>
                     </div>
-                    <form action="AddNewTipsInData" method="post">
+                    <form action="AddOilFilterInData" method="post">
                         <div class="header">
                             <h2>
                                 Vehicle Tips

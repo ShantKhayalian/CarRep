@@ -27,6 +27,7 @@ public class UpdateOilFilterRussianInData extends HttpServlet {
     private OilFilterChangeDao oilFilterChangeDao = new OilFilterChangeDao();
     private int id =0;
     private String fullText =null;
+    private String oilFilterEnglish =null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         updateOilFilterEnglishInData(request,response);
@@ -42,6 +43,7 @@ public class UpdateOilFilterRussianInData extends HttpServlet {
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
+        getEnglishText(id);
         UpdateTextInDataEng(CreateNewTextInData(id),request,response);
     }
 
@@ -59,34 +61,42 @@ public class UpdateOilFilterRussianInData extends HttpServlet {
         }
     }
 
+    private void getEnglishText(int id) {
+        oilFilterChangeList = oilFilterChangeDao.getOilFilterInEnglishById(id);
+        for (int i = 0; i <oilFilterChangeList.size() ; i++) {
+            oilFilterEnglish  = oilFilterChangeList.get(i).getOilFilterChangeEng();
+        }
+
+    }
+
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/OilFilterRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilterChangeRussian.jsp").forward(request, response);
     }
 
     private void setRequestToOilFilterUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("oilFilterChangeList", oilFilterChangeList);
+        request.setAttribute("OilFilterChangeList", oilFilterChangeList);
     }
 
     private void getRussianOilFilter() {
-        oilFilterChangeList = oilFilterChangeDao.getOilFilterChangeInEnglish();
+        oilFilterChangeList = oilFilterChangeDao.getOilFilterChangeInRussian();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return oilFilterChangeDao.UpdateOilFilterChangeEng(CreateObjectOfText(),id);
+        return oilFilterChangeDao.UpdateOilFilterChangeRus(CreateObjectOfText(),id);
     }
 
     private OilFilterChange CreateObjectOfText() {
-        return new OilFilterChange(fullText,true);
+        return new OilFilterChange(oilFilterEnglish,fullText);
     }
 
     private void getParameters(HttpServletRequest request) {
         id= Integer.parseInt(request.getParameter("TipsId"));
-        fullText  = request.getParameter("TipsText");
+        fullText  = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {

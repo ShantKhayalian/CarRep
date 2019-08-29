@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/DeleteOilFilterEng")
-public class DeleteOilFilterEng extends HttpServlet {
+@WebServlet("/DeleteOilFilterRus")
+public class DeleteOilFilterRus extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
@@ -30,14 +30,14 @@ public class DeleteOilFilterEng extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        deleteOilFilterEng(request,response);
+        deleteOilFilterRus(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        deleteOilFilterEng(request,response);
+        deleteOilFilterRus(request,response);
     }
 
-    private void deleteOilFilterEng(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void deleteOilFilterRus(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
@@ -49,12 +49,12 @@ public class DeleteOilFilterEng extends HttpServlet {
         int delete = deleteTipFromData(tipsId);
         if(delete > 0) {
             String message = "Something went wrong";
-            getOilFilterEnglish();
+            getOilFilterRussian();
             setRequestToPage(request);
             gotoPage(request,response,message);
         }else {
             String message = "";
-            getOilFilterEnglish();
+            getOilFilterRussian();
             setRequestToPage(request);
             gotoPage(request,response,message);
         }
@@ -62,7 +62,7 @@ public class DeleteOilFilterEng extends HttpServlet {
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response,String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/OilFilterChangeEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilterChangeRussian.jsp").forward(request, response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {
@@ -72,8 +72,8 @@ public class DeleteOilFilterEng extends HttpServlet {
         request.setAttribute("oilFilterChangeList", oilFilterChangeList);
     }
 
-    private void getOilFilterEnglish() {
-        oilFilterChangeList = oilFilterChangeDao.getOilFilterChangeInEnglish();
+    private void getOilFilterRussian() {
+        oilFilterChangeList = oilFilterChangeDao.getOilFilterChangeInRussian();
     }
 
     private int deleteTipFromData(int tipsId) {

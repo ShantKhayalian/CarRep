@@ -30,7 +30,9 @@ public class UpdateOilFilterInEnglish extends HttpServlet {
 
     private OilFilterChangeDao oilFilterChangeDao = new OilFilterChangeDao();
 
-    private int id = 0;    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private int id = 0;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         updateOilFilterInEnglish(request,response);
     }
 

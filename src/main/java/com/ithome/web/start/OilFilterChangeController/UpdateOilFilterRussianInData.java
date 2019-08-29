@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateOilFilterEnglishInData")
+@WebServlet("/UpdateOilFilterRussianInData")
 public class UpdateOilFilterRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;

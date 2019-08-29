@@ -83,7 +83,7 @@ public class UpdateTipsRussianInData extends HttpServlet {
     }
 
     private VehicleTips CreateObjectOfText() {
-        return new VehicleTips(fullText);
+        return new VehicleTips(fullText,true);
     }
 
     private void getParameters(HttpServletRequest request) {

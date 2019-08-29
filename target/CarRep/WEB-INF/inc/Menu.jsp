@@ -126,17 +126,17 @@
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Update Oil Filter change</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                        <a href="OilFilterEng">
+                                            <span>Update English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                        <a href="OilFilterRus">
+                                            <span>Update Russian</span>
                                         </a>
                                     </li>
                                 </ul>

@@ -73,12 +73,12 @@
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
-        <!-- User Info -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
-        <!-- #User Info -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/Menu.jsp"/>
+        <jsp:include page="inc/leftSideAdmin.jsp"/>
+        <!-- Menu -->
+        <jsp:include page="inc/Menu.jsp"/>
+        <!-- Menu -->
         <!-- Footer -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/Version.jsp"/>
+        <jsp:include page="inc/Version.jsp"/>
         <!-- #Footer -->
     </aside>
     <!-- #END# Left Sidebar -->

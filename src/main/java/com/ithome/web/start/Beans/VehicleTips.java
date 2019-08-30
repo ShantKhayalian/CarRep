@@ -24,6 +24,11 @@ public class VehicleTips extends BeanHelper {
         this.vehicleTipsEng = vehicleTipsEng;
     }
 
+    public VehicleTips(String vehicleTipsRus, boolean isEng) {
+        this.vehicleTipsRus = vehicleTipsRus;
+        this.isEng = isEng;
+    }
+
     public VehicleTips() {
     }
 

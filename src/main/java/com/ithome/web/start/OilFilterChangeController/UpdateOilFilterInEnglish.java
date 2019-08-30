@@ -1,8 +1,9 @@
-package com.ithome.web.start.TipsController;
+package com.ithome.web.start.OilFilterChangeController;
 
-import com.ithome.web.start.Beans.AboutUs;
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.OilFilterChange;
 import com.ithome.web.start.Beans.VehicleTips;
+import com.ithome.web.start.DaoController.OilFilterChangeDao;
 import com.ithome.web.start.DaoController.TipsDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -17,78 +18,55 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateTipsRussianInData")
-public class UpdateTipsRussianInData extends HttpServlet {
+@WebServlet("/UpdateOilFilterInEnglish")
+public class UpdateOilFilterInEnglish extends HttpServlet {
+
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<VehicleTips> vehicleTipsList = new ArrayList<>();
-    private TipsDao tipsDao = new TipsDao();
-    private int id =0;
-    private String fullText =null;
+    private List<OilFilterChange> oilFilterChangeList = new ArrayList<>();
 
+    private OilFilterChangeDao oilFilterChangeDao = new OilFilterChangeDao();
 
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateTipsRussianInData(request,response);
-    }
+    private int id = 0;
 
-    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateTipsRussianInData(request,response);
+        updateOilFilterInEnglish(request,response);
     }
 
-    private void updateTipsRussianInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        updateOilFilterInEnglish(request,response);
+    }
+
+    private void updateOilFilterInEnglish(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        UpdateTextInDataRus(CreateNewTextInData(id),request,response);
-    }
-
-    private void UpdateTextInDataRus(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(createNewTextInData ==0){
-            String message = "Something went Wring try again later";
-            getRussianTips();
-            setRequestToTipsUpdatePage(request);
-            gotoNextPage(request,response,message);
-        }else{
-            String message = "Successfully Updated! ";
-            getRussianTips();
-            setRequestToTipsUpdatePage(request);
-            gotoNextPage(request,response,message);
-        }
-    }
-
-    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
-        request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/TipsRussian.jsp").forward(request, response);
-    }
-
-    private void setRequestToTipsUpdatePage(HttpServletRequest request) {
-        request.setAttribute("username", username);
-        request.setAttribute("adminId", adminId);
-        request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("vehicleTipsList", vehicleTipsList);
-    }
-
-    private void getRussianTips() {
-        vehicleTipsList = tipsDao.getTipsInRussian();
-    }
-
-    private int CreateNewTextInData(int id) {
-       return tipsDao.UpdateTipsRus(CreateObjectOfText(),id);
-    }
-
-    private VehicleTips CreateObjectOfText() {
-        return new VehicleTips(fullText,true);
+        getOilFilterEnglishById(id);
+        setRequestToOilFilterEnglish(request);
+        goBackToPage(request,response);
     }
 
     private void getParameters(HttpServletRequest request) {
-        id= Integer.parseInt(request.getParameter("TipsId"));
-        fullText  = request.getParameter("TipsText");
+        id = Integer.parseInt(request.getParameter("Id"));
+    }
+
+    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/WEB-INF/OilFilterEnglishWithId.jsp").forward(request, response);
+    }
+
+    private void setRequestToOilFilterEnglish(HttpServletRequest request) {
+        request.setAttribute("username", username);
+        request.setAttribute("adminId", adminId);
+        request.setAttribute("adminFullInfo", adminList);
+        request.setAttribute("OilFilterChangeList", oilFilterChangeList);
+    }
+
+    private void getOilFilterEnglishById(int id) {
+        oilFilterChangeList = oilFilterChangeDao.getOilFilterInEnglishById(id);
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -131,6 +109,8 @@ public class UpdateTipsRussianInData extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
-
 }
+
+
+
 

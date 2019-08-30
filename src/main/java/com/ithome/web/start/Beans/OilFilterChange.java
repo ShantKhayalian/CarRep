@@ -4,6 +4,7 @@ public class OilFilterChange extends BeanHelper {
 
     private String oilFilterChangeEng;
     private String oilFilterChangeRus;
+    private boolean isEng;
 
     public OilFilterChange(int id, String oilFilterChangeEng, String oilFilterChangeRus) {
         super(id);
@@ -17,6 +18,11 @@ public class OilFilterChange extends BeanHelper {
     }
 
     public OilFilterChange() {
+    }
+
+    public OilFilterChange(String fullText, boolean b) {
+        this.oilFilterChangeEng = fullText;
+        this.isEng = b;
     }
 
     public String getOilFilterChangeEng() {

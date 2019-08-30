@@ -68,18 +68,18 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-    <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
+    <jsp:include page="inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
-       <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
+       <jsp:include page="inc/leftSideAdmin.jsp"/>
         <!-- Menu -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/Menu.jsp"/>
+        <jsp:include page="inc/Menu.jsp"/>
         <!-- Menu -->
         <!-- Footer -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/Version.jsp"/>
+        <jsp:include page="inc/Version.jsp"/>
         <!-- #Footer -->
     </aside>
     <!-- #END# Left Sidebar -->

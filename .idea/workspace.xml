@@ -51,26 +51,26 @@
     <session id="136904604">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="166" />
-          <entry key="jsp" value="82" />
+          <entry key="java" value="167" />
+          <entry key="jsp" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="166" />
-          <entry key="JSP" value="82" />
+          <entry key="JAVA" value="167" />
+          <entry key="JSP" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="1741" />
+          <entry key="java" value="1746" />
           <entry key="jsp" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1741" />
+          <entry key="JAVA" value="1746" />
           <entry key="JSP" value="294" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
@@ -78,7 +78,62 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AdminController/AdminSignInCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglish.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/AddNewCD.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,16 +160,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMEnglishWithId.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangPMRussianWithId.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AboutUsEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AboutUsRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddEmployeeImage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewEmployee.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewOilFilter.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewTips.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeEnglish.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeRussian.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterEnglishWithId.jsp" />
@@ -156,6 +204,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInEnglish.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInRussian.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/AdminController/AdminSignInCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/AddNewCD.jsp" />
       </list>
     </option>
   </component>
@@ -218,7 +273,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -287,16 +342,6 @@
               <item name="CarRep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="TipsController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,6 +351,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="CD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +373,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567199784331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567200452165" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -461,10 +515,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57798000" />
+    <option name="totallyTimeSpent" value="58057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1102,74 +1157,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-          <folding>
-            <element signature="e#2585#2609#2#JAVA" expanded="true" />
-            <element signature="e#2766#2790#2#JAVA" expanded="true" />
-            <element signature="e#2846#2870#2#JAVA" expanded="true" />
-            <element signature="e#2913#2937#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangPMRussianWithId.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
-          <folding>
-            <element signature="e#2574#2598#2#JAVA" expanded="true" />
-            <element signature="e#2755#2779#2#JAVA" expanded="true" />
-            <element signature="e#2834#2858#2#JAVA" expanded="true" />
-            <element signature="e#2901#2925#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/adminHead.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Aboutus/AboutUsEnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
-          <folding>
-            <element signature="e#2574#2598#2#JAVA" expanded="true" />
-            <element signature="e#2755#2779#2#JAVA" expanded="true" />
-            <element signature="e#2834#2858#2#JAVA" expanded="true" />
-            <element signature="e#2901#2925#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Aboutus/AboutUsRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
-          <folding>
-            <element signature="e#2517#2541#2#JAVA" expanded="true" />
-            <element signature="e#2728#2752#2#JAVA" expanded="true" />
-            <element signature="e#2830#2854#2#JAVA" expanded="true" />
-            <element signature="e#2919#2943#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Employee/AddEmployeeImage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
-          <folding>
-            <element signature="e#3123#3147#2#JAVA" expanded="true" />
-            <element signature="e#3276#3300#2#JAVA" expanded="true" />
-            <element signature="e#3410#3434#2#JAVA" expanded="true" />
-            <element signature="e#3529#3553#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Employee/AddNewEmployee.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1205,19 +1192,6 @@
             <element signature="e#2796#2820#2#JAVA" expanded="true" />
             <element signature="e#2906#2930#2#JAVA" expanded="true" />
             <element signature="e#2973#2997#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-          <folding>
-            <element signature="e#2694#2718#2#JAVA" expanded="true" />
-            <element signature="e#2877#2901#2#JAVA" expanded="true" />
-            <element signature="e#2951#2975#2#JAVA" expanded="true" />
-            <element signature="e#3040#3064#2#JAVA" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1645,6 +1619,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/AdminController/AdminSignInCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/AddNewCD.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
         </state>
       </provider>
     </entry>

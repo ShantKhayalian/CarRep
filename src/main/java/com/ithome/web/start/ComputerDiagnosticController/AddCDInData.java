@@ -1,8 +1,10 @@
-package com.ithome.web.start.ChangeРМController;
+package com.ithome.web.start.ComputerDiagnosticController;
 
 import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.ChangeРМ;
+import com.ithome.web.start.Beans.ComputerDiagnostics;
 import com.ithome.web.start.DaoController.ChangeРМDao;
+import com.ithome.web.start.DaoController.ComputerDiagnosticsDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -16,56 +18,72 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateChangePMInRussian")
-public class UpdateChangePMInRussian extends HttpServlet {
-
+@WebServlet("/AddCDInData")
+public class AddCDInData extends HttpServlet {
+    private String TextArea =null;
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<ChangeРМ> changeРМList = new ArrayList<>();
-    private int id = 0;
-    private ChangeРМDao changeРМDao = new ChangeРМDao();
-
+    private ComputerDiagnosticsDao computerDiagnosticsDao = new ComputerDiagnosticsDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
+        addCDInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
+        addCDInData(request,response);
     }
 
-    private void updateOilFilterInRussian(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void addCDInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getChangePMEnglishById(id);
-        setRequestToChangePMEnglish(request);
-        goBackToPage(request,response);
+        UpdateTextInDataEng(CreateNewTextInData(),request,response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMRussianWithId.jsp").forward(request, response);
+    private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (createNewTextInData == 0) {
+            String message = "Error";
+            setRequestToPage(request);
+            goBackToPage(request, response, message);
+        } else {
+            String message = "Success";
+            setRequestToPage(request);
+            gotoNextStepPage(request, response,message);
+        }
     }
 
-    private void setRequestToChangePMEnglish(HttpServletRequest request) {
+    private void gotoNextStepPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/Result.jsp").forward(request, response);
+    }
+
+    private void goBackToPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/CD/AddNewCD.jsp").forward(request, response);
+    }
+
+    private void setRequestToPage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("ChangeРМList", changeРМList);
     }
 
+    private int CreateNewTextInData() {
+        return computerDiagnosticsDao.addNewComputerDiagnostics(CreateObjectOfText());
+    }
 
-    private void getChangePMEnglishById(int id) {
-        changeРМList = changeРМDao.getChangePMInRussianById(id);
+    private ComputerDiagnostics CreateObjectOfText() {
+        return new ComputerDiagnostics(TextArea,TextArea);
     }
 
     private void getParameters(HttpServletRequest request) {
-        id = Integer.parseInt(request.getParameter("Id"));
+        TextArea= request.getParameter("TextArea");
     }
+
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HttpSession session = request.getSession(false);
@@ -108,6 +126,7 @@ public class UpdateChangePMInRussian extends HttpServlet {
         }
     }
 }
+
 
 
 

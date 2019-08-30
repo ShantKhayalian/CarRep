@@ -62,7 +62,7 @@ public class UpdateChangePMEnglishInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/ChangePMEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMEnglish.jsp").forward(request, response);
     }
 
     private void getEnglishChangePM() {

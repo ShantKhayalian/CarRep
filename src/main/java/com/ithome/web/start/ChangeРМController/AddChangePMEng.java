@@ -24,13 +24,13 @@ public class AddChangePMEng extends HttpServlet {
     private List<Admin> adminList = new ArrayList<>();
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        addChangePMEng(req, resp);
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        addChangePMEng(request, response);
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        addChangePMEng(req, resp);
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        addChangePMEng(request, response);
     }
 
     private void addChangePMEng(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -41,7 +41,7 @@ public class AddChangePMEng extends HttpServlet {
         gotoPage(request,response);
     }
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AddNewOilFilter.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/AddNewChangePM.jsp").forward(request, response);
     }
 
     private void setRequest(HttpServletRequest request) {

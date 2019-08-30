@@ -1,12 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.util.*" %>
+<%@page isELIgnored="false" %>
 <html>
 <head>
     <title>Master admin </title>
-
+    <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
+        <title>Master admin</title>
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -29,7 +31,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
-
+    </head>
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->
@@ -65,7 +67,7 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-   <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
+    <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>
@@ -74,28 +76,25 @@
         <!-- User Info -->
         <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
         <!-- #User Info -->
-        <!-- Menu -->
         <jsp:include page="<%=request.getContextPath()%>/inc/Menu.jsp"/>
-        <!-- Menu -->
         <!-- Footer -->
         <jsp:include page="<%=request.getContextPath()%>/inc/Version.jsp"/>
         <!-- #Footer -->
     </aside>
     <!-- #END# Left Sidebar -->
-    <!-- Right Sidebar -->
-
-    <!-- #END# Right Sidebar -->
 </section>
 
 <section class="content">
-    <div class="row clearfix">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="card">
-                <div class="header">
-                    <h2>
-                        Update admin details
-                    </h2>
-                    <div >
+    <div class="container-fluid">
+        <div class="block-header">
+
+        </div>
+
+        <!-- CKEditor -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="alert-info ">
                         <%
                             if (request.getAttribute("message") != null) {
                         %>
@@ -104,51 +103,42 @@
                             }
                         %>
                     </div>
-                </div>
-                <div class="body">
-                    <c:if test="${requestScope.adminFullInfo != null}" >
-                        <c:forEach items="${requestScope.adminFullInfo}" var="adminInfo">
+                    <form action="AddOilFilterInData" method="post">
+                        <div class="header">
+                            <h2>
+                                Vehicle Tips
+                                 </h2>
 
-                            <form class="form-horizontal" method="get" action="UpdateAdminInfoFinalStep">
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label  for="adminUsername" >Username</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="text" name ="adminUsername" id="adminUsername" class="form-control" placeholder="${adminInfo.username}" required="required" >
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label for="adminPassword">Password</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="password" name ="adminPassword" id="adminPassword" class="form-control" placeholder="${adminInfo.password}" required="required">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-4 col-xs-offset-5">
-                                        <button type="submit" class="btn btn-primary m-t-15 waves-effect">Update</button>
-                                        <input type="hidden" name="adminid" value="${adminInfo.id}">
-                                    </div>
-                                </div>
-                            </form>
-                        </c:forEach>
-                    </c:if>
+                        </div>
+                        <div class="body">
+                            <textarea id="ckeditor" name="TextArea">
+                                <h2>WYSIWYG Editor</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper sapien non nisl facilisis bibendum in quis tellus. Duis in urna bibendum turpis pretium fringilla. Aenean neque velit, porta eget mattis ac, imperdiet quis nisi. Donec non dui et tortor vulputate luctus. Praesent consequat rhoncus velit, ut molestie arcu venenatis sodales.</p>
+                                <h3>Lacinia</h3>
+                                <ul>
+                                    <li>Suspendisse tincidunt urna ut velit ullamcorper fermentum.</li>
+                                    <li>Nullam mattis sodales lacus, in gravida sem auctor at.</li>
+                                    <li>Praesent non lacinia mi.</li>
+                                    <li>Mauris a ante neque.</li>
+                                    <li>Aenean ut magna lobortis nunc feugiat sagittis.</li>
+                                </ul>
+                                <h3>Pellentesque adipiscing</h3>
+                                <p>Maecenas quis ante ante. Nunc adipiscing rhoncus rutrum. Pellentesque adipiscing urna mi, ut tempus lacus ultrices ac. Pellentesque sodales, libero et mollis interdum, dui odio vestibulum dolor, eu pellentesque nisl nibh quis nunc. Sed porttitor leo adipiscing venenatis vehicula. Aenean quis viverra enim. Praesent porttitor ut ipsum id ornare.</p>
+                            </textarea>
+                        </div>
+
+                        <div class="body">
+                            <button type="submit" class="btn btn-info waves-effect right">Add</button>
+                        </div>
+                    </form>
                 </div>
+
             </div>
         </div>
+        <!-- #END# CKEditor -->
+
     </div>
 </section>
-
 
 <!-- Jquery Core Js -->
 <script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
@@ -165,11 +155,17 @@
 <!-- Waves Effect Plugin Js -->
 <script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
 
+<!-- Ckeditor -->
+<script src="<%=request.getContextPath()%>/plugins/ckeditor/ckeditor.js"></script>
+
+<!-- TinyMCE -->
+<script src="<%=request.getContextPath()%>/plugins/tinymce/tinymce.js"></script>
+
 <!-- Custom Js -->
 <script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/editors.js"></script>
 
 <!-- Demo Js -->
-
 <script src="<%=request.getContextPath()%>/js/demo.js"></script>
 </body>
 

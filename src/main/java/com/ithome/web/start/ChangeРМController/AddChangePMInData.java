@@ -3,7 +3,6 @@ package com.ithome.web.start.ChangeРМController;
 import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.ChangeРМ;
 import com.ithome.web.start.DaoController.ChangeРМDao;
-import com.ithome.web.start.DaoController.OilFilterChangeDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -63,7 +61,7 @@ public class AddChangePMInData extends HttpServlet {
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/AddNewChangePM.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/AddNewChangePM.jsp").forward(request, response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

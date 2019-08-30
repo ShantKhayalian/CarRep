@@ -1,8 +1,6 @@
-package com.ithome.web.start.ChangeРМController;
+package com.ithome.web.start.ComputerDiagnosticController;
 
 import com.ithome.web.start.Beans.Admin;
-import com.ithome.web.start.Beans.ChangeРМ;
-import com.ithome.web.start.DaoController.ChangeРМDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -16,55 +14,40 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateChangePMInRussian")
-public class UpdateChangePMInRussian extends HttpServlet {
+@WebServlet("/AddCDEng")
+public class AddCDEng extends HttpServlet {
 
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<ChangeРМ> changeРМList = new ArrayList<>();
-    private int id = 0;
-    private ChangeРМDao changeРМDao = new ChangeРМDao();
 
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
-    }
-
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
+        addCDEng(request, response);
     }
 
-    private void updateOilFilterInRussian(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        addCDEng(request, response);
+    }
+
+    private void addCDEng(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getParameters(request);
-        getChangePMEnglishById(id);
-        setRequestToChangePMEnglish(request);
-        goBackToPage(request,response);
+        setRequest(request);
+        gotoPage(request,response);
+    }
+    private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/WEB-INF/CD/AddNewCD.jsp").forward(request, response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMRussianWithId.jsp").forward(request, response);
-    }
-
-    private void setRequestToChangePMEnglish(HttpServletRequest request) {
+    private void setRequest(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("ChangeРМList", changeРМList);
-    }
-
-
-    private void getChangePMEnglishById(int id) {
-        changeРМList = changeРМDao.getChangePMInRussianById(id);
-    }
-
-    private void getParameters(HttpServletRequest request) {
-        id = Integer.parseInt(request.getParameter("Id"));
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {

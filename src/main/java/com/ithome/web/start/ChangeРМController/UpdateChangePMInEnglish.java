@@ -2,9 +2,7 @@ package com.ithome.web.start.ChangeРМController;
 
 import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.ChangeРМ;
-import com.ithome.web.start.Beans.OilFilterChange;
 import com.ithome.web.start.DaoController.ChangeРМDao;
-import com.ithome.web.start.DaoController.OilFilterChangeDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -50,7 +48,7 @@ public class UpdateChangePMInEnglish extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/ChangePMEnglishWithId.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMEnglishWithId.jsp").forward(request, response);
     }
 
     private void setRequestToChangePMEnglish(HttpServletRequest request) {

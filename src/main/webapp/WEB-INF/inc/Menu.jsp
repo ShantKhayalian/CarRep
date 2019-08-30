@@ -12,7 +12,7 @@
         <%--//////////////////////////////////////////////////////////////////////////////////////////Հիմնական նավիգացիան--%>
         <li class="header">Navigation</li>
         <li>
-            <a href="AdminSignInCheck">
+            <a href="<%=request.getContextPath()%>/AdminSignInCheck">
                 <i class="material-icons">home</i>
                 <span>Home</span>
             </a>
@@ -20,7 +20,7 @@
         <%--//////////////////////////////////////////////////////////////////////////////////////////Հիմնական նավիգացիան--%>
         <%--//////////////////////////////////////////////////////////////////////////////////////////Ադմին վերահսկիչ--%>
         <li>
-            <a href="ToAdminUpdatPage">
+            <a href="<%=request.getContextPath()%>/ToAdminUpdatPage">
                 <i class="material-icons">face</i>
                 <span>Update admin details</span>
             </a>
@@ -34,12 +34,12 @@
             </a>
             <ul class="ml-menu">
                 <li>
-                    <a href="AboutUsEng">
+                    <a href="<%=request.getContextPath()%>/AboutUsEng">
                         <span>About us English</span>
                     </a>
                 </li>
                 <li>
-                    <a href="AboutUsRus">
+                    <a href="<%=request.getContextPath()%>/AboutUsRus">
                         <span>About us Russian</span>
                     </a>
                 </li>
@@ -54,12 +54,12 @@
             </a>
             <ul class="ml-menu">
                 <li>
-                    <a href="ShowAllEmployee">
+                    <a href="<%=request.getContextPath()%>/ShowAllEmployee">
                         <span>Show All</span>
                     </a>
                 </li>
                 <li>
-                    <a href="AddNewEmployee">
+                    <a href="<%=request.getContextPath()%>/AddNewEmployee">
                         <span>Add new</span>
                     </a>
                 </li>
@@ -79,7 +79,7 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="AddTipsEng">
+                            <a href="<%=request.getContextPath()%>/AddTipsEng">
                                 <span>Add Vehicle tips</span>
                             </a>
                         </li>
@@ -92,12 +92,12 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="TipsEng">
+                            <a href="<%=request.getContextPath()%>/TipsEng">
                                 <span>Vehicle tips English</span>
                             </a>
                         </li>
                         <li>
-                            <a href="TipsRus">
+                            <a href="<%=request.getContextPath()%>/TipsRus">
                                 <span>Vehicle tips Russian</span>
                             </a>
                         </li>
@@ -120,7 +120,7 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="AddOilFilterEng">
+                                <a href="<%=request.getContextPath()%>/AddOilFilterEng">
                                     <span>Add Oil Filter change</span>
                                 </a>
                             </li>
@@ -130,12 +130,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="OilFilterEng">
+                                        <a href="<%=request.getContextPath()%>/OilFilterEng">
                                             <span>Update English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="OilFilterRus">
+                                        <a href="<%=request.getContextPath()%>/OilFilterRus">
                                             <span>Update Russian</span>
                                         </a>
                                     </li>
@@ -144,27 +144,27 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>CHange PM</span>
+                            <span>Change PM</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="AddChangePMEng">
+                                <a href="<%=request.getContextPath()%>/AddChangePMEng">
                                     <span>Add Change PM</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Change PM controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="ChangePMEng">
-                                            <span>Update English</span>
+                                        <a href="<%=request.getContextPath()%>/ChangePMEng">
+                                            <span>Update Change PM English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="ChangePMRus">
-                                            <span>Update English</span>
+                                        <a href="<%=request.getContextPath()%>/ChangePMRus">
+                                            <span>Update Change PM Russian</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -172,27 +172,27 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Computer Diagnostics</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
+                                <a href="<%=request.getContextPath()%>/AddCDEng">
+                                    <span>Add Computer Diagnostics</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Computer Diagnostics controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                        <a href="<%=request.getContextPath()%>/CDEng">
+                                            <span>Computer Diagnostics English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                        <a href="<%=request.getContextPath()%>/CDRus">
+                                            <span>Computer Diagnostics Russian</span>
                                         </a>
                                     </li>
                                 </ul>

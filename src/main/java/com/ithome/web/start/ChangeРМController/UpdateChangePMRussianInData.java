@@ -16,56 +16,88 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateChangePMInRussian")
-public class UpdateChangePMInRussian extends HttpServlet {
-
+@WebServlet("/UpdateChangePMRussianInData")
+public class UpdateChangePMRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
     private List<ChangeРМ> changeРМList = new ArrayList<>();
-    private int id = 0;
     private ChangeРМDao changeРМDao = new ChangeРМDao();
+    private int id =0;
+    private String fullText =null;
+    private String changePMEnglish =null;
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
+        updateChangePMRussianInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInRussian(request,response);
+        updateChangePMRussianInData(request,response);
     }
 
-    private void updateOilFilterInRussian(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void updateChangePMRussianInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getChangePMEnglishById(id);
-        setRequestToChangePMEnglish(request);
-        goBackToPage(request,response);
+        getEnglishText(id);
+        UpdateTextInDataRus(CreateNewTextInData(id),request,response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMRussianWithId.jsp").forward(request, response);
+    private void UpdateTextInDataRus(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if(createNewTextInData ==0){
+            String message = "Something went Wring try again later";
+            getRussianChangePM();
+            setRequestToChangePMUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }else{
+            String message = "Successfully Updated! ";
+            getRussianChangePM();
+            setRequestToChangePMUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }
     }
 
-    private void setRequestToChangePMEnglish(HttpServletRequest request) {
+    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMChangeRussian.jsp").forward(request, response);
+    }
+
+    private void setRequestToChangePMUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
         request.setAttribute("ChangeРМList", changeРМList);
     }
 
+    private void getRussianChangePM() {
+        changeРМList = changeРМDao.getChangeРМInRussian();
+    }
 
-    private void getChangePMEnglishById(int id) {
-        changeРМList = changeРМDao.getChangePMInRussianById(id);
+    private int CreateNewTextInData(int id) {
+        return changeРМDao.UpdateChangeРМRus(CreateObjectOfText(),id);
+    }
+
+    private ChangeРМ CreateObjectOfText() {
+        return new ChangeРМ(changePMEnglish,fullText);
+    }
+
+    private void getEnglishText(int id) {
+        changeРМList = changeРМDao.getChangePMInEnglishById(id);
+        for (int i = 0; i <changeРМList.size() ; i++) {
+            changePMEnglish  = changeРМList.get(i).getChangeРМEng();
+        }
+
     }
 
     private void getParameters(HttpServletRequest request) {
-        id = Integer.parseInt(request.getParameter("Id"));
+        id= Integer.parseInt(request.getParameter("TipsId"));
+        fullText  = request.getParameter("TextArea");
     }
+
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HttpSession session = request.getSession(false);
@@ -107,9 +139,7 @@ public class UpdateChangePMInRussian extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }
-
-
-
 
 

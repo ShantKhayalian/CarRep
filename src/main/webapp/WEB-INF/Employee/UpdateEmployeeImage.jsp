@@ -1,12 +1,15 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt_rt" %>
+<%@ page import="java.util.*" %>
+<%@page isELIgnored="false" %>
 <html>
 <head>
-    <title>Master admin </title>
 
         <meta charset="UTF-8">
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
+        <title>Master admin</title>
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -17,6 +20,15 @@
 
         <!-- Bootstrap Core Css -->
         <link href="<%=request.getContextPath()%>/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Dropzone Css -->
+    <link href="<%=request.getContextPath()%>/plugins/dropzone/dropzone.css" rel="stylesheet">
+
+    <!-- Bootstrap Select Css -->
+    <link href="<%=request.getContextPath()%>/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
+    <!-- Bootstrap Tagsinput Css -->
+    <link href="<%=request.getContextPath()%>/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
 
         <!-- Waves Effect Css -->
         <link href="<%=request.getContextPath()%>/plugins/node-waves/waves.css" rel="stylesheet"/>
@@ -65,15 +77,13 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-   <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
+    <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
-        <!-- User Info -->
-        <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
-        <!-- #User Info -->
+       <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
         <!-- Menu -->
         <jsp:include page="<%=request.getContextPath()%>/inc/Menu.jsp"/>
         <!-- Menu -->
@@ -88,14 +98,13 @@
 </section>
 
 <section class="content">
+    <!-- File Upload | Drag & Drop OR With Click & Choose -->
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
                     <h2>
-                        Update admin details
-                    </h2>
-                    <div >
+                        FILE UPLOAD - DRAG & DROP OR WITH CLICK & CHOOSE
                         <%
                             if (request.getAttribute("message") != null) {
                         %>
@@ -103,52 +112,33 @@
                         <%
                             }
                         %>
-                    </div>
+                    </h2>
+
                 </div>
                 <div class="body">
-                    <c:if test="${requestScope.adminFullInfo != null}" >
-                        <c:forEach items="${requestScope.adminFullInfo}" var="adminInfo">
-
-                            <form class="form-horizontal" method="get" action="UpdateAdminInfoFinalStep">
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label  for="adminUsername" >Username</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="text" name ="adminUsername" id="adminUsername" class="form-control" placeholder="${adminInfo.username}" required="required" >
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label for="adminPassword">Password</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="password" name ="adminPassword" id="adminPassword" class="form-control" placeholder="${adminInfo.password}" required="required">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-4 col-xs-offset-5">
-                                        <button type="submit" class="btn btn-primary m-t-15 waves-effect">Update</button>
-                                        <input type="hidden" name="adminid" value="${adminInfo.id}">
-                                    </div>
-                                </div>
-                            </form>
+                    <form action="NewEmployeImage?EmpolyeeId=<%=request.getAttribute("EmpolyeeId")%>" id="frmFileUpload" class="dropzone" method="post" enctype="multipart/form-data">
+                        <div class="dz-message">
+                            <div class="drag-icon-cph">
+                                <i class="material-icons">touch_app</i>
+                            </div>
+                            <h3>Drop files here or click to upload.</h3>
+                        </div>
+                        <div class="fallback">
+                            <input name="file" type="file" multiple />
+                        </div>
+                    </form>
+                    <div class="body">
+                        <c:forEach items="${requestScope.employeeList}" var="employeeImage">
+                            <img src="/${employeeImage.image}" alt="${employeeImage.firstName} ${employeeImage.lastName}"/>
                         </c:forEach>
-                    </c:if>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- #END# File Upload | Drag & Drop OR With Click & Choose -->
 
+</section>
 
 <!-- Jquery Core Js -->
 <script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
@@ -167,10 +157,16 @@
 
 <!-- Custom Js -->
 <script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/advanced-form-elements.js"></script>
 
 <!-- Demo Js -->
-
 <script src="<%=request.getContextPath()%>/js/demo.js"></script>
+<!-- Jquery Knob Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/charts/jquery-knob.js"></script>
+
+<!-- Dropzone Plugin Js -->
+<script src="<%=request.getContextPath()%>/plugins/dropzone/dropzone.js"></script>
 </body>
 
 </html>

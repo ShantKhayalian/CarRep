@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,7 +44,7 @@ public class ChangePMRus extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/ChangePMRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/ChangePM/ChangePMRussian.jsp").forward(request, response);
     }
 
     private void setRequestToChangePMRussian(HttpServletRequest request) {

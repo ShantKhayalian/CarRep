@@ -1,12 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.util.*" %>
+<%@page isELIgnored="false" %>
 <html>
 <head>
     <title>Master admin </title>
-
+    <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
+        <title>Master admin</title>
         <!-- Favicon-->
         <link rel="icon" href="<%=request.getContextPath()%>/favicon.ico" type="image/x-icon">
 
@@ -29,7 +31,7 @@
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
         <link href="<%=request.getContextPath()%>/css/themes/all-themes.css" rel="stylesheet"/>
-
+    </head>
 </head>
 <body class="theme-deep-purple">
 <!-- Page Loader -->
@@ -65,7 +67,7 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-   <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
+    <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>
@@ -74,9 +76,7 @@
         <!-- User Info -->
         <jsp:include page="<%=request.getContextPath()%>/inc/leftSideAdmin.jsp"/>
         <!-- #User Info -->
-        <!-- Menu -->
         <jsp:include page="<%=request.getContextPath()%>/inc/Menu.jsp"/>
-        <!-- Menu -->
         <!-- Footer -->
         <jsp:include page="<%=request.getContextPath()%>/inc/Version.jsp"/>
         <!-- #Footer -->
@@ -88,13 +88,15 @@
 </section>
 
 <section class="content">
-    <div class="row clearfix">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="card">
-                <div class="header">
-                    <h2>
-                        Update admin details
-                    </h2>
+    <div class="container-fluid">
+        <div class="block-header">
+
+        </div>
+
+        <!-- CKEditor -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
                     <div >
                         <%
                             if (request.getAttribute("message") != null) {
@@ -104,51 +106,50 @@
                             }
                         %>
                     </div>
-                </div>
-                <div class="body">
-                    <c:if test="${requestScope.adminFullInfo != null}" >
-                        <c:forEach items="${requestScope.adminFullInfo}" var="adminInfo">
+                    <form action="UpdateChangePMEnglishInData" method="post">
+                        <div class="header">
+                            <h2>
+                                Change PM
+                                <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
+                           --%>  </h2>
+                            <%-- <ul class="header-dropdown m-r--5">
+                                 <li class="dropdown">
+                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                         <i class="material-icons">more_vert</i>
+                                     </a>
+                                     <ul class="dropdown-menu pull-right">
+                                         <li><a href="javascript:void(0);">Action</a></li>
+                                         <li><a href="javascript:void(0);">Another action</a></li>
+                                         <li><a href="javascript:void(0);">Something else here</a></li>
+                                     </ul>
+                                 </li>
+                             </ul>--%>
+                        </div>
+                        <c:if test="${requestScope.ChangeРМList != null}">
+                            <c:forEach items="${requestScope.ChangeРМList}" var="Oil">
 
-                            <form class="form-horizontal" method="get" action="UpdateAdminInfoFinalStep">
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label  for="adminUsername" >Username</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="text" name ="adminUsername" id="adminUsername" class="form-control" placeholder="${adminInfo.username}" required="required" >
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                        <label for="adminPassword">Password</label>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="password" name ="adminPassword" id="adminPassword" class="form-control" placeholder="${adminInfo.password}" required="required">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-4 col-xs-offset-5">
-                                        <button type="submit" class="btn btn-primary m-t-15 waves-effect">Update</button>
-                                        <input type="hidden" name="adminid" value="${adminInfo.id}">
-                                    </div>
-                                </div>
-                            </form>
-                        </c:forEach>
-                    </c:if>
+
+                        <div class="body">
+                            <textarea id="ckeditor" name="TextArea">
+                                ${Oil.changeРМEng}
+                              </textarea>
+                        </div>
+
+                        <div class="body">
+                            <button type="submit" class="btn btn-info waves-effect right">Update</button>
+                        </div>
+                                <input type="hidden" name="TipsId" value="${Oil.id}">
+                            </c:forEach>
+                        </c:if>
+                    </form>
                 </div>
+
             </div>
         </div>
+        <!-- #END# CKEditor -->
+
     </div>
 </section>
-
 
 <!-- Jquery Core Js -->
 <script src="<%=request.getContextPath()%>/plugins/jquery/jquery.min.js"></script>
@@ -165,11 +166,17 @@
 <!-- Waves Effect Plugin Js -->
 <script src="<%=request.getContextPath()%>/plugins/node-waves/waves.js"></script>
 
+<!-- Ckeditor -->
+<script src="<%=request.getContextPath()%>/plugins/ckeditor/ckeditor.js"></script>
+
+<!-- TinyMCE -->
+<script src="<%=request.getContextPath()%>/plugins/tinymce/tinymce.js"></script>
+
 <!-- Custom Js -->
 <script src="<%=request.getContextPath()%>/js/admin.js"></script>
+<script src="<%=request.getContextPath()%>/js/pages/forms/editors.js"></script>
 
 <!-- Demo Js -->
-
 <script src="<%=request.getContextPath()%>/js/demo.js"></script>
 </body>
 

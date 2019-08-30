@@ -1,7 +1,9 @@
-package com.ithome.web.start.OilFilterChangeController;
+package com.ithome.web.start.ChangeРМController;
 
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.ChangeРМ;
 import com.ithome.web.start.Beans.OilFilterChange;
+import com.ithome.web.start.DaoController.ChangeРМDao;
 import com.ithome.web.start.DaoController.OilFilterChangeDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -13,58 +15,75 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateOilFilterInRussian")
-public class UpdateOilFilterInRussian extends HttpServlet {
-
+@WebServlet("/DeleteChangePMEng")
+public class DeleteChangePMEng extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<OilFilterChange> oilFilterChangeList = new ArrayList<>();
+    private List<ChangeРМ> changeРМList = new ArrayList<>();
+    private int TipsId =0;
+    private ChangeРМDao changeРМDao = new ChangeРМDao();
 
-    private OilFilterChangeDao oilFilterChangeDao = new OilFilterChangeDao();
-
-    private int id = 0;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInEnglish(request,response);
+        deleteChangePMEng(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterInEnglish(request,response);
+        deleteChangePMEng(request,response);
     }
 
-    private void updateOilFilterInEnglish(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void deleteChangePMEng(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getOilFilterEnglishById(id);
-        setRequestToOilFilterEnglish(request);
-        goBackToPage(request,response);
+        deleteFromData(TipsId,request,response);
     }
 
-    private void getParameters(HttpServletRequest request) {
-        id = Integer.parseInt(request.getParameter("Id"));
+    private void deleteFromData(int tipsId, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int delete = deleteTipFromData(tipsId);
+        if(delete > 0) {
+            String message = "Something went wrong";
+            getChangePMEnglish();
+            setRequestToPage(request);
+            gotoPage(request,response,message);
+        }else {
+            String message = "";
+            getChangePMEnglish();
+            setRequestToPage(request);
+            gotoPage(request,response,message);
+        }
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/OilFilterRussianWithId.jsp").forward(request, response);
+    private void gotoPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/ChangePMEnglish.jsp").forward(request, response);
     }
 
-    private void setRequestToOilFilterEnglish(HttpServletRequest request) {
+    private void setRequestToPage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("OilFilterChangeList", oilFilterChangeList);
+        request.setAttribute("ChangeРМList", changeРМList);
     }
 
-    private void getOilFilterEnglishById(int id) {
-        oilFilterChangeList = oilFilterChangeDao.getOilFilterInRussianById(id);
+    private void getChangePMEnglish() {
+        changeРМList = changeРМDao.getChangeРМInEnglish();
+    }
+
+    private int deleteTipFromData(int tipsId) {
+        return changeРМDao.DeleteById(tipsId);
+    }
+
+    private void getParameters(HttpServletRequest request) {
+        TipsId = Integer.parseInt(request.getParameter("TipsId"));
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -107,6 +126,7 @@ public class UpdateOilFilterInRussian extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }
 
 

@@ -141,14 +141,14 @@ public class ChangeРМDao {
      * @param changeРМId
      * @return
      */
-    public int UpdateChangeРМEng(String ChangeРМ, int changeРМId) {
+    public int UpdateChangeРМEng(ChangeРМ ChangeРМ, int changeРМId) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`changepm`  SET changepmeng=? WHERE id=" + changeРМId;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, ChangeРМ);
+            statment.setString(1, ChangeРМ.getChangeРМEng());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 
@@ -166,14 +166,14 @@ public class ChangeРМDao {
      * @param changeРМId
      * @return
      */
-    public int UpdateChangeРМRus(String ChangeРМ, int changeРМId) {
+    public int UpdateChangeРМRus(ChangeРМ ChangeРМ, int changeРМId) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`changepm`  SET changepmrus=? WHERE id=" + changeРМId;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, ChangeРМ);
+            statment.setString(1, ChangeРМ.getChangeРМRus());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 
@@ -233,5 +233,45 @@ public class ChangeРМDao {
 
     }
 
+    /**
+     * getOilFilterInRussianById
+     * @param id
+     * @return
+     */
+       public List<ChangeРМ> getChangePMInRussianById(int id) {
+        ChangeРМ changeРМ = null;
+        List<ChangeРМ> changeРМList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`changepm` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ChangeРМRus(changeРМList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return changeРМList;
+    }
 
+    /**
+     * getOilFilterInEnglishById
+     * @param id
+     * @return
+     */
+    public List<ChangeРМ> getChangePMInEnglishById(int id) {
+        ChangeРМ changeРМ = null;
+        List<ChangeРМ> changeРМList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`changepm` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ChangeРМEng(changeРМList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return changeРМList;
+    }
 }

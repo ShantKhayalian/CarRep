@@ -11,6 +11,11 @@ public class ChangeРМ extends BeanHelper {
         ChangeРМRus = changeРМRus;
     }
 
+    public ChangeРМ(String changeРМEng, String changeРМRus) {
+        ChangeРМEng = changeРМEng;
+        ChangeРМRus = changeРМRus;
+    }
+
     public ChangeРМ() {
     }
 

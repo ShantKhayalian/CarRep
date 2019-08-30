@@ -144,12 +144,12 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>CHange PM</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
+                                <a href="AddChangePMEng">
+                                    <span>Add Change PM</span>
                                 </a>
                             </li>
                             <li>
@@ -158,13 +158,13 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                        <a href="ChangePMEng">
+                                            <span>Update English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                        <a href="ChangePMRus">
+                                            <span>Update English</span>
                                         </a>
                                     </li>
                                 </ul>

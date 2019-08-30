@@ -62,7 +62,7 @@ public class DeleteTipsEng extends HttpServlet {
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response,String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/TipsEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Tips/TipsEnglish.jsp").forward(request, response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

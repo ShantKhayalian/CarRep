@@ -40,7 +40,7 @@ public class AddNewEmployee extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws IOException,ServletException {
-        request.getRequestDispatcher("/WEB-INF/AddNewEmployee.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/Employee/AddNewEmployee.jsp").forward(request,response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

@@ -90,7 +90,7 @@ public class AddEmployeToData extends HttpServlet {
     }
 
     private void gotoNextStepPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AddEmployeeImage.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Employee/AddEmployeeImage.jsp").forward(request, response);
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {

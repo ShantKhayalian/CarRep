@@ -95,7 +95,7 @@ public class NewEmployeImage extends HttpServlet {
 
     private void goBackToSamePage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message",message);
-        request.getRequestDispatcher("/WEB-INF/AddEmployeeImage.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Employee/AddEmployeeImage.jsp").forward(request, response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

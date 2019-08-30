@@ -64,7 +64,7 @@ public class UpdateTipsRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/TipsRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Tips/TipsRussian.jsp").forward(request, response);
     }
 
     private void setRequestToTipsUpdatePage(HttpServletRequest request) {

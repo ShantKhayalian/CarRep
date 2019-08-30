@@ -54,7 +54,7 @@ public class UpdateEmployee extends HttpServlet {
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/UpdateEmployee.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/Employee/UpdateEmployee.jsp").forward(request,response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

@@ -15,6 +15,11 @@ public class Electrician extends BeanHelper {
         return ElectricianEng;
     }
 
+    public Electrician(String electricianEng, String electricianRus) {
+        ElectricianEng = electricianEng;
+        ElectricianRus = electricianRus;
+    }
+
     public Electrician() {
     }
 

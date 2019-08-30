@@ -65,7 +65,7 @@
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
-   <jsp:include page="<%=request.getContextPath()%>/inc/adminHead.jsp"/>
+   <jsp:include page="inc/adminHead.jsp"/>
 </nav>
 <!-- #Top Bar -->
 <section>

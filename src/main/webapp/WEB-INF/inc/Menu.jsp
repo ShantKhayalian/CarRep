@@ -119,12 +119,6 @@
                             <span>Oil Filter Change</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="<%=request.getContextPath()%>/AddOilFilterEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <span>Update Oil Filter change</span>
                                 </a>
@@ -147,11 +141,7 @@
                             <span>Change PM</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="<%=request.getContextPath()%>/AddChangePMEng">
-                                    <span>Add Change PM</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <span>Change PM controller</span>
@@ -175,11 +165,7 @@
                             <span>Computer Diagnostics</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="<%=request.getContextPath()%>/AddCDEng">
-                                    <span>Add Computer Diagnostics</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
                                     <span>Computer Diagnostics controller</span>
@@ -200,27 +186,23 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Electrician</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Electrician controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                        <a href="<%=request.getContextPath()%>/CEng">
+                                            <span>Electrician English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                        <a href="<%=request.getContextPath()%>/CRus">
+                                            <span>Electrician Russian</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -228,27 +210,23 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Diagnostics Repair</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Diagnostics Repair controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
                                         <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                            <span>Diagnostics Repair English</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                            <span>Diagnostics Repair Russian</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -256,27 +234,23 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Conditioners</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Conditioners controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
                                         <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                            <span>Conditioners English</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                            <span>Conditioners Russian</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -284,27 +258,23 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Replacement Discs</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Replacement Discs controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                        <a href="RPBDiscsEng">
+                                            <span>Replacement Discs English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                        <a href="RPBDiscsRus">
+                                            <span>Replacement Discs Russian</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -312,27 +282,72 @@
 
                         </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Oil Filter Change2</span>
+                            <span>Suspension Repair</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="AddTipsEng">
-                                    <span>Add Oil Filter change</span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Vehicle tips controller</span>
+                                    <span>Suspension Repair controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
                                         <a href="TipsEng">
-                                            <span>Vehicle tips English</span>
+                                            <span>Suspension Repair English</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="TipsRus">
-                                            <span>Vehicle tips Russian</span>
+                                            <span>Suspension Repair Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Engine Diagnostics Repair</span>
+                        </a>
+                        <ul class="ml-menu">
+
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Engine Diagnostics Repair controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Engine Diagnostics Repair English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Engine Diagnostics Repair Russian</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Gathering Collapse</span>
+                        </a>
+                        <ul class="ml-menu">
+
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>Gathering Collapse controller</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="TipsEng">
+                                            <span>Gathering Collapse English</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="TipsRus">
+                                            <span>Gathering Collapse Russian</span>
                                         </a>
                                     </li>
                                 </ul>

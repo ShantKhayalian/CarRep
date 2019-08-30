@@ -106,10 +106,10 @@
                             }
                         %>
                     </div>
-                    <form action="UpdateCDEnglishInData" method="post">
+                    <form action="UpdateCEnglishInData" method="post">
                         <div class="header">
                             <h2>
-                                Computer Diagnostic
+                                Electrician
                                 <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
                            --%>  </h2>
                             <%-- <ul class="header-dropdown m-r--5">
@@ -125,13 +125,13 @@
                                  </li>
                              </ul>--%>
                         </div>
-                        <c:if test="${requestScope.ComputerDiagnosticsList != null}">
-                            <c:forEach items="${requestScope.ComputerDiagnosticsList}" var="Oil">
+                        <c:if test="${requestScope.ElectricianList != null}">
+                            <c:forEach items="${requestScope.ElectricianList}" var="Oil">
 
 
                         <div class="body">
                             <textarea id="ckeditor" name="TextArea">
-                                ${Oil.computerDiagnosticsEng}
+                                ${Oil.electricianEng}
                               </textarea>
                         </div>
 

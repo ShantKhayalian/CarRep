@@ -32,14 +32,14 @@ public class UpdateCDEnglishInData extends HttpServlet {
     private String CDRussian=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterEnglishInData(request,response);
+        updateCDEnglishInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterEnglishInData(request,response);
+        updateCDEnglishInData(request,response);
     }
 
-    private void updateOilFilterEnglishInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void updateCDEnglishInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);

@@ -29,18 +29,18 @@ public class UpdateCDRussianInData extends HttpServlet {
     private ComputerDiagnosticsDao computerDiagnosticsDao = new ComputerDiagnosticsDao();
     private int id =0;
     private String fullText =null;
-    private String changePMEnglish =null;
+    private String CDEnglish =null;
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateChangePMRussianInData(request,response);
+        updateCDRussianInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateChangePMRussianInData(request,response);
+        updateCDRussianInData(request,response);
     }
 
-    private void updateChangePMRussianInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void updateCDRussianInData(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
@@ -65,7 +65,7 @@ public class UpdateCDRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/CD/ChangePMChangeRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/CD/CDRussianWithId.jsp").forward(request, response);
     }
 
     private void setRequestToChangePMUpdatePage(HttpServletRequest request) {
@@ -84,13 +84,13 @@ public class UpdateCDRussianInData extends HttpServlet {
     }
 
     private ComputerDiagnostics CreateObjectOfText() {
-        return new ComputerDiagnostics(changePMEnglish,fullText);
+        return new ComputerDiagnostics(CDEnglish,fullText);
     }
 
     private void getEnglishText(int id) {
         computerDiagnosticsList = computerDiagnosticsDao.getCDInEnglishById(id);
         for (int i = 0; i <computerDiagnosticsList.size() ; i++) {
-            changePMEnglish  = computerDiagnosticsList.get(i).getComputerDiagnosticsEng();
+            CDEnglish  = computerDiagnosticsList.get(i).getComputerDiagnosticsEng();
         }
 
     }

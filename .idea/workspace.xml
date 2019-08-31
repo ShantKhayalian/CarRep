@@ -51,46 +51,118 @@
     <session id="136904604">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="274" />
-          <entry key="jsp" value="183" />
-          <entry key="properties" value="3" />
+          <entry key="java" value="287" />
+          <entry key="jsp" value="200" />
+          <entry key="properties" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="274" />
-          <entry key="JSP" value="183" />
-          <entry key="Properties" value="3" />
+          <entry key="JAVA" value="287" />
+          <entry key="JSP" value="200" />
+          <entry key="Properties" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="3353" />
-          <entry key="jsp" value="541" />
+          <entry key="java" value="3525" />
+          <entry key="jsp" value="830" />
+          <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3353" />
-          <entry key="JSP" value="541" />
+          <entry key="JAVA" value="3525" />
+          <entry key="JSP" value="830" />
           <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1241#1258#0" expanded="true" />
+                <element signature="e#1932#1969#0" expanded="true" />
+                <element signature="e#1932#1969#0" expanded="true" />
+                <element signature="e#1854#1881#1" expanded="true" />
+                <element signature="e#2205#2226#0" expanded="true" />
+                <element signature="e#2205#2226#0" expanded="true" />
+                <element signature="e#2333#2379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="822" column="93" selection-start-line="822" selection-start-column="93" selection-end-line="822" selection-end-column="93" />
+            <state relative-caret-position="310">
+              <caret line="257" column="109" lean-forward="true" selection-start-line="254" selection-start-column="39" selection-end-line="257" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ContactUs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="91" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3947">
+              <caret line="714" column="33" lean-forward="true" selection-start-line="714" selection-start-column="33" selection-end-line="714" selection-end-column="33" />
+              <folding>
+                <element signature="e#11809#12139#1#HTML" expanded="true" />
+                <element signature="e#12211#12541#1#HTML" expanded="true" />
+                <element signature="e#12613#12943#1#HTML" expanded="true" />
+                <element signature="e#13021#13351#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#69207#69213#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -100,8 +172,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -113,6 +185,9 @@
       <find>Name</find>
       <find>CKEDITOR</find>
       <find>de</find>
+      <find>computer</find>
+      <find>Cost</find>
+      <find>Home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,18 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ReplacementPadsBrakeDiscsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/CEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/CRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/UpdateCEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/UpdateCRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/DEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/DRus.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Electrition/EEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Conditioners/CEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/UpdateERussianInData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCRussianInData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Conditioners/CRussian.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Electrition/ERussian.jsp" />
@@ -169,10 +232,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/SRRus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SRRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_en_US.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/inc/WorkingTimesDownPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInRussian.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp" />
       </list>
     </option>
   </component>
@@ -235,6 +310,14 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/morrisjs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/tinymce/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
@@ -247,6 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,17 +391,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="ElectitionController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="GatheringCollapseController" type="462c0819:PsiDirectoryNode" />
+              <item name="ComputerDiagnosticController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -344,7 +418,10 @@
               <item name="CarRep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="UserSection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -352,147 +429,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Aboutus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="CD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="ChangePM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Conditioners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="DiagnosticsRepair" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="EDR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Electrition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="OilFilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="RPBDiscs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="SR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567241196266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567252482693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -648,17 +597,59 @@
       <workItem from="1566999185811" duration="3536000" />
       <workItem from="1567014877592" duration="5651000" />
       <workItem from="1567057886568" duration="7317000" />
+      <workItem from="1567241661659" duration="8496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74926000" />
+    <option name="totallyTimeSpent" value="83422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.22654584" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4901257" visible="true" weight="0.22867803" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50987434" side_tool="true" weight="0.22867803" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38042268" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32814237" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="RestServices" order="12" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="Maven" order="14" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -697,10 +688,13 @@
       <window_info anchor="right" id="RestServices" order="12" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="Maven" order="14" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1549,233 +1543,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/CRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="59" />
-          <folding>
-            <element signature="e#2369#2411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Conditioners/CEnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Electrition/EEnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="108" column="41" selection-start-line="108" selection-start-column="41" selection-end-line="108" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/UpdateERussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-          <folding>
-            <element signature="e#2512#2544#0" expanded="true" />
-            <element signature="e#2512#2544#0" expanded="true" />
-            <element signature="e#2707#2739#0" expanded="true" />
-            <element signature="e#2707#2739#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <element signature="e#3475#3515#0" expanded="true" />
-            <element signature="e#3521#3522#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-            <element signature="e#3652#3653#0" expanded="true" />
-            <element signature="e#3700#3701#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-          <folding>
-            <element signature="e#952#969#0" expanded="true" />
-            <element signature="e#1021#1038#0" expanded="true" />
-            <element signature="e#2087#2097#1" expanded="true" />
-            <element signature="e#2158#2202#0" expanded="true" />
-            <element signature="e#2430#2486#1" expanded="true" />
-            <element signature="e#2499#2512#0" expanded="true" />
-            <element signature="e#2639#2681#1" expanded="true" />
-            <element signature="e#2694#2707#0" expanded="true" />
-            <element signature="e#3464#3465#0" expanded="true" />
-            <element signature="e#3493#3535#0" expanded="true" />
-            <element signature="e#3541#3542#0" expanded="true" />
-            <element signature="e#3589#3590#0" expanded="true" />
-            <element signature="e#3674#3675#0" expanded="true" />
-            <element signature="e#3723#3724#0" expanded="true" />
-            <element signature="e#3781#3782#0" expanded="true" />
-            <element signature="e#4091#4139#1" expanded="true" />
-            <element signature="e#4334#4335#0" expanded="true" />
-            <element signature="e#4401#4402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Conditioners/CRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Electrition/ERussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ReplacementPadsBrakeDiscs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="239" column="32" lean-forward="true" selection-start-line="227" selection-start-column="7" selection-end-line="239" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1615#1648#0" expanded="true" />
-            <element signature="e#2362#2395#0" expanded="true" />
-            <element signature="e#2759#2792#1" expanded="true" />
-            <element signature="e#2801#2857#1" expanded="true" />
-            <element signature="e#3523#3556#1" expanded="true" />
-            <element signature="e#3565#3621#1" expanded="true" />
-            <element signature="e#3603#3620#0" expanded="true" />
-            <element signature="e#7448#7481#1" expanded="true" />
-            <element signature="e#7490#7546#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-          <folding>
-            <element signature="e#2263#2307#0" expanded="true" />
-            <element signature="e#2631#2663#0" expanded="true" />
-            <element signature="e#2631#2663#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-            <element signature="e#3598#3640#0" expanded="true" />
-            <element signature="e#3646#3647#0" expanded="true" />
-            <element signature="e#3694#3695#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
-            <element signature="e#3886#3887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/DiagnosticsRepair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/DiagnosticsRepair/DRRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="133" column="58" selection-start-line="133" selection-start-column="58" selection-end-line="133" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/DiagnosticsRepair/DREnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="133" column="58" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/EngineDiagnosticsRepair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EngineDiagnosticsRepairDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="247" column="86" lean-forward="true" selection-start-line="247" selection-start-column="86" selection-end-line="247" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8732#8787#1" expanded="true" />
-            <element signature="e#8796#8874#1" expanded="true" />
-            <element signature="e#9553#9608#1" expanded="true" />
-            <element signature="e#9617#9695#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="50" column="77" lean-forward="true" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
-          <folding>
-            <element signature="e#2219#2273#0" expanded="true" />
-            <element signature="e#3551#3552#0" expanded="true" />
-            <element signature="e#3585#3637#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3840#3841#0" expanded="true" />
-            <element signature="e#3903#3904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
-          <folding>
-            <element signature="e#2326#2354#0" expanded="true" />
-            <element signature="e#2326#2354#0" expanded="true" />
-            <element signature="e#3692#3744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DRRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="47" column="64" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="64" />
-          <folding>
-            <element signature="e#2438#2490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DREng.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
@@ -2070,18 +1837,186 @@
       </provider>
       <provider selected="true" editor-type-id="ResourceBundle" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/FooterScripts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="540">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInRussian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInEnglish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="51" lean-forward="true" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDRussianInData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="822" column="93" selection-start-line="822" selection-start-column="93" selection-end-line="822" selection-end-column="93" />
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="53" />
+          <folding>
+            <element signature="e#2428#2448#0" expanded="true" />
+            <element signature="e#2438#2477#0" expanded="true" />
+            <element signature="e#2438#2477#0" expanded="true" />
+            <element signature="e#2647#2686#0" expanded="true" />
+            <element signature="e#2647#2686#0" expanded="true" />
+            <element signature="e#3488#3544#0" expanded="true" />
+            <element signature="e#3752#3753#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#4048#4106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="132" column="57" lean-forward="true" selection-start-line="132" selection-start-column="57" selection-end-line="132" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/start.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ContactUs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="1315" column="145" lean-forward="true" selection-start-line="7" selection-end-line="1315" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1258#0" expanded="true" />
+            <element signature="e#1932#1969#0" expanded="true" />
+            <element signature="e#1932#1969#0" expanded="true" />
+            <element signature="e#1854#1881#1" expanded="true" />
+            <element signature="e#2205#2226#0" expanded="true" />
+            <element signature="e#2205#2226#0" expanded="true" />
+            <element signature="e#2333#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/WorkingTimesDownPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="19" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ContactUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="91" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="257" column="109" lean-forward="true" selection-start-line="254" selection-start-column="39" selection-end-line="257" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3947">
+          <caret line="714" column="33" lean-forward="true" selection-start-line="714" selection-start-column="33" selection-end-line="714" selection-end-column="33" />
+          <folding>
+            <element signature="e#11809#12139#1#HTML" expanded="true" />
+            <element signature="e#12211#12541#1#HTML" expanded="true" />
+            <element signature="e#12613#12943#1#HTML" expanded="true" />
+            <element signature="e#13021#13351#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#69207#69213#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

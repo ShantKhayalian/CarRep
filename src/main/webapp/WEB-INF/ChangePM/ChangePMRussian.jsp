@@ -137,9 +137,6 @@
 
                                 <div class="body">
                                     <button type="submit" class="btn btn-info waves-effect right">Update</button>
-                                    <form action="DeleteCDRus" method="post">
-                                    <button type="submit" class="btn btn-info waves-effect right">Delete</button>
-                                    </form>
                                 </div>
                                 <input type="hidden" name="TipsId" value="${Oil.id}">
                             </c:forEach>

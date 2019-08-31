@@ -96,12 +96,12 @@
         <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
-                    <c:if test="${requestScope.ChangePMList != null}">
-                    <c:forEach items="${requestScope.ChangePMList}" var="tips">
+                    <c:if test="${requestScope.ComputerDiagnosticsList != null}">
+                    <c:forEach items="${requestScope.ComputerDiagnosticsList}" var="tips">
                     <form action="UpdateChangePMEnglishInData" method="post">
                         <div class="header">
                             <h2>
-                                Tips in English for Id ${tips.id}
+                                Computer Diagnostic
                             </h2>
                             <div >
                                 <%
@@ -116,7 +116,7 @@
                         <div class="body">
 
                             <textarea id="ckeditor" name="TipsText">
-                               ${tips.changeРМRus}
+                               ${tips.computerDiagnosticsEng}
                                  </textarea>
 
 

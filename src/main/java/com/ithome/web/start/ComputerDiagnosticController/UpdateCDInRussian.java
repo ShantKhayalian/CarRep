@@ -50,7 +50,7 @@ public class UpdateCDInRussian extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/CD/CDRussianWithId.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/CD/CDRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCDEnglish(HttpServletRequest request) {

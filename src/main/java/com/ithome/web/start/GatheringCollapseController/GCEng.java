@@ -54,7 +54,7 @@ public class GCEng extends HttpServlet {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("GatheringCollapses", gatheringCollapses);
+        request.setAttribute("GatheringCollapseslist", gatheringCollapses);
     }
 
     private void getTextEnglish() {

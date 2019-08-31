@@ -292,12 +292,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="SREng">
                                             <span>Suspension Repair English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="SRRus">
                                             <span>Suspension Repair Russian</span>
                                         </a>
                                     </li>

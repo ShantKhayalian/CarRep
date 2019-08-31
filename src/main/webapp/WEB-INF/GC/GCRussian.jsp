@@ -109,7 +109,7 @@
                     <form action="UpdateGCRussianInData" method="post">
                         <div class="header">
                             <h2>
-                                Electrician
+                                Gathering Collapse
                                 <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
                            --%>  </h2>
                             <%-- <ul class="header-dropdown m-r--5">
@@ -125,8 +125,8 @@
                                  </li>
                              </ul>--%>
                         </div>
-                        <c:if test="${requestScope.GatheringCollapses != null}">
-                            <c:forEach items="${requestScope.GatheringCollapses}" var="Oil">
+                        <c:if test="${requestScope.GatheringCollapseslist != null}">
+                            <c:forEach items="${requestScope.GatheringCollapseslist}" var="Oil">
 
 
                         <div class="body">

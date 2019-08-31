@@ -1,7 +1,9 @@
 package com.ithome.web.start.GatheringCollapseController;
 
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.Electrician;
 import com.ithome.web.start.Beans.GatheringCollapse;
+import com.ithome.web.start.DaoController.ElectricianDao;
 import com.ithome.web.start.DaoController.GatheringCollapseDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -16,47 +18,87 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/GCRus")
-public class GCRus extends HttpServlet {
+@WebServlet("/UpdateGCEnglishInData")
+public class UpdateGCEnglishInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<GatheringCollapse> gatheringCollapses = new ArrayList<>();
-
+    private List<GatheringCollapse> gatheringCollapseslist= new ArrayList<>();
     private GatheringCollapseDao gatheringCollapseDao = new GatheringCollapseDao();
+    private int id =0;
+    private String fullText =null;
+    private String CRussian=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        updateCEnglishInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        updateCEnglishInData(request,response);
     }
 
-    private void gCRus(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateCEnglishInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
-        goBackToPage(request,response);
+        getParameters(request);
+        getRussianText(id);
+        UpdateTextInDataEng(CreateNewTextInData(id),request,response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/GC/GCRussian.jsp").forward(request, response);
+    private void getRussianText(int id) {
+        gatheringCollapseslist = gatheringCollapseDao.getGCInRussianById(id);
+        for (int i = 0; i <gatheringCollapseslist.size() ; i++) {
+            CRussian  = gatheringCollapseslist.get(i).getGatheringCollapseRus();
+        }
+
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if(createNewTextInData ==0){
+            String message = "Something went Wring try again later";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }else{
+            String message = "Successfully Updated! ";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }
+    }
+
+    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/GC/GCEnglish.jsp").forward(request, response);
+    }
+
+    private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("GatheringCollapseslist", gatheringCollapses);
+        request.setAttribute("GatheringCollapseslist", gatheringCollapseslist);
     }
 
-    private void getTextEnglish() {
-        gatheringCollapses = gatheringCollapseDao.getGatheringCollapseInRussian();
+    private void getEnglishC() {
+        gatheringCollapseslist = gatheringCollapseDao.getGatheringCollapseInEnglish();
+    }
+
+
+    private int CreateNewTextInData(int id) {
+        return gatheringCollapseDao.UpdateGatheringCollapseEng(CreateObjectOfText(),id);
+    }
+
+    private GatheringCollapse CreateObjectOfText() {
+        return new GatheringCollapse(fullText,CRussian);
+    }
+
+    private void getParameters(HttpServletRequest request) {
+        id= Integer.parseInt(request.getParameter("TipsId"));
+        fullText  = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -99,4 +141,6 @@ public class GCRus extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }
+

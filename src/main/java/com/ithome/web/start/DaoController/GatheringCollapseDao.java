@@ -227,4 +227,35 @@ public class GatheringCollapseDao {
     }
 
 
+    public List<GatheringCollapse> getGCInRussianById(int id) {
+        GatheringCollapse gatheringCollapse = null;
+        List<GatheringCollapse> gatheringCollapseList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`gatheringcollapse` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            GatheringCollapseRus(gatheringCollapseList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return gatheringCollapseList;
+    }
+
+    public List<GatheringCollapse> getGCInEnglishById(int id) {
+        GatheringCollapse gatheringCollapse = null;
+        List<GatheringCollapse> gatheringCollapseList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`gatheringcollapse` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            GatheringCollapseEng(gatheringCollapseList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return gatheringCollapseList;
+    }
 }

@@ -1,8 +1,10 @@
-package com.ithome.web.start.GatheringCollapseController;
+package com.ithome.web.start.SuspensionRepairController;
 
 import com.ithome.web.start.Beans.Admin;
-import com.ithome.web.start.Beans.GatheringCollapse;
-import com.ithome.web.start.DaoController.GatheringCollapseDao;
+import com.ithome.web.start.Beans.Electrician;
+import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.ElectricianDao;
+import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -16,26 +18,26 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/GCRus")
-public class GCRus extends HttpServlet {
+@WebServlet("/SREng")
+public class SREng extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<GatheringCollapse> gatheringCollapses = new ArrayList<>();
+    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
 
-    private GatheringCollapseDao gatheringCollapseDao = new GatheringCollapseDao();
+    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        sREng(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        sREng(request,response);
     }
 
-    private void gCRus(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void sREng(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
@@ -45,18 +47,18 @@ public class GCRus extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/GC/GCRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/SR/SREnglish.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("GatheringCollapseslist", gatheringCollapses);
+        request.setAttribute("SuspensionRepairList", suspensionRepairList);
     }
 
     private void getTextEnglish() {
-        gatheringCollapses = gatheringCollapseDao.getGatheringCollapseInRussian();
+        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInEnglish();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {

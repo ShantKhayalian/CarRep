@@ -16,47 +16,87 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/GCRus")
-public class GCRus extends HttpServlet {
+@WebServlet("/UpdateGCRussianInData")
+public class UpdateGCRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<GatheringCollapse> gatheringCollapses = new ArrayList<>();
-
+    private List<GatheringCollapse> gatheringCollapseslist= new ArrayList<>();
     private GatheringCollapseDao gatheringCollapseDao = new GatheringCollapseDao();
+    private int id =0;
+    private String fullText =null;
+    private String CRussian=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        updateGCRRussianInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        gCRus(request,response);
+        updateGCRRussianInData(request,response);
     }
 
-    private void gCRus(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateGCRRussianInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
-        goBackToPage(request,response);
+        getParameters(request);
+        getRussianText(id);
+        UpdateTextInDataEng(CreateNewTextInData(id),request,response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void getRussianText(int id) {
+        gatheringCollapseslist = gatheringCollapseDao.getGCInEnglishById(id);
+        for (int i = 0; i <gatheringCollapseslist.size() ; i++) {
+            CRussian  = gatheringCollapseslist.get(i).getGatheringCollapseEng();
+        }
+
+    }
+
+    private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if(createNewTextInData ==0){
+            String message = "Something went Wring try again later";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }else{
+            String message = "Successfully Updated! ";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }
+    }
+
+    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
         request.getRequestDispatcher("/WEB-INF/GC/GCRussian.jsp").forward(request, response);
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("GatheringCollapseslist", gatheringCollapses);
+        request.setAttribute("GatheringCollapseslist", gatheringCollapseslist);
     }
 
-    private void getTextEnglish() {
-        gatheringCollapses = gatheringCollapseDao.getGatheringCollapseInRussian();
+    private void getEnglishC() {
+        gatheringCollapseslist = gatheringCollapseDao.getGatheringCollapseInRussian();
+    }
+
+
+    private int CreateNewTextInData(int id) {
+        return gatheringCollapseDao.UpdateGatheringCollapseRus(CreateObjectOfText(),id);
+    }
+
+    private GatheringCollapse CreateObjectOfText() {
+        return new GatheringCollapse(fullText,CRussian);
+    }
+
+    private void getParameters(HttpServletRequest request) {
+        id= Integer.parseInt(request.getParameter("TipsId"));
+        fullText  = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -99,4 +139,6 @@ public class GCRus extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }
+

@@ -824,8 +824,6 @@
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
-
-
                                         </div>
                                     </div>
                                     <section

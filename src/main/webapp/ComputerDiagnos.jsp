@@ -740,14 +740,14 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="menu-service-container">
                                                         <ul id="menu-service" class="menu">
-                                                            <li id="menu-item-1594"
+                                                            <li id="menu-item-1609"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1594">
                                                                 <a
                                                                         href="OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Oil and filter change" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1595"
+                                                            <li id="menu-item-1608"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1595">
                                                                 <a
                                                                         href="ReplacementPadsBrakeDiscs?PageLanguage=${requestScope.Pagelanguage}"
@@ -755,41 +755,41 @@
                                                                         key="Replacement of pads and brake discs"
                                                                         bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1596"
+                                                            <li id="menu-item-1607"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service current-menu-item menu-item-1596">
                                                                 <a
                                                                         href="SuspensionRepair?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                     key="Suspension repair" bundle="${Bundles}"/>
                                                             </li>
-                                                            <li id="menu-item-1597"
+                                                            <li id="menu-item-1606"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
                                                                 <a
                                                                         href="EngineDiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1598"
+                                                            <li id="menu-item-1605"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                                                 <a
                                                                         href="DiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Diagnostics and repair" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1599"
+                                                            <li id="menu-item-1604"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
                                                                         href="ComputerDiagnostics?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Computer diagnostics" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1599"
+                                                            <li id="menu-item-1600"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
                                                                    class=" dropdown-item"><fmt:message key="Change Timing"
                                                                                                        bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1599"
+                                                            <li id="menu-item-1601"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
                                                                         href="RepairMaintenanceConditioners?PageLanguage=${requestScope.Pagelanguage}"
@@ -797,14 +797,14 @@
                                                                         key="Repair and maintenance of air conditioners"
                                                                         bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1599"
+                                                            <li id="menu-item-1602"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
                                                                         href="GatheringCollapse?PageLanguage=${requestScope.Pagelanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="3D gathering-collapse" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1599"
+                                                            <li id="menu-item-1603"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
                                                                         href="Electrician?PageLanguage=${requestScope.Pagelanguage}"
@@ -886,7 +886,7 @@
                                                         <c:forEach items="${requestScope.computerDiagnosticsList}" var="text">
                                                         <c:set value="${requestScope.Pagelanguage}" var="lang"/>
                                                             <c:choose>
-                                                                <c:when test="${lang = 'en_US'}">
+                                                                <c:when test="${lang == 'en_US'}">
                                                                     <p>${text.computerDiagnosticsEng}</p>
                                                                 </c:when>
                                                                 <c:otherwise>
@@ -930,10 +930,6 @@
                                                     </div>
                                                 </div>
                                             </section>
-
-                                           
-
-
                                         </div>
                                     </div>
                                 </div>

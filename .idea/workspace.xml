@@ -67,21 +67,21 @@
         <counts>
           <entry key="dummy" value="30" />
           <entry key="java" value="3525" />
-          <entry key="jsp" value="830" />
+          <entry key="jsp" value="862" />
           <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3525" />
-          <entry key="JSP" value="830" />
+          <entry key="JSP" value="862" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="Properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -118,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="257" column="109" lean-forward="true" selection-start-line="254" selection-start-column="39" selection-end-line="257" selection-end-column="109" />
+            <state relative-caret-position="370">
+              <caret line="772" column="89" lean-forward="true" selection-start-line="772" selection-start-column="89" selection-end-line="772" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -136,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3947">
-              <caret line="714" column="33" lean-forward="true" selection-start-line="714" selection-start-column="33" selection-end-line="714" selection-end-column="33" />
+            <state relative-caret-position="229">
+              <caret line="888" column="87" selection-start-line="888" selection-start-column="87" selection-end-line="888" selection-end-column="87" />
               <folding>
                 <element signature="e#11809#12139#1#HTML" expanded="true" />
                 <element signature="e#12211#12541#1#HTML" expanded="true" />
@@ -188,6 +188,7 @@
       <find>computer</find>
       <find>Cost</find>
       <find>Home</find>
+      <find>vehicl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -441,7 +442,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567252482693" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567253304288" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -597,12 +598,12 @@
       <workItem from="1566999185811" duration="3536000" />
       <workItem from="1567014877592" duration="5651000" />
       <workItem from="1567057886568" duration="7317000" />
-      <workItem from="1567241661659" duration="8496000" />
+      <workItem from="1567241661659" duration="9667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83422000" />
+    <option name="totallyTimeSpent" value="84593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -618,7 +619,7 @@
       <window_info id="Web" order="7" sideWeight="0.50987434" side_tool="true" weight="0.22867803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38042268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38042268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1993,17 +1994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="257" column="109" lean-forward="true" selection-start-line="254" selection-start-column="39" selection-end-line="257" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3947">
-          <caret line="714" column="33" lean-forward="true" selection-start-line="714" selection-start-column="33" selection-end-line="714" selection-end-column="33" />
+        <state relative-caret-position="229">
+          <caret line="888" column="87" selection-start-line="888" selection-start-column="87" selection-end-line="888" selection-end-column="87" />
           <folding>
             <element signature="e#11809#12139#1#HTML" expanded="true" />
             <element signature="e#12211#12541#1#HTML" expanded="true" />
@@ -2017,6 +2011,13 @@
             <element signature="e#69207#69213#0#HTML" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="772" column="89" lean-forward="true" selection-start-line="772" selection-start-column="89" selection-end-line="772" selection-end-column="89" />
         </state>
       </provider>
     </entry>

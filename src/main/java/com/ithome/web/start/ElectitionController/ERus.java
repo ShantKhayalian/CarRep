@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/CRus")
-public class CRus extends HttpServlet {
+@WebServlet("/ERus")
+public class ERus extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
@@ -45,7 +45,7 @@ public class CRus extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/Electrition/CRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Electrition/ERussian.jsp").forward(request, response);
     }
 
     private void setRequestRussian(HttpServletRequest request) {

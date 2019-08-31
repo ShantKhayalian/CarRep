@@ -227,4 +227,35 @@ public class EngineDiagnosticsRepairDao {
     }
 
 
+    public List<EngineDiagnosticsRepair> getDRCInRussianById(int id) {
+        EngineDiagnosticsRepair engineDiagnosticsRepair = null;
+        List<EngineDiagnosticsRepair> engineDiagnosticsRepairList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`enginediagnosticsrepair` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            EngineDiagnosticsRepairRus(engineDiagnosticsRepairList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return engineDiagnosticsRepairList;
+    }
+
+    public List<EngineDiagnosticsRepair> getDRCInEnglishById(int id) {
+        EngineDiagnosticsRepair engineDiagnosticsRepair = null;
+        List<EngineDiagnosticsRepair> engineDiagnosticsRepairList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`enginediagnosticsrepair` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            EngineDiagnosticsRepairEng(engineDiagnosticsRepairList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return engineDiagnosticsRepairList;
+    }
 }

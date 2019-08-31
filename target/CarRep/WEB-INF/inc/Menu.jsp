@@ -196,12 +196,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="<%=request.getContextPath()%>/CEng">
+                                        <a href="<%=request.getContextPath()%>/EEng">
                                             <span>Electrician English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="<%=request.getContextPath()%>/CRus">
+                                        <a href="<%=request.getContextPath()%>/ERus">
                                             <span>Electrician Russian</span>
                                         </a>
                                     </li>
@@ -220,12 +220,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="DREng">
                                             <span>Diagnostics Repair English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="DRRus">
                                             <span>Diagnostics Repair Russian</span>
                                         </a>
                                     </li>
@@ -244,12 +244,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="<%=request.getContextPath()%>/CEng">
                                             <span>Conditioners English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="<%=request.getContextPath()%>/CRus">
                                             <span>Conditioners Russian</span>
                                         </a>
                                     </li>
@@ -317,12 +317,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="EDREng">
                                             <span>Engine Diagnostics Repair English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="EDRRus">
                                             <span>Engine Diagnostics Repair Russian</span>
                                         </a>
                                     </li>
@@ -341,12 +341,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="TipsEng">
+                                        <a href="GCEng">
                                             <span>Gathering Collapse English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="TipsRus">
+                                        <a href="GCRus">
                                             <span>Gathering Collapse Russian</span>
                                         </a>
                                     </li>

@@ -1,7 +1,9 @@
-package com.ithome.web.start.ElectitionController;
+package com.ithome.web.start.ConditionersController;
 
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.Conditioners;
 import com.ithome.web.start.Beans.Electrician;
+import com.ithome.web.start.DaoController.ConditionersDao;
 import com.ithome.web.start.DaoController.ElectricianDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -16,18 +18,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateCRussianInData")
-public class UpdateCRussianInData extends HttpServlet {
+@WebServlet("/UpdateCEnglishInData")
+public class UpdateCEnglishInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<Electrician> electricianList = new ArrayList<>();
-    private ElectricianDao electricianDao = new ElectricianDao();
+    private List<Conditioners> conditionersList = new ArrayList<>();
+    private ConditionersDao conditionersDao = new ConditionersDao();
     private int id =0;
     private String fullText =null;
-    private String CEnglish=null;
+    private String CRussian=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         updateCEnglishInData(request,response);
@@ -48,9 +50,9 @@ public class UpdateCRussianInData extends HttpServlet {
     }
 
     private void getRussianText(int id) {
-        electricianList = electricianDao.getCInEnglishById(id);
-        for (int i = 0; i <electricianList.size() ; i++) {
-            CEnglish  = electricianList.get(i).getElectricianRus();
+        conditionersList = conditionersDao.getCInRussianById(id);
+        for (int i = 0; i <conditionersList.size() ; i++) {
+            CRussian  = conditionersList.get(i).getConditionersRus();
         }
 
     }
@@ -71,27 +73,27 @@ public class UpdateCRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/Electrition/CRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Conditioners/CEnglish.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("ElectricianList", electricianList);
+        request.setAttribute("ConditionersList", conditionersList);
     }
 
     private void getEnglishC() {
-        electricianList = electricianDao.getElectricianInRussian();
+        conditionersList = conditionersDao.getConditionersInEnglish();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return electricianDao.UpdateElectricianEng(CreateObjectOfText(),id);
+        return conditionersDao.UpdateConditionersEng(CreateObjectOfText(),id);
     }
 
-    private Electrician CreateObjectOfText() {
-        return new Electrician(CEnglish,fullText);
+    private Conditioners CreateObjectOfText() {
+        return new Conditioners(fullText,CRussian);
     }
 
     private void getParameters(HttpServletRequest request) {

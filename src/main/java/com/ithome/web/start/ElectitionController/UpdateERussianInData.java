@@ -16,47 +16,87 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/CEng")
-public class CEng extends HttpServlet {
+@WebServlet("/UpdateERussianInData")
+public class UpdateERussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
     private List<Electrician> electricianList = new ArrayList<>();
-
     private ElectricianDao electricianDao = new ElectricianDao();
+    private int id =0;
+    private String fullText =null;
+    private String CEnglish=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        cEng(request,response);
+        updateCEnglishInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        cEng(request,response);
+        updateCEnglishInData(request,response);
     }
 
-    private void cEng(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateCEnglishInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
-        goBackToPage(request,response);
+        getParameters(request);
+        getRussianText(id);
+        UpdateTextInDataEng(CreateNewTextInData(id),request,response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/Electrition/CEnglish.jsp").forward(request, response);
+    private void getRussianText(int id) {
+        electricianList = electricianDao.getCInEnglishById(id);
+        for (int i = 0; i <electricianList.size() ; i++) {
+            CEnglish  = electricianList.get(i).getElectricianRus();
+        }
+
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if(createNewTextInData ==0){
+            String message = "Something went Wring try again later";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }else{
+            String message = "Successfully Updated! ";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request,response,message);
+        }
+    }
+
+    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/Electrition/ERussian.jsp").forward(request, response);
+    }
+
+    private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
         request.setAttribute("ElectricianList", electricianList);
     }
 
-    private void getTextEnglish() {
-        electricianList = electricianDao.getElectricianInEnglish();
+    private void getEnglishC() {
+        electricianList = electricianDao.getElectricianInRussian();
+    }
+
+
+    private int CreateNewTextInData(int id) {
+        return electricianDao.UpdateElectricianRus(CreateObjectOfText(),id);
+    }
+
+    private Electrician CreateObjectOfText() {
+        return new Electrician(CEnglish,fullText);
+    }
+
+    private void getParameters(HttpServletRequest request) {
+        id= Integer.parseInt(request.getParameter("TipsId"));
+        fullText  = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -99,4 +139,6 @@ public class CEng extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }
+

@@ -1,8 +1,10 @@
-package com.ithome.web.start.ElectitionController;
+package com.ithome.web.start.EngineDiagnosticsRepairController;
 
 import com.ithome.web.start.Beans.Admin;
-import com.ithome.web.start.Beans.Electrician;
-import com.ithome.web.start.DaoController.ElectricianDao;
+import com.ithome.web.start.Beans.DiagnosticsRepair;
+import com.ithome.web.start.Beans.EngineDiagnosticsRepair;
+import com.ithome.web.start.DaoController.DiagnosticsRepairDao;
+import com.ithome.web.start.DaoController.EngineDiagnosticsRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -16,18 +18,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateCEnglishInData")
-public class UpdateCEnglishInData extends HttpServlet {
+@WebServlet("/UpdateEDRRussianInData")
+public class UpdateEDRRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<Electrician> electricianList = new ArrayList<>();
-    private ElectricianDao electricianDao = new ElectricianDao();
+    private List<EngineDiagnosticsRepair> engineDiagnosticsRepairList = new ArrayList<>();
+    private EngineDiagnosticsRepairDao engineDiagnosticsRepairDao = new EngineDiagnosticsRepairDao();
     private int id =0;
     private String fullText =null;
-    private String CRussian=null;
+    private String CEnglish=null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         updateCEnglishInData(request,response);
@@ -48,9 +50,9 @@ public class UpdateCEnglishInData extends HttpServlet {
     }
 
     private void getRussianText(int id) {
-        electricianList = electricianDao.getCInRussianById(id);
-        for (int i = 0; i <electricianList.size() ; i++) {
-            CRussian  = electricianList.get(i).getElectricianRus();
+        engineDiagnosticsRepairList = engineDiagnosticsRepairDao.getDRCInEnglishById(id);
+        for (int i = 0; i <engineDiagnosticsRepairList.size() ; i++) {
+            CEnglish  = engineDiagnosticsRepairList.get(i).getEngineDiagnosticsRepairEng();
         }
 
     }
@@ -71,27 +73,27 @@ public class UpdateCEnglishInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/Electrition/CEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/EDR/EDRRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("ElectricianList", electricianList);
+        request.setAttribute("EngineDiagnosticsRepairList", engineDiagnosticsRepairList);
     }
 
     private void getEnglishC() {
-        electricianList = electricianDao.getElectricianInEnglish();
+        engineDiagnosticsRepairList = engineDiagnosticsRepairDao.getEngineDiagnosticsRepairInRussian();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return electricianDao.UpdateElectricianEng(CreateObjectOfText(),id);
+        return engineDiagnosticsRepairDao.UpdateEngineDiagnosticsRepairRus(CreateObjectOfText(),id);
     }
 
-    private Electrician CreateObjectOfText() {
-        return new Electrician(fullText,CRussian);
+    private EngineDiagnosticsRepair CreateObjectOfText() {
+        return new EngineDiagnosticsRepair(CEnglish,fullText);
     }
 
     private void getParameters(HttpServletRequest request) {

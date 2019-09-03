@@ -11,6 +11,6 @@ public class Contance {
     public static final String SMTP_PORT = "mail.smtp.port";
 
     public static final String USERNAMEINDATA = "root";
-    //public static final String USERPASSWORDINDATA = "YLf{}cJ,Kvd%";
-    public static final String USERPASSWORDINDATA = "root";
+    public static final String USERPASSWORDINDATA = "YLf{}cJ,Kvd%";
+    //public static final String USERPASSWORDINDATA = "root";
 }

@@ -30,14 +30,14 @@ public class UpdateOilFilterRussianInData extends HttpServlet {
     private String oilFilterEnglish =null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterEnglishInData(request,response);
+        updateOilFilterRussianInData(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateOilFilterEnglishInData(request,response);
+        updateOilFilterRussianInData(request,response);
     }
 
-    private void updateOilFilterEnglishInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateOilFilterRussianInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
@@ -71,7 +71,7 @@ public class UpdateOilFilterRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/OilFilterChangeRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilter/OilFilterChangeRussian.jsp").forward(request, response);
     }
 
     private void setRequestToOilFilterUpdatePage(HttpServletRequest request) {

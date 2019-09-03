@@ -16,7 +16,7 @@ public class ComputerDiagnosticsDao {
      *
      * @return
      */
-    private Connection connectToData() throws SQLException {
+    private Connection connectToData() {
         return DBConnection.getConnectionToDatabase();
     }
 
@@ -143,14 +143,14 @@ public class ComputerDiagnosticsDao {
      * @param computerDiagnosticsId
      * @return
      */
-    public int UpdateComputerDiagnosticsEng(String ComputerDiagnostics, int computerDiagnosticsId) {
+    public int UpdateComputerDiagnosticsEng(ComputerDiagnostics ComputerDiagnostics, int computerDiagnosticsId) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`computerdiagnostics`  SET computerdiagnosticseng=? WHERE id=" + computerDiagnosticsId;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, ComputerDiagnostics);
+            statment.setString(1, ComputerDiagnostics.getComputerDiagnosticsEng());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 
@@ -168,14 +168,14 @@ public class ComputerDiagnosticsDao {
      * @param computerDiagnosticsId
      * @return
      */
-    public int UpdateComputerDiagnosticsRus(String ComputerDiagnostics, int computerDiagnosticsId) {
+    public int UpdateComputerDiagnosticsRus(ComputerDiagnostics ComputerDiagnostics, int computerDiagnosticsId) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
 
             String sql = "UPDATE `car_db`.`computerdiagnostics`  SET computerdiagnosticsrus=? WHERE id=" + computerDiagnosticsId;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, ComputerDiagnostics);
+            statment.setString(1, ComputerDiagnostics.getComputerDiagnosticsRus());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
 
@@ -235,5 +235,35 @@ public class ComputerDiagnosticsDao {
     }
 
 
+    public List<ComputerDiagnostics> getCDInRussianById(int id) {
+        ComputerDiagnostics computerDiagnostics = null;
+        List<ComputerDiagnostics> computerDiagnosticsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`computerdiagnostics` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ComputerDiagnosticsRus(computerDiagnosticsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return computerDiagnosticsList;
+    }
 
+    public List<ComputerDiagnostics> getCDInEnglishById(int id) {
+        ComputerDiagnostics computerDiagnostics = null;
+        List<ComputerDiagnostics> computerDiagnosticsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`computerdiagnostics` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ComputerDiagnosticsEng(computerDiagnosticsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return computerDiagnosticsList;
+    }
 }

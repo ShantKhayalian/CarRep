@@ -76,7 +76,7 @@ public class UpdateEmployeToData extends HttpServlet {
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/UpdateEmployee.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/Employee/UpdateEmployee.jsp").forward(request,response);
     }
 
     private void getEmployeeDetailById(int employeintId) {

@@ -223,4 +223,36 @@ public class DiagnosticsRepairDao {
 
         }
     }
+
+    public List<DiagnosticsRepair> getDRCInRussianById(int id) {
+        DiagnosticsRepair diagnosticsRepair = null;
+        List<DiagnosticsRepair> diagnosticsRepairList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`diagnosticsrepair` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            DiagnosticsRepairRus(diagnosticsRepairList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return diagnosticsRepairList;
+    }
+
+    public List<DiagnosticsRepair> getDRCInEnglishById(int id) {
+        DiagnosticsRepair diagnosticsRepair = null;
+        List<DiagnosticsRepair> diagnosticsRepairList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`diagnosticsrepair` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            DiagnosticsRepairEng(diagnosticsRepairList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return diagnosticsRepairList;
+    }
 }

@@ -73,10 +73,10 @@
 <section>
     <!-- Left Sidebar -->
     <aside id="leftsidebar" class="sidebar">
-        <!-- User Info -->
         <jsp:include page="inc/leftSideAdmin.jsp"/>
-        <!-- #User Info -->
+        <!-- Menu -->
         <jsp:include page="inc/Menu.jsp"/>
+        <!-- Menu -->
         <!-- Footer -->
         <jsp:include page="inc/Version.jsp"/>
         <!-- #Footer -->

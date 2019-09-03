@@ -47,7 +47,7 @@ public class OilFilterEng extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/OilFilterChangeEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilter/OilFilterChangeEnglish.jsp").forward(request, response);
     }
 
     private void setRequestToTipsEnglish(HttpServletRequest request) {

@@ -61,7 +61,7 @@ public class AddNewTipsInData extends HttpServlet {
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/AddNewtips.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Tips/AddNewtips.jsp").forward(request, response);
     }
 
     private void setRequestToPage(HttpServletRequest request) {

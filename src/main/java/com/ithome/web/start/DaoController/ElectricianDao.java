@@ -222,4 +222,36 @@ public class ElectricianDao {
 
         }
     }
+
+    public List<Electrician> getCInRussianById(int id) {
+        Electrician electrician = null;
+        List<Electrician> electricianList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`electrician` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ElectricianRus(electricianList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return electricianList;
+    }
+
+    public List<Electrician> getCInEnglishById(int id) {
+        Electrician electrician = null;
+        List<Electrician> electricianList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`electrician` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ElectricianEng(electricianList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return electricianList;
+    }
 }

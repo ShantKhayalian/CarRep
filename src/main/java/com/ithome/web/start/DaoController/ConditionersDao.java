@@ -224,4 +224,35 @@ public class ConditionersDao {
         }
     }
 
+    public List<Conditioners> getCInRussianById(int id) {
+        Conditioners conditioners = null;
+        List<Conditioners> conditionersList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`conditioners` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ConditionersRus(conditionersList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return conditionersList;
+    }
+
+    public List<Conditioners> getCInEnglishById(int id) {
+        Conditioners conditioners = null;
+        List<Conditioners> conditionersList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`conditioners` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ConditionersEng(conditionersList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return conditionersList;
+    }
 }

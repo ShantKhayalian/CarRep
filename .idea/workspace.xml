@@ -47,6 +47,47 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="136904604">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="287" />
+          <entry key="jsp" value="200" />
+          <entry key="properties" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="287" />
+          <entry key="JSP" value="200" />
+          <entry key="Properties" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="30" />
+          <entry key="java" value="3525" />
+          <entry key="jsp" value="862" />
+          <entry key="properties" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3525" />
+          <entry key="JSP" value="862" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Properties" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -59,29 +100,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/OilFilterEng.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2603#2604#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1241#1258#0" expanded="true" />
+                <element signature="e#1932#1969#0" expanded="true" />
+                <element signature="e#1932#1969#0" expanded="true" />
+                <element signature="e#1854#1881#1" expanded="true" />
+                <element signature="e#2205#2226#0" expanded="true" />
+                <element signature="e#2205#2226#0" expanded="true" />
+                <element signature="e#2333#2379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeEnglish.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="169">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterEnglishInData.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
@@ -90,7 +137,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeRussian.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ContactUs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1683">
               <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
@@ -117,7 +164,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
@@ -152,6 +199,10 @@
       <find>Name</find>
       <find>CKEDITOR</find>
       <find>de</find>
+      <find>computer</find>
+      <find>Cost</find>
+      <find>Home</find>
+      <find>vehicl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,57 +212,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTips.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsRus.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/TipsRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChange/AddOilFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ReplacementPadsBrakeDiscs/AddReplacementPadsBrakeDiscs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BeanHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/GatheringCollapse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ReplacementPadsBrakeDiscs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ChangeРМ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/DiagnosticsRepair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/EngineDiagnosticsRepair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/SuspensionRepair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/AboutUsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Conditioners/CRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Electrition/ERussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/DiagnosticsRepair/DRCRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/DiagnosticsRepair/DRCEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DRCEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DRCRus.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/DiagnosticsRepair/DRRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DRRus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EngineDiagnosticsRepairDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/EDRRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/EDREng.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/EDR/EDREnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/EDR/EDRRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/UpdateEDREnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/UpdateEDRRussianInData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ReplacementPadsBrakeDiscsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/OilFilterEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/OilFilterRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/VehicleTips.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/AddOilFilterInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/UpdateGCRRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/UpdateGCREnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/UpdateGCEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/GC/GCRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/GC/GCEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/SREng.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SREnglish.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterEnglishWithId.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/DeleteOilFilterRussian.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterRussianWithId.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/AddOilFilterEng.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Result.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewOilFilter.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterInRussian.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterInEnglish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/DeleteOilFilterRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/DeleteOilFilterEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterChangeEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSREnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/SRRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SRRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/inc/WorkingTimesDownPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInRussian.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ComputerDiagnostics.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp" />
       </list>
     </option>
   </component>
@@ -227,6 +278,12 @@
     <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
     <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
     <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -267,6 +324,14 @@
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/morrisjs/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/plugins/tinymce/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -362,7 +427,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="TipsController" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="SuspensionRepairController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -381,34 +456,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567023883126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567253304288" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -421,13 +480,41 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Aboutus" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Tips" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\OilFilter" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Employee" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ithome.web.start.OilFilterChangeController" />
-      <recent name="com.ithome.web.start.TipsController" />
+      <recent name="com.ithome.web.start.SuspensionRepairController" />
+      <recent name="com.ithome.web.start.GatheringCollapseController" />
+      <recent name="com.ithome.web.start.EngineDiagnosticsRepairController" />
+      <recent name="com.ithome.web.start.DiagnosticsRepairController" />
+      <recent name="com.ithome.web.start.ConditionersController" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CarRep\src\main\webapp\WEB-INF" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\SR" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\GC" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\EDR" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\DiagnosticsRepair" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Conditioners" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 1 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 1 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="CarRep" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -442,7 +529,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.132" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -456,11 +543,11 @@
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_CarRep_2" />
         <option name="JNDI_PORT" value="1010" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="50552" />
       </RunnerSettings>
@@ -536,33 +623,33 @@
       <workItem from="1566999185811" duration="3536000" />
       <workItem from="1567014877592" duration="5651000" />
       <workItem from="1567057886568" duration="7317000" />
-      <workItem from="1567493264016" duration="196000" />
+      <workItem from="1567241661659" duration="9667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46347000" />
+    <option name="totallyTimeSpent" value="84593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49295774" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4901257" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5070422" side_tool="true" weight="0.22654584" />
+      <window_info id="Web" order="7" sideWeight="0.50987434" side_tool="true" weight="0.22867803" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869988" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38042268" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -583,27 +670,27 @@
       <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="RestServices" order="12" />
+      <window_info anchor="right" id="RestServices" order="12" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="Maven" order="14" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.22441365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5064516" side_tool="true" weight="0.22014925" />
+      <window_info id="Web" order="7" sideWeight="0.5083426" side_tool="true" weight="0.22654584" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38042268" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -624,13 +711,16 @@
       <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="RestServices" order="12" />
+      <window_info anchor="right" id="RestServices" order="12" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="Maven" order="14" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -780,42 +870,604 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterEnglishInData.java</url>
           <line>101</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java</url>
-          <line>63</line>
-          <properties class="com.ithome.web.start.OilFilterChangeController.UpdateOilFilterRussianInData" method="getEnglishText">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="42" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMRus.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMRus.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMRus.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMRus.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMRus.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ConditionersController/UpdateCRussianInData.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterEnglishInData.java</url>
@@ -825,378 +1477,516 @@
           </properties>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>72</line>
+          <properties class="com.ithome.web.start.ChangeРМController.AddChangePMInData" method="CreateNewTextInData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>76</line>
+          <properties class="com.ithome.web.start.ChangeРМController.AddChangePMInData" method="CreateObjectOfText">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/AddChangePMInData.java</url>
+          <line>80</line>
+          <properties class="com.ithome.web.start.ChangeРМController.AddChangePMInData" method="getParameters">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/ChangePMEng.java</url>
+          <line>58</line>
+          <properties class="com.ithome.web.start.ChangeРМController.ChangePMEng" method="getChangePMEnglish">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>92</line>
+          <properties class="com.ithome.web.start.DiagnosticsRepairController.UpdateDRCRussianInData" method="CreateObjectOfText">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>83</line>
+          <properties class="com.ithome.web.start.DiagnosticsRepairController.UpdateDRCRussianInData" method="getEnglishC">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/UpdateDRCRussianInData.java</url>
+          <line>88</line>
+          <properties class="com.ithome.web.start.DiagnosticsRepairController.UpdateDRCRussianInData" method="CreateNewTextInData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>88</line>
+          <properties class="com.ithome.web.start.SuspensionRepairController.UpdateSRRussianInData" method="CreateNewTextInData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>83</line>
+          <properties class="com.ithome.web.start.SuspensionRepairController.UpdateSRRussianInData" method="getEnglishC">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>96</line>
+          <properties class="com.ithome.web.start.SuspensionRepairController.UpdateSRRussianInData" method="getParameters">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java</url>
+          <line>92</line>
+          <properties class="com.ithome.web.start.SuspensionRepairController.UpdateSRRussianInData" method="CreateObjectOfText">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/EngineDiagnosticsRepair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DiagnosticsRepairController/DREng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="679">
+          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
           <folding>
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/EDRRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#2492#2556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/EDREng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/EDR/EDRRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="111" column="57" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2484#2527#0" expanded="true" />
+            <element signature="e#2905#2948#1" expanded="true" />
+            <element signature="e#3724#3767#1" expanded="true" />
+            <element signature="e#3776#3842#1" expanded="true" />
+            <element signature="e#7994#8037#1" expanded="true" />
+            <element signature="e#8046#8112#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/EDR/EDREnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/UpdateEDRRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+          <folding>
+            <element signature="e#2402#2436#0" expanded="true" />
+            <element signature="e#2402#2436#0" expanded="true" />
+            <element signature="e#2396#2462#0" expanded="true" />
+            <element signature="e#3767#3831#0" expanded="true" />
+            <element signature="e#3846#3847#0" expanded="true" />
+            <element signature="e#3909#3910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EngineDiagnosticsRepairController/UpdateEDREnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#2402#2468#0" expanded="true" />
+            <element signature="e#3798#3862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/GatheringCollapse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="238" column="31" lean-forward="true" selection-start-line="226" selection-start-column="7" selection-end-line="238" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3526#3557#1" expanded="true" />
+            <element signature="e#3566#3620#1" expanded="true" />
+            <element signature="e#7380#7411#1" expanded="true" />
+            <element signature="e#7420#7474#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ElectitionController/UpdateEEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/UpdateGCRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="52" />
+          <folding>
+            <element signature="e#2226#2281#0" expanded="true" />
+            <element signature="e#3581#3633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/GC/GCRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="128" column="83" selection-start-line="128" selection-start-column="83" selection-end-line="128" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/GC/GCEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="128" column="83" selection-start-line="128" selection-start-column="83" selection-end-line="128" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="52" column="49" lean-forward="true" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding>
+            <element signature="e#2408#2460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/SREng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#2471#2472#0" expanded="true" />
+            <element signature="e#2504#2554#0" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="298" column="40" lean-forward="true" selection-start-line="298" selection-start-column="40" selection-end-line="298" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/UpdateGCEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+          <folding>
+            <element signature="e#2323#2378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="242" column="37" lean-forward="true" selection-start-line="230" selection-start-column="7" selection-end-line="242" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8060#8103#1" expanded="true" />
+            <element signature="e#8112#8178#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSREnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+          <folding>
+            <element signature="e#2324#2351#0" expanded="true" />
+            <element signature="e#2324#2351#0" expanded="true" />
+            <element signature="e#2324#2376#0" expanded="true" />
+            <element signature="e#3641#3642#0" expanded="true" />
+            <element signature="e#3674#3724#0" expanded="true" />
+            <element signature="e#3730#3731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="243" column="34" selection-start-line="243" selection-start-column="34" selection-end-line="243" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1711#0" expanded="true" />
+            <element signature="e#2453#2494#0" expanded="true" />
+            <element signature="e#7882#7923#1" expanded="true" />
+            <element signature="e#7932#7996#1" expanded="true" />
+            <element signature="e#8640#8681#1" expanded="true" />
+            <element signature="e#8690#8754#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/SRRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+          <folding>
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2409#2459#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/SuspensionRepairController/UpdateSRRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+          <folding>
+            <element signature="e#2207#2234#0" expanded="true" />
+            <element signature="e#2207#2234#0" expanded="true" />
+            <element signature="e#2207#2259#0" expanded="true" />
+            <element signature="e#3520#3521#0" expanded="true" />
+            <element signature="e#3553#3603#0" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+            <element signature="e#3865#3866#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/SuspensionRepair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SRRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SREnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="78" column="87" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_en_US.properties">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/FooterScripts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInRussian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInEnglish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDEnglishWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="51" lean-forward="true" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CD/CDRussianWithId.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="53" />
           <folding>
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#2428#2448#0" expanded="true" />
+            <element signature="e#2438#2477#0" expanded="true" />
+            <element signature="e#2438#2477#0" expanded="true" />
+            <element signature="e#2647#2686#0" expanded="true" />
+            <element signature="e#2647#2686#0" expanded="true" />
+            <element signature="e#3488#3544#0" expanded="true" />
+            <element signature="e#3752#3753#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#4048#4106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/EmployeeController/AddEmployeToData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMEnglish.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1454">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="270">
+          <caret line="132" column="57" lean-forward="true" selection-start-line="132" selection-start-column="57" selection-end-line="132" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/AboutUsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ChangePM/ChangePMRussian.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="187" column="4" selection-start-line="187" selection-start-column="4" selection-end-line="187" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Conditioners.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDEnglishInData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="-240">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ChangeРМController/UpdateChangePMRussianInData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="234" column="5" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="234" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/start.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ContactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="213" column="21" selection-start-line="213" selection-start-column="21" selection-end-line="213" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="479">
+          <caret line="1315" column="145" lean-forward="true" selection-start-line="7" selection-end-line="1315" selection-end-column="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Electrician.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java" />
-    <entry file="file://$PROJECT_DIR$/../Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EngineDiagnosticsRepairDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ReplacementPadsBrakeDiscsDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="224" column="5" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="224" selection-end-column="5" />
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/TipsRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" selection-start-line="20" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/AddNewTipsInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/DeleteTipsEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/TipsEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding>
-            <element signature="e#3123#3124#0" expanded="true" />
-            <element signature="e#3183#3184#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
-            <element signature="e#3300#3301#0" expanded="true" />
-            <element signature="e#3348#3349#0" expanded="true" />
-            <element signature="e#3401#3402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="152" column="5" lean-forward="true" selection-start-line="144" selection-start-column="3" selection-end-line="152" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2763#2764#0" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2831#2832#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-            <element signature="e#3130#3131#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-            <element signature="e#3286#3287#0" expanded="true" />
-            <element signature="e#3319#3320#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="e#3452#3453#0" expanded="true" />
-            <element signature="e#3485#3486#0" expanded="true" />
-            <element signature="e#3537#3538#0" expanded="true" />
-            <element signature="e#3581#3582#0" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3655#3656#0" expanded="true" />
-            <element signature="e#3711#3712#0" expanded="true" />
-            <element signature="e#3759#3760#0" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
-            <element signature="e#3831#3832#0" expanded="true" />
-            <element signature="e#3885#3886#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
-            <element signature="e#3973#3974#0" expanded="true" />
-            <element signature="e#4011#4012#0" expanded="true" />
-            <element signature="e#4073#4074#0" expanded="true" />
-            <element signature="e#4122#4123#0" expanded="true" />
-            <element signature="e#4160#4161#0" expanded="true" />
-            <element signature="e#4194#4195#0" expanded="true" />
-            <element signature="e#4248#4249#0" expanded="true" />
-            <element signature="e#4294#4295#0" expanded="true" />
-            <element signature="e#4326#4327#0" expanded="true" />
-            <element signature="e#4354#4355#0" expanded="true" />
-            <element signature="e#4396#4397#0" expanded="true" />
-            <element signature="e#4430#4431#0" expanded="true" />
-            <element signature="e#4464#4465#0" expanded="true" />
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4540#4541#0" expanded="true" />
-            <element signature="e#4578#4579#0" expanded="true" />
-            <element signature="e#4614#4615#0" expanded="true" />
-            <element signature="e#4646#4647#0" expanded="true" />
-            <element signature="e#4696#4697#0" expanded="true" />
-            <element signature="e#4738#4739#0" expanded="true" />
-            <element signature="e#4770#4771#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#4840#4841#0" expanded="true" />
-            <element signature="e#4874#4875#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/VehicleTips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="e#3418#3419#0" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/AddTipsEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/TipsController/UpdateTipsInEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterEnglishWithId.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="127" column="16" lean-forward="true" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewOilFilter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="105" column="52" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AddNewTips.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="155" column="10" lean-forward="true" selection-start-line="89" selection-end-line="155" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterInRussian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterInEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/DeleteOilFilterRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/DeleteOilFilterEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/AddOilFilterEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterEnglish.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterRussianWithId.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/OilFilterRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/AddOilFilterInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/OilFilterRussian.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/OilFilterEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#1241#1258#0" expanded="true" />
+            <element signature="e#1932#1969#0" expanded="true" />
+            <element signature="e#1932#1969#0" expanded="true" />
+            <element signature="e#1854#1881#1" expanded="true" />
+            <element signature="e#2205#2226#0" expanded="true" />
+            <element signature="e#2205#2226#0" expanded="true" />
+            <element signature="e#2333#2379#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1222,10 +2012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ContactUs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="479">
+          <caret line="91" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="91" />
         </state>
       </provider>
     </entry>
@@ -1236,17 +2026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/OilFilterChangeController/UpdateOilFilterRussianInData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Connection/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="370">
+          <caret line="772" column="89" lean-forward="true" selection-start-line="772" selection-start-column="89" selection-end-line="772" selection-end-column="89" />
         </state>
       </provider>
     </entry>

@@ -50,7 +50,7 @@ public class ReplacementPadsBrakeDiscsDao {
         try {
             Connection connection = connectToData();
 
-            String sql = "UPDATE `car_db`.`replacementpadsbrakediscs`  SET conditionerseng=? WHERE id=" + id;
+            String sql = "UPDATE `car_db`.`replacementpadsbrakediscs`  SET replacementpadsbrakediscseng=? WHERE id=" + id;
             PreparedStatement statment = connection.prepareStatement(sql);
             statment.setString(1, replacementPadsBrakeDiscs.getReplacementPadsBrakeDiscsEng());
             rowsUpdated = statment.executeUpdate();
@@ -73,9 +73,9 @@ public class ReplacementPadsBrakeDiscsDao {
         try {
             Connection connection = connectToData();
 
-            String sql = "UPDATE `car_db`.`replacementpadsbrakediscs`  SET conditionersrus=? WHERE id=" + id;
+            String sql = "UPDATE `car_db`.`replacementpadsbrakediscs`  SET replacementpadsbrakediscsrus=? WHERE id=" + id;
             PreparedStatement statment = connection.prepareStatement(sql);
-            statment.setString(1, replacementPadsBrakeDiscs.getReplacementPadsBrakeDiscsEng());
+            statment.setString(1, replacementPadsBrakeDiscs.getReplacementPadsBrakeDiscsRus());
             rowsUpdated = statment.executeUpdate();
             if (rowsUpdated > 0) {
             }
@@ -222,5 +222,37 @@ public class ReplacementPadsBrakeDiscsDao {
             replacementPadsBrakeDiscsList.add(replacementPadsBrakeDiscs);
 
         }
+    }
+
+    public List<ReplacementPadsBrakeDiscs> getRPBDiscsInRussianById(int id) {
+        ReplacementPadsBrakeDiscs replacementPadsBrakeDiscs = null;
+        List<ReplacementPadsBrakeDiscs> replacementPadsBrakeDiscsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`replacementpadsbrakediscs` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ReplacementPadsBrakeDiscsRus(replacementPadsBrakeDiscsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return replacementPadsBrakeDiscsList;
+    }
+
+    public List<ReplacementPadsBrakeDiscs> getRPBDiscsInEnglishById(int id) {
+        ReplacementPadsBrakeDiscs replacementPadsBrakeDiscs = null;
+        List<ReplacementPadsBrakeDiscs> replacementPadsBrakeDiscsList = new ArrayList<>();
+        try {
+            Connection connection = connectToData();
+            String sql = "SELECT * FROM `car_db`.`replacementpadsbrakediscs` WHERE `id`=" + id;
+            Statement statment = connection.createStatement();
+            ResultSet set = statment.executeQuery(sql);
+            ReplacementPadsBrakeDiscsEng(replacementPadsBrakeDiscsList, set);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+            System.out.println("sqlException in Application in Admin Section  : " + exception);
+        }
+        return replacementPadsBrakeDiscsList;
     }
 }

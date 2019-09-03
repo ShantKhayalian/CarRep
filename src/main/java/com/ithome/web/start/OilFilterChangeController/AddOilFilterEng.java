@@ -39,7 +39,7 @@ public class AddOilFilterEng extends HttpServlet {
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AddNewOilFilter.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilter/AddNewOilFilter.jsp").forward(request, response);
     }
 
     private void setRequest(HttpServletRequest request) {

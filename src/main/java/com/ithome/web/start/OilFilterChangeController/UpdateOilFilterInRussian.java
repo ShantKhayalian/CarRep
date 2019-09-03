@@ -28,7 +28,9 @@ public class UpdateOilFilterInRussian extends HttpServlet {
 
     private OilFilterChangeDao oilFilterChangeDao = new OilFilterChangeDao();
 
-    private int id = 0;    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private int id = 0;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         updateOilFilterInEnglish(request,response);
     }
 
@@ -51,7 +53,7 @@ public class UpdateOilFilterInRussian extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/OilFilterRussianWithId.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/OilFilter/OilFilterRussianWithId.jsp").forward(request, response);
     }
 
     private void setRequestToOilFilterEnglish(HttpServletRequest request) {

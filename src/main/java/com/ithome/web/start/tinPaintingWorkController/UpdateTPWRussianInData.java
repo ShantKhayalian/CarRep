@@ -1,6 +1,6 @@
-package com.ithome.web.start.SuspensionRepairController;
+package com.ithome.web.start.tinPaintingWorkController;
 
-import com.ithome.web.start.Beans.Admin;
+
 import com.ithome.web.start.Beans.SuspensionRepair;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
@@ -16,47 +16,87 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/SREng")
-public class SREng extends HttpServlet {
+@WebServlet("/UpdateTPWRussianInData")
+public class UpdateTPWRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
     private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
-
     private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private int id = 0;
+    private String fullText = null;
+    private String CEnglish = null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        sREng(request,response);
+        updateTPWRussianInData(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        sREng(request,response);
+        updateTPWRussianInData(request, response);
     }
 
-    private void sREng(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateTPWRussianInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
-        goBackToPage(request,response);
+        getParameters(request);
+        getRussianText(id);
+        UpdateTextInDataEng(CreateNewTextInData(id), request, response);
     }
 
-    private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/SR/SREnglish.jsp").forward(request, response);
+    private void getRussianText(int id) {
+        suspensionRepairList = suspensionRepairDao.getSRInEnglishById(id);
+        for (int i = 0; i < suspensionRepairList.size(); i++) {
+            CEnglish = suspensionRepairList.get(i).getSuspensionRepairEng();
+        }
+
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (createNewTextInData == 0) {
+            String message = "Something went Wring try again later";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request, response, message);
+        } else {
+            String message = "Successfully Updated! ";
+            getEnglishC();
+            setRequestToCUpdatePage(request);
+            gotoNextPage(request, response, message);
+        }
+    }
+
+    private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+    }
+
+    private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
         request.setAttribute("SuspensionRepairList", suspensionRepairList);
     }
 
-    private void getTextEnglish() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInEnglish();
+    private void getEnglishC() {
+        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+    }
+
+
+    private int CreateNewTextInData(int id) {
+        return suspensionRepairDao.UpdateSuspensionRepairRus(CreateObjectOfText(), id);
+    }
+
+    private SuspensionRepair CreateObjectOfText() {
+        return new SuspensionRepair(CEnglish, fullText);
+    }
+
+    private void getParameters(HttpServletRequest request) {
+        id = Integer.parseInt(request.getParameter("TipsId"));
+        fullText = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -64,8 +104,7 @@ public class SREng extends HttpServlet {
         getSession(session, request, response);
     }
 
-    /**
-     * Fill admin in list with the specific id
+    /* Fill admin in list with the specific id
      *
      * @param adminid
      */
@@ -73,8 +112,7 @@ public class SREng extends HttpServlet {
         adminList = adminChecker.getAllInfoofAdmin(adminid);
     }
 
-    /**
-     * get admin admin id by username from session
+    /* get admin admin id by username from session
      *
      * @param request
      * @param response
@@ -99,4 +137,5 @@ public class SREng extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }

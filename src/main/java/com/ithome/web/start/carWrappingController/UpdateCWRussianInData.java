@@ -1,10 +1,4 @@
-package com.ithome.web.start.SuspensionRepairController;
-
-import com.ithome.web.start.Beans.Admin;
-import com.ithome.web.start.Beans.SuspensionRepair;
-import com.ithome.web.start.DaoController.SuspensionRepairDao;
-import com.ithome.web.start.Helpers.AdminChecker;
-import com.ithome.web.start.Helpers.SessionChecker;
+package com.ithome.web.start.carWrappingController;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,62 +10,69 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/UpdateSREnglishInData")
-public class UpdateSREnglishInData extends HttpServlet {
+
+import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.SuspensionRepairDao;
+import com.ithome.web.start.Helpers.AdminChecker;
+import com.ithome.web.start.Helpers.SessionChecker;
+
+
+@WebServlet("/UpdateCWRussianInData")
+public class UpdateCWRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList= new ArrayList<>();
+    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
     private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
-    private int id =0;
-    private String fullText =null;
-    private String CRussian=null;
+    private int id = 0;
+    private String fullText = null;
+    private String CEnglish = null;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateSREnglishInData(request,response);
+        updateCWRussianInData(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        updateSREnglishInData(request,response);
+        updateCWRussianInData(request, response);
     }
 
-    private void updateSREnglishInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void updateCWRussianInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
         getRussianText(id);
-        UpdateTextInDataEng(CreateNewTextInData(id),request,response);
+        UpdateTextInDataEng(CreateNewTextInData(id), request, response);
     }
 
     private void getRussianText(int id) {
-        suspensionRepairList = suspensionRepairDao.getSRInRussianById(id);
-        for (int i = 0; i <suspensionRepairList.size() ; i++) {
-            CRussian  = suspensionRepairList.get(i).getSuspensionRepairRus();
+        suspensionRepairList = suspensionRepairDao.getSRInEnglishById(id);
+        for (int i = 0; i < suspensionRepairList.size(); i++) {
+            CEnglish = suspensionRepairList.get(i).getSuspensionRepairEng();
         }
 
     }
 
     private void UpdateTextInDataEng(int createNewTextInData, HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(createNewTextInData ==0){
+        if (createNewTextInData == 0) {
             String message = "Something went Wring try again later";
             getEnglishC();
             setRequestToCUpdatePage(request);
-            gotoNextPage(request,response,message);
-        }else{
+            gotoNextPage(request, response, message);
+        } else {
             String message = "Successfully Updated! ";
             getEnglishC();
             setRequestToCUpdatePage(request);
-            gotoNextPage(request,response,message);
+            gotoNextPage(request, response, message);
         }
     }
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/SR/SREnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
@@ -82,21 +83,21 @@ public class UpdateSREnglishInData extends HttpServlet {
     }
 
     private void getEnglishC() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInEnglish();
+        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return suspensionRepairDao.UpdateSuspensionRepairEng(CreateObjectOfText(),id);
+        return suspensionRepairDao.UpdateSuspensionRepairRus(CreateObjectOfText(), id);
     }
 
     private SuspensionRepair CreateObjectOfText() {
-        return new SuspensionRepair(fullText,CRussian);
+        return new SuspensionRepair(CEnglish, fullText);
     }
 
     private void getParameters(HttpServletRequest request) {
-        id= Integer.parseInt(request.getParameter("TipsId"));
-        fullText  = request.getParameter("TextArea");
+        id = Integer.parseInt(request.getParameter("TipsId"));
+        fullText = request.getParameter("TextArea");
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -104,8 +105,7 @@ public class UpdateSREnglishInData extends HttpServlet {
         getSession(session, request, response);
     }
 
-    /**
-     * Fill admin in list with the specific id
+    /* Fill admin in list with the specific id
      *
      * @param adminid
      */
@@ -113,8 +113,7 @@ public class UpdateSREnglishInData extends HttpServlet {
         adminList = adminChecker.getAllInfoofAdmin(adminid);
     }
 
-    /**
-     * get admin admin id by username from session
+    /* get admin admin id by username from session
      *
      * @param request
      * @param response
@@ -141,4 +140,3 @@ public class UpdateSREnglishInData extends HttpServlet {
     }
 
 }
-

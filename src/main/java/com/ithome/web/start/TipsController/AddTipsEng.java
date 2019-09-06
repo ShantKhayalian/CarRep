@@ -42,7 +42,7 @@ public class AddTipsEng extends HttpServlet {
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AddNewTips.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Tips/AddNewTips.jsp").forward(request, response);
     }
 
     private void setRequest(HttpServletRequest request) {

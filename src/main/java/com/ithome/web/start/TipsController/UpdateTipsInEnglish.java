@@ -51,7 +51,7 @@ public class UpdateTipsInEnglish extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/TipsEnglishWithId.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Tips/TipsEnglishWithId.jsp").forward(request, response);
     }
 
     private void setRequestToTipsEnglish(HttpServletRequest request) {

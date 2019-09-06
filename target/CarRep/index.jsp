@@ -191,14 +191,14 @@
                                 </ul>
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
-                                <a href="services-all.html" class="nav-link dropdown-toggle"
+                                <a href="#" class="nav-link dropdown-toggle"
                                    data-toggle="dropdown"><fmt:message key="Services"
                                                                        bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-77"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
                                         <a
-                                                href="•OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Oil and filter change" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
@@ -818,12 +818,12 @@
                                         <div class="elementor-widget-container">
                                             <div class="title-section-area">
                                                 <h2 class="section-title">
-                                                    <span>why</span> choose us
+                                                    <span><fmt:message
+                                                            key="Why" bundle="${Bundles}"/></span><fmt:message
+                                                        key="Choose Us" bundle="${Bundles}"/>
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
-
-
                                         </div>
                                     </div>
                                     <section
@@ -850,11 +850,12 @@
                                                                         <!-- feature icon -->
                                                                         <div class="feature-content">
                                                                             <h3>
-                                                                                <span>Expert </span>Mechanics
+                                                                                <span><fmt:message
+                                                                                        key="Expert" bundle="${Bundles}"/> </span><fmt:message
+                                                                                    key="Mechanics" bundle="${Bundles}"/>
                                                                             </h3>
-                                                                            <p>Most of the vehicles get damaged just
-                                                                                because
-                                                                                of maintenance neglect you take</p>
+                                                                            <p><fmt:message
+                                                                                    key="Most of the vehicles get damaged just because of maintenance neglect you take" bundle="${Bundles}"/></p>
                                                                         </div>
                                                                         <!-- feature content end -->
                                                                     </div>
@@ -885,12 +886,12 @@
                                                                         <!-- feature icon -->
                                                                         <div class="feature-content">
                                                                             <h3>
-                                                                                <span>Reasonable </span>Price
+                                                                                <span><fmt:message
+                                                                                        key="Reasonable" bundle="${Bundles}"/>  </span><fmt:message
+                                                                                key="Price" bundle="${Bundles}"/>
                                                                             </h3>
-                                                                            <p>Most of the vehicles get damaged just
-                                                                                because
-                                                                                of maintenance neglect you take</p>
-                                                                        </div>
+                                                                            <p><fmt:message
+                                                                                    key="Most of the vehicles get damaged just because of maintenance neglect you take" bundle="${Bundles}"/></p>
                                                                         <!-- feature content end -->
                                                                     </div>
                                                                     <!-- feature single end -->
@@ -929,11 +930,12 @@
                                                                         <!-- feature icon -->
                                                                         <div class="feature-content">
                                                                             <h3>
-                                                                                <span>Trusted</span> by 5000 Clients
+                                                                                <span><fmt:message
+                                                                                        key="Trusted" bundle="${Bundles}"/></span><fmt:message
+                                                                                    key="by 5000 Clients" bundle="${Bundles}"/>
                                                                             </h3>
-                                                                            <p>Most of the vehicles get damaged just
-                                                                                because
-                                                                                of maintenance neglect you take</p>
+                                                                            <p><fmt:message
+                                                                                    key="Most of the vehicles get damaged just because of maintenance neglect you take" bundle="${Bundles}"/></p>
                                                                         </div>
                                                                         <!-- feature content end -->
                                                                     </div>
@@ -964,11 +966,12 @@
                                                                         <!-- feature icon -->
                                                                         <div class="feature-content">
                                                                             <h3>
-                                                                                <span>Fast </span>feature Delivery
+                                                                                <span><fmt:message
+                                                                                        key="Fast" bundle="${Bundles}"/> </span><fmt:message
+                                                                                    key="feature Delivery" bundle="${Bundles}"/>
                                                                             </h3>
-                                                                            <p>Most of the vehicles get damaged just
-                                                                                because
-                                                                                of maintenance neglect you take</p>
+                                                                            <p><fmt:message
+                                                                                    key="Most of the vehicles get damaged just because of maintenance neglect you take" bundle="${Bundles}"/></p>
                                                                         </div>
                                                                         <!-- feature content end -->
                                                                     </div>
@@ -997,117 +1000,7 @@
                     </div>
                 </div>
             </section>
-            <section
-                    class="elementor-element elementor-element-4bedbe5 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
-                    data-id="4bedbe5" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                <div class="elementor-container elementor-column-gap-no">
-                    <div class="elementor-row">
-                        <div
-                                class="elementor-element elementor-element-1f7bdf2 skew-shap content-width-left elementor-column elementor-col-50 elementor-top-column"
-                                data-id="1f7bdf2" data-element_type="column">
-                            <div class="elementor-column-wrap  elementor-element-populated">
-                                <div class="elementor-background-overlay"></div>
-                                <div class="elementor-widget-wrap">
-                                    <div
-                                            class="elementor-element elementor-element-c559395 elementor-widget elementor-widget-text-editor"
-                                            data-id="c559395" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-text-editor elementor-clearfix">
-                                                <p>Come before 21st Feb</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-33baadd elementor-widget elementor-widget-autrics-title"
-                                            data-id="33baadd" data-element_type="widget"
-                                            data-widget_type="autrics-title.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="title-section-area">
-                                                <h2 class="section-title">
-                                                    <span>Get </span>Upto 30% Rewards
-                                                </h2>
-                                            </div>
-                                            <!-- Section title -->
 
-
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-fba6631 elementor-widget elementor-widget-text-editor"
-                                            data-id="fba6631" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-text-editor elementor-clearfix">
-                                                <p>Auto Painting &amp; Collision Repair Shop. We help
-                                                    you turn the car you drive back into the car you love!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-c054708 btn btn-primary elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button"
-                                            data-id="c054708" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-button-wrapper">
-                                                <a href="#"
-                                                   class="elementor-button-link elementor-button elementor-size-sm"
-                                                   role="button"> <span
-                                                        class="elementor-button-content-wrapper"> <span
-                                                        class="elementor-button-text">Claim Reward</span>
-													</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                                class="elementor-element elementor-element-79da2bb content-width about-autrics-img elementor-column elementor-col-50 elementor-top-column"
-                                data-id="79da2bb" data-element_type="column">
-                            <div class="elementor-column-wrap  elementor-element-populated">
-                                <div class="elementor-background-overlay"></div>
-                                <div class="elementor-widget-wrap">
-                                    <div
-                                            class="elementor-element elementor-element-10fdf01 elementor-widget elementor-widget-autrics-title"
-                                            data-id="10fdf01" data-element_type="widget"
-                                            data-widget_type="autrics-title.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="title-section-area">
-                                                <h2 class="section-title">
-                                                    <span>About</span> Autrics
-                                                </h2>
-                                            </div>
-                                            <!-- Section title -->
-
-
-                                        </div>
-                                    </div>
-                                    <div
-                                            class="elementor-element elementor-element-058b2f6 elementor-widget elementor-widget-text-editor"
-                                            data-id="058b2f6" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-text-editor elementor-clearfix">
-                                                <p>Most of the vehicles get damaged just because of
-                                                    maintenance neglect you take. get damaged</p>
-                                                <ul class="unstyled list-round">
-                                                    <li>The vehicles get damaged just because of mainte</li>
-                                                    <li>The Big Oxmox advised her not to do vehicles</li>
-                                                    <li>The Little Blind Text didn’t listen herself</li>
-                                                    <li>Alphabet Village and the subline of</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section
                     class="elementor-element elementor-element-7dd32a7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                     data-id="7dd32a7" data-element_type="section">
@@ -1125,7 +1018,9 @@
                                         <div class="elementor-widget-container">
                                             <div class="title-section-area">
                                                 <h2 class="section-title">
-                                                    <span>Our</span> Working Process
+                                                    <span><fmt:message
+                                                            key="Our" bundle="${Bundles}"/></span><fmt:message
+                                                        key="Working Process" bundle="${Bundles}"/>
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
@@ -1150,10 +1045,12 @@
 																</span>
                                                             <div class="working-content">
                                                                 <h3>
-                                                                    <span>Request</span> Quote
+                                                                    <span><fmt:message
+                                                                            key="Request" bundle="${Bundles}"/></span><fmt:message
+                                                                        key="Quote" bundle="${Bundles}"/>
                                                                 </h3>
-                                                                <p>Most of the vehicles get damage just because of
-                                                                    maintain</p>
+                                                                <p><fmt:message
+                                                                        key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
                                                             </div>
                                                             <!-- Working Content -->
                                                         </div>
@@ -1172,10 +1069,12 @@
 																</span>
                                                             <div class="working-content">
                                                                 <h3>
-                                                                    <span>Bring</span> Your Vehicle
+                                                                    <span><fmt:message
+                                                                            key="Bring" bundle="${Bundles}"/></span><fmt:message
+                                                                        key="Your Vehicle" bundle="${Bundles}"/>
                                                                 </h3>
-                                                                <p>Most of the vehicles get damage just because of
-                                                                    maintain</p>
+                                                                <p><fmt:message
+                                                                        key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
                                                             </div>
                                                             <!-- Working Content -->
                                                         </div>
@@ -1193,10 +1092,12 @@
 																</span>
                                                             <div class="working-content">
                                                                 <h3>
-                                                                    <span>Get</span> It Repaired
+                                                                    <span><fmt:message
+                                                                            key="Get" bundle="${Bundles}"/></span><fmt:message
+                                                                        key="It Repaired" bundle="${Bundles}"/>
                                                                 </h3>
-                                                                <p>Most of the vehicles get damage just because of
-                                                                    maintain</p>
+                                                                <p><fmt:message
+                                                                        key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
                                                             </div>
                                                             <!-- Working Content -->
                                                         </div>
@@ -1236,7 +1137,9 @@
                                         <div class="elementor-widget-container">
                                             <div class="title-section-area">
                                                 <h2 class="section-title">
-                                                    <span>Services</span> We Provide
+                                                    <span> <span><fmt:message
+                                                            key="Services" bundle="${Bundles}"/></span> <span><fmt:message
+                                                            key="We Provide" bundle="${Bundles}"/>
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
@@ -1285,15 +1188,14 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/">Performance
-                                                                Upgrades </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"><fmt:message
+                                                                    key="Performance Upgrades" bundle="${Bundles}"/></a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1319,15 +1221,14 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">Computer
-                                                                Diagnostics </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">
+                                                                <fmt:message key="Computer Diagnostics" bundle="${Bundles}"/></a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1353,15 +1254,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/">Anti-Lock
-                                                                Brake Service </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"><fmt:message key="Anti-Lock Brake Service" bundle="${Bundles}"/></a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1387,15 +1286,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/">Air
-                                                                Conditioning Evac </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"><fmt:message key="Air Conditioning Evac" bundle="${Bundles}"/> </a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1421,15 +1318,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/">Lube,
-                                                                vehicles damaged </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"><fmt:message key="Lube, vehicles damaged" bundle="${Bundles}"/> </a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1455,15 +1350,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/">Engine
-                                                                Diagnostics Entire </a>
+                                                                    href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"><fmt:message key="Engine Diagnostics Entire" bundle="${Bundles}"/> </a>
                                                         </h3>
-                                                        <p>Most of the vehicles get damaged just because of
-                                                            maintenance</p>
+                                                        <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
                                                                 href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"
-                                                                class="readmore">Read More<i
+                                                                class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
 
@@ -1505,7 +1398,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="title-section-area">
                                                 <h2 class="section-title">
-                                                    <span>Subscribe</span> For Newsletter
+                                                    <span><fmt:message key="Subscribe" bundle="${Bundles}"/></span> <fmt:message key="For Newsletter" bundle="${Bundles}"/>
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
@@ -1592,8 +1485,7 @@
                                             <div class="elementor-text-editor elementor-clearfix">
                                                 <p>
 														<span
-                                                                style="font-family: Dosis, sans-serif; font-size: 20px;">We
-															offer you</span>
+                                                                style="font-family: Dosis, sans-serif; font-size: 20px;"><fmt:message key="We offer you" bundle="${Bundles}"/></span>
                                                 </p>
                                             </div>
                                         </div>
@@ -1605,7 +1497,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="title-section-area">
                                                 <h2 class="section-title">
-                                                    <span>The </span> Best Auto Repair Service
+                                                    <span><fmt:message key="Best Auto Repair Service" bundle="${Bundles}"/></span>
                                                 </h2>
                                             </div>
                                             <!-- Section title -->
@@ -1623,7 +1515,7 @@
                                                    class="elementor-button-link elementor-button elementor-size-sm"
                                                    role="button"> <span
                                                         class="elementor-button-content-wrapper"> <span
-                                                        class="elementor-button-text">Contact US</span>
+                                                        class="elementor-button-text"><fmt:message key="Contact us" bundle="${Bundles}"/></span>
 													</span>
                                                 </a>
                                             </div>
@@ -1735,7 +1627,7 @@
                                                     <i class="icon icon-phone1"></i>
                                                     <div class="footer-box-content">
                                                         <h3>+(91) 458 654 528</h3>
-                                                        <p>Give us a call</p>
+                                                        <p><fmt:message key="Give us a call" bundle="${Bundles}"/></p>
                                                     </div>
                                                     <span class="angle-shap"></span>
 
@@ -1902,8 +1794,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="copyright-info">
-							<span style="background: #2f3967&amp;#039;">Copyright
-								&copy; 2019 Autrics. All Rights Reserved.</span>
+							<span style="background: #2f3967&amp;#039;"><fmt:message key="Copyright &copy; 2019 Autrics. All Rights Reserved." bundle="${Bundles}"/></span>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
@@ -1912,17 +1803,17 @@
                             <ul id="menu-footer-menu" class="nav unstyled">
                                 <li id="menu-item-84"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-35 current_page_item menu-item-84">
-                                    <a href="index.html" aria-current="page">Home</a>
+                                    <a href="index.html" aria-current="page"><fmt:message key="Home" bundle="${Bundles}"/></a>
                                 </li>
                                 <li id="menu-item-85"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a
-                                        href="#">Terms</a></li>
+                                        href="#"><fmt:message key="Terms" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-86"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a
-                                        href="#">Privacy Policy</a></li>
+                                        href="#"><fmt:message key="Privacy Policy" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-83"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a
-                                        href="contact.html">Contact</a></li>
+                                        href="contact.html"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
                             </ul>
                         </div>
                     </div>

@@ -45,7 +45,7 @@ public class AdminSignInCheck extends HttpServlet {
             setAttributesForPage(request);
             gotoMasterAdminPage(request, response);
         }else{
-            String message = "Your username or the password is worng, try again";
+            String message = "Your username or the password is wrong, try again";
             sendToLoginPage(request, response, message);
         }
     }

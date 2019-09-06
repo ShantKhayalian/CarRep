@@ -39,6 +39,12 @@ public class TipsDao {
     }
 
 
+    /**
+     * UpdateTipsEng
+     * @param vehicleTips
+     * @param tips_id
+     * @return
+     */
     public int UpdateTipsEng(VehicleTips vehicleTips, int tips_id) {
         int rowsUpdated = 0;
         try {
@@ -56,6 +62,12 @@ public class TipsDao {
         return rowsUpdated;
     }
 
+    /**
+     * UpdateTipsRus
+     * @param vehicleTips
+     * @param tips_id
+     * @return
+     */
     public int UpdateTipsRus(VehicleTips vehicleTips, int tips_id) {
         int rowsUpdated = 0;
         try {
@@ -74,6 +86,10 @@ public class TipsDao {
         return rowsUpdated;
     }
 
+    /**
+     * getTipsInRussian
+     * @return
+     */
     public List<VehicleTips> getTipsInRussian() {
         VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
@@ -90,6 +106,10 @@ public class TipsDao {
         return vehicleTipsList;
     }
 
+    /**
+     * getTipsInEnglish
+     * @return
+     */
     public List<VehicleTips> getTipsInEnglish() {
         VehicleTips vehicleTips = null;
         List<VehicleTips> vehicleTipsList = new ArrayList<>();
@@ -106,6 +126,12 @@ public class TipsDao {
         return vehicleTipsList;
     }
 
+    /**
+     * TipsRus
+     * @param vehicleTipsList
+     * @param set
+     * @throws SQLException
+     */
     private void TipsRus(List<VehicleTips> vehicleTipsList, ResultSet set) throws SQLException {
         VehicleTips vehicleTips;
         while (set.next()) {

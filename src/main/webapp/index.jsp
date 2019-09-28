@@ -268,19 +268,19 @@
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.PageLanguage}"
+                                                href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Tin painting work" bundle="${Bundles}"/></a>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Car body painting" bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body polishing"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
@@ -324,44 +324,44 @@
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.PageLanguage}"
+                                                href="CarWrapping?Pagelanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Car wrapping"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="Tinting?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="Ceramic?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                         <a
-                                                href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="SounDis?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Sound insulation and vibration isolation"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1691"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                         <a
-                                                href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
+                                                href="PreSal?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Pre-sale preparation" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1692"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
+                                                href="DiskRes?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Disk restoration" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1692"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="LocalDentRemoval?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyKi?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body kit"
                                                                                     bundle="${Bundles}"/></a>
 

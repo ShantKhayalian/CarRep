@@ -475,32 +475,32 @@
                                     <li id="menu-item-77"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
                                         <a
-                                                href="OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="OilFilterChangeC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Oil and filter change" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="ReplacementPadsBrakeDiscs?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Replacement of pads and brake discs"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="SuspensionRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="SuspensionRepairC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Suspension repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="EngineDiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="DiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="DiagnosticsRepairC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
@@ -517,20 +517,20 @@
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="RepairMaintenanceConditioners?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Repair and maintenance of air conditioners"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="GatheringCollapse?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="GatheringCollapseC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="3D gathering-collapse" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="Electrician?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="ElectricianC?PageLanguage=${requestScope.Pagelanguage}"
                                                 class=" dropdown-item"><fmt:message key="Electrician"
                                                                                     bundle="${Bundles}"/></a>
 

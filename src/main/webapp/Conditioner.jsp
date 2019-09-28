@@ -510,7 +510,7 @@
                                                 key="Computer diagnostics" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="ChangeРМC?PageLanguage=${requestScope.Pagelanguage}"
                                            class=" dropdown-item"><fmt:message key="Change Timing"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
@@ -523,13 +523,13 @@
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="GatheringCollapse?PageLanguage=${requestScope.PageLanguage}"
+                                                href="GatheringCollapseC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="3D gathering-collapse" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="Electrician?PageLanguage=${requestScope.PageLanguage}"
+                                                href="ElectricianC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Electrician"
                                                                                     bundle="${Bundles}"/></a>
 
@@ -651,11 +651,11 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-2081"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
-                                        <a href="OilFilterChangeC?PageLanguage=en_US" class=" dropdown-item"><fmt:message
+                                        <a href="RepairMaintenanceConditionersC?PageLanguage=en_US" class=" dropdown-item"><fmt:message
                                                 key="English" bundle="${Bundles}"/></a>
                                     <li id="menu-item-2082"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2082 nav-item">
-                                        <a href="OilFilterChangeC?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
+                                        <a href="RepairMaintenanceConditionersC?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
                                                 key="Russian" bundle="${Bundles}"/></a>
                                 </ul>
                             </li>
@@ -914,12 +914,12 @@
                                                                          data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img width="800" height="215"
+                                                                               <%-- <img width="800" height="215"
                                                                                      src="images/service_img81.jpg"
                                                                                      class="attachment-large size-large"
                                                                                      alt=""
                                                                                      srcset="http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81.jpg 819w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-600x161.jpg 600w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-300x81.jpg 300w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-768x206.jpg 768w"
-                                                                                     sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                                     sizes="(max-width: 800px) 100vw, 800px"/>--%>
                                                                             </div>
                                                                         </div>
                                                                     </div>

@@ -447,12 +447,12 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
-                                        <a href="About?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="About?PageLanguage=${requestScope.PageLanguage}"
                                            class=" dropdown-item"><fmt:message key="About us"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
-                                        <a href="OurTeam?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="OurTeam?PageLanguage=${requestScope.PageLanguage}"
                                            class=" dropdown-item"><fmt:message key="Our Team"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
@@ -474,32 +474,32 @@
                                     <li id="menu-item-77"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
                                         <a
-                                                href="OilFilterChange?PageLanguage=${requestScope.PageLanguage}"
+                                                href="OilFilterChangeC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Oil and filter change" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="ReplacementPadsBrakeDiscs?PageLanguage=${requestScope.PageLanguage}"
+                                                href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Replacement of pads and brake discs"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="SuspensionRepair?PageLanguage=${requestScope.PageLanguage}"
+                                                href="SuspensionRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Suspension repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="EngineDiagnosticsRepair?PageLanguage=${requestScope.PageLanguage}"
+                                                href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="DiagnosticsRepair?PageLanguage=${requestScope.PageLanguage}"
+                                                href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
@@ -510,26 +510,26 @@
                                                 key="Computer diagnostics" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="ChangeРМC?PageLanguage=${requestScope.Pagelanguage}"
                                            class=" dropdown-item"><fmt:message key="Change Timing"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="RepairMaintenanceConditioners?PageLanguage=${requestScope.PageLanguage}"
+                                                href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Repair and maintenance of air conditioners"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="GatheringCollapse?PageLanguage=${requestScope.PageLanguage}"
+                                                href="GatheringCollapseC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="3D gathering-collapse" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="Electrician?PageLanguage=${requestScope.PageLanguage}"
+                                                href="ElectricianC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Electrician"
                                                                                     bundle="${Bundles}"/></a>
 
@@ -550,13 +550,13 @@
                                     <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Car body painting" bundle="${Bundles}"/></a>
                                     <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body polishing"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-621"
@@ -606,13 +606,13 @@
                                     <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
@@ -651,11 +651,11 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-2081"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
-                                        <a href="SuspensionRepairC?PageLanguage=en_US" class=" dropdown-item"><fmt:message
+                                        <a href="WindowsReplacement?PageLanguage=en_US" class=" dropdown-item"><fmt:message
                                                 key="English" bundle="${Bundles}"/></a>
                                     <li id="menu-item-2082"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2082 nav-item">
-                                        <a href="SuspensionRepairC?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
+                                        <a href="WindowsReplacement?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
                                                 key="Russian" bundle="${Bundles}"/></a>
                                 </ul>
                             </li>
@@ -707,8 +707,8 @@
 
                     <ol class="breadcrumb" data-wow-duration="2s">
                         <li><a href="http://demo.themewinter.com/wp/autrics"><fmt:message key="Home" bundle="${Bundles}"/></a></li>
-                        <li><fmt:message key="Service" bundle="${Bundles}"/></li>
-                        <li><fmt:message key="Suspension repair" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Body repair" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Tin painting work" bundle="${Bundles}"/></li>
                     </ol>
                 </div><!-- Banner Heading end -->
             </div><!-- Col end-->
@@ -742,74 +742,68 @@
                                                             <li id="menu-item-1609"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1594">
                                                                 <a
-                                                                        href="OilFilterChangeC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Oil and filter change" bundle="${Bundles}"/></a>
+                                                                        key="Tin painting work" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1608"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1595">
                                                                 <a
-                                                                        href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Replacement brake discs"
+                                                                        key="Car body painting"
                                                                         bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1607"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service current-menu-item menu-item-1596">
                                                                 <a
-                                                                        href="SuspensionRepairC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                    key="Suspension repair" bundle="${Bundles}"/>
+                                                                    key="Body polishing" bundle="${Bundles}"/>
                                                             </li>
                                                             <li id="menu-item-1606"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
                                                                 <a
-                                                                        href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="EngineDiagnosticsRepair?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1605"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                                                 <a
-                                                                        href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="DentRemoval?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Diagnostics and repair" bundle="${Bundles}"/></a>
+                                                                        key="Dent removal without painting" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1604"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="BodyGeometry?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Computer diagnostics" bundle="${Bundles}"/></a>
+                                                                        key="Body geometry restoration" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1600"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a href="ChangeРМC?PageLanguage=${requestScope.PageLanguage}"
-                                                                   class=" dropdown-item"><fmt:message key="Change Timing"
+                                                                <a href="Welding?PageLanguage=${requestScope.PageLanguage}"
+                                                                   class=" dropdown-item"><fmt:message key="Welding work"
                                                                                                        bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1601"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="DentRemove?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Repair and maintenance of air conditioners"
+                                                                        key="Local dent removal"
                                                                         bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1602"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="GatheringCollapseC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="WindowReplacement?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="3D gathering-collapse" bundle="${Bundles}"/></a>
+                                                                        key="Windows replacement" bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1603"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a
-                                                                        href="ElectricianC?PageLanguage=${requestScope.PageLanguage}"
-                                                                        class=" dropdown-item"><fmt:message key="Electrician"
-                                                                                                            bundle="${Bundles}"/></a>
-                                                            </li>
+
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -867,7 +861,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="title-section-area">
                                                         <h2 class="section-title">
-                                                            <span><fmt:message key="Suspension repair" bundle="${Bundles}"/></span> </h2>
+                                                            <span><fmt:message key="Tin painting work" bundle="${Bundles}"/></span> </h2>
                                                     </div><!-- Section title -->
 
 
@@ -886,10 +880,10 @@
                                                         <c:set value="${requestScope.PageLanguage}" var="lang"/>
                                                             <c:choose>
                                                                 <c:when test="${lang == 'en_US'}">
-                                                                    <p>${list.suspensionRepairEng}</p>
+                                                                    <p>${list.eng}</p>
                                                                 </c:when>
                                                                 <c:when test="${lang == 'ru_RU'}">
-                                                                    <p>${list.suspensionRepairRus}</p>
+                                                                    <p>${list.rus}</p>
                                                                 </c:when>
                                                             </c:choose>
 
@@ -914,12 +908,12 @@
                                                                          data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img width="800" height="215"
+                                                                              <%--  <img width="800" height="215"
                                                                                      src="images/service_img81.jpg"
                                                                                      class="attachment-large size-large"
                                                                                      alt=""
                                                                                      srcset="http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81.jpg 819w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-600x161.jpg 600w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-300x81.jpg 300w, http://demo.themewinter.com/wp/autrics/wp-content/uploads/2019/01/service_img81-768x206.jpg 768w"
-                                                                                     sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                                     sizes="(max-width: 800px) 100vw, 800px"/>--%>
                                                                             </div>
                                                                         </div>
                                                                     </div>

@@ -268,19 +268,19 @@
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.PageLanguage}"
+                                                href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Tin painting work" bundle="${Bundles}"/></a>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Car body painting" bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body polishing"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
@@ -330,13 +330,13 @@
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"

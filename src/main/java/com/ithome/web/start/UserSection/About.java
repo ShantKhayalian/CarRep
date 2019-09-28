@@ -55,7 +55,6 @@ public class About extends HttpServlet {
         request.getRequestDispatcher("/About.jsp").forward(request, response);
     }
 
-
     private void setRequestes(HttpServletRequest request) {
         request.setAttribute("Pagelanguage", Pagelanguage);
         request.setAttribute("PageName", pageName);
@@ -100,7 +99,6 @@ public class About extends HttpServlet {
         }
         return language;
     }
-
 
     private void getPageName(HttpServletRequest request) {
         pageName = pageNameHelper.pageName(request);

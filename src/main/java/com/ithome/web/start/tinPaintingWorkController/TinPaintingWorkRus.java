@@ -1,5 +1,6 @@
 package com.ithome.web.start.tinPaintingWorkController;
 
+import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.SuspensionRepair;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;

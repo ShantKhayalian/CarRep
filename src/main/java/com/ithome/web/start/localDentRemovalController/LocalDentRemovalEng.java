@@ -18,7 +18,7 @@ import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
 
-@WebServlet("/ LocalDentRemovalEng ")
+@WebServlet("/LocalDentRemovalEng")
 public class LocalDentRemovalEng extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;

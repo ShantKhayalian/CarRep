@@ -58,7 +58,7 @@ public class EmployeeDao {
      *
      * @return
      */
-    private Connection connectToData() throws SQLException {
+    private Connection connectToData() {
         return DBConnection.getConnectionToDatabase();
     }
 

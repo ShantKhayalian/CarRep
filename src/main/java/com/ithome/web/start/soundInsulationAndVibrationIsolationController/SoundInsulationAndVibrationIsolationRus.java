@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.SuspensionRepair;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
@@ -65,34 +66,10 @@ public class SoundInsulationAndVibrationIsolationRus extends HttpServlet {
         getSession(session, request, response);
     }
 
-    /*
-    Fill admin
-    in list
-    with the
-    specific id
-     *
-             *
-    @param
-    adminid
-     */
-
     private void getFullAdminList(int adminid) {
         adminList = adminChecker.getAllInfoofAdmin(adminid);
     }
 
-    /*
-    get admin
-    admin id
-    by username
-    from session
-     *
-             *
-    @param
-    request
-     *
-    @param
-    response
-     */
 
     private void getAdminInfo(HttpServletRequest request, HttpServletResponse response) {
         adminId = adminChecker.getAdminId(username);
@@ -115,9 +92,3 @@ public class SoundInsulationAndVibrationIsolationRus extends HttpServlet {
         }
     }
 }
-
-
-}
-
-
-        }

@@ -11,13 +11,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.SuspensionRepair;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
 
-@WebServlet("/UpdateBGRRussianInData")
+@WebServlet("/UpdateBKRussianInData")
 public class UpdateBKRussianInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;

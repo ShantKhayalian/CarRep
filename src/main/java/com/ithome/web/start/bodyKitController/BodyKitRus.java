@@ -11,7 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.BodyKit;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.BodyKitDao;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -24,9 +27,9 @@ public class BodyKitRus extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
+    private List<BodyKit> list = new ArrayList<>();
 
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private BodyKitDao dao = new BodyKitDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         bodyKitRus(request, response);
@@ -46,18 +49,18 @@ public class BodyKitRus extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/BK/BKRussian.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
     private void getTextEnglish() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+        list = dao.getRus();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -116,5 +119,3 @@ public class BodyKitRus extends HttpServlet {
     }
 }
 
-
-}

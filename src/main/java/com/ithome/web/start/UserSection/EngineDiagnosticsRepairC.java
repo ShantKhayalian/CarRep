@@ -1,9 +1,12 @@
-package com.ithome.web.start.Start;
+package com.ithome.web.start.UserSection;
 
-import com.ithome.web.start.Beans.VehicleTips;
-import com.ithome.web.start.DaoController.TipsDao;
+import com.ithome.web.start.Beans.EngineDiagnosticsRepair;
+import com.ithome.web.start.Beans.OilFilterChange;
+import com.ithome.web.start.DaoController.EngineDiagnosticsRepairDao;
+import com.ithome.web.start.DaoController.OilFilterChangeDao;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
+import com.ithome.web.start.Helpers.SessionChecker;
 import com.ithome.web.start.Localization.CheckLanguageAndCurrency;
 
 import javax.servlet.ServletException;
@@ -16,67 +19,76 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/App")
-public class App extends HttpServlet {
+@WebServlet("/EngineDiagnosticsRepairC")
+public class EngineDiagnosticsRepairC extends HttpServlet {
     private CheckLanguageAndCurrency checkLanguageAndCurrency = new CheckLanguageAndCurrency();
-    private LanguageHelper languageHelper = new LanguageHelper();
-    private PageNameHelper pageNameHelper = new PageNameHelper();
-
     private String language = null;
     private String Pagelanguage = null;
     private String pageName = null;
-
-    private String sessionId = null;
     private String pageLanguageName = null;
+    private SessionChecker checker = new SessionChecker();
+    private String sessionId = null;
+    private LanguageHelper languageHelper = new LanguageHelper();
+    private PageNameHelper pageNameHelper = new PageNameHelper();
 
-    private List<VehicleTips> vehicleTipsList = new ArrayList<>();
-    private TipsDao tipsDao = new TipsDao();
-
+    private List<EngineDiagnosticsRepair> list = new ArrayList<>();
+    private EngineDiagnosticsRepairDao dao = new EngineDiagnosticsRepairDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        app(request, response);
+        engineDiagnosticsRepairC(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        app(request, response);
+        engineDiagnosticsRepairC(request,response);
     }
 
-    private void app(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void engineDiagnosticsRepairC(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
-        sessionControlling(request, response);
+        sessionControlling(request,response);
         getLanguagesFromPage(request);
         getPageName(request);
         getPageLanguage(language);
-        getTipsFullDetail();
-        createRequestes(request);
-        gotoPage(request, response);
-
+        getPageLabguageName(language);
+        getComputerDiagnosticText();
+        setRequestes(request);
+        gotoPage(request,response);
     }
 
-    private void getTipsFullDetail() {
-        vehicleTipsList = tipsDao.getAllTips();
-    }
-
-    private void createRequestes(HttpServletRequest request) {
-        request.setAttribute("PageLanguage", Pagelanguage);
-        request.setAttribute("sessionId", sessionId);
-        request.setAttribute("PageName", pageName);
-        request.setAttribute("pageLanguageName", pageLanguageName);
-        request.setAttribute("vehicleTipsList", vehicleTipsList);
+    private void getComputerDiagnosticText() {
+        list = dao.getAllEngineDiagnosticsRepair();
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/EngineDiagnostics.jsp").forward(request, response);
+    }
+
+    private void setRequestes(HttpServletRequest request) {
+        request.setAttribute("PageLanguage", Pagelanguage);
+        request.setAttribute("PageName", pageName);
+        request.setAttribute("pageLanguageName", pageLanguageName);
+        request.setAttribute("sessionId", sessionId);
+        request.setAttribute("list", list);
     }
 
     private void getPageLanguage(String language) {
         Pagelanguage = checkLanguageAndCurrency.checkLanguage(language);
+    }
+
+    private void getPageLabguageName(String language) {
         pageLanguageName = checkLanguageAndCurrency.checkLanguageName(language);
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession(false);
-        sessionId = session.getId();
+        getUserSession(session, request, response );
+    }
+
+    private void getUserSession(HttpSession session, HttpServletRequest request, HttpServletResponse response) {
+        if(checker.checkSessionUser(request, response)) {
+            sessionId = checker.requestSessionofUser(session);
+        }else{
+            sessionId = session.getId();
+        }
     }
 
     private String getLanguagesFromPage(HttpServletRequest request) {
@@ -90,5 +102,8 @@ public class App extends HttpServlet {
 
     private void getPageName(HttpServletRequest request) {
         pageName = pageNameHelper.pageName(request);
+        System.out.println(pageName);
     }
 }
+
+

@@ -1,9 +1,9 @@
 package com.ithome.web.start.UserSection;
 
-import com.ithome.web.start.Beans.ComputerDiagnostics;
 import com.ithome.web.start.Beans.OilFilterChange;
-import com.ithome.web.start.DaoController.ComputerDiagnosticsDao;
+import com.ithome.web.start.Beans.ReplacementPadsBrakeDiscs;
 import com.ithome.web.start.DaoController.OilFilterChangeDao;
+import com.ithome.web.start.DaoController.ReplacementPadsBrakeDiscsDao;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -19,8 +19,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/OilFilterChangeC")
-public class OilFilterChangeC extends HttpServlet {
+@WebServlet("/ReplacementPadsBrakeDiscsC")
+public class ReplacementPadsBrakeDiscsC extends HttpServlet {
+
     private CheckLanguageAndCurrency checkLanguageAndCurrency = new CheckLanguageAndCurrency();
     private String language = null;
     private String Pagelanguage = null;
@@ -31,17 +32,18 @@ public class OilFilterChangeC extends HttpServlet {
     private LanguageHelper languageHelper = new LanguageHelper();
     private PageNameHelper pageNameHelper = new PageNameHelper();
 
-    private List<OilFilterChange> list = new ArrayList<>();
-    private OilFilterChangeDao dao = new OilFilterChangeDao();
+    private List<ReplacementPadsBrakeDiscs> list = new ArrayList<>();
+    private ReplacementPadsBrakeDiscsDao dao = new ReplacementPadsBrakeDiscsDao();
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        oilFilterChange(request,response);
+        replacementPadsBrakeDiscs(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        oilFilterChange(request,response);
+        replacementPadsBrakeDiscs(request,response);
     }
 
-    private void oilFilterChange(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void replacementPadsBrakeDiscs(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request,response);
         getLanguagesFromPage(request);
@@ -54,11 +56,11 @@ public class OilFilterChangeC extends HttpServlet {
     }
 
     private void getComputerDiagnosticText() {
-        list = dao.getAllOilFilterChange();
+        list = dao.getAllReplacementPadsBrakeDiscs();
     }
 
     private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/OilFilter.jsp").forward(request, response);
+        request.getRequestDispatcher("/ReplacementPadBrake.jsp").forward(request, response);
     }
 
     private void setRequestes(HttpServletRequest request) {
@@ -104,5 +106,6 @@ public class OilFilterChangeC extends HttpServlet {
         System.out.println(pageName);
     }
 }
+
 
 

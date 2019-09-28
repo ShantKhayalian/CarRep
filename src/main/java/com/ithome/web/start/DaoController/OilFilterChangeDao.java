@@ -220,7 +220,7 @@ public class OilFilterChangeDao {
             oilFilterChange = new OilFilterChange();
             oilFilterChange.setId(set.getInt("id"));
             oilFilterChange.setOilFilterChangeRus(set.getString("oilfilterchangerus"));
-            oilFilterChange.setOilFilterChangeEng(set.getString("oilfilterchangerus"));
+            oilFilterChange.setOilFilterChangeEng(set.getString("oilfilterchangeeng"));
 
             oilFilterChangeList.add(oilFilterChange);
 

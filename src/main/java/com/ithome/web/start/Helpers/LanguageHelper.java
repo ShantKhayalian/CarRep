@@ -11,7 +11,7 @@ public class LanguageHelper {
     private NumberFormat numberFormat = null;
 
     public String Pagelanguage(HttpServletRequest request, String Pagelanguage) {
-        if (request.getParameter("Pagelanguage") != null) {
+        if (request.getParameter("PageLanguage") != null) {
             pLangauge = Pagelanguage.split("_");
 
             language = language(pLangauge);

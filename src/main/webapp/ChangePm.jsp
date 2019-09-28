@@ -651,11 +651,11 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-2081"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
-                                        <a href="OilFilterChangeC?PageLanguage=en_US" class=" dropdown-item"><fmt:message
+                                        <a href="ChangeРМC?PageLanguage=en_US" class=" dropdown-item"><fmt:message
                                                 key="English" bundle="${Bundles}"/></a>
                                     <li id="menu-item-2082"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2082 nav-item">
-                                        <a href="OilFilterChangeC?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
+                                        <a href="ChangeРМC?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
                                                 key="Russian" bundle="${Bundles}"/></a>
                                 </ul>
                             </li>
@@ -708,7 +708,7 @@
                     <ol class="breadcrumb" data-wow-duration="2s">
                         <li><a href="http://demo.themewinter.com/wp/autrics"><fmt:message key="Home" bundle="${Bundles}"/></a></li>
                         <li><fmt:message key="Service" bundle="${Bundles}"/></li>
-                        <li><fmt:message key="Oil and filter change" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Change Timing" bundle="${Bundles}"/></li>
                     </ol>
                 </div><!-- Banner Heading end -->
             </div><!-- Col end-->
@@ -867,7 +867,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="title-section-area">
                                                         <h2 class="section-title">
-                                                            <span><fmt:message key="Oil and filter change" bundle="${Bundles}"/></span> </h2>
+                                                            <span><fmt:message key="Change Timing" bundle="${Bundles}"/></span> </h2>
                                                     </div><!-- Section title -->
 
 
@@ -886,10 +886,10 @@
                                                         <c:set value="${requestScope.PageLanguage}" var="lang"/>
                                                             <c:choose>
                                                                 <c:when test="${lang == 'en_US'}">
-                                                                    <p>${list.oilFilterChangeEng}</p>
+                                                                    <p>${list.changeРМEng}</p>
                                                                 </c:when>
                                                                 <c:when test="${lang == 'ru_RU'}">
-                                                                    <p>${list.oilFilterChangeRus}</p>
+                                                                    <p>${list.changeРМRus}</p>
                                                                 </c:when>
                                                             </c:choose>
 

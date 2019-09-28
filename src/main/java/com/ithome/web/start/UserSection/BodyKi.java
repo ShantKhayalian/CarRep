@@ -1,6 +1,9 @@
 package com.ithome.web.start.UserSection;
 
-import com.ithome.web.start.DaoController.ComputerDiagnosticsDao;
+import com.ithome.web.start.Beans.BodyKit;
+import com.ithome.web.start.Beans.DiskRestoration;
+import com.ithome.web.start.DaoController.BodyKitDao;
+import com.ithome.web.start.DaoController.DiskRDao;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -16,8 +19,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/ComputerDiagnostics")
-public class ComputerDiagnostics extends HttpServlet {
+@WebServlet("/BodyKi")
+public class BodyKi extends HttpServlet {
+
     private CheckLanguageAndCurrency checkLanguageAndCurrency = new CheckLanguageAndCurrency();
     private String language = null;
     private String Pagelanguage = null;
@@ -28,19 +32,18 @@ public class ComputerDiagnostics extends HttpServlet {
     private LanguageHelper languageHelper = new LanguageHelper();
     private PageNameHelper pageNameHelper = new PageNameHelper();
 
-    private List<com.ithome.web.start.Beans.ComputerDiagnostics> computerDiagnosticsList = new ArrayList<>();
-    private ComputerDiagnosticsDao diagnosticsDao = new ComputerDiagnosticsDao();
+    private List<BodyKit> list = new ArrayList<>();
+    private BodyKitDao dao = new BodyKitDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        computerDiagnostics(request,response);
+        bodyKi(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        computerDiagnostics(request,response);
-
+        bodyKi(request,response);
     }
 
-    private void computerDiagnostics(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void bodyKi(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request,response);
         getLanguagesFromPage(request);
@@ -49,16 +52,15 @@ public class ComputerDiagnostics extends HttpServlet {
         getPageLabguageName(language);
         getComputerDiagnosticText();
         setRequestes(request);
-        gotoAboutUsPage(request,response);
-
+        gotoPage(request,response);
     }
 
     private void getComputerDiagnosticText() {
-        computerDiagnosticsList = diagnosticsDao.getAllComputerDiagnosticsList();
+        list = dao.getAllChangePm();
     }
 
-    private void gotoAboutUsPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/ComputerDiagnos.jsp").forward(request, response);
+    private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/BodyKit.jsp").forward(request, response);
     }
 
     private void setRequestes(HttpServletRequest request) {
@@ -66,7 +68,7 @@ public class ComputerDiagnostics extends HttpServlet {
         request.setAttribute("PageName", pageName);
         request.setAttribute("pageLanguageName", pageLanguageName);
         request.setAttribute("sessionId", sessionId);
-        request.setAttribute("computerDiagnosticsList", computerDiagnosticsList);
+        request.setAttribute("list", list);
     }
 
     private void getPageLanguage(String language) {
@@ -104,4 +106,7 @@ public class ComputerDiagnostics extends HttpServlet {
         System.out.println(pageName);
     }
 }
+
+
+
 

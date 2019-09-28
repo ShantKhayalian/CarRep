@@ -1,6 +1,9 @@
 package com.ithome.web.start.UserSection;
 
-import com.ithome.web.start.DaoController.ComputerDiagnosticsDao;
+import com.ithome.web.start.Beans.CeramicCoating;
+import com.ithome.web.start.Beans.Tining;
+import com.ithome.web.start.DaoController.CeramicDao;
+import com.ithome.web.start.DaoController.TintingDao;
 import com.ithome.web.start.Helpers.LanguageHelper;
 import com.ithome.web.start.Helpers.PageNameHelper;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -16,8 +19,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/ComputerDiagnostics")
-public class ComputerDiagnostics extends HttpServlet {
+@WebServlet("/CeramicS")
+public class CeramicS extends HttpServlet {
     private CheckLanguageAndCurrency checkLanguageAndCurrency = new CheckLanguageAndCurrency();
     private String language = null;
     private String Pagelanguage = null;
@@ -28,19 +31,18 @@ public class ComputerDiagnostics extends HttpServlet {
     private LanguageHelper languageHelper = new LanguageHelper();
     private PageNameHelper pageNameHelper = new PageNameHelper();
 
-    private List<com.ithome.web.start.Beans.ComputerDiagnostics> computerDiagnosticsList = new ArrayList<>();
-    private ComputerDiagnosticsDao diagnosticsDao = new ComputerDiagnosticsDao();
+    private List<CeramicCoating> list = new ArrayList<>();
+    private CeramicDao dao = new CeramicDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        computerDiagnostics(request,response);
+        ceramic(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        computerDiagnostics(request,response);
-
+        ceramic(request,response);
     }
 
-    private void computerDiagnostics(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    private void ceramic(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request,response);
         getLanguagesFromPage(request);
@@ -49,16 +51,15 @@ public class ComputerDiagnostics extends HttpServlet {
         getPageLabguageName(language);
         getComputerDiagnosticText();
         setRequestes(request);
-        gotoAboutUsPage(request,response);
-
+        gotoPage(request,response);
     }
 
     private void getComputerDiagnosticText() {
-        computerDiagnosticsList = diagnosticsDao.getAllComputerDiagnosticsList();
+        list = dao.getAll();
     }
 
-    private void gotoAboutUsPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/ComputerDiagnos.jsp").forward(request, response);
+    private void gotoPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/Ceramic.jsp").forward(request, response);
     }
 
     private void setRequestes(HttpServletRequest request) {
@@ -66,7 +67,7 @@ public class ComputerDiagnostics extends HttpServlet {
         request.setAttribute("PageName", pageName);
         request.setAttribute("pageLanguageName", pageLanguageName);
         request.setAttribute("sessionId", sessionId);
-        request.setAttribute("computerDiagnosticsList", computerDiagnosticsList);
+        request.setAttribute("list", list);
     }
 
     private void getPageLanguage(String language) {
@@ -104,4 +105,7 @@ public class ComputerDiagnostics extends HttpServlet {
         System.out.println(pageName);
     }
 }
+
+
+
 

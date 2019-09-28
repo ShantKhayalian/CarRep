@@ -81,86 +81,68 @@
 
 
 <!-- header nav start-->
+<!-- header nav start-->
 <header class="ts-header header-default">
     <div class="ts-logo-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <a class="ts-logo" href="http://demo.themewinter.com/wp/autrics/">
-                        <img src="images/logo.png"
-                             alt="Car Repair Services and Auto Mechanic WordPress Theme">
+                        <img src="images/logo.png" alt="Car Repair Services and Auto Mechanic WordPress Theme">
                     </a>
-                </div>
-                <!-- Col End -->
+                </div> <!-- Col End -->
                 <div class="col-md-8 float-right">
                     <ul class="top-contact-info">
 
 
-                        <li><span><i class="icon icon-phone1"></i></span>
+                        <li>
+                            <span><i class="icon icon-phone1"></i></span>
                             <div class="info-wrapper">
-                                <p class="info-title">
-                                    <fmt:message key="Call us" bundle="${Bundles}"/>
-                                </p>
+                                <p class="info-title"><fmt:message key="Call us" bundle="${Bundles}"/></p>
                                 <p class="info-subtitle">+91 458 654 528</p>
                             </div>
-                        </li>
-                        <!-- li End -->
+                        </li> <!-- li End -->
 
-                        <li><span><i class="icon icon-envelope1"></i></span>
+                        <li>
+                            <span><i class="icon icon-envelope1"></i></span>
                             <div class="info-wrapper">
-                                <p class="info-title">
-                                    <fmt:message key="Send us mail" bundle="${Bundles}"/>
-                                </p>
+                                <p class="info-title"><fmt:message key="Send us mail" bundle="${Bundles}"/></p>
                                 <p class="info-subtitle">query@finances.com</p>
                             </div>
-                        </li>
-                        <!-- Li End -->
+                        </li> <!-- Li End -->
 
 
-                        <li><a
-                                href="ContactUs?PageLanguage=${requestScope.PageLanguage}"
-                                class="btn btn-primary"><fmt:message key="Contact us"
-                                                                     bundle="${Bundles}"/></a></li>
-                        <!-- Li End -->
-                    </ul>
-                    <!-- Contact info End -->
-                </div>
-                <!-- Col End -->
-            </div>
-            <!-- Row End -->
-        </div>
-        <!-- Container End -->
-    </div>
-    <!-- Logo End -->
+                        <li>
+                            <a href="#" class="btn btn-primary"><fmt:message key="Contact us" bundle="${Bundles}"/></a>
+                        </li> <!-- Li End -->
+                    </ul> <!-- Contact info End -->
+                </div> <!-- Col End -->
+            </div> <!-- Row End -->
+        </div> <!-- Container End -->
+    </div> <!-- Logo End -->
 
     <!-- navigation start -->
     <div class="header-angle navbar-fixed ">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- End of Navbar toggler -->
+                </button><!-- End of Navbar toggler -->
                 <div class="sticky-logo">
-                    <a class="ts-logo d-none"
-                       href="http://demo.themewinter.com/wp/autrics/" class="ts-logo">
-                        <img src="images/logo-white-.png"
-                             alt="Car Repair Services and Auto Mechanic">
+                    <a class="ts-logo d-none" href="http://demo.themewinter.com/wp/autrics/" class="ts-logo">
+                        <img src="images/logo-white-.png" alt="Car Repair Services and Auto Mechanic WordPress Theme">
                     </a>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end ts-navbar"
-                     id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end ts-navbar" id="navbarSupportedContent">
 
                     <div id="primary-nav" class="menu-main-menu-container">
                         <ul id="main-menu" class="navbar-nav">
                             <li id="menu-item-52"
                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children  menu-item-52 nav-item dropdown">
                                 <a href="App" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"> <fmt:message key="Home"
-                                                                        bundle="${Bundles}"/></a>
+                                   data-toggle="dropdown"> <fmt:message key="Home" bundle="${Bundles}"/></a>
                             </li>
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
@@ -180,8 +162,8 @@
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
-                                        <a href="gallery.html" class=" dropdown-item"><fmt:message
-                                                key="Gallery" bundle="${Bundles}"/></a> <%--         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
+                                        <%--<a href="gallery.html" class=" dropdown-item"><fmt:message
+                                                key="Gallery" bundle="${Bundles}"/></a> --%><%--         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                                  <a href="faq.html" class=" dropdown-item"><fmt:message key="FAQ" bundle="${Bundles}"/></a>
                                                  <li id="menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                                  <a href="testimonial.html" class=" dropdown-item"><fmt:message key="Testimonial" bundle="${Bundles}"/></a>
@@ -189,11 +171,11 @@
                                                  <a href="pricing-table.html" class=" dropdown-item"><fmt:message key="Pricing" bundle="${Bundles}"/></a></ul>--%>
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////1 th End -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"><fmt:message key="Services"
-                                                                       bundle="${Bundles}"/></a>
+                                   data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-77"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
@@ -259,55 +241,57 @@
 
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////1 th End -->
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////2 th End -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
                                    data-toggle="dropdown"><fmt:message key="Body repair"
                                                                        bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
-                                    <li id="menu-item-60"
+                                    <li id="menu-item-601"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
                                                 href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Tin painting work" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-59"
+                                    <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
                                                 href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Car body painting" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-58"
+                                    <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
                                                 href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body polishing"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
+                                    <li id="menu-item-621"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                         <a
                                                 href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Dent removal without painting" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1691"
+                                    <li id="menu-item-16911"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                         <a
                                                 href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Body geometry restoration" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-16912"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
                                                 href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Welding work"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-16913"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
                                                 href="LocalDentRemoval?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Local dent removal" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-1696"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
                                                 href="WindowsReplacement?PageLanguage=${requestScope.PageLanguage}"
@@ -315,58 +299,62 @@
                                                 key="Windows replacement" bundle="${Bundles}"/></a>
                                     </li>
                                 </ul>
+
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////2 th End -->
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////3 th start -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
                                    data-toggle="dropdown"><fmt:message key="Detailing"
                                                                        bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
-                                    <li id="menu-item-60"
+                                    <li id="menu-item-601"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.PageLanguage}"
+                                                href="CarWrapping?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Car wrapping"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-59"
+                                    <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
+                                                href="Tinting?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-58"
+                                    <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CeramicS?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                         <a
-                                                href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="SounDis?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Sound insulation and vibration isolation"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1691"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                         <a
-                                                href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
+                                                href="PreSal?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Pre-sale preparation" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-1697"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
+                                                href="DiskRes?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Disk restoration" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1692"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="LocalDentRemoval?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyKi?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body kit"
                                                                                     bundle="${Bundles}"/></a>
 
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////3 th End -->
                             <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2080 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
@@ -389,36 +377,35 @@
                         </ul>
                     </div>
                 </div>
-                <!-- End of navbar collapse -->
-                <%-- <div class="cart-link">
-                 <form action="http://demo.themewinter.com/wp/autrics">
-                     <span class="header-search-icon"><i class="icon icon-search show"></i></span>
-                     <span class="search-close"><i class="icon icon-cross"></i></span>
-                     <div class="search-box">
-                         <input type="search" name="s" id="search" placeholder="Type here and Search...">
-                     </div>
-                 </form>
-             </div>--%>
 
-                <div class="header-cart">
-                    <%-- <div class="cart-link">
-                     <a class="cart-contents" href="cart.html" title="View your shopping cart">
-                         <span class="icon icon-cart"></span>
-                         <sup>0</sup>
 
-                     </a>
-                 </div>--%>
+        </div> <!-- End of navbar collapse -->
+        <%--<div class="cart-link">
+            <form action="http://demo.themewinter.com/wp/autrics">
+                <span class="header-search-icon"><i class="icon icon-search show"></i></span>
+                <span class="search-close"><i class="icon icon-cross"></i></span>
+                <div class="search-box">
+                    <input type="search" name="s" id="search" placeholder="Type here and Search...">
                 </div>
-
-            </nav>
-            <!-- End of Nav -->
+            </form>
         </div>
-        <!-- End of Container -->
-    </div>
-    <!-- End of Header Angle-->
+
+        <div class="header-cart">
+            <div class="cart-link">
+                <a class="cart-contents" href="cart.html" title="View your shopping cart">
+                    <span class="icon icon-cart"></span>
+                    <sup>0</sup>
+
+                </a>
+            </div>
+        </div>--%>
+
+        </nav> <!-- End of Nav -->
+    </div> <!-- End of Container -->
+    </div> <!-- End of Header Angle-->
 
 
-</header>
+</header><!-- Header end -->
 <!-- Header end -->
 
 <div data-elementor-type="post" data-elementor-id="35"

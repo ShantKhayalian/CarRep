@@ -708,7 +708,7 @@
                     <ol class="breadcrumb" data-wow-duration="2s">
                         <li><a href="http://demo.themewinter.com/wp/autrics"><fmt:message key="Home" bundle="${Bundles}"/></a></li>
                         <li><fmt:message key="Body repair" bundle="${Bundles}"/></li>
-                        <li><fmt:message key="Tin painting work" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Ceramic coating" bundle="${Bundles}"/></li>
                     </ol>
                 </div><!-- Banner Heading end -->
             </div><!-- Col end-->
@@ -861,7 +861,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="title-section-area">
                                                         <h2 class="section-title">
-                                                            <span><fmt:message key="Tin painting work" bundle="${Bundles}"/></span> </h2>
+                                                            <span><fmt:message key="Ceramic coating" bundle="${Bundles}"/></span> </h2>
                                                     </div><!-- Section title -->
 
 

@@ -708,7 +708,7 @@
                     <ol class="breadcrumb" data-wow-duration="2s">
                         <li><a href="http://demo.themewinter.com/wp/autrics"><fmt:message key="Home" bundle="${Bundles}"/></a></li>
                         <li><fmt:message key="Body repair" bundle="${Bundles}"/></li>
-                        <li><fmt:message key="Tin painting work" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Windows replacement" bundle="${Bundles}"/></li>
                     </ol>
                 </div><!-- Banner Heading end -->
             </div><!-- Col end-->
@@ -761,37 +761,30 @@
                                                                         class=" dropdown-item"><fmt:message
                                                                     key="Body polishing" bundle="${Bundles}"/>
                                                             </li>
-                                                            <li id="menu-item-1606"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
-                                                                <a
-                                                                        href="EngineDiagnosticsRepair?PageLanguage=${requestScope.PageLanguage}"
-                                                                        class=" dropdown-item"><fmt:message
-                                                                        key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
-                                                            </li>
                                                             <li id="menu-item-1605"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                                                 <a
-                                                                        href="DentRemoval?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Dent removal without painting" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1604"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="BodyGeometry?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Body geometry restoration" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1600"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a href="Welding?PageLanguage=${requestScope.PageLanguage}"
+                                                                <a href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
                                                                    class=" dropdown-item"><fmt:message key="Welding work"
                                                                                                        bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1601"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="DentRemove?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="LocalDentRemoval?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Local dent removal"
                                                                         bundle="${Bundles}"/></a>
@@ -799,7 +792,7 @@
                                                             <li id="menu-item-1602"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="WindowReplacement?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="WindowsReplacement?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
                                                                         key="Windows replacement" bundle="${Bundles}"/></a>
                                                             </li>

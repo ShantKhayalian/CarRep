@@ -606,13 +606,13 @@
                                     <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.PageLanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
@@ -651,11 +651,11 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-2081"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
-                                        <a href="TinPaintingWork?PageLanguage=en_US" class=" dropdown-item"><fmt:message
+                                        <a href="DiskRes?PageLanguage=en_US" class=" dropdown-item"><fmt:message
                                                 key="English" bundle="${Bundles}"/></a>
                                     <li id="menu-item-2082"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2082 nav-item">
-                                        <a href="TinPaintingWork?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
+                                        <a href="DiskRes?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
                                                 key="Russian" bundle="${Bundles}"/></a>
                                 </ul>
                             </li>
@@ -708,7 +708,7 @@
                     <ol class="breadcrumb" data-wow-duration="2s">
                         <li><a href="http://demo.themewinter.com/wp/autrics"><fmt:message key="Home" bundle="${Bundles}"/></a></li>
                         <li><fmt:message key="Body repair" bundle="${Bundles}"/></li>
-                        <li><fmt:message key="Tin painting work" bundle="${Bundles}"/></li>
+                        <li><fmt:message key="Disk restoration" bundle="${Bundles}"/></li>
                     </ol>
                 </div><!-- Banner Heading end -->
             </div><!-- Col end-->
@@ -739,70 +739,57 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="menu-service-container">
                                                         <ul id="menu-service" class="menu">
+
                                                             <li id="menu-item-1609"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1594">
                                                                 <a
-                                                                        href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="CarWrapping?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Tin painting work" bundle="${Bundles}"/></a>
+                                                                        key="Car wrapping" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1608"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1595">
                                                                 <a
-                                                                        href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="Tinting?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Car body painting"
+                                                                        key="Tinting"
                                                                         bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1607"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service current-menu-item menu-item-1596">
                                                                 <a
-                                                                        href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="CeramicS?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                    key="Body polishing" bundle="${Bundles}"/>
+                                                                        key="Ceramic coating" bundle="${Bundles}"/>
                                                             </li>
                                                             <li id="menu-item-1606"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
                                                                 <a
-                                                                        href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="SounDis?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
+                                                                        key="Sound insulation and vibration isolation" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1605"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                                                 <a
-                                                                        href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="PreSal?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Dent removal without painting" bundle="${Bundles}"/></a>
+                                                                        key="Pre-sale preparation" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1604"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                                                 <a
-                                                                        href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
+                                                                        href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                                         class=" dropdown-item"><fmt:message
-                                                                        key="Body geometry restoration" bundle="${Bundles}"/></a>
+                                                                        key="Disk restoration" bundle="${Bundles}"/></a>
                                                             </li>
                                                             <li id="menu-item-1600"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
-                                                                   class=" dropdown-item"><fmt:message key="Welding work"
+                                                                <a href="BodyKi?PageLanguage=${requestScope.PageLanguage}"
+                                                                   class=" dropdown-item"><fmt:message key="Body kit"
                                                                                                        bundle="${Bundles}"/></a>
                                                             </li>
-                                                            <li id="menu-item-1601"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a
-                                                                        href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
-                                                                        class=" dropdown-item"><fmt:message
-                                                                        key="Local dent removal"
-                                                                        bundle="${Bundles}"/></a>
-                                                            </li>
-                                                            <li id="menu-item-1602"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
-                                                                <a
-                                                                        href="WindowsReplacement?PageLanguage=${requestScope.PageLanguage}"
-                                                                        class=" dropdown-item"><fmt:message
-                                                                        key="Windows replacement" bundle="${Bundles}"/></a>
-                                                            </li>
+
 
                                                         </ul>
                                                     </div>
@@ -861,7 +848,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="title-section-area">
                                                         <h2 class="section-title">
-                                                            <span><fmt:message key="Tin painting work" bundle="${Bundles}"/></span> </h2>
+                                                            <span><fmt:message key="Disk restoration" bundle="${Bundles}"/></span> </h2>
                                                     </div><!-- Section title -->
 
 

@@ -461,151 +461,151 @@
                              </li>
 
                          </ul>
-                        <%--  <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Diagnostics Repair</span>
+                       <a href="javascript:void(0);" class="menu-toggle">
+                            <span>Tint Painting</span>
                         </a>
                         <ul class="ml-menu">
 
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Diagnostics Repair controller</span>
+                                    <span>Tint Painting controller</span>
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="DREng">
-                                            <span>Diagnostics Repair English</span>
+                                        <a href="TinPaintingWorkEng">
+                                            <span>Update English</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="DRRus">
-                                            <span>Diagnostics Repair Russian</span>
+                                        <a href="TinPaintingWorkRus">
+                                            <span>Update Russian</span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
 
                         </ul>
+                            <a href="javascript:void(0);" class="menu-toggle">
+                              <span>Welding works</span>
+                          </a>
+                          <ul class="ml-menu">
+
+                              <li>
+                                  <a href="javascript:void(0);" class="menu-toggle">
+                                      <span>Welding works controller</span>
+                                  </a>
+                                  <ul class="ml-menu">
+                                      <li>
+                                          <a href="<%=request.getContextPath()%>/WeldingWorkEng">
+                                              <span>Update English</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="<%=request.getContextPath()%>/WeldingWorkRus">
+                                              <span>Update Russian</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+
+                          </ul>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Conditioners</span>
-                        </a>
-                        <ul class="ml-menu">
+                              <span>Windows replacement</span>
+                          </a>
+                          <ul class="ml-menu">
 
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Conditioners controller</span>
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="<%=request.getContextPath()%>/CEng">
-                                            <span>Conditioners English</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<%=request.getContextPath()%>/CRus">
-                                            <span>Conditioners Russian</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                              <li>
+                                  <a href="javascript:void(0);" class="menu-toggle">
+                                      <span>Windows replacement controller</span>
+                                  </a>
+                                  <ul class="ml-menu">
+                                      <li>
+                                          <a href="WindowsReplacementEng">
+                                              <span>Update English</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="WindowsReplacementRus">
+                                              <span>Update Russian</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
 
-                        </ul>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Replacement Discs</span>
-                        </a>
-                        <ul class="ml-menu">
+                          </ul>
+                        <%--      <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Suspension Repair</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Replacement Discs controller</span>
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="RPBDiscsEng">
-                                            <span>Replacement Discs English</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="RPBDiscsRus">
-                                            <span>Replacement Discs Russian</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Suspension Repair controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="SREng">
+                                               <span>Suspension Repair English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="SRRus">
+                                               <span>Suspension Repair Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                        </ul>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Suspension Repair</span>
-                        </a>
-                        <ul class="ml-menu">
+                           </ul>
 
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Suspension Repair controller</span>
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="SREng">
-                                            <span>Suspension Repair English</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="SRRus">
-                                            <span>Suspension Repair Russian</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                           <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Engine Diagnostics Repair</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                        </ul>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Engine Diagnostics Repair controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="EDREng">
+                                               <span>Engine Diagnostics Repair English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="EDRRus">
+                                               <span>Engine Diagnostics Repair Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Engine Diagnostics Repair</span>
-                        </a>
-                        <ul class="ml-menu">
+                           </ul>
+                           <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Gathering Collapse</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Engine Diagnostics Repair controller</span>
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="EDREng">
-                                            <span>Engine Diagnostics Repair English</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="EDRRus">
-                                            <span>Engine Diagnostics Repair Russian</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Gathering Collapse controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="GCEng">
+                                               <span>Gathering Collapse English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="GCRus">
+                                               <span>Gathering Collapse Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                        </ul>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <span>Gathering Collapse</span>
-                        </a>
-                        <ul class="ml-menu">
-
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    <span>Gathering Collapse controller</span>
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="GCEng">
-                                            <span>Gathering Collapse English</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="GCRus">
-                                            <span>Gathering Collapse Russian</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>--%>
+                           </ul>--%>
                     </li>
 
                 </ul>
@@ -737,127 +737,127 @@
                                </li>
 
                            </ul>
-                        <%--   <a href="javascript:void(0);" class="menu-toggle">
-                              <span>Conditioners</span>
+                          <a href="javascript:void(0);" class="menu-toggle">
+                              <span>Sound installation</span>
                           </a>
                           <ul class="ml-menu">
 
                               <li>
                                   <a href="javascript:void(0);" class="menu-toggle">
-                                      <span>Conditioners controller</span>
+                                      <span>Sound installation controller</span>
                                   </a>
                                   <ul class="ml-menu">
                                       <li>
-                                          <a href="<%=request.getContextPath()%>/CEng">
-                                              <span>Conditioners English</span>
+                                          <a href="<%=request.getContextPath()%>/SoundInsulationAndVibrationIsolationEng">
+                                              <span>Update English</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="<%=request.getContextPath()%>/CRus">
-                                              <span>Conditioners Russian</span>
+                                          <a href="<%=request.getContextPath()%>/SoundInsulationAndVibrationIsolationRus">
+                                              <span>Update Russian</span>
                                           </a>
                                       </li>
                                   </ul>
                               </li>
 
                           </ul>
-                          <a href="javascript:void(0);" class="menu-toggle">
-                              <span>Replacement Discs</span>
+                         <a href="javascript:void(0);" class="menu-toggle">
+                              <span>Tinting </span>
                           </a>
                           <ul class="ml-menu">
 
                               <li>
                                   <a href="javascript:void(0);" class="menu-toggle">
-                                      <span>Replacement Discs controller</span>
+                                      <span>Tinting controller</span>
                                   </a>
                                   <ul class="ml-menu">
                                       <li>
-                                          <a href="RPBDiscsEng">
-                                              <span>Replacement Discs English</span>
+                                          <a href="TintingEng">
+                                              <span>Update English</span>
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="RPBDiscsRus">
-                                              <span>Replacement Discs Russian</span>
+                                          <a href="TintingRus">
+                                              <span>Update Russian</span>
                                           </a>
                                       </li>
                                   </ul>
                               </li>
 
                           </ul>
-                          <a href="javascript:void(0);" class="menu-toggle">
-                              <span>Suspension Repair</span>
-                          </a>
-                          <ul class="ml-menu">
+                        <%--     <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Suspension Repair</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                              <li>
-                                  <a href="javascript:void(0);" class="menu-toggle">
-                                      <span>Suspension Repair controller</span>
-                                  </a>
-                                  <ul class="ml-menu">
-                                      <li>
-                                          <a href="SREng">
-                                              <span>Suspension Repair English</span>
-                                          </a>
-                                      </li>
-                                      <li>
-                                          <a href="SRRus">
-                                              <span>Suspension Repair Russian</span>
-                                          </a>
-                                      </li>
-                                  </ul>
-                              </li>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Suspension Repair controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="SREng">
+                                               <span>Suspension Repair English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="SRRus">
+                                               <span>Suspension Repair Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                          </ul>
+                           </ul>
 
-                          <a href="javascript:void(0);" class="menu-toggle">
-                              <span>Engine Diagnostics Repair</span>
-                          </a>
-                          <ul class="ml-menu">
+                           <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Engine Diagnostics Repair</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                              <li>
-                                  <a href="javascript:void(0);" class="menu-toggle">
-                                      <span>Engine Diagnostics Repair controller</span>
-                                  </a>
-                                  <ul class="ml-menu">
-                                      <li>
-                                          <a href="EDREng">
-                                              <span>Engine Diagnostics Repair English</span>
-                                          </a>
-                                      </li>
-                                      <li>
-                                          <a href="EDRRus">
-                                              <span>Engine Diagnostics Repair Russian</span>
-                                          </a>
-                                      </li>
-                                  </ul>
-                              </li>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Engine Diagnostics Repair controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="EDREng">
+                                               <span>Engine Diagnostics Repair English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="EDRRus">
+                                               <span>Engine Diagnostics Repair Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                          </ul>
-                          <a href="javascript:void(0);" class="menu-toggle">
-                              <span>Gathering Collapse</span>
-                          </a>
-                          <ul class="ml-menu">
+                           </ul>
+                           <a href="javascript:void(0);" class="menu-toggle">
+                               <span>Gathering Collapse</span>
+                           </a>
+                           <ul class="ml-menu">
 
-                              <li>
-                                  <a href="javascript:void(0);" class="menu-toggle">
-                                      <span>Gathering Collapse controller</span>
-                                  </a>
-                                  <ul class="ml-menu">
-                                      <li>
-                                          <a href="GCEng">
-                                              <span>Gathering Collapse English</span>
-                                          </a>
-                                      </li>
-                                      <li>
-                                          <a href="GCRus">
-                                              <span>Gathering Collapse Russian</span>
-                                          </a>
-                                      </li>
-                                  </ul>
-                              </li>
+                               <li>
+                                   <a href="javascript:void(0);" class="menu-toggle">
+                                       <span>Gathering Collapse controller</span>
+                                   </a>
+                                   <ul class="ml-menu">
+                                       <li>
+                                           <a href="GCEng">
+                                               <span>Gathering Collapse English</span>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="GCRus">
+                                               <span>Gathering Collapse Russian</span>
+                                           </a>
+                                       </li>
+                                   </ul>
+                               </li>
 
-                          </ul>--%>
+                           </ul>--%>
                     </li>
 
                 </ul>

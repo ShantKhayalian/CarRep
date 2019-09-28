@@ -1,27 +1,26 @@
 package com.ithome.web.start.Beans;
 
-public class DiskRestoration {
-
+public class Dental {
     private int id;
     private String Eng;
     private String Rus;
 
-    public DiskRestoration(int id, String eng, String rus) {
+    public Dental(int id, String eng, String rus) {
         this.id = id;
         Eng = eng;
         Rus = rus;
     }
 
-    public DiskRestoration(String eng, String rus) {
+    public Dental(String eng, String rus) {
         Eng = eng;
         Rus = rus;
     }
 
-    public DiskRestoration(String rus) {
+    public Dental(String rus) {
         Rus = rus;
     }
 
-    public DiskRestoration() {
+    public Dental() {
     }
 
     public int getId() {

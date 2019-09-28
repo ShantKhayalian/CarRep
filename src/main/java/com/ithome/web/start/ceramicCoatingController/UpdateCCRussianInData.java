@@ -75,7 +75,7 @@ public class UpdateCCRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/Cer/CerEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Cer/CerRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
@@ -91,7 +91,7 @@ public class UpdateCCRussianInData extends HttpServlet {
 
 
     private int CreateNewTextInData(int id) {
-        return dao.UpdateEng(CreateObjectOfText(), id);
+        return dao.UpdateRus(CreateObjectOfText(), id);
     }
 
     private CeramicCoating CreateObjectOfText() {

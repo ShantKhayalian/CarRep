@@ -46,6 +46,21 @@
 
             </ul>
             <%--//////////////////////////////////////////////////////////////////////////////////////////About us Section--%>
+            <%--//////////////////////////////////////////////////////////////////////////////////////////Account us Section--%>
+            <li>
+                <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">control_point_duplicate</i>
+                    <span>Account</span>
+                </a>
+                <ul class="ml-menu">
+                    <li>
+                        <a href="<%=request.getContextPath()%>/LogOut">
+                            <span>Logout</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <%--//////////////////////////////////////////////////////////////////////////////////////////Account us Section--%>
             <%--//////////////////////////////////////////////////////////////////////////////////////////Employee Section--%>
         <li>
             <a href="javascript:void(0);" class="menu-toggle">

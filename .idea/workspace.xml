@@ -27,31 +27,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="461" />
-          <entry key="jsp" value="68" />
+          <entry key="java" value="469" />
+          <entry key="jsp" value="72" />
+          <entry key="properties" value="3" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="461" />
-          <entry key="JSP" value="68" />
+          <entry key="JAVA" value="469" />
+          <entry key="JSP" value="72" />
+          <entry key="Properties" value="3" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
-          <entry key="java" value="1704" />
-          <entry key="jsp" value="876" />
+          <entry key="dummy" value="9" />
+          <entry key="java" value="1913" />
+          <entry key="jsp" value="944" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1704" />
-          <entry key="JSP" value="876" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="1913" />
+          <entry key="JSP" value="944" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -60,61 +62,81 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementEng.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            <state relative-caret-position="243">
+              <caret line="198" column="65" lean-forward="true" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/WI/WIEnglish.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/OilFilterChangeC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="49" />
+            <state relative-caret-position="345">
+              <caret line="63" column="42" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="42" />
+              <folding>
+                <element signature="e#1311#1328#0" expanded="true" />
+                <element signature="e#2339#2340#0" expanded="true" />
+                <element signature="e#2356#2383#0" expanded="true" />
+                <element signature="e#2389#2390#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/OilFilter.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="711" column="67" selection-start-line="711" selection-start-column="46" selection-end-line="711" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31" />
+          </provider>
+          <provider editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_en_US.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/WI/WIRussian.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementRus.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWREnglishInData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWRRussianInData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-              <folding>
-                <element signature="e#3516#3517#0" expanded="true" />
-                <element signature="e#3578#3579#0" expanded="true" />
-                <element signature="e#3622#3623#0" expanded="true" />
-                <element signature="e#3676#3677#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="821">
+              <caret line="107" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="107" />
             </state>
           </provider>
         </entry>
@@ -136,6 +158,9 @@
       <find>RussianById</find>
       <find>Update</find>
       <find>ById</find>
+      <find>oil</find>
+      <find>&lt;c:if</find>
+      <find>Oil and filter change</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,11 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/PreSaleDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/PreSalePreparationRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/PreSalePreparationEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/UpdateDRWPEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPEnglishInData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPRussianInData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/PS/PSEnglish.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/PS/PSRussian.jsp" />
@@ -186,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/weldingWorkController/UpdateWWEnglishInData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/WE/WeRussian.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/WE/WEEnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Windows.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/WindowsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementEng.java" />
@@ -195,6 +214,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementRus.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/WI/WIEnglish.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/WI/WIRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/OilFilterChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/OilFilterChangeC.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/OilFilter.jsp" />
       </list>
     </option>
   </component>
@@ -232,7 +257,7 @@
       <path value="$PROJECT_DIR$/src/main/webapp/plugins/tinymce/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -304,7 +329,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="bodyKitController" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -314,7 +339,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="DaoController" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'Content'" type="a6c14932:ResourceBundleNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -324,47 +350,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="dentRemovalWithoutPaintingController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="preSalePreparationController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="soundInsulationAndVibrationIsolationController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="weldingWorkController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="windowsReplacementController" type="462c0819:PsiDirectoryNode" />
+              <item name="UserSection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -372,185 +358,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="BGR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="BK" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="BP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="CBP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Cer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="CW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Den" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="DIS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="EDR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="PS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="RPBDiscs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="SO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="SR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="Ti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="TiT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="WE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="WI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -567,7 +374,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569677204011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569681645603" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -576,11 +383,11 @@
       <recent name="com.ithome.web.start.bodyKitController" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\WI" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\WE" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\TiT" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Ti" />
-      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\SO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -682,25 +489,25 @@
       <updated>1568315737958</updated>
       <workItem from="1568315739583" duration="2511000" />
       <workItem from="1568349719845" duration="34000" />
-      <workItem from="1569650668288" duration="23907000" />
+      <workItem from="1569650668288" duration="26607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26452000" />
+    <option name="totallyTimeSpent" value="29152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944383" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5005562" side_tool="true" weight="0.20095949" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3214683" />
@@ -1413,6 +1220,78 @@
           <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
           <line>50</line>
@@ -1425,305 +1304,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/PreSalePreparationEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="121" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="121" />
-          <folding>
-            <element signature="e#1845#1873#0" expanded="true" />
-            <element signature="e#1845#1873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/PreSalePreparationRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="120" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="143" selection-start-line="44" selection-start-column="6" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Sound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SoundDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#339#377#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#428#446#1" expanded="true" />
-            <element signature="e#455#492#1" expanded="true" />
-            <element signature="e#474#491#0" expanded="true" />
-            <element signature="e#519#559#1" expanded="true" />
-            <element signature="e#572#619#1" expanded="true" />
-            <element signature="e#632#682#1" expanded="true" />
-            <element signature="e#695#738#1" expanded="true" />
-            <element signature="e#1518#1536#1" expanded="true" />
-            <element signature="e#1545#1582#1" expanded="true" />
-            <element signature="e#1564#1581#0" expanded="true" />
-            <element signature="e#1609#1649#1" expanded="true" />
-            <element signature="e#1662#1709#1" expanded="true" />
-            <element signature="e#1722#1772#1" expanded="true" />
-            <element signature="e#1785#1828#1" expanded="true" />
-            <element signature="e#2123#2141#1" expanded="true" />
-            <element signature="e#2150#2187#1" expanded="true" />
-            <element signature="e#2169#2186#0" expanded="true" />
-            <element signature="e#2214#2254#1" expanded="true" />
-            <element signature="e#2267#2314#1" expanded="true" />
-            <element signature="e#2327#2377#1" expanded="true" />
-            <element signature="e#2390#2433#1" expanded="true" />
-            <element signature="e#3338#3358#1" expanded="true" />
-            <element signature="e#3385#3425#1" expanded="true" />
-            <element signature="e#3439#3504#1" expanded="true" />
-            <element signature="e#3517#3579#1" expanded="true" />
-            <element signature="e#3614#3627#0" expanded="true" />
-            <element signature="e#3990#4010#1" expanded="true" />
-            <element signature="e#4037#4077#1" expanded="true" />
-            <element signature="e#4091#4156#1" expanded="true" />
-            <element signature="e#4169#4231#1" expanded="true" />
-            <element signature="e#4266#4279#0" expanded="true" />
-            <element signature="e#4558#4578#1" expanded="true" />
-            <element signature="e#4605#4645#1" expanded="true" />
-            <element signature="e#4659#4719#1" expanded="true" />
-            <element signature="e#4732#4794#1" expanded="true" />
-            <element signature="e#5317#5338#1" expanded="true" />
-            <element signature="e#5365#5405#1" expanded="true" />
-            <element signature="e#5418#5509#1" expanded="true" />
-            <element signature="e#5522#5592#1" expanded="true" />
-            <element signature="e#5627#5640#0" expanded="true" />
-            <element signature="e#5677#5690#0" expanded="true" />
-            <element signature="e#6010#6028#1" expanded="true" />
-            <element signature="e#6037#6074#1" expanded="true" />
-            <element signature="e#6056#6073#0" expanded="true" />
-            <element signature="e#6101#6141#1" expanded="true" />
-            <element signature="e#6154#6217#1" expanded="true" />
-            <element signature="e#6230#6280#1" expanded="true" />
-            <element signature="e#6293#6336#1" expanded="true" />
-            <element signature="e#6720#6738#1" expanded="true" />
-            <element signature="e#6747#6784#1" expanded="true" />
-            <element signature="e#6766#6783#0" expanded="true" />
-            <element signature="e#6811#6851#1" expanded="true" />
-            <element signature="e#6864#6927#1" expanded="true" />
-            <element signature="e#6940#6990#1" expanded="true" />
-            <element signature="e#7003#7046#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/SO/SOEnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/SO/SORussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-          <folding>
-            <element signature="e#2132#2142#1" expanded="true" />
-            <element signature="e#2190#2210#0" expanded="true" />
-            <element signature="e#3637#3638#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/TintPainting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CeramicDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#494#521#1" expanded="true" />
-            <element signature="e#530#576#1" expanded="true" />
-            <element signature="e#558#575#0" expanded="true" />
-            <element signature="e#603#643#1" expanded="true" />
-            <element signature="e#656#705#1" expanded="true" />
-            <element signature="e#718#768#1" expanded="true" />
-            <element signature="e#781#824#1" expanded="true" />
-            <element signature="e#827#1006#0" expanded="true" />
-            <element signature="e#827#1006#0" expanded="true" />
-            <element signature="e#932#994#0" expanded="true" />
-            <element signature="e#932#994#0" expanded="true" />
-            <element signature="e#1282#1533#0" expanded="true" />
-            <element signature="e#1282#1533#0" expanded="true" />
-            <element signature="e#1359#1390#0" expanded="true" />
-            <element signature="e#1359#1390#0" expanded="true" />
-            <element signature="e#1404#1440#0" expanded="true" />
-            <element signature="e#1404#1440#0" expanded="true" />
-            <element signature="e#1454#1490#0" expanded="true" />
-            <element signature="e#1454#1490#0" expanded="true" />
-            <element signature="e#1505#1522#0" expanded="true" />
-            <element signature="e#1505#1522#0" expanded="true" />
-            <element signature="e#1640#1667#1" expanded="true" />
-            <element signature="e#1676#1722#1" expanded="true" />
-            <element signature="e#1704#1721#0" expanded="true" />
-            <element signature="e#1749#1789#1" expanded="true" />
-            <element signature="e#1802#1851#1" expanded="true" />
-            <element signature="e#1864#1914#1" expanded="true" />
-            <element signature="e#1927#1970#1" expanded="true" />
-            <element signature="e#1967#2146#0" expanded="true" />
-            <element signature="e#1967#2146#0" expanded="true" />
-            <element signature="e#2072#2134#0" expanded="true" />
-            <element signature="e#2072#2134#0" expanded="true" />
-            <element signature="e#2274#2301#1" expanded="true" />
-            <element signature="e#2310#2356#1" expanded="true" />
-            <element signature="e#2338#2355#0" expanded="true" />
-            <element signature="e#2383#2423#1" expanded="true" />
-            <element signature="e#2436#2485#1" expanded="true" />
-            <element signature="e#2498#2548#1" expanded="true" />
-            <element signature="e#2561#2604#1" expanded="true" />
-            <element signature="e#2601#2780#0" expanded="true" />
-            <element signature="e#2601#2780#0" expanded="true" />
-            <element signature="e#2706#2768#0" expanded="true" />
-            <element signature="e#2706#2768#0" expanded="true" />
-            <element signature="e#2938#3126#0" expanded="true" />
-            <element signature="e#2938#3126#0" expanded="true" />
-            <element signature="e#3012#3040#0" expanded="true" />
-            <element signature="e#3012#3040#0" expanded="true" />
-            <element signature="e#3054#3087#0" expanded="true" />
-            <element signature="e#3054#3087#0" expanded="true" />
-            <element signature="e#3101#3115#0" expanded="true" />
-            <element signature="e#3101#3115#0" expanded="true" />
-            <element signature="e#3263#3451#0" expanded="true" />
-            <element signature="e#3263#3451#0" expanded="true" />
-            <element signature="e#3337#3365#0" expanded="true" />
-            <element signature="e#3337#3365#0" expanded="true" />
-            <element signature="e#3379#3412#0" expanded="true" />
-            <element signature="e#3379#3412#0" expanded="true" />
-            <element signature="e#3426#3440#0" expanded="true" />
-            <element signature="e#3426#3440#0" expanded="true" />
-            <element signature="e#3572#3592#1" expanded="true" />
-            <element signature="e#3619#3659#1" expanded="true" />
-            <element signature="e#3673#3740#1" expanded="true" />
-            <element signature="e#3638#3691#0" expanded="true" />
-            <element signature="e#3638#3691#0" expanded="true" />
-            <element signature="e#3753#3815#1" expanded="true" />
-            <element signature="e#3850#3863#0" expanded="true" />
-            <element signature="e#3882#3919#0" expanded="true" />
-            <element signature="e#3882#3919#0" expanded="true" />
-            <element signature="e#3930#4013#0" expanded="true" />
-            <element signature="e#3930#4013#0" expanded="true" />
-            <element signature="e#4235#4255#1" expanded="true" />
-            <element signature="e#4282#4322#1" expanded="true" />
-            <element signature="e#4336#4403#1" expanded="true" />
-            <element signature="e#4301#4354#0" expanded="true" />
-            <element signature="e#4301#4354#0" expanded="true" />
-            <element signature="e#4416#4478#1" expanded="true" />
-            <element signature="e#4513#4526#0" expanded="true" />
-            <element signature="e#4545#4582#0" expanded="true" />
-            <element signature="e#4545#4582#0" expanded="true" />
-            <element signature="e#4593#4676#0" expanded="true" />
-            <element signature="e#4593#4676#0" expanded="true" />
-            <element signature="e#4805#4825#1" expanded="true" />
-            <element signature="e#4852#4892#1" expanded="true" />
-            <element signature="e#4906#4968#1" expanded="true" />
-            <element signature="e#4871#4919#0" expanded="true" />
-            <element signature="e#4871#4919#0" expanded="true" />
-            <element signature="e#4981#5043#1" expanded="true" />
-            <element signature="e#5060#5171#0" expanded="true" />
-            <element signature="e#5060#5171#0" expanded="true" />
-            <element signature="e#5183#5373#0" expanded="true" />
-            <element signature="e#5183#5373#0" expanded="true" />
-            <element signature="e#5247#5320#0" expanded="true" />
-            <element signature="e#5247#5320#0" expanded="true" />
-            <element signature="e#5575#5596#1" expanded="true" />
-            <element signature="e#5623#5663#1" expanded="true" />
-            <element signature="e#5676#5769#1" expanded="true" />
-            <element signature="e#5782#5852#1" expanded="true" />
-            <element signature="e#5887#5900#0" expanded="true" />
-            <element signature="e#5937#5950#0" expanded="true" />
-            <element signature="e#5970#6053#0" expanded="true" />
-            <element signature="e#5970#6053#0" expanded="true" />
-            <element signature="e#6279#6306#1" expanded="true" />
-            <element signature="e#6315#6361#1" expanded="true" />
-            <element signature="e#6343#6360#0" expanded="true" />
-            <element signature="e#6388#6428#1" expanded="true" />
-            <element signature="e#6441#6506#1" expanded="true" />
-            <element signature="e#6406#6457#0" expanded="true" />
-            <element signature="e#6406#6457#0" expanded="true" />
-            <element signature="e#6519#6569#1" expanded="true" />
-            <element signature="e#6582#6625#1" expanded="true" />
-            <element signature="e#6622#6801#0" expanded="true" />
-            <element signature="e#6622#6801#0" expanded="true" />
-            <element signature="e#6727#6789#0" expanded="true" />
-            <element signature="e#6727#6789#0" expanded="true" />
-            <element signature="e#7018#7045#1" expanded="true" />
-            <element signature="e#7054#7098#1" expanded="true" />
-            <element signature="e#7080#7097#0" expanded="true" />
-            <element signature="e#7125#7165#1" expanded="true" />
-            <element signature="e#7178#7243#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Ti.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Ti/TiEnglish.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1956,17 +1536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="527" column="72" selection-start-line="527" selection-start-column="72" selection-end-line="527" selection-end-column="72" />
-          <folding>
-            <element signature="e#23814#23838#2#JAVA" expanded="true" />
-            <element signature="e#24116#24140#2#JAVA" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyGR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1984,145 +1553,6 @@
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/WindowsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#128#166#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#219#239#1" expanded="true" />
-            <element signature="e#248#287#1" expanded="true" />
-            <element signature="e#423#440#0" expanded="true" />
-            <element signature="e#314#354#1" expanded="true" />
-            <element signature="e#367#415#1" expanded="true" />
-            <element signature="e#428#478#1" expanded="true" />
-            <element signature="e#491#534#1" expanded="true" />
-            <element signature="e#753#932#0" expanded="true" />
-            <element signature="e#753#932#0" expanded="true" />
-            <element signature="e#858#920#0" expanded="true" />
-            <element signature="e#858#920#0" expanded="true" />
-            <element signature="e#1194#1438#0" expanded="true" />
-            <element signature="e#1194#1438#0" expanded="true" />
-            <element signature="e#1264#1295#0" expanded="true" />
-            <element signature="e#1264#1295#0" expanded="true" />
-            <element signature="e#1309#1345#0" expanded="true" />
-            <element signature="e#1309#1345#0" expanded="true" />
-            <element signature="e#1359#1395#0" expanded="true" />
-            <element signature="e#1359#1395#0" expanded="true" />
-            <element signature="e#1410#1427#0" expanded="true" />
-            <element signature="e#1410#1427#0" expanded="true" />
-            <element signature="e#1322#1342#1" expanded="true" />
-            <element signature="e#1351#1390#1" expanded="true" />
-            <element signature="e#1526#1543#0" expanded="true" />
-            <element signature="e#1417#1457#1" expanded="true" />
-            <element signature="e#1470#1518#1" expanded="true" />
-            <element signature="e#1531#1581#1" expanded="true" />
-            <element signature="e#1594#1637#1" expanded="true" />
-            <element signature="e#1850#2029#0" expanded="true" />
-            <element signature="e#1850#2029#0" expanded="true" />
-            <element signature="e#1955#2017#0" expanded="true" />
-            <element signature="e#1955#2017#0" expanded="true" />
-            <element signature="e#1934#1954#1" expanded="true" />
-            <element signature="e#1963#2002#1" expanded="true" />
-            <element signature="e#2138#2155#0" expanded="true" />
-            <element signature="e#2029#2069#1" expanded="true" />
-            <element signature="e#2082#2130#1" expanded="true" />
-            <element signature="e#2143#2193#1" expanded="true" />
-            <element signature="e#2206#2249#1" expanded="true" />
-            <element signature="e#2462#2641#0" expanded="true" />
-            <element signature="e#2462#2641#0" expanded="true" />
-            <element signature="e#2567#2629#0" expanded="true" />
-            <element signature="e#2567#2629#0" expanded="true" />
-            <element signature="e#2785#2966#0" expanded="true" />
-            <element signature="e#2785#2966#0" expanded="true" />
-            <element signature="e#2852#2880#0" expanded="true" />
-            <element signature="e#2852#2880#0" expanded="true" />
-            <element signature="e#2894#2927#0" expanded="true" />
-            <element signature="e#2894#2927#0" expanded="true" />
-            <element signature="e#2941#2955#0" expanded="true" />
-            <element signature="e#2941#2955#0" expanded="true" />
-            <element signature="e#3089#3270#0" expanded="true" />
-            <element signature="e#3089#3270#0" expanded="true" />
-            <element signature="e#3156#3184#0" expanded="true" />
-            <element signature="e#3156#3184#0" expanded="true" />
-            <element signature="e#3198#3231#0" expanded="true" />
-            <element signature="e#3198#3231#0" expanded="true" />
-            <element signature="e#3245#3259#0" expanded="true" />
-            <element signature="e#3245#3259#0" expanded="true" />
-            <element signature="e#3168#3188#1" expanded="true" />
-            <element signature="e#3215#3255#1" expanded="true" />
-            <element signature="e#3269#3335#1" expanded="true" />
-            <element signature="e#3450#3502#0" expanded="true" />
-            <element signature="e#3450#3502#0" expanded="true" />
-            <element signature="e#3348#3410#1" expanded="true" />
-            <element signature="e#3445#3458#0" expanded="true" />
-            <element signature="e#3693#3730#0" expanded="true" />
-            <element signature="e#3693#3730#0" expanded="true" />
-            <element signature="e#3741#3824#0" expanded="true" />
-            <element signature="e#3741#3824#0" expanded="true" />
-            <element signature="e#3823#3843#1" expanded="true" />
-            <element signature="e#3870#3910#1" expanded="true" />
-            <element signature="e#3924#3990#1" expanded="true" />
-            <element signature="e#4105#4157#0" expanded="true" />
-            <element signature="e#4105#4157#0" expanded="true" />
-            <element signature="e#4003#4065#1" expanded="true" />
-            <element signature="e#4100#4113#0" expanded="true" />
-            <element signature="e#4348#4385#0" expanded="true" />
-            <element signature="e#4348#4385#0" expanded="true" />
-            <element signature="e#4396#4479#0" expanded="true" />
-            <element signature="e#4396#4479#0" expanded="true" />
-            <element signature="e#4392#4412#1" expanded="true" />
-            <element signature="e#4439#4479#1" expanded="true" />
-            <element signature="e#4493#4554#1" expanded="true" />
-            <element signature="e#4674#4721#0" expanded="true" />
-            <element signature="e#4674#4721#0" expanded="true" />
-            <element signature="e#4862#4973#0" expanded="true" />
-            <element signature="e#4862#4973#0" expanded="true" />
-            <element signature="e#4985#5175#0" expanded="true" />
-            <element signature="e#4985#5175#0" expanded="true" />
-            <element signature="e#5049#5122#0" expanded="true" />
-            <element signature="e#5049#5122#0" expanded="true" />
-            <element signature="e#5154#5175#1" expanded="true" />
-            <element signature="e#5202#5242#1" expanded="true" />
-            <element signature="e#5255#5347#1" expanded="true" />
-            <element signature="e#5360#5430#1" expanded="true" />
-            <element signature="e#5465#5478#0" expanded="true" />
-            <element signature="e#5515#5528#0" expanded="true" />
-            <element signature="e#5764#5847#0" expanded="true" />
-            <element signature="e#5764#5847#0" expanded="true" />
-            <element signature="e#5850#5870#1" expanded="true" />
-            <element signature="e#5879#5918#1" expanded="true" />
-            <element signature="e#6054#6071#0" expanded="true" />
-            <element signature="e#5945#5985#1" expanded="true" />
-            <element signature="e#5998#6062#1" expanded="true" />
-            <element signature="e#6179#6229#0" expanded="true" />
-            <element signature="e#6179#6229#0" expanded="true" />
-            <element signature="e#6075#6125#1" expanded="true" />
-            <element signature="e#6138#6181#1" expanded="true" />
-            <element signature="e#6394#6573#0" expanded="true" />
-            <element signature="e#6394#6573#0" expanded="true" />
-            <element signature="e#6499#6561#0" expanded="true" />
-            <element signature="e#6499#6561#0" expanded="true" />
-            <element signature="e#6567#6587#1" expanded="true" />
-            <element signature="e#6596#6635#1" expanded="true" />
-            <element signature="e#6771#6788#0" expanded="true" />
-            <element signature="e#6662#6702#1" expanded="true" />
-            <element signature="e#6715#6779#1" expanded="true" />
-            <element signature="e#6896#6946#0" expanded="true" />
-            <element signature="e#6896#6946#0" expanded="true" />
-            <element signature="e#6792#6842#1" expanded="true" />
-            <element signature="e#6855#6898#1" expanded="true" />
-            <element signature="e#7111#7290#0" expanded="true" />
-            <element signature="e#7111#7290#0" expanded="true" />
-            <element signature="e#7216#7278#0" expanded="true" />
-            <element signature="e#7216#7278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2175,13 +1605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWREnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWRRussianInData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2192,13 +1615,6 @@
             <element signature="e#3622#3623#0" expanded="true" />
             <element signature="e#3676#3677#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -2222,6 +1638,132 @@
           <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/WindowsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="152" column="54" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4735#4797#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="56" column="69" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWREnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/WindowsReplacementRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#2615#2663#1" expanded="true" />
+            <element signature="e#3364#3556#0" expanded="true" />
+            <element signature="e#3364#3556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Helpers/SessionChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#808#856#1" expanded="true" />
+            <element signature="e#893#955#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Account/LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#974#1022#1" expanded="true" />
+            <element signature="e#983#1022#0" expanded="true" />
+            <element signature="e#1546#1738#0" expanded="true" />
+            <element signature="e#1546#1738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="198" column="65" lean-forward="true" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="107" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/OilFilterChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/OilFilterChangeC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="42" />
+          <folding>
+            <element signature="e#1311#1328#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2356#2383#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/OilFilter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="711" column="67" selection-start-line="711" selection-start-column="46" selection-end-line="711" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Resources/Resources/Content_ru_RU.properties">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="ResourceBundle" />
     </entry>
   </component>
 </project>

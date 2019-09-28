@@ -106,10 +106,10 @@
                             }
                         %>
                     </div>
-                    <form action="UpdateGCEnglishInData" method="post">
+                    <form action="UpdateBKEnglishInData" method="post">
                         <div class="header">
                             <h2>
-                                Gathering Collapse
+                               Body Kit
                                 <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
                            --%>  </h2>
                             <%-- <ul class="header-dropdown m-r--5">

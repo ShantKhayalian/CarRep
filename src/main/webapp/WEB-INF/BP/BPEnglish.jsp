@@ -106,10 +106,10 @@
                             }
                         %>
                     </div>
-                    <form action="UpdateBGRRussianInData" method="post">
+                    <form action="UpdateBPEnglishInData" method="post">
                         <div class="header">
                             <h2>
-                                Body Geometry Restoration
+                                Body Polish
                                 <%-- <small>CKEditor is a ready-for-use HTML text editor designed to simplify web content creation. Taken from <a href="http://ckeditor.com/" target="_blank">ckeditor.com</a></small>
                            --%>  </h2>
                             <%-- <ul class="header-dropdown m-r--5">
@@ -129,15 +129,15 @@
                             <c:forEach items="${requestScope.list}" var="list">
 
 
-                        <div class="body">
+                                <div class="body">
                             <textarea id="ckeditor" name="TextArea">
-                                ${list.rus}
-                              </textarea>
-                        </div>
+                                    ${list.eng}
+                            </textarea>
+                                </div>
 
-                        <div class="body">
-                            <button type="submit" class="btn btn-info waves-effect right">Update</button>
-                        </div>
+                                <div class="body">
+                                    <button type="submit" class="btn btn-info waves-effect right">Update</button>
+                                </div>
                                 <input type="hidden" name="TipsId" value="${list.id}">
                             </c:forEach>
                         </c:if>

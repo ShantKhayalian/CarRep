@@ -27,7 +27,7 @@ public class BodyGeometryRestorationEng extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<BodyGR> bodyGRList = new ArrayList<>();
+    private List<BodyGR> list = new ArrayList<>();
 
     private BodyGRDao dao = new BodyGRDao();
 
@@ -43,8 +43,8 @@ public class BodyGeometryRestorationEng extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
+        getText();
+        setRequest(request);
         goBackToPage(request, response);
     }
 
@@ -52,15 +52,15 @@ public class BodyGeometryRestorationEng extends HttpServlet {
         request.getRequestDispatcher("/WEB-INF/BGR/BGREnglish.jsp").forward(request, response);
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void setRequest(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("List", bodyGRList);
+        request.setAttribute("list", list);
     }
 
-    private void getTextEnglish() {
-        bodyGRList = dao.getEng();
+    private void getText() {
+        list = dao.getEng();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {

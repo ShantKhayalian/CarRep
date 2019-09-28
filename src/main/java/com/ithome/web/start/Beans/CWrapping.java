@@ -1,25 +1,22 @@
 package com.ithome.web.start.Beans;
 
-
-public class CeramicCoating extends BeanHelper {
-
-
+public class CWrapping {
     private int id;
     private String Eng;
     private String Rus;
 
-    public CeramicCoating(int id, String eng, String rus) {
+    public CWrapping(int id, String eng, String rus) {
         this.id = id;
         Eng = eng;
         Rus = rus;
     }
 
-    public CeramicCoating(String eng, String rus) {
+    public CWrapping(String eng, String rus) {
         Eng = eng;
         Rus = rus;
     }
 
-    public CeramicCoating() {
+    public CWrapping() {
     }
 
     public int getId() {

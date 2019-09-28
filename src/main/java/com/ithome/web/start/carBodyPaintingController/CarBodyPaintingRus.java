@@ -12,7 +12,9 @@ import java.util.List;
 
 
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.CarBodyPainting;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.BPaintingDao;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -25,9 +27,10 @@ public class CarBodyPaintingRus extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
+    private List<CarBodyPainting> list = new ArrayList<>();
 
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private BPaintingDao dao = new BPaintingDao();
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         carBodyPaintingRus(request, response);
@@ -41,24 +44,24 @@ public class CarBodyPaintingRus extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
+        getText();
         setRequestToEnglish(request);
         goBackToPage(request, response);
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/CBP/CBPRussian.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
-    private void getTextEnglish() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+    private void getText() {
+        list = dao.getRus();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -71,8 +74,7 @@ public class CarBodyPaintingRus extends HttpServlet {
     in list
     with the
     specific id
-     *
-             *
+     **
     @param
     adminid
      */
@@ -115,4 +117,5 @@ public class CarBodyPaintingRus extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
+
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CarRep:war" />
+      <artifact name="CarRep:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -27,29 +27,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="219" />
-          <entry key="jsp" value="12" />
+          <entry key="java" value="308" />
+          <entry key="jsp" value="37" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="219" />
-          <entry key="JSP" value="12" />
+          <entry key="JAVA" value="308" />
+          <entry key="JSP" value="37" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="442" />
-          <entry key="jsp" value="93" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="1043" />
+          <entry key="jsp" value="360" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="442" />
-          <entry key="JSP" value="93" />
+          <entry key="JAVA" value="1043" />
+          <entry key="JSP" value="360" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -58,244 +60,188 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCEnglishInData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="51" column="95" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="95" />
+            <state relative-caret-position="187">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1817#1833#0" expanded="true" />
-                <element signature="e#2455#2456#0" expanded="true" />
-                <element signature="e#2480#2492#0" expanded="true" />
-                <element signature="e#2510#2511#0" expanded="true" />
+                <element signature="e#1130#1147#0" expanded="true" />
+                <element signature="e#1795#1832#0" expanded="true" />
+                <element signature="e#1795#1832#0" expanded="true" />
+                <element signature="e#2131#2225#0" expanded="true" />
+                <element signature="e#2189#2199#1" expanded="true" />
+                <element signature="e#2131#2225#0" expanded="true" />
+                <element signature="e#2131#2225#0" expanded="true" />
+                <element signature="e#2131#2225#0" expanded="true" />
+                <element signature="e#2131#2225#0" expanded="true" />
+                <element signature="e#2194#2205#0" expanded="true" />
+                <element signature="e#2194#2205#0" expanded="true" />
+                <element signature="e#2247#2267#0" expanded="true" />
+                <element signature="e#2401#2837#0" expanded="true" />
+                <element signature="e#2401#2837#0" expanded="true" />
+                <element signature="e#2498#2554#1" expanded="true" />
+                <element signature="e#2567#2580#0" expanded="true" />
+                <element signature="e#2541#2573#0" expanded="true" />
+                <element signature="e#2541#2573#0" expanded="true" />
+                <element signature="e#2711#2753#1" expanded="true" />
+                <element signature="e#2766#2779#0" expanded="true" />
+                <element signature="e#2740#2772#0" expanded="true" />
+                <element signature="e#2740#2772#0" expanded="true" />
+                <element signature="e#3505#3506#0" expanded="true" />
+                <element signature="e#3522#3534#0" expanded="true" />
+                <element signature="e#3540#3541#0" expanded="true" />
+                <element signature="e#3588#3589#0" expanded="true" />
+                <element signature="e#3650#3651#0" expanded="true" />
+                <element signature="e#3701#3702#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
+                <element signature="e#4072#4120#1" expanded="true" />
+                <element signature="e#4307#4308#0" expanded="true" />
+                <element signature="e#4374#4375#0" expanded="true" />
+                <element signature="e#4963#5155#0" expanded="true" />
+                <element signature="e#4963#5155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitEng.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCRussianInData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="51" column="59" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="59" />
+            <state relative-caret-position="142">
+              <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
               <folding>
-                <element signature="e#2397#2398#0" expanded="true" />
-                <element signature="e#2420#2432#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
+                <element signature="e#1025#1042#0" expanded="true" />
+                <element signature="e#1796#1833#0" expanded="true" />
+                <element signature="e#1796#1833#0" expanded="true" />
+                <element signature="e#2132#2226#0" expanded="true" />
+                <element signature="e#2136#2146#1" expanded="true" />
+                <element signature="e#2132#2226#0" expanded="true" />
+                <element signature="e#2132#2226#0" expanded="true" />
+                <element signature="e#2132#2226#0" expanded="true" />
+                <element signature="e#2132#2226#0" expanded="true" />
+                <element signature="e#2195#2206#0" expanded="true" />
+                <element signature="e#2195#2206#0" expanded="true" />
+                <element signature="e#2195#2215#0" expanded="true" />
+                <element signature="e#2402#2838#0" expanded="true" />
+                <element signature="e#2402#2838#0" expanded="true" />
+                <element signature="e#2445#2501#1" expanded="true" />
+                <element signature="e#2514#2527#0" expanded="true" />
+                <element signature="e#2542#2574#0" expanded="true" />
+                <element signature="e#2542#2574#0" expanded="true" />
+                <element signature="e#2658#2700#1" expanded="true" />
+                <element signature="e#2713#2726#0" expanded="true" />
+                <element signature="e#2741#2773#0" expanded="true" />
+                <element signature="e#2741#2773#0" expanded="true" />
+                <element signature="e#3452#3453#0" expanded="true" />
+                <element signature="e#3470#3482#0" expanded="true" />
+                <element signature="e#3487#3488#0" expanded="true" />
+                <element signature="e#3535#3536#0" expanded="true" />
+                <element signature="e#3597#3598#0" expanded="true" />
+                <element signature="e#3648#3649#0" expanded="true" />
+                <element signature="e#3709#3710#0" expanded="true" />
+                <element signature="e#4019#4067#1" expanded="true" />
+                <element signature="e#4254#4255#0" expanded="true" />
+                <element signature="e#4321#4322#0" expanded="true" />
+                <element signature="e#4964#5156#0" expanded="true" />
+                <element signature="e#4964#5156#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyKitDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerEnglish.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#337#375#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#436#456#1" expanded="true" />
-                <element signature="e#465#504#1" expanded="true" />
-                <element signature="e#494#511#0" expanded="true" />
-                <element signature="e#539#579#1" expanded="true" />
-                <element signature="e#592#641#1" expanded="true" />
-                <element signature="e#654#704#1" expanded="true" />
-                <element signature="e#717#760#1" expanded="true" />
-                <element signature="e#803#982#0" expanded="true" />
-                <element signature="e#803#982#0" expanded="true" />
-                <element signature="e#908#970#0" expanded="true" />
-                <element signature="e#908#970#0" expanded="true" />
-                <element signature="e#1244#1488#0" expanded="true" />
-                <element signature="e#1244#1488#0" expanded="true" />
-                <element signature="e#1314#1345#0" expanded="true" />
-                <element signature="e#1314#1345#0" expanded="true" />
-                <element signature="e#1359#1395#0" expanded="true" />
-                <element signature="e#1359#1395#0" expanded="true" />
-                <element signature="e#1409#1445#0" expanded="true" />
-                <element signature="e#1409#1445#0" expanded="true" />
-                <element signature="e#1460#1477#0" expanded="true" />
-                <element signature="e#1460#1477#0" expanded="true" />
-                <element signature="e#1564#1584#1" expanded="true" />
-                <element signature="e#1593#1632#1" expanded="true" />
-                <element signature="e#1614#1631#0" expanded="true" />
-                <element signature="e#1659#1699#1" expanded="true" />
-                <element signature="e#1712#1761#1" expanded="true" />
-                <element signature="e#1774#1824#1" expanded="true" />
-                <element signature="e#1837#1880#1" expanded="true" />
-                <element signature="e#1903#2082#0" expanded="true" />
-                <element signature="e#1903#2082#0" expanded="true" />
-                <element signature="e#2008#2070#0" expanded="true" />
-                <element signature="e#2008#2070#0" expanded="true" />
-                <element signature="e#2193#2213#1" expanded="true" />
-                <element signature="e#2222#2261#1" expanded="true" />
-                <element signature="e#2243#2260#0" expanded="true" />
-                <element signature="e#2288#2328#1" expanded="true" />
-                <element signature="e#2341#2390#1" expanded="true" />
-                <element signature="e#2403#2453#1" expanded="true" />
-                <element signature="e#2466#2509#1" expanded="true" />
-                <element signature="e#2518#2697#0" expanded="true" />
-                <element signature="e#2518#2697#0" expanded="true" />
-                <element signature="e#2623#2685#0" expanded="true" />
-                <element signature="e#2623#2685#0" expanded="true" />
-                <element signature="e#2843#3024#0" expanded="true" />
-                <element signature="e#2843#3024#0" expanded="true" />
-                <element signature="e#2910#2938#0" expanded="true" />
-                <element signature="e#2910#2938#0" expanded="true" />
-                <element signature="e#2952#2985#0" expanded="true" />
-                <element signature="e#2952#2985#0" expanded="true" />
-                <element signature="e#2999#3013#0" expanded="true" />
-                <element signature="e#2999#3013#0" expanded="true" />
-                <element signature="e#3149#3330#0" expanded="true" />
-                <element signature="e#3149#3330#0" expanded="true" />
-                <element signature="e#3216#3244#0" expanded="true" />
-                <element signature="e#3216#3244#0" expanded="true" />
-                <element signature="e#3258#3291#0" expanded="true" />
-                <element signature="e#3258#3291#0" expanded="true" />
-                <element signature="e#3305#3319#0" expanded="true" />
-                <element signature="e#3305#3319#0" expanded="true" />
-                <element signature="e#3442#3462#1" expanded="true" />
-                <element signature="e#3489#3529#1" expanded="true" />
-                <element signature="e#3543#3610#1" expanded="true" />
-                <element signature="e#3518#3571#0" expanded="true" />
-                <element signature="e#3518#3571#0" expanded="true" />
-                <element signature="e#3623#3685#1" expanded="true" />
-                <element signature="e#3720#3733#0" expanded="true" />
-                <element signature="e#3762#3799#0" expanded="true" />
-                <element signature="e#3762#3799#0" expanded="true" />
-                <element signature="e#3810#3893#0" expanded="true" />
-                <element signature="e#3810#3893#0" expanded="true" />
-                <element signature="e#4106#4126#1" expanded="true" />
-                <element signature="e#4153#4193#1" expanded="true" />
-                <element signature="e#4207#4274#1" expanded="true" />
-                <element signature="e#4182#4235#0" expanded="true" />
-                <element signature="e#4182#4235#0" expanded="true" />
-                <element signature="e#4287#4349#1" expanded="true" />
-                <element signature="e#4384#4397#0" expanded="true" />
-                <element signature="e#4426#4463#0" expanded="true" />
-                <element signature="e#4426#4463#0" expanded="true" />
-                <element signature="e#4474#4557#0" expanded="true" />
-                <element signature="e#4474#4557#0" expanded="true" />
-                <element signature="e#4676#4696#1" expanded="true" />
-                <element signature="e#4723#4763#1" expanded="true" />
-                <element signature="e#4777#4839#1" expanded="true" />
-                <element signature="e#4752#4800#0" expanded="true" />
-                <element signature="e#4752#4800#0" expanded="true" />
-                <element signature="e#4852#4914#1" expanded="true" />
-                <element signature="e#4941#5052#0" expanded="true" />
-                <element signature="e#4941#5052#0" expanded="true" />
-                <element signature="e#5064#5254#0" expanded="true" />
-                <element signature="e#5064#5254#0" expanded="true" />
-                <element signature="e#5128#5201#0" expanded="true" />
-                <element signature="e#5128#5201#0" expanded="true" />
-                <element signature="e#5439#5460#1" expanded="true" />
-                <element signature="e#5487#5527#1" expanded="true" />
-                <element signature="e#5540#5633#1" expanded="true" />
-                <element signature="e#5646#5716#1" expanded="true" />
-                <element signature="e#5751#5764#0" expanded="true" />
-                <element signature="e#5801#5814#0" expanded="true" />
-                <element signature="e#5844#5927#0" expanded="true" />
-                <element signature="e#5844#5927#0" expanded="true" />
-                <element signature="e#6152#6172#1" expanded="true" />
-                <element signature="e#6181#6220#1" expanded="true" />
-                <element signature="e#6202#6219#0" expanded="true" />
-                <element signature="e#6247#6287#1" expanded="true" />
-                <element signature="e#6300#6365#1" expanded="true" />
-                <element signature="e#6275#6326#0" expanded="true" />
-                <element signature="e#6275#6326#0" expanded="true" />
-                <element signature="e#6378#6428#1" expanded="true" />
-                <element signature="e#6441#6484#1" expanded="true" />
-                <element signature="e#6493#6672#0" expanded="true" />
-                <element signature="e#6493#6672#0" expanded="true" />
-                <element signature="e#6598#6660#0" expanded="true" />
-                <element signature="e#6598#6660#0" expanded="true" />
-                <element signature="e#6888#6908#1" expanded="true" />
-                <element signature="e#6917#6956#1" expanded="true" />
-                <element signature="e#6938#6955#0" expanded="true" />
-                <element signature="e#6983#7023#1" expanded="true" />
-                <element signature="e#7036#7101#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="111" column="47" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerRussian.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="365" column="44" lean-forward="true" selection-start-line="365" selection-start-column="44" selection-end-line="365" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitRus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-              <folding>
-                <element signature="e#2403#2404#0" expanded="true" />
-                <element signature="e#2420#2432#0" expanded="true" />
-                <element signature="e#2438#2439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKEnglish.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="142" column="31" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="142" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="111" column="47" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKRussian.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCRus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationRus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="382">
+              <caret line="674" column="77" lean-forward="true" selection-start-line="674" selection-start-column="77" selection-end-line="674" selection-end-column="77" />
               <folding>
-                <element signature="e#2493#2494#0" expanded="true" />
-                <element signature="e#2543#2555#0" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2859#2860#0" expanded="true" />
-                <element signature="e#2926#2927#0" expanded="true" />
+                <element signature="e#32510#32534#2#JAVA" expanded="true" />
+                <element signature="e#32816#32840#2#JAVA" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CeramicDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2915#2948#0" expanded="true" />
-                <element signature="e#2915#2948#0" expanded="true" />
+                <element signature="e#446#473#1" expanded="true" />
+                <element signature="e#482#528#1" expanded="true" />
+                <element signature="e#510#527#0" expanded="true" />
+                <element signature="e#555#595#1" expanded="true" />
+                <element signature="e#608#657#1" expanded="true" />
+                <element signature="e#670#720#1" expanded="true" />
+                <element signature="e#733#776#1" expanded="true" />
+                <element signature="e#1592#1619#1" expanded="true" />
+                <element signature="e#1628#1674#1" expanded="true" />
+                <element signature="e#1656#1673#0" expanded="true" />
+                <element signature="e#1701#1741#1" expanded="true" />
+                <element signature="e#1754#1803#1" expanded="true" />
+                <element signature="e#1816#1866#1" expanded="true" />
+                <element signature="e#1879#1922#1" expanded="true" />
+                <element signature="e#2226#2253#1" expanded="true" />
+                <element signature="e#2262#2308#1" expanded="true" />
+                <element signature="e#2290#2307#0" expanded="true" />
+                <element signature="e#2335#2375#1" expanded="true" />
+                <element signature="e#2388#2437#1" expanded="true" />
+                <element signature="e#2450#2500#1" expanded="true" />
+                <element signature="e#2513#2556#1" expanded="true" />
+                <element signature="e#3524#3544#1" expanded="true" />
+                <element signature="e#3571#3611#1" expanded="true" />
+                <element signature="e#3625#3692#1" expanded="true" />
+                <element signature="e#3705#3767#1" expanded="true" />
+                <element signature="e#3802#3815#0" expanded="true" />
+                <element signature="e#4187#4207#1" expanded="true" />
+                <element signature="e#4234#4274#1" expanded="true" />
+                <element signature="e#4288#4355#1" expanded="true" />
+                <element signature="e#4368#4430#1" expanded="true" />
+                <element signature="e#4465#4478#0" expanded="true" />
+                <element signature="e#4757#4777#1" expanded="true" />
+                <element signature="e#4804#4844#1" expanded="true" />
+                <element signature="e#4858#4920#1" expanded="true" />
+                <element signature="e#4933#4995#1" expanded="true" />
+                <element signature="e#5527#5548#1" expanded="true" />
+                <element signature="e#5575#5615#1" expanded="true" />
+                <element signature="e#5628#5721#1" expanded="true" />
+                <element signature="e#5734#5804#1" expanded="true" />
+                <element signature="e#5839#5852#0" expanded="true" />
+                <element signature="e#5889#5902#0" expanded="true" />
+                <element signature="e#6231#6258#1" expanded="true" />
+                <element signature="e#6267#6313#1" expanded="true" />
+                <element signature="e#6295#6312#0" expanded="true" />
+                <element signature="e#6340#6380#1" expanded="true" />
+                <element signature="e#6393#6458#1" expanded="true" />
+                <element signature="e#6471#6521#1" expanded="true" />
+                <element signature="e#6534#6577#1" expanded="true" />
+                <element signature="e#6970#6997#1" expanded="true" />
+                <element signature="e#7006#7052#1" expanded="true" />
+                <element signature="e#7034#7051#0" expanded="true" />
+                <element signature="e#7079#7119#1" expanded="true" />
+                <element signature="e#7132#7197#1" expanded="true" />
+                <element signature="e#7210#7260#1" expanded="true" />
+                <element signature="e#7273#7316#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -306,6 +252,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -314,6 +261,9 @@
     <findStrings>
       <find>InEnglish</find>
       <find>InRussian</find>
+      <find>RussianById</find>
+      <find>Update</find>
+      <find>ById</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -322,57 +272,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/localDentRemovalController/LocalDentRemovalRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/diskRestorationController/DiskRestorationRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/windowsReplacementController/UpdateWRRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/CeramicCoatingRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/tinPaintingWorkController/TinPaintingWorkRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/UpdateDRWPRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/weldingWorkController/UpdateWWRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/tinPaintingWorkController/UpdateTPWRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/weldingWorkController/WeldingWorkRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/localDentRemovalController/UpdateLDRRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/PreSalePreparationRus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/tintingController/UpdateTRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/UpdateDRWPEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/diskRestorationController/UpdateDREnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/localDentRemovalController/LocalDentRemovalEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/preSalePreparationController/UpdatePSPEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/soundInsulationAndVibrationIsolationController/UpdateSIAVIEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/tinPaintingWorkController/UpdateTPWEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/tintingController/UpdateTEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/weldingWorkController/UpdateWWEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CeramicCoating.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/About.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGREnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGRRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKRussianInData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyGR.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGREnglish.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGRRussian.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyKit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyKitDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationRus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCRus.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitEng.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitRus.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyKitDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData2.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGREnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGRRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyPolish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGREnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGRRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BP/BPRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/BP/BPEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CWrapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CWrappingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CW/CWEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CW/CWRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/CarWrappingEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/CarWrappingRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CarBodyPainting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPainting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CBP/CBPEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/CBP/CBPRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CeramicCoating.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CeramicDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/CeramicCoatingEng.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/CeramicCoatingRus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCRussianInData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCEnglishInData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerEnglish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerRussian.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp" />
       </list>
     </option>
   </component>
@@ -482,6 +432,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="bodyGeometryRestorationController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
               <item name="bodyKitController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -493,6 +453,36 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
               <item name="bodyPolishingController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="carBodyPaintingController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="carWrappingController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="ceramicCoatingController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -536,6 +526,42 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="BK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="BP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="CBP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Cer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarRep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="CW" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CarRep" type="b2602c69:ProjectViewProjectNode" />
@@ -588,12 +614,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569655512442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569664076700" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ithome.web.start.bodyKitController" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\Cer" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\CBP" />
+      <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\CW" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF" />
       <recent name="D:\CarRep- Git\CarRep\src\main\webapp\WEB-INF\BGR" />
     </key>
@@ -612,10 +644,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.132" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="CarRep:war">
+        <artifact name="CarRep:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -681,7 +712,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="CarRep:war" />
+          <artifact name="CarRep:war exploded" />
         </option>
       </method>
     </configuration>
@@ -698,18 +729,18 @@
       <updated>1568315737958</updated>
       <workItem from="1568315739583" duration="2511000" />
       <workItem from="1568349719845" duration="34000" />
-      <workItem from="1569650668288" duration="3989000" />
+      <workItem from="1569650668288" duration="12019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6534000" />
+    <option name="totallyTimeSpent" value="14564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -719,8 +750,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3214683" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3214683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -754,273 +785,188 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
+          <line>50</line>
+          <properties class="com.ithome.web.start.bodyGeometryRestorationController.BodyGeometryRestorationEng" method="goBackToPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/CDEng.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGREnglish.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="368">
+          <caret line="127" column="55" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/CDRus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGRRussian.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/DeleteCDEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/DeleteCDRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInEnglish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDInRussian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ComputerDiagnosticController/UpdateCDRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/DentRemovalWithoutPaintingEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/DentRemovalWithoutPaintingRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/UpdateDRWPRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/dentRemovalWithoutPaintingController/UpdateDRWPEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/OurTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/GetDiscount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ContactUs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1136">
-          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TipsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/SuspensionRepairDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ReplacementPadsBrakeDiscsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/OilFilterChangeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/GatheringCollapseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ElectricianDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiagnosticsRepairDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ComputerDiagnosticsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGREnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGRRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKRussianInData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/SR/SREnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ConditionersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1695">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/SREnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/ChangeРМDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="277" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1045,229 +991,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AdminApp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGREnglish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="127" column="55" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BGR/BGRRussian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="141" column="40" lean-forward="true" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyGRDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="532">
+          <caret line="231" lean-forward="true" selection-start-line="10" selection-end-line="231" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2915#2948#0" expanded="true" />
-            <element signature="e#2915#2948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="51" column="95" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1817#1833#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-            <element signature="e#2480#2492#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2543#2555#0" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2859#2860#0" expanded="true" />
-            <element signature="e#2926#2927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/GatheringCollapseController/GCRus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="365" column="44" lean-forward="true" selection-start-line="365" selection-start-column="44" selection-end-line="365" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BodyKitDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#337#375#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#436#456#1" expanded="true" />
-            <element signature="e#465#504#1" expanded="true" />
-            <element signature="e#494#511#0" expanded="true" />
-            <element signature="e#539#579#1" expanded="true" />
-            <element signature="e#592#641#1" expanded="true" />
-            <element signature="e#654#704#1" expanded="true" />
-            <element signature="e#717#760#1" expanded="true" />
-            <element signature="e#803#982#0" expanded="true" />
-            <element signature="e#803#982#0" expanded="true" />
-            <element signature="e#908#970#0" expanded="true" />
-            <element signature="e#908#970#0" expanded="true" />
-            <element signature="e#1244#1488#0" expanded="true" />
-            <element signature="e#1244#1488#0" expanded="true" />
-            <element signature="e#1314#1345#0" expanded="true" />
-            <element signature="e#1314#1345#0" expanded="true" />
-            <element signature="e#1359#1395#0" expanded="true" />
-            <element signature="e#1359#1395#0" expanded="true" />
-            <element signature="e#1409#1445#0" expanded="true" />
-            <element signature="e#1409#1445#0" expanded="true" />
-            <element signature="e#1460#1477#0" expanded="true" />
-            <element signature="e#1460#1477#0" expanded="true" />
-            <element signature="e#1564#1584#1" expanded="true" />
-            <element signature="e#1593#1632#1" expanded="true" />
-            <element signature="e#1614#1631#0" expanded="true" />
-            <element signature="e#1659#1699#1" expanded="true" />
-            <element signature="e#1712#1761#1" expanded="true" />
-            <element signature="e#1774#1824#1" expanded="true" />
-            <element signature="e#1837#1880#1" expanded="true" />
-            <element signature="e#1903#2082#0" expanded="true" />
-            <element signature="e#1903#2082#0" expanded="true" />
-            <element signature="e#2008#2070#0" expanded="true" />
-            <element signature="e#2008#2070#0" expanded="true" />
-            <element signature="e#2193#2213#1" expanded="true" />
-            <element signature="e#2222#2261#1" expanded="true" />
-            <element signature="e#2243#2260#0" expanded="true" />
-            <element signature="e#2288#2328#1" expanded="true" />
-            <element signature="e#2341#2390#1" expanded="true" />
-            <element signature="e#2403#2453#1" expanded="true" />
-            <element signature="e#2466#2509#1" expanded="true" />
-            <element signature="e#2518#2697#0" expanded="true" />
-            <element signature="e#2518#2697#0" expanded="true" />
-            <element signature="e#2623#2685#0" expanded="true" />
-            <element signature="e#2623#2685#0" expanded="true" />
-            <element signature="e#2843#3024#0" expanded="true" />
-            <element signature="e#2843#3024#0" expanded="true" />
-            <element signature="e#2910#2938#0" expanded="true" />
-            <element signature="e#2910#2938#0" expanded="true" />
-            <element signature="e#2952#2985#0" expanded="true" />
-            <element signature="e#2952#2985#0" expanded="true" />
-            <element signature="e#2999#3013#0" expanded="true" />
-            <element signature="e#2999#3013#0" expanded="true" />
-            <element signature="e#3149#3330#0" expanded="true" />
-            <element signature="e#3149#3330#0" expanded="true" />
-            <element signature="e#3216#3244#0" expanded="true" />
-            <element signature="e#3216#3244#0" expanded="true" />
-            <element signature="e#3258#3291#0" expanded="true" />
-            <element signature="e#3258#3291#0" expanded="true" />
-            <element signature="e#3305#3319#0" expanded="true" />
-            <element signature="e#3305#3319#0" expanded="true" />
-            <element signature="e#3442#3462#1" expanded="true" />
-            <element signature="e#3489#3529#1" expanded="true" />
-            <element signature="e#3543#3610#1" expanded="true" />
-            <element signature="e#3518#3571#0" expanded="true" />
-            <element signature="e#3518#3571#0" expanded="true" />
-            <element signature="e#3623#3685#1" expanded="true" />
-            <element signature="e#3720#3733#0" expanded="true" />
-            <element signature="e#3762#3799#0" expanded="true" />
-            <element signature="e#3762#3799#0" expanded="true" />
-            <element signature="e#3810#3893#0" expanded="true" />
-            <element signature="e#3810#3893#0" expanded="true" />
-            <element signature="e#4106#4126#1" expanded="true" />
-            <element signature="e#4153#4193#1" expanded="true" />
-            <element signature="e#4207#4274#1" expanded="true" />
-            <element signature="e#4182#4235#0" expanded="true" />
-            <element signature="e#4182#4235#0" expanded="true" />
-            <element signature="e#4287#4349#1" expanded="true" />
-            <element signature="e#4384#4397#0" expanded="true" />
-            <element signature="e#4426#4463#0" expanded="true" />
-            <element signature="e#4426#4463#0" expanded="true" />
-            <element signature="e#4474#4557#0" expanded="true" />
-            <element signature="e#4474#4557#0" expanded="true" />
-            <element signature="e#4676#4696#1" expanded="true" />
-            <element signature="e#4723#4763#1" expanded="true" />
-            <element signature="e#4777#4839#1" expanded="true" />
-            <element signature="e#4752#4800#0" expanded="true" />
-            <element signature="e#4752#4800#0" expanded="true" />
-            <element signature="e#4852#4914#1" expanded="true" />
-            <element signature="e#4941#5052#0" expanded="true" />
-            <element signature="e#4941#5052#0" expanded="true" />
-            <element signature="e#5064#5254#0" expanded="true" />
-            <element signature="e#5064#5254#0" expanded="true" />
-            <element signature="e#5128#5201#0" expanded="true" />
-            <element signature="e#5128#5201#0" expanded="true" />
-            <element signature="e#5439#5460#1" expanded="true" />
-            <element signature="e#5487#5527#1" expanded="true" />
-            <element signature="e#5540#5633#1" expanded="true" />
-            <element signature="e#5646#5716#1" expanded="true" />
-            <element signature="e#5751#5764#0" expanded="true" />
-            <element signature="e#5801#5814#0" expanded="true" />
-            <element signature="e#5844#5927#0" expanded="true" />
-            <element signature="e#5844#5927#0" expanded="true" />
-            <element signature="e#6152#6172#1" expanded="true" />
-            <element signature="e#6181#6220#1" expanded="true" />
-            <element signature="e#6202#6219#0" expanded="true" />
-            <element signature="e#6247#6287#1" expanded="true" />
-            <element signature="e#6300#6365#1" expanded="true" />
-            <element signature="e#6275#6326#0" expanded="true" />
-            <element signature="e#6275#6326#0" expanded="true" />
-            <element signature="e#6378#6428#1" expanded="true" />
-            <element signature="e#6441#6484#1" expanded="true" />
-            <element signature="e#6493#6672#0" expanded="true" />
-            <element signature="e#6493#6672#0" expanded="true" />
-            <element signature="e#6598#6660#0" expanded="true" />
-            <element signature="e#6598#6660#0" expanded="true" />
-            <element signature="e#6888#6908#1" expanded="true" />
-            <element signature="e#6917#6956#1" expanded="true" />
-            <element signature="e#6938#6955#0" expanded="true" />
-            <element signature="e#6983#7023#1" expanded="true" />
-            <element signature="e#7036#7101#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitEng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" column="59" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="59" />
-          <folding>
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2420#2432#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitRus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        <state relative-caret-position="532">
+          <caret line="121" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="121" />
           <folding>
             <element signature="e#2403#2404#0" expanded="true" />
             <element signature="e#2420#2432#0" expanded="true" />
@@ -1276,17 +1013,762 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="145" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/BodyKitEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#2420#2432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="e#1850#1859#0" expanded="true" />
+            <element signature="e#1869#1888#0" expanded="true" />
+            <element signature="e#1869#1888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="80" column="70" lean-forward="true" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyKitController/UpdateBKRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#2174#2194#0" expanded="true" />
+            <element signature="e#3449#3461#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3577#3578#0" expanded="true" />
+            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGREnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/UpdateBGRRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="e#2190#2210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKEnglish.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="142" column="31" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="142" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="true" selection-end-line="184" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BK/BKRussian.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="300">
+          <caret line="116" column="64" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BP/BPEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/BP/BPRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/ChangeРМ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CBPainting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="233" lean-forward="true" selection-start-line="11" selection-end-line="233" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#453#1" expanded="true" />
+            <element signature="e#462#504#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="121" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="121" />
+          <folding>
+            <element signature="e#1817#1826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CarWrapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/BodyPolishingRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="121" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="121" />
+          <folding>
+            <element signature="e#1768#1777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyPolishingController/UpdateBPEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="145" lean-forward="true" selection-start-line="44" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CWrapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CW/CWEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CW/CWRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyPolish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPaintingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#451#489#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#550#578#1" expanded="true" />
+            <element signature="e#587#634#1" expanded="true" />
+            <element signature="e#616#633#0" expanded="true" />
+            <element signature="e#661#701#1" expanded="true" />
+            <element signature="e#714#765#1" expanded="true" />
+            <element signature="e#778#828#1" expanded="true" />
+            <element signature="e#841#884#1" expanded="true" />
+            <element signature="e#836#1015#0" expanded="true" />
+            <element signature="e#836#1015#0" expanded="true" />
+            <element signature="e#941#1003#0" expanded="true" />
+            <element signature="e#941#1003#0" expanded="true" />
+            <element signature="e#1293#1545#0" expanded="true" />
+            <element signature="e#1293#1545#0" expanded="true" />
+            <element signature="e#1371#1402#0" expanded="true" />
+            <element signature="e#1371#1402#0" expanded="true" />
+            <element signature="e#1416#1452#0" expanded="true" />
+            <element signature="e#1416#1452#0" expanded="true" />
+            <element signature="e#1466#1502#0" expanded="true" />
+            <element signature="e#1466#1502#0" expanded="true" />
+            <element signature="e#1517#1534#0" expanded="true" />
+            <element signature="e#1517#1534#0" expanded="true" />
+            <element signature="e#1704#1732#1" expanded="true" />
+            <element signature="e#1741#1788#1" expanded="true" />
+            <element signature="e#1770#1787#0" expanded="true" />
+            <element signature="e#1815#1855#1" expanded="true" />
+            <element signature="e#1868#1919#1" expanded="true" />
+            <element signature="e#1932#1982#1" expanded="true" />
+            <element signature="e#1995#2038#1" expanded="true" />
+            <element signature="e#1984#2163#0" expanded="true" />
+            <element signature="e#1984#2163#0" expanded="true" />
+            <element signature="e#2089#2151#0" expanded="true" />
+            <element signature="e#2089#2151#0" expanded="true" />
+            <element signature="e#2343#2371#1" expanded="true" />
+            <element signature="e#2380#2427#1" expanded="true" />
+            <element signature="e#2409#2426#0" expanded="true" />
+            <element signature="e#2454#2494#1" expanded="true" />
+            <element signature="e#2507#2558#1" expanded="true" />
+            <element signature="e#2571#2621#1" expanded="true" />
+            <element signature="e#2634#2677#1" expanded="true" />
+            <element signature="e#2623#2802#0" expanded="true" />
+            <element signature="e#2623#2802#0" expanded="true" />
+            <element signature="e#2728#2790#0" expanded="true" />
+            <element signature="e#2728#2790#0" expanded="true" />
+            <element signature="e#2962#3151#0" expanded="true" />
+            <element signature="e#2962#3151#0" expanded="true" />
+            <element signature="e#3037#3065#0" expanded="true" />
+            <element signature="e#3037#3065#0" expanded="true" />
+            <element signature="e#3079#3112#0" expanded="true" />
+            <element signature="e#3079#3112#0" expanded="true" />
+            <element signature="e#3126#3140#0" expanded="true" />
+            <element signature="e#3126#3140#0" expanded="true" />
+            <element signature="e#3290#3479#0" expanded="true" />
+            <element signature="e#3290#3479#0" expanded="true" />
+            <element signature="e#3365#3393#0" expanded="true" />
+            <element signature="e#3365#3393#0" expanded="true" />
+            <element signature="e#3407#3440#0" expanded="true" />
+            <element signature="e#3407#3440#0" expanded="true" />
+            <element signature="e#3454#3468#0" expanded="true" />
+            <element signature="e#3454#3468#0" expanded="true" />
+            <element signature="e#3652#3672#1" expanded="true" />
+            <element signature="e#3699#3739#1" expanded="true" />
+            <element signature="e#3753#3822#1" expanded="true" />
+            <element signature="e#3667#3722#0" expanded="true" />
+            <element signature="e#3667#3722#0" expanded="true" />
+            <element signature="e#3835#3897#1" expanded="true" />
+            <element signature="e#3932#3945#0" expanded="true" />
+            <element signature="e#3913#3950#0" expanded="true" />
+            <element signature="e#3913#3950#0" expanded="true" />
+            <element signature="e#3961#4044#0" expanded="true" />
+            <element signature="e#3961#4044#0" expanded="true" />
+            <element signature="e#4318#4338#1" expanded="true" />
+            <element signature="e#4365#4405#1" expanded="true" />
+            <element signature="e#4419#4488#1" expanded="true" />
+            <element signature="e#4333#4388#0" expanded="true" />
+            <element signature="e#4333#4388#0" expanded="true" />
+            <element signature="e#4501#4563#1" expanded="true" />
+            <element signature="e#4598#4611#0" expanded="true" />
+            <element signature="e#4579#4616#0" expanded="true" />
+            <element signature="e#4579#4616#0" expanded="true" />
+            <element signature="e#4627#4710#0" expanded="true" />
+            <element signature="e#4627#4710#0" expanded="true" />
+            <element signature="e#4890#4910#1" expanded="true" />
+            <element signature="e#4937#4977#1" expanded="true" />
+            <element signature="e#4991#5055#1" expanded="true" />
+            <element signature="e#4905#4955#0" expanded="true" />
+            <element signature="e#4905#4955#0" expanded="true" />
+            <element signature="e#5068#5130#1" expanded="true" />
+            <element signature="e#5096#5207#0" expanded="true" />
+            <element signature="e#5096#5207#0" expanded="true" />
+            <element signature="e#5219#5409#0" expanded="true" />
+            <element signature="e#5219#5409#0" expanded="true" />
+            <element signature="e#5283#5356#0" expanded="true" />
+            <element signature="e#5283#5356#0" expanded="true" />
+            <element signature="e#5663#5684#1" expanded="true" />
+            <element signature="e#5711#5751#1" expanded="true" />
+            <element signature="e#5764#5859#1" expanded="true" />
+            <element signature="e#5872#5942#1" expanded="true" />
+            <element signature="e#5977#5990#0" expanded="true" />
+            <element signature="e#6027#6040#0" expanded="true" />
+            <element signature="e#6009#6092#0" expanded="true" />
+            <element signature="e#6009#6092#0" expanded="true" />
+            <element signature="e#6370#6398#1" expanded="true" />
+            <element signature="e#6407#6454#1" expanded="true" />
+            <element signature="e#6436#6453#0" expanded="true" />
+            <element signature="e#6481#6521#1" expanded="true" />
+            <element signature="e#6534#6601#1" expanded="true" />
+            <element signature="e#6448#6501#0" expanded="true" />
+            <element signature="e#6448#6501#0" expanded="true" />
+            <element signature="e#6614#6664#1" expanded="true" />
+            <element signature="e#6677#6720#1" expanded="true" />
+            <element signature="e#6666#6845#0" expanded="true" />
+            <element signature="e#6666#6845#0" expanded="true" />
+            <element signature="e#6771#6833#0" expanded="true" />
+            <element signature="e#6771#6833#0" expanded="true" />
+            <element signature="e#7114#7142#1" expanded="true" />
+            <element signature="e#7151#7198#1" expanded="true" />
+            <element signature="e#7180#7197#0" expanded="true" />
+            <element signature="e#7225#7265#1" expanded="true" />
+            <element signature="e#7278#7345#1" expanded="true" />
+            <element signature="e#7192#7245#0" expanded="true" />
+            <element signature="e#7192#7245#0" expanded="true" />
+            <element signature="e#7358#7408#1" expanded="true" />
+            <element signature="e#7421#7464#1" expanded="true" />
+            <element signature="e#7410#7589#0" expanded="true" />
+            <element signature="e#7410#7589#0" expanded="true" />
+            <element signature="e#7515#7577#0" expanded="true" />
+            <element signature="e#7515#7577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/CarWrappingRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="e#2428#2440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CBP/CBPEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/CBP/CBPRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="111" column="49" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/UpdateCBPRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding>
+            <element signature="e#2207#2227#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#3482#3494#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
+            <element signature="e#3548#3549#0" expanded="true" />
+            <element signature="e#3610#3611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carBodyPaintingController/CarBodyPaintingEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CeramicCoating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CarBodyPainting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="45" column="1" selection-start-line="3" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CWrappingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="233" lean-forward="true" selection-start-line="11" selection-end-line="233" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#461#1" expanded="true" />
+            <element signature="e#470#511#1" expanded="true" />
+            <element signature="e#493#510#0" expanded="true" />
+            <element signature="e#538#578#1" expanded="true" />
+            <element signature="e#591#642#1" expanded="true" />
+            <element signature="e#655#705#1" expanded="true" />
+            <element signature="e#718#761#1" expanded="true" />
+            <element signature="e#1557#1579#1" expanded="true" />
+            <element signature="e#1588#1629#1" expanded="true" />
+            <element signature="e#1611#1628#0" expanded="true" />
+            <element signature="e#1656#1696#1" expanded="true" />
+            <element signature="e#1709#1760#1" expanded="true" />
+            <element signature="e#1773#1823#1" expanded="true" />
+            <element signature="e#1836#1879#1" expanded="true" />
+            <element signature="e#2178#2200#1" expanded="true" />
+            <element signature="e#2209#2250#1" expanded="true" />
+            <element signature="e#2232#2249#0" expanded="true" />
+            <element signature="e#2277#2317#1" expanded="true" />
+            <element signature="e#2330#2381#1" expanded="true" />
+            <element signature="e#2394#2444#1" expanded="true" />
+            <element signature="e#2457#2500#1" expanded="true" />
+            <element signature="e#3433#3453#1" expanded="true" />
+            <element signature="e#3480#3520#1" expanded="true" />
+            <element signature="e#3534#3603#1" expanded="true" />
+            <element signature="e#3616#3678#1" expanded="true" />
+            <element signature="e#3713#3726#0" expanded="true" />
+            <element signature="e#4093#4113#1" expanded="true" />
+            <element signature="e#4140#4180#1" expanded="true" />
+            <element signature="e#4194#4263#1" expanded="true" />
+            <element signature="e#4276#4338#1" expanded="true" />
+            <element signature="e#4373#4386#0" expanded="true" />
+            <element signature="e#4665#4685#1" expanded="true" />
+            <element signature="e#4712#4752#1" expanded="true" />
+            <element signature="e#4766#4830#1" expanded="true" />
+            <element signature="e#4843#4905#1" expanded="true" />
+            <element signature="e#5432#5453#1" expanded="true" />
+            <element signature="e#5480#5520#1" expanded="true" />
+            <element signature="e#5533#5628#1" expanded="true" />
+            <element signature="e#5641#5711#1" expanded="true" />
+            <element signature="e#5746#5759#0" expanded="true" />
+            <element signature="e#5796#5809#0" expanded="true" />
+            <element signature="e#6133#6155#1" expanded="true" />
+            <element signature="e#6164#6205#1" expanded="true" />
+            <element signature="e#6187#6204#0" expanded="true" />
+            <element signature="e#6232#6272#1" expanded="true" />
+            <element signature="e#6285#6352#1" expanded="true" />
+            <element signature="e#6365#6415#1" expanded="true" />
+            <element signature="e#6428#6471#1" expanded="true" />
+            <element signature="e#6859#6881#1" expanded="true" />
+            <element signature="e#6890#6931#1" expanded="true" />
+            <element signature="e#6913#6930#0" expanded="true" />
+            <element signature="e#6958#6998#1" expanded="true" />
+            <element signature="e#7011#7078#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/CarWrappingEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="118" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/CeramicCoatingEng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/CeramicCoatingRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="e#2463#2475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#1118#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/carWrappingController/UpdateCWRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding>
+            <element signature="e#2188#2208#0" expanded="true" />
+            <element signature="e#3463#3475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCRussianInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="e#1025#1042#0" expanded="true" />
+            <element signature="e#1796#1833#0" expanded="true" />
+            <element signature="e#1796#1833#0" expanded="true" />
+            <element signature="e#2132#2226#0" expanded="true" />
+            <element signature="e#2136#2146#1" expanded="true" />
+            <element signature="e#2132#2226#0" expanded="true" />
+            <element signature="e#2132#2226#0" expanded="true" />
+            <element signature="e#2132#2226#0" expanded="true" />
+            <element signature="e#2132#2226#0" expanded="true" />
+            <element signature="e#2195#2206#0" expanded="true" />
+            <element signature="e#2195#2206#0" expanded="true" />
+            <element signature="e#2195#2215#0" expanded="true" />
+            <element signature="e#2402#2838#0" expanded="true" />
+            <element signature="e#2402#2838#0" expanded="true" />
+            <element signature="e#2445#2501#1" expanded="true" />
+            <element signature="e#2514#2527#0" expanded="true" />
+            <element signature="e#2542#2574#0" expanded="true" />
+            <element signature="e#2542#2574#0" expanded="true" />
+            <element signature="e#2658#2700#1" expanded="true" />
+            <element signature="e#2713#2726#0" expanded="true" />
+            <element signature="e#2741#2773#0" expanded="true" />
+            <element signature="e#2741#2773#0" expanded="true" />
+            <element signature="e#3452#3453#0" expanded="true" />
+            <element signature="e#3470#3482#0" expanded="true" />
+            <element signature="e#3487#3488#0" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+            <element signature="e#3648#3649#0" expanded="true" />
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#4019#4067#1" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4321#4322#0" expanded="true" />
+            <element signature="e#4964#5156#0" expanded="true" />
+            <element signature="e#4964#5156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerEnglish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="111" column="47" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Cer/CerRussian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="111" column="47" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/CeramicDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#473#1" expanded="true" />
+            <element signature="e#482#528#1" expanded="true" />
+            <element signature="e#510#527#0" expanded="true" />
+            <element signature="e#555#595#1" expanded="true" />
+            <element signature="e#608#657#1" expanded="true" />
+            <element signature="e#670#720#1" expanded="true" />
+            <element signature="e#733#776#1" expanded="true" />
+            <element signature="e#1592#1619#1" expanded="true" />
+            <element signature="e#1628#1674#1" expanded="true" />
+            <element signature="e#1656#1673#0" expanded="true" />
+            <element signature="e#1701#1741#1" expanded="true" />
+            <element signature="e#1754#1803#1" expanded="true" />
+            <element signature="e#1816#1866#1" expanded="true" />
+            <element signature="e#1879#1922#1" expanded="true" />
+            <element signature="e#2226#2253#1" expanded="true" />
+            <element signature="e#2262#2308#1" expanded="true" />
+            <element signature="e#2290#2307#0" expanded="true" />
+            <element signature="e#2335#2375#1" expanded="true" />
+            <element signature="e#2388#2437#1" expanded="true" />
+            <element signature="e#2450#2500#1" expanded="true" />
+            <element signature="e#2513#2556#1" expanded="true" />
+            <element signature="e#3524#3544#1" expanded="true" />
+            <element signature="e#3571#3611#1" expanded="true" />
+            <element signature="e#3625#3692#1" expanded="true" />
+            <element signature="e#3705#3767#1" expanded="true" />
+            <element signature="e#3802#3815#0" expanded="true" />
+            <element signature="e#4187#4207#1" expanded="true" />
+            <element signature="e#4234#4274#1" expanded="true" />
+            <element signature="e#4288#4355#1" expanded="true" />
+            <element signature="e#4368#4430#1" expanded="true" />
+            <element signature="e#4465#4478#0" expanded="true" />
+            <element signature="e#4757#4777#1" expanded="true" />
+            <element signature="e#4804#4844#1" expanded="true" />
+            <element signature="e#4858#4920#1" expanded="true" />
+            <element signature="e#4933#4995#1" expanded="true" />
+            <element signature="e#5527#5548#1" expanded="true" />
+            <element signature="e#5575#5615#1" expanded="true" />
+            <element signature="e#5628#5721#1" expanded="true" />
+            <element signature="e#5734#5804#1" expanded="true" />
+            <element signature="e#5839#5852#0" expanded="true" />
+            <element signature="e#5889#5902#0" expanded="true" />
+            <element signature="e#6231#6258#1" expanded="true" />
+            <element signature="e#6267#6313#1" expanded="true" />
+            <element signature="e#6295#6312#0" expanded="true" />
+            <element signature="e#6340#6380#1" expanded="true" />
+            <element signature="e#6393#6458#1" expanded="true" />
+            <element signature="e#6471#6521#1" expanded="true" />
+            <element signature="e#6534#6577#1" expanded="true" />
+            <element signature="e#6970#6997#1" expanded="true" />
+            <element signature="e#7006#7052#1" expanded="true" />
+            <element signature="e#7034#7051#0" expanded="true" />
+            <element signature="e#7079#7119#1" expanded="true" />
+            <element signature="e#7132#7197#1" expanded="true" />
+            <element signature="e#7210#7260#1" expanded="true" />
+            <element signature="e#7273#7316#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/ceramicCoatingController/UpdateCCEnglishInData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#1130#1147#0" expanded="true" />
+            <element signature="e#1795#1832#0" expanded="true" />
+            <element signature="e#1795#1832#0" expanded="true" />
+            <element signature="e#2131#2225#0" expanded="true" />
+            <element signature="e#2189#2199#1" expanded="true" />
+            <element signature="e#2131#2225#0" expanded="true" />
+            <element signature="e#2131#2225#0" expanded="true" />
+            <element signature="e#2131#2225#0" expanded="true" />
+            <element signature="e#2131#2225#0" expanded="true" />
+            <element signature="e#2194#2205#0" expanded="true" />
+            <element signature="e#2194#2205#0" expanded="true" />
+            <element signature="e#2247#2267#0" expanded="true" />
+            <element signature="e#2401#2837#0" expanded="true" />
+            <element signature="e#2401#2837#0" expanded="true" />
+            <element signature="e#2498#2554#1" expanded="true" />
+            <element signature="e#2567#2580#0" expanded="true" />
+            <element signature="e#2541#2573#0" expanded="true" />
+            <element signature="e#2541#2573#0" expanded="true" />
+            <element signature="e#2711#2753#1" expanded="true" />
+            <element signature="e#2766#2779#0" expanded="true" />
+            <element signature="e#2740#2772#0" expanded="true" />
+            <element signature="e#2740#2772#0" expanded="true" />
+            <element signature="e#3505#3506#0" expanded="true" />
+            <element signature="e#3522#3534#0" expanded="true" />
+            <element signature="e#3540#3541#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
+            <element signature="e#3701#3702#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+            <element signature="e#4072#4120#1" expanded="true" />
+            <element signature="e#4307#4308#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+            <element signature="e#4963#5155#0" expanded="true" />
+            <element signature="e#4963#5155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/inc/Menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="674" column="77" lean-forward="true" selection-start-line="674" selection-start-column="77" selection-end-line="674" selection-end-column="77" />
+          <folding>
+            <element signature="e#32510#32534#2#JAVA" expanded="true" />
+            <element signature="e#32816#32840#2#JAVA" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

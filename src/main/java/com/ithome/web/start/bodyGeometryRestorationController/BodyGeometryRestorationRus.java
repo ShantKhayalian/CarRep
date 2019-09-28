@@ -43,8 +43,8 @@ public class BodyGeometryRestorationRus extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
-        setRequestToEnglish(request);
+        getText();
+        setRequest(request);
         goBackToPage(request, response);
     }
 
@@ -52,14 +52,14 @@ public class BodyGeometryRestorationRus extends HttpServlet {
         request.getRequestDispatcher("/WEB-INF/BGR/BGRRussian.jsp").forward(request, response);
     }
 
-    private void setRequestToEnglish(HttpServletRequest request) {
+    private void setRequest(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
         request.setAttribute("list", list);
     }
 
-    private void getTextEnglish() {
+    private void getText() {
         list = dao.getRus();
     }
 

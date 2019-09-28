@@ -13,7 +13,7 @@ public class BodyGRDao {
         return DBConnection.getConnectionToDatabase();
     }
 
-    public List<BodyGR> getAllChangePm() {
+    public List<BodyGR> getAll() {
         BodyGR body = null;
         List<BodyGR> changeРМList = new ArrayList<>();
         try {
@@ -55,7 +55,7 @@ public class BodyGRDao {
             String sql = "SELECT * FROM `car_db`.`bodygr` ";
             Statement statment = connection.createStatement();
             ResultSet set = statment.executeQuery(sql);
-            ChangeРМEng(list, set);
+            ChangeEng(list, set);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.out.println("sqlException in Application in Admin Section  : " + exception);
@@ -71,7 +71,7 @@ public class BodyGRDao {
             String sql = "SELECT * FROM `car_db`.`bodygr` ";
             Statement statment = connection.createStatement();
             ResultSet set = statment.executeQuery(sql);
-            ChangeРМRus(list, set);
+            ChangeRus(list, set);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.out.println("sqlException in Application in Admin Section  : " + exception);
@@ -80,7 +80,7 @@ public class BodyGRDao {
     }
 
 
-    private void ChangeРМRus(List<BodyGR> list, ResultSet set) throws SQLException {
+    private void ChangeRus(List<BodyGR> list, ResultSet set) throws SQLException {
         BodyGR body;
         while (set.next()) {
             body = new BodyGR();
@@ -91,7 +91,7 @@ public class BodyGRDao {
     }
 
 
-    private void ChangeРМEng(List<BodyGR> list, ResultSet set) throws SQLException {
+    private void ChangeEng(List<BodyGR> list, ResultSet set) throws SQLException {
         BodyGR body;
         while (set.next()) {
             body = new BodyGR();
@@ -102,7 +102,7 @@ public class BodyGRDao {
     }
 
 
-    public int UpdateChangeРМEng(BodyGR body, int id) {
+    public int UpdateEng(BodyGR body, int id) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
@@ -126,7 +126,7 @@ public class BodyGRDao {
      * @param id
      * @return
      */
-    public int UpdateChangeРМRus(BodyGR body, int id) {
+    public int UpdateRus(BodyGR body, int id) {
         int rowsUpdated = 0;
         try {
             Connection connection = connectToData();
@@ -192,7 +192,7 @@ public class BodyGRDao {
      * @param id
      * @return
      */
-    public List<BodyGR> getChangePMInRussianById(int id) {
+    public List<BodyGR> getRusId(int id) {
         BodyGR body = null;
         List<BodyGR> list = new ArrayList<>();
         try {
@@ -200,7 +200,7 @@ public class BodyGRDao {
             String sql = "SELECT * FROM `car_db`.`bodygr` WHERE `id`=" + id;
             Statement statment = connection.createStatement();
             ResultSet set = statment.executeQuery(sql);
-            ChangeРМRus(list, set);
+            ChangeRus(list, set);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.out.println("sqlException in Application in Admin Section  : " + exception);
@@ -213,7 +213,7 @@ public class BodyGRDao {
      * @param id
      * @return
      */
-    public List<BodyGR> getChangePMInEnglishById(int id) {
+    public List<BodyGR> getEngId(int id) {
         BodyGR body = null;
         List<BodyGR> list = new ArrayList<>();
         try {
@@ -221,7 +221,7 @@ public class BodyGRDao {
             String sql = "SELECT * FROM `car_db`.`bodygr` WHERE `id`=" + id;
             Statement statment = connection.createStatement();
             ResultSet set = statment.executeQuery(sql);
-            ChangeРМEng(list, set);
+            ChangeEng(list, set);
         } catch (SQLException exception) {
             exception.printStackTrace();
             System.out.println("sqlException in Application in Admin Section  : " + exception);

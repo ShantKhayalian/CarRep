@@ -106,7 +106,7 @@
                             }
                         %>
                     </div>
-                    <form action="UpdateSREnglishInData" method="post">
+                    <form action="UpdateBGREnglishInData" method="post">
                         <div class="header">
                             <h2>
                                 Body Geometry Restoration
@@ -125,8 +125,8 @@
                                  </li>
                              </ul>--%>
                         </div>
-                        <c:if test="${requestScope.List != null}">
-                            <c:forEach items="${requestScope.List}" var="list">
+                        <c:if test="${requestScope.list != null}">
+                            <c:forEach items="${requestScope.list}" var="list">
 
 
                         <div class="body">

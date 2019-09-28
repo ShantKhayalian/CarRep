@@ -12,7 +12,9 @@ import java.util.List;
 
 
 import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.BodyGR;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.BodyGRDao;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -25,8 +27,8 @@ public class UpdateBGRRussianInData extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private List<BodyGR> list = new ArrayList<>();
+    private BodyGRDao dao = new BodyGRDao();
     private int id = 0;
     private String fullText = null;
     private String CEnglish = null;
@@ -45,14 +47,14 @@ public class UpdateBGRRussianInData extends HttpServlet {
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getRussianText(id);
+        getText(id);
         UpdateTextInDataEng(CreateNewTextInData(id), request, response);
     }
 
-    private void getRussianText(int id) {
-        suspensionRepairList = suspensionRepairDao.getSRInEnglishById(id);
-        for (int i = 0; i < suspensionRepairList.size(); i++) {
-            CEnglish = suspensionRepairList.get(i).getSuspensionRepairEng();
+    private void getText(int id) {
+        list = dao.getEngId(id);
+        for (int i = 0; i < list.size(); i++) {
+            CEnglish = list.get(i).getEng();
         }
 
     }
@@ -73,27 +75,27 @@ public class UpdateBGRRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/BGR/BGRRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
     private void getEnglishC() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+        list = dao.getRus();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return suspensionRepairDao.UpdateSuspensionRepairRus(CreateObjectOfText(), id);
+        return dao.UpdateRus(CreateObjectOfText(), id);
     }
 
-    private SuspensionRepair CreateObjectOfText() {
-        return new SuspensionRepair(CEnglish, fullText);
+    private BodyGR CreateObjectOfText() {
+        return new BodyGR(CEnglish, fullText);
     }
 
     private void getParameters(HttpServletRequest request) {

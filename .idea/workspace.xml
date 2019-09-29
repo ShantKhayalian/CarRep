@@ -18,25 +18,26 @@
     <session id="136904604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="535" />
-          <entry key="jsp" value="119" />
+          <entry key="java" value="538" />
+          <entry key="jsp" value="148" />
           <entry key="properties" value="3" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="535" />
-          <entry key="JSP" value="119" />
+          <entry key="JAVA" value="538" />
+          <entry key="JSP" value="148" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="5" />
         </counts>
@@ -44,14 +45,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2706" />
+          <entry key="java" value="2707" />
           <entry key="jsp" value="1891" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2706" />
+          <entry key="JAVA" value="2707" />
           <entry key="JSP" value="1891" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="9" />
@@ -61,11 +62,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/OilFilter.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="272" column="80" selection-start-line="272" selection-start-column="54" selection-end-line="272" selection-end-column="80" />
+            <state relative-caret-position="352">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/OurTeam.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/PreSale.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/ReplacementPadBrake.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/SoundDis.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/SuspentionRepair.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Tin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/TinPainting.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WeldingWork.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Windows.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -113,37 +191,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ReplacementPadsBrakeDiscsC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/SuspensionRepair.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/SuspensionRepairC.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ReplacementPadBrake.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/EngineDiagnosticsRepairC.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/EngineDiagnostics.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/DiagnosticsRepairC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/RepairMaintenanceConditionersC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/Conditioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/GatheringCollapseC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ElectricianC.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Diagnostics.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Electrition.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Gathering.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ChangePm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Conditioner.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/SuspentionRepair.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/TinPaintingWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/CarBodyPainting.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/CarBodyPainting.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/CarBodyPaintingC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/BodyPolishingC.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/BodyPolish.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/DentRemovalWithoutPainting.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Dental.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/BodyGeometryRestoration.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/BodyGeo.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/WeldingWork.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WeldingWork.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/LocalDentRemoval.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/WindowsReplacement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/CarWrapping.java" />
@@ -153,16 +215,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/DiskRes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/PreSal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/SounDis.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/TinPainting.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/DiskResortion.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/BodyKit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/CarWrapping.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Tin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/CeramicS.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Ceramic.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/SoundDis.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/PreSale.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/BodyGeo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/BodyKit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/BodyPolish.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/CarBodyPainting.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/CarWrapping.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Ceramic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ChangePm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Conditioner.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Dental.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Diagnostics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/DiskResortion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Electrition.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/EngineDiagnostics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Gathering.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/OilFilter.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/PreSale.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ReplacementPadBrake.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/SoundDis.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/SuspentionRepair.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Tin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/TinPainting.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WeldingWork.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Windows.jsp" />
       </list>
     </option>
@@ -212,6 +290,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -321,13 +400,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569699514704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569699532281" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -443,18 +521,19 @@
       <updated>1568315737958</updated>
       <workItem from="1568315739583" duration="2511000" />
       <workItem from="1568349719845" duration="34000" />
-      <workItem from="1569650668288" duration="40934000" />
+      <workItem from="1569650668288" duration="41876000" />
+      <workItem from="1569735484426" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43479000" />
+    <option name="totallyTimeSpent" value="45415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20309168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,7 +543,7 @@
       <window_info id="Web" order="7" sideWeight="0.50163937" side_tool="true" weight="0.20095949" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3214683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3214683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1558,6 +1637,102 @@
           <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/bodyGeometryRestorationController/BodyGeometryRestorationEng.java</url>
           <line>50</line>
@@ -1566,213 +1741,22 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java</url>
+          <line>77</line>
+          <properties class="com.ithome.web.start.UserSection.ChangeC" method="getPageLabguageName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/EngineDiagnostics.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4018">
-          <caret line="921" column="130" selection-start-line="916" selection-start-column="79" selection-end-line="921" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Gathering.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="653" column="67" selection-start-line="653" selection-start-column="67" selection-end-line="653" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/OilFilter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1572">
-          <caret line="751" column="103" selection-start-line="751" selection-start-column="78" selection-end-line="751" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ReplacementPadBrake.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2517">
-          <caret line="806" column="91" selection-start-line="806" selection-start-column="91" selection-end-line="806" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/SuspentionRepair.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="653" column="66" selection-start-line="653" selection-start-column="66" selection-end-line="653" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ElectricianC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="110" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TintingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3484#3546#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/TintPDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Start/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="e#3146#3398#0" expanded="true" />
-            <element signature="e#3146#3398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Helpers/LanguageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#412#797#0" expanded="true" />
-            <element signature="e#412#797#0" expanded="true" />
-            <element signature="e#613#658#1" expanded="true" />
-            <element signature="e#743#787#1" expanded="true" />
-            <element signature="e#821#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Localization/CheckLanguageAndCurrency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#1506#2261#0" expanded="true" />
-            <element signature="e#1506#2261#0" expanded="true" />
-            <element signature="e#1561#1594#0" expanded="true" />
-            <element signature="e#1561#1594#0" expanded="true" />
-            <element signature="e#1609#2198#0" expanded="true" />
-            <element signature="e#1609#2198#0" expanded="true" />
-            <element signature="e#2362#3182#0" expanded="true" />
-            <element signature="e#2362#3182#0" expanded="true" />
-            <element signature="e#2417#2450#0" expanded="true" />
-            <element signature="e#2417#2450#0" expanded="true" />
-            <element signature="e#2465#3113#0" expanded="true" />
-            <element signature="e#2465#3113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/Tining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/CarBodyPainting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPaintingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/BPDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/TinPaintingWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/BodyPolishingC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#1317#1334#0" expanded="true" />
-            <element signature="e#1942#1979#0" expanded="true" />
-            <element signature="e#1942#1979#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyPolish.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="882" column="86" lean-forward="true" selection-start-line="882" selection-start-column="86" selection-end-line="882" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/CarBodyPainting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="615" column="105" lean-forward="true" selection-start-line="615" selection-start-column="105" selection-end-line="615" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -1780,13 +1764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
           <caret line="111" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="111" />
-          <folding>
-            <element signature="e#1303#1320#0" expanded="true" />
-            <element signature="e#2014#2051#0" expanded="true" />
-            <element signature="e#2014#2051#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1794,20 +1771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="109" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="109" />
-          <folding>
-            <element signature="e#1309#1326#0" expanded="true" />
-            <element signature="e#1885#1922#0" expanded="true" />
-            <element signature="e#1885#1922#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WeldingWork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="867" column="54" lean-forward="true" selection-start-line="867" selection-start-column="54" selection-end-line="867" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1815,10 +1778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1837,31 +1796,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/DentRemovalWithoutPainting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Dental.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="863" column="88" selection-start-line="863" selection-start-column="88" selection-end-line="863" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/DentRemovalWithoutPainting.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/WeldingWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#1246#1263#0" expanded="true" />
-            <element signature="e#1921#1958#0" expanded="true" />
-            <element signature="e#1921#1958#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1869,13 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
           <caret line="34" column="44" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#1296#1313#0" expanded="true" />
-            <element signature="e#2002#2039#0" expanded="true" />
-            <element signature="e#2002#2039#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1886,13 +1818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyPolishing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Beans/BodyPolishing.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/DaoController/DiskRDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1940,12 +1866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="62" column="46" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="46" />
-          <folding>
-            <element signature="e#1292#1309#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1173#1193#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1953,12 +1873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="62" column="52" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="52" />
-          <folding>
-            <element signature="e#1280#1297#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#2318#2338#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1966,51 +1880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="61" column="50" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="50" />
-          <folding>
-            <element signature="e#1248#1265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/TinPainting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1949">
-          <caret line="773" column="104" selection-start-line="773" selection-start-column="104" selection-end-line="773" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/DiskResortion.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="653" column="56" selection-start-line="653" selection-start-column="56" selection-end-line="653" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyKit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3372">
-          <caret line="850" column="92" selection-start-line="850" selection-start-column="92" selection-end-line="850" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyGeo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4215">
-          <caret line="863" column="88" selection-start-line="863" selection-start-column="88" selection-end-line="863" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/CarWrapping.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="702" column="28" lean-forward="true" selection-start-line="378" selection-end-line="702" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Tin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="850" column="91" selection-start-line="850" selection-start-column="91" selection-end-line="850" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -2021,29 +1890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Ceramic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="710" column="53" selection-start-line="710" selection-start-column="53" selection-end-line="710" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/CeramicS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#2153#2180#0" expanded="true" />
-            <element signature="e#2190#2211#0" expanded="true" />
-            <element signature="e#2190#2211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/SoundDis.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="710" column="86" selection-start-line="710" selection-start-column="86" selection-end-line="710" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -2051,13 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/PreSale.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="850" column="104" selection-start-line="850" selection-start-column="104" selection-end-line="850" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -2075,17 +1918,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Windows.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ComputerDiagnostics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="762" column="65" selection-start-line="762" selection-start-column="65" selection-end-line="762" selection-end-column="65" />
+        <state relative-caret-position="345">
+          <caret line="96" column="94" selection-start-line="96" selection-start-column="94" selection-end-line="96" selection-end-column="94" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/Start/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#3146#3398#0" expanded="true" />
+            <element signature="e#3146#3398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ithome/web/start/UserSection/ChangeC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#2973#2974#0" expanded="true" />
+            <element signature="e#3052#3053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/About.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="272" column="80" selection-start-line="272" selection-start-column="54" selection-end-line="272" selection-end-column="80" />
+        <state relative-caret-position="3801">
+          <caret line="378" column="22" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="378" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyGeo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyKit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/BodyPolish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/CarBodyPainting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/CarWrapping.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Ceramic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ChangePm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ComputerDiagnos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Conditioner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ContactUs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="432" column="15" lean-forward="true" selection-start-line="432" selection-start-column="15" selection-end-line="432" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Dental.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Diagnostics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/DiskResortion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Electrition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/EngineDiagnostics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Gathering.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/OilFilter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/OurTeam.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/PreSale.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ReplacementPadBrake.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/SoundDis.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/SuspentionRepair.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Tin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/TinPainting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WeldingWork.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Windows.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="673" column="22" selection-start-line="673" selection-start-column="22" selection-end-line="673" selection-end-column="22" />
         </state>
       </provider>
     </entry>

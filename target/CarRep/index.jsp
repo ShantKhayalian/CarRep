@@ -113,7 +113,7 @@
 
 
                         <li>
-                            <a href="#" class="btn btn-primary"><fmt:message key="Contact us" bundle="${Bundles}"/></a>
+                            <a href="ContactUs?PageLanguage=${requestScope.PageLanguage}" class="btn btn-primary"><fmt:message key="Contact us" bundle="${Bundles}"/></a>
                         </li> <!-- Li End -->
                     </ul> <!-- Contact info End -->
                 </div> <!-- Col End -->
@@ -1160,7 +1160,7 @@
                                             <div data-nav="1" class="service-carousel owl-carousel">
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img61.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1175,13 +1175,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"><fmt:message
+                                                                    href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"><fmt:message
                                                                     key="Performance Upgrades" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"
+                                                                href="#"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1193,7 +1193,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img51.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1208,13 +1208,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">
+                                                                    href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}">
                                                                 <fmt:message key="Computer Diagnostics" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/"
+                                                                href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1226,7 +1226,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img41.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1241,12 +1241,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"><fmt:message key="Anti-Lock Brake Service" bundle="${Bundles}"/></a>
+                                                                    href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Anti-Lock Brake Service" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"
+                                                                href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1258,7 +1258,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img31.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1273,12 +1273,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"><fmt:message key="Air Conditioning Evac" bundle="${Bundles}"/> </a>
+                                                                    href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Air Conditioning Evac" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"
+                                                                href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1290,7 +1290,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img21.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1305,12 +1305,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"><fmt:message key="Lube, vehicles damaged" bundle="${Bundles}"/> </a>
+                                                                    href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Lube, vehicles damaged" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"
+                                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1322,7 +1322,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img11.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1337,12 +1337,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"><fmt:message key="Engine Diagnostics Entire" bundle="${Bundles}"/> </a>
+                                                                    href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Engine Diagnostics Entire" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"
+                                                                href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1498,7 +1498,7 @@
                                             data-widget_type="button.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
-                                                <a href="#"
+                                                <a href="ContactUs?PageLanguage=${requestScope.PageLanguage}"
                                                    class="elementor-button-link elementor-button elementor-size-sm"
                                                    role="button"> <span
                                                         class="elementor-button-content-wrapper"> <span
@@ -1697,37 +1697,37 @@
                                 <li id="menu-item-1594"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1594">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/">Performance
+                                            href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}">Performance
                                         Upgrades</a>
                                 </li>
                                 <li id="menu-item-1595"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1595">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">Computer
+                                            href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}">Computer
                                         Diagnostics</a>
                                 </li>
                                 <li id="menu-item-1596"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1596">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/">Anti-Lock
+                                            href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}">Anti-Lock
                                         Brake Service</a>
                                 </li>
                                 <li id="menu-item-1597"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/">Air
+                                            href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}">Air
                                         Conditioning Evac</a>
                                 </li>
                                 <li id="menu-item-1598"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/">Lube,
+                                            href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}">Lube,
                                         vehicles damaged just</a>
                                 </li>
                                 <li id="menu-item-1599"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/">Engine
+                                            href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}">Engine
                                         Diagnostics Entire</a>
                                 </li>
                             </ul>
@@ -1741,7 +1741,7 @@
                         <h4 class="widget-title">
                             <span>Latest</span> News
                         </h4>
-                        <ul>
+                       <%-- <ul>
                             <li><a
                                     href="http://demo.themewinter.com/wp/autrics/2019/01/11/bmw-vs-austin-martin-going-higher-2/">20th
                                 car looking smarter</a> <span class="post-date">January 11,
@@ -1754,7 +1754,7 @@
                                     href="http://demo.themewinter.com/wp/autrics/2017/07/11/bmw-vs-austin-going-higher/">Crazy
                                 Your Auto Repair</a> <span class="post-date">July 11, 2017</span>
                             </li>
-                        </ul>
+                        </ul>--%>
                     </div>
                 </div>
                 <!-- Col End -->
@@ -1763,7 +1763,39 @@
                         <h4 class="widget-title">
                             <span>Service </span> Hours
                         </h4>
-                        <jsp:include page="inc/WorkingTimesDownPage.jsp"/>
+                        <fmt:setBundle
+                                basename="com.ithome.web.start.Resources.Resources.Content"
+                                var="Bundles"/>
+                        <ul class="unstyled service-time">
+                            <li>
+                                <span><fmt:message key="Monday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Tuesday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Wednesday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Thursday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+                            <li>
+                                <span><fmt:message key="Saturday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+                            <li>
+                                <span><fmt:message key="Sunday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+
+                        </ul> <!-- Service Time -->
 
 
                     </div>
@@ -1794,13 +1826,13 @@
                                 </li>
                                 <li id="menu-item-85"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a
-                                        href="#"><fmt:message key="Terms" bundle="${Bundles}"/></a></li>
+                                        href="Terms?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Terms" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-86"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a
-                                        href="#"><fmt:message key="Privacy Policy" bundle="${Bundles}"/></a></li>
+                                        href="Policy?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Privacy Policy" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-83"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a
-                                        href="contact.html"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
+                                        href="ContactUs?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
                             </ul>
                         </div>
                     </div>

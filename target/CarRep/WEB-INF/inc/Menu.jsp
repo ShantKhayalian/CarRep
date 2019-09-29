@@ -45,18 +45,71 @@
                 </li>
 
             </ul>
+
             <%--//////////////////////////////////////////////////////////////////////////////////////////About us Section--%>
             <%--//////////////////////////////////////////////////////////////////////////////////////////Account us Section--%>
             <li>
                 <a href="javascript:void(0);" class="menu-toggle">
                     <i class="material-icons">control_point_duplicate</i>
-                    <span>Account</span>
+                    <span>Logout</span>
                 </a>
                 <ul class="ml-menu">
                     <li>
                         <a href="<%=request.getContextPath()%>/LogOut">
                             <span>Logout</span>
                         </a>
+                    </li>
+
+                </ul>
+                <%--//////////////////////////////////////////////////////////////////////////////////////////Account us Section--%>
+            <%--//////////////////////////////////////////////////////////////////////////////////////////Terms us Section--%>
+            <li>
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">control_point_duplicate</i>
+                <span>Terms</span>
+            </a>
+            <ul class="ml-menu">
+                <a href="javascript:void(0);" class="menu-toggle">
+                    <span>Update Terms</span>
+                </a>
+                <ul class="ml-menu">
+                    <li>
+                        <a href="<%=request.getContextPath()%>/TermsEng">
+                            <span>Update English</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<%=request.getContextPath()%>/TermsRus">
+                            <span>Update Russian</span>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+
+            </ul>
+                <%--//////////////////////////////////////////////////////////////////////////////////////////Account us Section--%>
+            <%--//////////////////////////////////////////////////////////////////////////////////////////Policy us Section--%>
+            <li>
+                <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">control_point_duplicate</i>
+                    <span>Policy</span>
+                </a>
+                <ul class="ml-menu">
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <span>Update Policy</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="<%=request.getContextPath()%>/PolicyEng">
+                                <span>Update English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<%=request.getContextPath()%>/PolicyRus">
+                                <span>Update Russian</span>
+                            </a>
+                        </li>
+                    </ul>
                     </li>
 
                 </ul>

@@ -58,7 +58,7 @@ public class AboutUsEng extends HttpServlet {
      * @throws IOException
      */
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/AboutUsEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Aboutus/AboutUsEnglish.jsp").forward(request, response);
     }
 
     /**

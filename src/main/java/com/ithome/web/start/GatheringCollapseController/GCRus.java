@@ -45,7 +45,7 @@ public class GCRus extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/GC/GCRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/GC/BKRussian.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {

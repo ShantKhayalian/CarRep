@@ -47,7 +47,7 @@ public class GCEng extends HttpServlet {
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/GC/GCEnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/GC/BKEnglish.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {

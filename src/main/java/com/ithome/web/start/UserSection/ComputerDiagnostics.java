@@ -62,7 +62,7 @@ public class ComputerDiagnostics extends HttpServlet {
     }
 
     private void setRequestes(HttpServletRequest request) {
-        request.setAttribute("Pagelanguage", Pagelanguage);
+        request.setAttribute("PageLanguage", Pagelanguage);
         request.setAttribute("PageName", pageName);
         request.setAttribute("pageLanguageName", pageLanguageName);
         request.setAttribute("sessionId", sessionId);
@@ -91,10 +91,10 @@ public class ComputerDiagnostics extends HttpServlet {
     }
 
     private String getLanguagesFromPage(HttpServletRequest request) {
-        if (request.getParameter("Pagelanguage") == null) {
+        if (request.getParameter("PageLanguage") == null) {
             language = languageHelper.Pagelanguage(request, Pagelanguage);
         } else {
-            language = languageHelper.Pagelanguage(request, request.getParameter("Pagelanguage"));
+            language = languageHelper.Pagelanguage(request, request.getParameter("PageLanguage"));
         }
         return language;
     }

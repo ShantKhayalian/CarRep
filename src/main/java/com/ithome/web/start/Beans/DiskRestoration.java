@@ -1,37 +1,50 @@
 package com.ithome.web.start.Beans;
 
-public class DiskRestoration extends BeanHelper {
+public class DiskRestoration {
 
-    private String DiskRestorationEng;
-    private String DiskRestorationRus;
+    private int id;
+    private String Eng;
+    private String Rus;
+
+    public DiskRestoration(int id, String eng, String rus) {
+        this.id = id;
+        Eng = eng;
+        Rus = rus;
+    }
+
+    public DiskRestoration(String eng, String rus) {
+        Eng = eng;
+        Rus = rus;
+    }
+
+    public DiskRestoration(String rus) {
+        Rus = rus;
+    }
 
     public DiskRestoration() {
     }
 
-    public DiskRestoration(int id, String diskRestorationEng, String diskRestorationRus) {
-        super(id);
-        DiskRestorationEng = diskRestorationEng;
-        DiskRestorationRus = diskRestorationRus;
+    public int getId() {
+        return id;
     }
 
-    public DiskRestoration(String diskRestorationEng, String diskRestorationRus) {
-        DiskRestorationEng = diskRestorationEng;
-        DiskRestorationRus = diskRestorationRus;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getDiskRestorationEng() {
-        return DiskRestorationEng;
+    public String getEng() {
+        return Eng;
     }
 
-    public void setDiskRestorationEng(String diskRestorationEng) {
-        DiskRestorationEng = diskRestorationEng;
+    public void setEng(String eng) {
+        Eng = eng;
     }
 
-    public String getDiskRestorationRus() {
-        return DiskRestorationRus;
+    public String getRus() {
+        return Rus;
     }
 
-    public void setDiskRestorationRus(String diskRestorationRus) {
-        DiskRestorationRus = diskRestorationRus;
+    public void setRus(String rus) {
+        Rus = rus;
     }
 }

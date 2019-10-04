@@ -24,7 +24,7 @@ public class AdminDao {
      * Connect to data
      * @return
      */
-    private Connection connectToData() throws SQLException {
+    private Connection connectToData() {
         return DBConnection.getConnectionToDatabase();
     }
 

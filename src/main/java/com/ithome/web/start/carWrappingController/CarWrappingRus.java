@@ -11,7 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.CWrapping;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.CWrappingDao;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
@@ -24,40 +27,40 @@ public class CarWrappingRus extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
+    private List<CWrapping> list = new ArrayList<>();
 
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private CWrappingDao dao = new CWrappingDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        carWrappingRus(request, response);
+        bodyKitEng(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        carWrappingRus(request, response);
+        bodyKitEng(request, response);
     }
 
-    private void carWrappingRus(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void bodyKitEng(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
+        getText();
         setRequestToEnglish(request);
         goBackToPage(request, response);
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/CW/CWRussian.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
-    private void getTextEnglish() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+    private void getText() {
+        list = dao.getRus();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -70,8 +73,7 @@ public class CarWrappingRus extends HttpServlet {
     in list
     with the
     specific id
-     *
-             *
+     **
     @param
     adminid
      */
@@ -114,9 +116,5 @@ public class CarWrappingRus extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
-}
-
 
 }
-
-        }

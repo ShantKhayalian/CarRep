@@ -58,7 +58,7 @@ public class App extends HttpServlet {
     }
 
     private void createRequestes(HttpServletRequest request) {
-        request.setAttribute("Pagelanguage", Pagelanguage);
+        request.setAttribute("PageLanguage", Pagelanguage);
         request.setAttribute("sessionId", sessionId);
         request.setAttribute("PageName", pageName);
         request.setAttribute("pageLanguageName", pageLanguageName);
@@ -80,10 +80,10 @@ public class App extends HttpServlet {
     }
 
     private String getLanguagesFromPage(HttpServletRequest request) {
-        if (request.getParameter("Pagelanguage") == null) {
+        if (request.getParameter("PageLanguage") == null) {
             language = languageHelper.Pagelanguage(request, Pagelanguage);
         } else {
-            language = languageHelper.Pagelanguage(request, request.getParameter("Pagelanguage"));
+            language = languageHelper.Pagelanguage(request, request.getParameter("PageLanguage"));
         }
         return language;
     }

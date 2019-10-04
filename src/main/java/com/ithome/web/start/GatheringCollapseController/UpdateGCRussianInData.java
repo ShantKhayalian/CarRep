@@ -71,7 +71,7 @@ public class UpdateGCRussianInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/GC/GCRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/GC/BKRussian.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {

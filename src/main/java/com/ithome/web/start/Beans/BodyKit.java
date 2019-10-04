@@ -1,38 +1,48 @@
 package com.ithome.web.start.Beans;
 
 
-    public class BodyKit extends BeanHelper {
+public class BodyKit extends BeanHelper {
 
-        private String BodyKitEng;
-        private String BodyKitRus;
+    private int id;
+    private String Eng;
+    private String Rus;
 
-        public BodyKit() {
-        }
-
-        public BodyKit(int id, String bodyKitEng, String bodyKitRus) {
-            super(id);
-            BodyKitEng = bodyKitEng;
-            BodyKitRus = bodyKitRus;
-        }
-
-        public BodyKit(String bodyKitEng, String bodyKitRus) {
-            BodyKitEng = bodyKitEng;
-            BodyKitRus = bodyKitRus;
-        }
-
-        public String getBodyKitEng() {
-            return BodyKitEng;
-        }
-
-        public void setBodyKitEng(String bodyKitEng) {
-            BodyKitEng = bodyKitEng;
-        }
-
-        public String getBodyKitRus() {
-            return BodyKitRus;
-        }
-
-        public void setBodyKitRus(String bodyKitRus) {
-            BodyKitRus = bodyKitRus;
-        }
+    public BodyKit(int id, String eng, String rus) {
+        this.id = id;
+        Eng = eng;
+        Rus = rus;
     }
+
+    public BodyKit(String eng, String rus) {
+        Eng = eng;
+        Rus = rus;
+    }
+
+    public BodyKit() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getEng() {
+        return Eng;
+    }
+
+    public void setEng(String eng) {
+        Eng = eng;
+    }
+
+    public String getRus() {
+        return Rus;
+    }
+
+    public void setRus(String rus) {
+        Rus = rus;
+    }
+}
+

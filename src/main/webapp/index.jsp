@@ -30,7 +30,7 @@
 
 <body
         class="home page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-35 woocommerce-no-js  elementor-default elementor-page elementor-page-35">
-<fmt:setLocale value="${requestScope.Pagelanguage}"/>
+<fmt:setLocale value="${requestScope.PageLanguage}"/>
 
 <fmt:setBundle
         basename="com.ithome.web.start.Resources.Resources.Content"
@@ -81,86 +81,68 @@
 
 
 <!-- header nav start-->
+<!-- header nav start-->
 <header class="ts-header header-default">
     <div class="ts-logo-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <a class="ts-logo" href="http://demo.themewinter.com/wp/autrics/">
-                        <img src="images/logo.png"
-                             alt="Car Repair Services and Auto Mechanic WordPress Theme">
+                        <img src="images/logo.png" alt="Car Repair Services and Auto Mechanic WordPress Theme">
                     </a>
-                </div>
-                <!-- Col End -->
+                </div> <!-- Col End -->
                 <div class="col-md-8 float-right">
                     <ul class="top-contact-info">
 
 
-                        <li><span><i class="icon icon-phone1"></i></span>
+                        <li>
+                            <span><i class="icon icon-phone1"></i></span>
                             <div class="info-wrapper">
-                                <p class="info-title">
-                                    <fmt:message key="Call us" bundle="${Bundles}"/>
-                                </p>
+                                <p class="info-title"><fmt:message key="Call us" bundle="${Bundles}"/></p>
                                 <p class="info-subtitle">+91 458 654 528</p>
                             </div>
-                        </li>
-                        <!-- li End -->
+                        </li> <!-- li End -->
 
-                        <li><span><i class="icon icon-envelope1"></i></span>
+                        <li>
+                            <span><i class="icon icon-envelope1"></i></span>
                             <div class="info-wrapper">
-                                <p class="info-title">
-                                    <fmt:message key="Send us mail" bundle="${Bundles}"/>
-                                </p>
+                                <p class="info-title"><fmt:message key="Send us mail" bundle="${Bundles}"/></p>
                                 <p class="info-subtitle">query@finances.com</p>
                             </div>
-                        </li>
-                        <!-- Li End -->
+                        </li> <!-- Li End -->
 
 
-                        <li><a
-                                href="ContactUs?PageLanguage=${requestScope.Pagelanguage}"
-                                class="btn btn-primary"><fmt:message key="Contact us"
-                                                                     bundle="${Bundles}"/></a></li>
-                        <!-- Li End -->
-                    </ul>
-                    <!-- Contact info End -->
-                </div>
-                <!-- Col End -->
-            </div>
-            <!-- Row End -->
-        </div>
-        <!-- Container End -->
-    </div>
-    <!-- Logo End -->
+                        <li>
+                            <a href="ContactUs?PageLanguage=${requestScope.PageLanguage}" class="btn btn-primary"><fmt:message key="Contact us" bundle="${Bundles}"/></a>
+                        </li> <!-- Li End -->
+                    </ul> <!-- Contact info End -->
+                </div> <!-- Col End -->
+            </div> <!-- Row End -->
+        </div> <!-- Container End -->
+    </div> <!-- Logo End -->
 
     <!-- navigation start -->
     <div class="header-angle navbar-fixed ">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- End of Navbar toggler -->
+                </button><!-- End of Navbar toggler -->
                 <div class="sticky-logo">
-                    <a class="ts-logo d-none"
-                       href="http://demo.themewinter.com/wp/autrics/" class="ts-logo">
-                        <img src="images/logo-white-.png"
-                             alt="Car Repair Services and Auto Mechanic">
+                    <a class="ts-logo d-none" href="http://demo.themewinter.com/wp/autrics/" class="ts-logo">
+                        <img src="images/logo-white-.png" alt="Car Repair Services and Auto Mechanic WordPress Theme">
                     </a>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end ts-navbar"
-                     id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end ts-navbar" id="navbarSupportedContent">
 
                     <div id="primary-nav" class="menu-main-menu-container">
                         <ul id="main-menu" class="navbar-nav">
                             <li id="menu-item-52"
                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children  menu-item-52 nav-item dropdown">
                                 <a href="App" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"> <fmt:message key="Home"
-                                                                        bundle="${Bundles}"/></a>
+                                   data-toggle="dropdown"> <fmt:message key="Home" bundle="${Bundles}"/></a>
                             </li>
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
@@ -170,18 +152,18 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
-                                        <a href="About?Pagelanguage=${requestScope.Pagelanguage}"
+                                        <a href="About?PageLanguage=${requestScope.PageLanguage}"
                                            class=" dropdown-item"><fmt:message key="About us"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
-                                        <a href="OurTeam?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="OurTeam?PageLanguage=${requestScope.PageLanguage}"
                                            class=" dropdown-item"><fmt:message key="Our Team"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
-                                        <a href="gallery.html" class=" dropdown-item"><fmt:message
-                                                key="Gallery" bundle="${Bundles}"/></a> <%--         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
+                                        <%--<a href="gallery.html" class=" dropdown-item"><fmt:message
+                                                key="Gallery" bundle="${Bundles}"/></a> --%><%--         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                                  <a href="faq.html" class=" dropdown-item"><fmt:message key="FAQ" bundle="${Bundles}"/></a>
                                                  <li id="menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                                  <a href="testimonial.html" class=" dropdown-item"><fmt:message key="Testimonial" bundle="${Bundles}"/></a>
@@ -189,184 +171,190 @@
                                                  <a href="pricing-table.html" class=" dropdown-item"><fmt:message key="Pricing" bundle="${Bundles}"/></a></ul>--%>
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////1 th End -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown"><fmt:message key="Services"
-                                                                       bundle="${Bundles}"/></a>
+                                   data-toggle="dropdown"><fmt:message key="Services" bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-77"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77 nav-item">
                                         <a
-                                                href="OilFilterChange?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="OilFilterChangeC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Oil and filter change" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="ReplacementPadsBrakeDiscs?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Replacement of pads and brake discs"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="SuspensionRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="SuspensionRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Suspension repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="EngineDiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Engine diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="DiagnosticsRepair?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Diagnostics and repair" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="ComputerDiagnostics?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Computer diagnostics" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
-                                        <a href="ChangeРМ?PageLanguage=${requestScope.Pagelanguage}"
+                                        <a href="ChangeРМC?PageLanguage=${requestScope.PageLanguage}"
                                            class=" dropdown-item"><fmt:message key="Change Timing"
                                                                                bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="RepairMaintenanceConditioners?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Repair and maintenance of air conditioners"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="GatheringCollapse?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="GatheringCollapseC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="3D gathering-collapse" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1708"
                                         class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1708 nav-item">
                                         <a
-                                                href="Electrician?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="ElectricianC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Electrician"
                                                                                     bundle="${Bundles}"/></a>
 
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////1 th End -->
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////2 th End -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
                                    data-toggle="dropdown"><fmt:message key="Body repair"
                                                                        bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
-                                    <li id="menu-item-60"
+                                    <li id="menu-item-601"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.Pagelanguage}"
+                                                href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Tin painting work" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-59"
+                                    <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Car body painting" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-58"
+                                    <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="BodyPolishingC?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body polishing"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-62"
+                                    <li id="menu-item-621"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                         <a
-                                                href="DentRemovalWithoutPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="DentRemovalWithoutPainting?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Dent removal without painting" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1691"
+                                    <li id="menu-item-16911"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                         <a
-                                                href="BodyGeometryRestoration?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="BodyGeometryRestoration?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Body geometry restoration" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-16912"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="WeldingWork?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="WeldingWork?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Welding work"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-16913"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="LocalDentRemoval?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="LocalDentRemoval?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Local dent removal" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-1696"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="WindowsReplacement?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="WindowsReplacement?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Windows replacement" bundle="${Bundles}"/></a>
                                     </li>
                                 </ul>
+
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////2 th End -->
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////3 th start -->
                             <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-57 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
                                    data-toggle="dropdown"><fmt:message key="Detailing"
                                                                        bundle="${Bundles}"/></a>
                                 <ul class="dropdown-menu">
-                                    <li id="menu-item-60"
+                                    <li id="menu-item-601"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 nav-item">
                                         <a
-                                                href="TinPaintingWork?Pagelanguage=${requestScope.Pagelanguage}"
+                                                href="CarWrapping?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Car wrapping"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-59"
+                                    <li id="menu-item-591"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59 nav-item">
                                         <a
-                                                href="CarBodyPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="Tinting?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Tinting"
                                                                                     bundle="${Bundles}"/></a>
-                                    <li id="menu-item-58"
+                                    <li id="menu-item-581"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58 nav-item">
                                         <a
-                                                href="BodyPolishing?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="CeramicS?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Ceramic coating"
                                                                                     bundle="${Bundles}"/></a>
                                     <li id="menu-item-62"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 nav-item">
                                         <a
-                                                href="DentRemovalWithoutPainting?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="SounDis?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Sound insulation and vibration isolation"
                                                 bundle="${Bundles}"/></a>
                                     <li id="menu-item-1691"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691 nav-item">
                                         <a
-                                                href="BodyGeometryRestoration?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="PreSal?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Pre-sale preparation" bundle="${Bundles}"/></a>
-                                    <li id="menu-item-1692"
+                                    <li id="menu-item-1697"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="WeldingWork?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="DiskRes?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message
                                                 key="Disk restoration" bundle="${Bundles}"/></a>
                                     <li id="menu-item-1692"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692 nav-item">
                                         <a
-                                                href="LocalDentRemoval?PageLanguage=${requestScope.Pagelanguage}"
+                                                href="BodyKi?PageLanguage=${requestScope.PageLanguage}"
                                                 class=" dropdown-item"><fmt:message key="Body kit"
                                                                                     bundle="${Bundles}"/></a>
 
                                     </li>
                                 </ul>
+                                <!-- ////////////////////////////////////////////////////////////////////////////////////3 th End -->
                             <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2080 nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle"
@@ -375,11 +363,11 @@
                                 <ul class="dropdown-menu">
                                     <li id="menu-item-2081"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081 nav-item">
-                                        <a href="App?Pagelanguage=en_US" class=" dropdown-item"><fmt:message
+                                        <a href="App?PageLanguage=en_US" class=" dropdown-item"><fmt:message
                                                 key="English" bundle="${Bundles}"/></a>
                                     <li id="menu-item-2082"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2082 nav-item">
-                                        <a href="App?Pagelanguage=ru_RU" class=" dropdown-item"><fmt:message
+                                        <a href="App?PageLanguage=ru_RU" class=" dropdown-item"><fmt:message
                                                 key="Russian" bundle="${Bundles}"/></a>
                                 </ul>
                             </li>
@@ -389,36 +377,35 @@
                         </ul>
                     </div>
                 </div>
-                <!-- End of navbar collapse -->
-                <%-- <div class="cart-link">
-                 <form action="http://demo.themewinter.com/wp/autrics">
-                     <span class="header-search-icon"><i class="icon icon-search show"></i></span>
-                     <span class="search-close"><i class="icon icon-cross"></i></span>
-                     <div class="search-box">
-                         <input type="search" name="s" id="search" placeholder="Type here and Search...">
-                     </div>
-                 </form>
-             </div>--%>
 
-                <div class="header-cart">
-                    <%-- <div class="cart-link">
-                     <a class="cart-contents" href="cart.html" title="View your shopping cart">
-                         <span class="icon icon-cart"></span>
-                         <sup>0</sup>
 
-                     </a>
-                 </div>--%>
+        </div> <!-- End of navbar collapse -->
+        <%--<div class="cart-link">
+            <form action="http://demo.themewinter.com/wp/autrics">
+                <span class="header-search-icon"><i class="icon icon-search show"></i></span>
+                <span class="search-close"><i class="icon icon-cross"></i></span>
+                <div class="search-box">
+                    <input type="search" name="s" id="search" placeholder="Type here and Search...">
                 </div>
-
-            </nav>
-            <!-- End of Nav -->
+            </form>
         </div>
-        <!-- End of Container -->
-    </div>
-    <!-- End of Header Angle-->
+
+        <div class="header-cart">
+            <div class="cart-link">
+                <a class="cart-contents" href="cart.html" title="View your shopping cart">
+                    <span class="icon icon-cart"></span>
+                    <sup>0</sup>
+
+                </a>
+            </div>
+        </div>--%>
+
+        </nav> <!-- End of Nav -->
+    </div> <!-- End of Container -->
+    </div> <!-- End of Header Angle-->
 
 
-</header>
+</header><!-- Header end -->
 <!-- Header end -->
 
 <div data-elementor-type="post" data-elementor-id="35"
@@ -766,7 +753,7 @@
                                                                                    bundle="${Bundles}"/> </span>
                                                             <fmt:message key="Tips" bundle="${Bundles}"/>
                                                         </h2>
-                                                        <c:set value="${requestScope.Pagelanguage}" var="lang"/>
+                                                        <c:set value="${requestScope.PageLanguage}" var="lang"/>
                                                         <c:choose>
                                                             <c:when test="${lang == 'en_US'}">
                                                         <div class="intro-carousel">
@@ -1173,7 +1160,7 @@
                                             <div data-nav="1" class="service-carousel owl-carousel">
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img61.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1188,13 +1175,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"><fmt:message
+                                                                    href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"><fmt:message
                                                                     key="Performance Upgrades" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/"
+                                                                href="#"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1206,7 +1193,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img51.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1221,13 +1208,13 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">
+                                                                    href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}">
                                                                 <fmt:message key="Computer Diagnostics" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/"
+                                                                href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1239,7 +1226,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img41.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1254,12 +1241,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"><fmt:message key="Anti-Lock Brake Service" bundle="${Bundles}"/></a>
+                                                                    href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Anti-Lock Brake Service" bundle="${Bundles}"/></a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/"
+                                                                href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1271,7 +1258,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img31.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1286,12 +1273,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"><fmt:message key="Air Conditioning Evac" bundle="${Bundles}"/> </a>
+                                                                    href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Air Conditioning Evac" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/"
+                                                                href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1303,7 +1290,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img21.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1318,12 +1305,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"><fmt:message key="Lube, vehicles damaged" bundle="${Bundles}"/> </a>
+                                                                    href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Lube, vehicles damaged" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/"
+                                                                href="CarBodyPaintingC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1335,7 +1322,7 @@
 
                                                 <div class="ts-service-wrapper">
 														<span class="service-img"> <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/">
+                                                                href="#">
 																<img class="img-fluid" src="images/service_img11.jpg"
                                                                      alt="thumbnail">
 														</a>
@@ -1350,12 +1337,12 @@
 
                                                         <h3 class="ts-service-title">
                                                             <a
-                                                                    href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"><fmt:message key="Engine Diagnostics Entire" bundle="${Bundles}"/> </a>
+                                                                    href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Engine Diagnostics Entire" bundle="${Bundles}"/> </a>
                                                         </h3>
                                                         <p><fmt:message key="Most of the vehicles get damage just because of maintain" bundle="${Bundles}"/></p>
 
                                                         <a
-                                                                href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/"
+                                                                href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}"
                                                                 class="readmore"><fmt:message key="Read More" bundle="${Bundles}"/><i
                                                                 class="fa fa-angle-double-right"></i></a>
 
@@ -1511,7 +1498,7 @@
                                             data-widget_type="button.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
-                                                <a href="#"
+                                                <a href="ContactUs?PageLanguage=${requestScope.PageLanguage}"
                                                    class="elementor-button-link elementor-button elementor-size-sm"
                                                    role="button"> <span
                                                         class="elementor-button-content-wrapper"> <span
@@ -1710,37 +1697,37 @@
                                 <li id="menu-item-1594"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1594">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/performance-upgrades/">Performance
+                                            href="DiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}">Performance
                                         Upgrades</a>
                                 </li>
                                 <li id="menu-item-1595"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1595">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/computer-diagnostics/">Computer
+                                            href="ComputerDiagnostics?PageLanguage=${requestScope.PageLanguage}">Computer
                                         Diagnostics</a>
                                 </li>
                                 <li id="menu-item-1596"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1596">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/anti-lock-brake-service/">Anti-Lock
+                                            href="ReplacementPadsBrakeDiscsC?PageLanguage=${requestScope.PageLanguage}">Anti-Lock
                                         Brake Service</a>
                                 </li>
                                 <li id="menu-item-1597"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1597">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/air-conditioning-evac/">Air
+                                            href="RepairMaintenanceConditionersC?PageLanguage=${requestScope.PageLanguage}">Air
                                         Conditioning Evac</a>
                                 </li>
                                 <li id="menu-item-1598"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1598">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/lube-oil-and-filters/">Lube,
+                                            href="TinPaintingWork?PageLanguage=${requestScope.PageLanguage}">Lube,
                                         vehicles damaged just</a>
                                 </li>
                                 <li id="menu-item-1599"
                                     class="menu-item menu-item-type-post_type menu-item-object-ts_service menu-item-1599">
                                     <a
-                                            href="http://demo.themewinter.com/wp/autrics/service/engine-diagnostics/">Engine
+                                            href="EngineDiagnosticsRepairC?PageLanguage=${requestScope.PageLanguage}">Engine
                                         Diagnostics Entire</a>
                                 </li>
                             </ul>
@@ -1754,7 +1741,7 @@
                         <h4 class="widget-title">
                             <span>Latest</span> News
                         </h4>
-                        <ul>
+                       <%-- <ul>
                             <li><a
                                     href="http://demo.themewinter.com/wp/autrics/2019/01/11/bmw-vs-austin-martin-going-higher-2/">20th
                                 car looking smarter</a> <span class="post-date">January 11,
@@ -1767,7 +1754,7 @@
                                     href="http://demo.themewinter.com/wp/autrics/2017/07/11/bmw-vs-austin-going-higher/">Crazy
                                 Your Auto Repair</a> <span class="post-date">July 11, 2017</span>
                             </li>
-                        </ul>
+                        </ul>--%>
                     </div>
                 </div>
                 <!-- Col End -->
@@ -1776,7 +1763,39 @@
                         <h4 class="widget-title">
                             <span>Service </span> Hours
                         </h4>
-                        <jsp:include page="inc/WorkingTimesDownPage.jsp"/>
+                        <fmt:setBundle
+                                basename="com.ithome.web.start.Resources.Resources.Content"
+                                var="Bundles"/>
+                        <ul class="unstyled service-time">
+                            <li>
+                                <span><fmt:message key="Monday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Tuesday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Wednesday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+                            <li>
+                                <span><fmt:message key="Thursday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+                            <li>
+                                <span><fmt:message key="Saturday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+                            <li>
+                                <span><fmt:message key="Sunday" bundle="${Bundles}"/></span>
+                                <span>7.00 - 16.30</span>
+                            </li>
+
+
+                        </ul> <!-- Service Time -->
 
 
                     </div>
@@ -1807,13 +1826,13 @@
                                 </li>
                                 <li id="menu-item-85"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a
-                                        href="#"><fmt:message key="Terms" bundle="${Bundles}"/></a></li>
+                                        href="Terms?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Terms" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-86"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a
-                                        href="#"><fmt:message key="Privacy Policy" bundle="${Bundles}"/></a></li>
+                                        href="Policy?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Privacy Policy" bundle="${Bundles}"/></a></li>
                                 <li id="menu-item-83"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a
-                                        href="contact.html"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
+                                        href="ContactUs?PageLanguage=${requestScope.PageLanguage}"><fmt:message key="Contact" bundle="${Bundles}"/></a></li>
                             </ul>
                         </div>
                     </div>

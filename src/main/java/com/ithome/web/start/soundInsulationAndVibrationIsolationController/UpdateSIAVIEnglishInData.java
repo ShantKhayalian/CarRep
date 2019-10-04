@@ -11,21 +11,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import com.ithome.web.start.Beans.Admin;
+import com.ithome.web.start.Beans.Sound;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.DaoController.SoundDao;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
 
-@WebServlet("/UpdateSIAVIEnglishInData ")
+@WebServlet("/UpdateSIAVIEnglishInData")
 public class UpdateSIAVIEnglishInData extends HttpServlet {
     private SessionChecker checker = new SessionChecker();
     private String username = null;
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private List<Sound> list = new ArrayList<>();
+    private SoundDao dao = new SoundDao();
     private int id = 0;
     private String fullText = null;
     private String CRussian = null;
@@ -39,19 +42,18 @@ public class UpdateSIAVIEnglishInData extends HttpServlet {
     }
 
     private void updateSIAVIEnglishInData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
         getParameters(request);
-        getRussianText(id);
+        getText(id);
         UpdateTextInDataEng(CreateNewTextInData(id), request, response);
     }
 
-    private void getRussianText(int id) {
-        suspensionRepairList = suspensionRepairDao.getSRInRussianById(id);
-        for (int i = 0; i < suspensionRepairList.size(); i++) {
-            CRussian = suspensionRepairList.get(i).getSuspensionRepairRus();
+    private void getText(int id) {
+        list = dao.getRusId(id);
+        for (int i = 0; i < list.size(); i++) {
+            CRussian = list.get(i).getRus();
         }
 
     }
@@ -72,27 +74,27 @@ public class UpdateSIAVIEnglishInData extends HttpServlet {
 
     private void gotoNextPage(HttpServletRequest request, HttpServletResponse response, String message) throws ServletException, IOException {
         request.setAttribute("message", message);
-        request.getRequestDispatcher("/WEB-INF/SR/SREnglish.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/SO/SOEnglish.jsp").forward(request, response);
     }
 
     private void setRequestToCUpdatePage(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
     private void getEnglishC() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInEnglish();
+        list = dao.getEng();
     }
 
 
     private int CreateNewTextInData(int id) {
-        return suspensionRepairDao.UpdateSuspensionRepairEng(CreateObjectOfText(), id);
+        return dao.UpdateEng(CreateObjectOfText(), id);
     }
 
-    private SuspensionRepair CreateObjectOfText() {
-        return new SuspensionRepair(fullText, CRussian);
+    private Sound CreateObjectOfText() {
+        return new Sound(fullText, CRussian);
     }
 
     private void getParameters(HttpServletRequest request) {

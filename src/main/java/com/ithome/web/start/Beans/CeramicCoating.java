@@ -1,38 +1,48 @@
 package com.ithome.web.start.Beans;
 
 
-    public class CeramicCoating extends BeanHelper {
+public class CeramicCoating extends BeanHelper {
 
-        private String CeramicCoatingEng;
-        private String CeramicCoatingRus;
 
-        public CeramicCoating() {
-        }
+    private int id;
+    private String Eng;
+    private String Rus;
 
-        public CeramicCoating(int id, String ceramicCoatingEng, String ceramicCoatingRus) {
-            super(id);
-            CeramicCoatingEng = ceramicCoatingEng;
-            CeramicCoatingRus = ceramicCoatingRus;
-        }
-
-        public CeramicCoating(String ceramicCoatingEng, String ceramicCoatingRus) {
-            CeramicCoatingEng = ceramicCoatingEng;
-            CeramicCoatingRus = ceramicCoatingRus;
-        }
-
-        public String getCeramicCoatingEng() {
-            return CeramicCoatingEng;
-        }
-
-        public void setCeramicCoatingEng(String ceramicCoatingEng) {
-            CeramicCoatingEng = ceramicCoatingEng;
-        }
-
-        public String getCeramicCoatingRus() {
-            return CeramicCoatingRus;
-        }
-
-        public void setCeramicCoatingRus(String ceramicCoatingRus) {
-            CeramicCoatingRus = ceramicCoatingRus;
-        }
+    public CeramicCoating(int id, String eng, String rus) {
+        this.id = id;
+        Eng = eng;
+        Rus = rus;
     }
+
+    public CeramicCoating(String eng, String rus) {
+        Eng = eng;
+        Rus = rus;
+    }
+
+    public CeramicCoating() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getEng() {
+        return Eng;
+    }
+
+    public void setEng(String eng) {
+        Eng = eng;
+    }
+
+    public String getRus() {
+        return Rus;
+    }
+
+    public void setRus(String rus) {
+        Rus = rus;
+    }
+}

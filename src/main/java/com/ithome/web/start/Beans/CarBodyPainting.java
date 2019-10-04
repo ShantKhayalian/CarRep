@@ -1,38 +1,46 @@
 package com.ithome.web.start.Beans;
 
-public class CarBodyPainting extends BeanHelper {
+public class CarBodyPainting {
 
-    private String CarBodyPaintingEng;
-    private String CarBodyPaintingRus;
+    private int id;
+    private String Eng;
+    private String Rus;
 
+    public CarBodyPainting(int id, String eng, String rus) {
+        this.id = id;
+        Eng = eng;
+        Rus = rus;
+    }
+
+    public CarBodyPainting(String eng, String rus) {
+        Eng = eng;
+        Rus = rus;
+    }
 
     public CarBodyPainting() {
     }
 
-    public CarBodyPainting(int id, String carBodyPaintingEng, String carBodyPaintingRus) {
-        super(id);
-        CarBodyPaintingEng = carBodyPaintingEng;
-        CarBodyPaintingRus = carBodyPaintingRus;
+    public int getId() {
+        return id;
     }
 
-    public CarBodyPainting(String carBodyPaintingEng, String carBodyPaintingRus) {
-        CarBodyPaintingEng = carBodyPaintingEng;
-        CarBodyPaintingRus = carBodyPaintingRus;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getCarBodyPaintingEng() {
-        return CarBodyPaintingEng;
+    public String getEng() {
+        return Eng;
     }
 
-    public void setCarBodyPaintingEng(String carBodyPaintingEng) {
-        CarBodyPaintingEng = carBodyPaintingEng;
+    public void setEng(String eng) {
+        Eng = eng;
     }
 
-    public String getCarBodyPaintingRus() {
-        return CarBodyPaintingRus;
+    public String getRus() {
+        return Rus;
     }
 
-    public void setCarBodyPaintingRus(String carBodyPaintingRus) {
-        CarBodyPaintingRus = carBodyPaintingRus;
+    public void setRus(String rus) {
+        Rus = rus;
     }
 }

@@ -1,7 +1,10 @@
 package com.ithome.web.start.tinPaintingWorkController;
 
+import com.ithome.web.start.Beans.Admin;
 import com.ithome.web.start.Beans.SuspensionRepair;
+import com.ithome.web.start.Beans.TintPainting;
 import com.ithome.web.start.DaoController.SuspensionRepairDao;
+import com.ithome.web.start.DaoController.TintPDao;
 import com.ithome.web.start.Helpers.AdminChecker;
 import com.ithome.web.start.Helpers.SessionChecker;
 
@@ -22,9 +25,9 @@ public class TinPaintingWorkRus extends HttpServlet {
     private AdminChecker adminChecker = new AdminChecker();
     private int adminId = 0;
     private List<Admin> adminList = new ArrayList<>();
-    private List<SuspensionRepair> suspensionRepairList = new ArrayList<>();
+    private List<TintPainting> list = new ArrayList<>();
 
-    private SuspensionRepairDao suspensionRepairDao = new SuspensionRepairDao();
+    private TintPDao dao = new TintPDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         tinPaintingWorkRus(request, response);
@@ -38,24 +41,24 @@ public class TinPaintingWorkRus extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         sessionControlling(request, response);
         getAdminInfo(request, response);
-        getTextEnglish();
+        getText();
         setRequestToEnglish(request);
         goBackToPage(request, response);
     }
 
     private void goBackToPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/SR/SRRussian.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/Ti/TiRussian.jsp").forward(request, response);
     }
 
     private void setRequestToEnglish(HttpServletRequest request) {
         request.setAttribute("username", username);
         request.setAttribute("adminId", adminId);
         request.setAttribute("adminFullInfo", adminList);
-        request.setAttribute("SuspensionRepairList", suspensionRepairList);
+        request.setAttribute("list", list);
     }
 
-    private void getTextEnglish() {
-        suspensionRepairList = suspensionRepairDao.getSuspensionRepairInRussian();
+    private void getText() {
+        list = dao.getRus();
     }
 
     private void sessionControlling(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -63,34 +66,10 @@ public class TinPaintingWorkRus extends HttpServlet {
         getSession(session, request, response);
     }
 
-    /*
-    Fill admin
-    in list
-    with the
-    specific id
-     *
-             *
-    @param
-    adminid
-     */
-
     private void getFullAdminList(int adminid) {
         adminList = adminChecker.getAllInfoofAdmin(adminid);
     }
 
-    /*
-    get admin
-    admin id
-    by username
-    from session
-     *
-             *
-    @param
-    request
-     *
-    @param
-    response
-     */
 
     private void getAdminInfo(HttpServletRequest request, HttpServletResponse response) {
         adminId = adminChecker.getAdminId(username);
@@ -112,5 +91,5 @@ public class TinPaintingWorkRus extends HttpServlet {
             response.sendRedirect("/admin/SignIn.jsp");
         }
     }
-}
 
+}
